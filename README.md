@@ -1,6 +1,8 @@
 # Waze
 
-![Waze](img/waze-logo.png)
+<p align="center">  
+          <img width="300px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/img/waze-logo.png?raw=true">   
+</p>
 
 <p align="justify">
 Repositório para a disciplina de Requisitos de Software sobre o Waze com intuito de centralizar os requisitos do aplicativo. Desenvolvido pelos discentes da Universidade de Brasília.
