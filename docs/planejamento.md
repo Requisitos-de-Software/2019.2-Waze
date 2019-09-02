@@ -10,13 +10,13 @@ Este documento tem a finalidade de organizar e definir as etapas do o planejamen
 
 ## 2. Cronogramas
 
-### Etapas
+### 2.1 Etapas
 
 <p align="center"> 
           <img width="400px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/Planejamento1.jpg?raw=true">   
 </p>
 
-### Pontos de Controle
+### 2.2 Pontos de Controle
 
 <p align="center"> 
           <img width="250px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/Planejamento2.jpg?raw=true">   
