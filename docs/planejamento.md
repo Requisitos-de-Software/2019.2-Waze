@@ -9,12 +9,17 @@ Este documento tem a finalidade de organizar e definir as etapas do o planejamen
 </p>
 
 ## 2. Cronogramas
+
+### Etapas
+
 <p align="center"> 
           <img width="400px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/Planejamento1.jpg?raw=true">   
 </p>
 
+### Pontos de Controle
+
 <p align="center"> 
-          <img width="200px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/Planejamento2.jpg?raw=true">   
+          <img width="250px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/Planejamento2.jpg?raw=true">   
 </p>
 
 
@@ -26,6 +31,7 @@ Este documento tem a finalidade de organizar e definir as etapas do o planejamen
 ## 4. Recursos Humanos
 
 ### Horários
+
 <p align="center"> 
           <img width="600px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/horarios.jpg?raw=true">   
 </p>
@@ -44,3 +50,4 @@ Este documento tem a finalidade de organizar e definir as etapas do o planejamen
 |:--:|:--:|:--:|:--:|
 |02/10/19|1.0|Criado documento|Lucas Alexandre /Moacir Mascarenha|
 |02/10/19|2.0| Adicionado topico de recursos humanos|João Pedro|
+|02/10/19|2.1| Correções das imagens |Guilherme Leal|
