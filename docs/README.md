@@ -24,9 +24,9 @@ Waze é uma aplicação para smartphones baseada na navegação por satélite co
 
 | Nome | GitHub | Matricula | 
 |------|--------|-----------| 
-|Guilherme Leal| @gleal17 | 15/0128312 |
-|João Pedro Soares| @jpcirqueira |15/0132344|
-|Lucas Alexandre|@lucasA27 | 15/0136862|
-|Matheus de Cristo|@MatheusEstanislau | 15/0141220|
-|Moacir Mascarenha|@moacirmsj|17/0080366 |
-|Renan Cristyan |@RCristyan| 17/0044386 |
+|Guilherme Leal| [@gleal17](https://github.com/gleal17) | 15/0128312 |
+|João Pedro Soares| [@jpcirqueira](https://github.com/jpcirqueira) |15/0132344|
+|Lucas Alexandre|[@lucasA27](https://github.com/lucasA27) | 15/0136862|
+|Matheus de Cristo|[@MatheusEstanislau](https://github.com/MatheusEstanislau) | 15/0141220|
+|Moacir Mascarenha|[@moacirmsj](https://github.com/MoacirMSJ)|17/0080366 |
+|Renan Cristyan |[@RCristyan](https://github.com/RCristyan)| 17/0044386 |
