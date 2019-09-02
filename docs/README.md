@@ -1,7 +1,7 @@
 # Waze
 
 <p align="center">  
-          <img width="300px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/img/waze-logo.png?raw=true">   
+          <img width="300px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/waze-logo.png?raw=true">   
 </p>
 
 <p align="justify">

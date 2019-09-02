@@ -9,9 +9,9 @@ Este documento tem a finalidade de organizar e definir as etapas do o planejamen
 </p>
 
 ## 2. Cronogramas
-![Etapas](/img/Planejamento1.jpeg)
+![Etapas]()
 
-![Pontos de Controle](/img/Planejamento2.jpeg)
+![Pontos de Controle]()
 
 
 ## 3. Metodologia:
@@ -21,7 +21,7 @@ Este documento tem a finalidade de organizar e definir as etapas do o planejamen
 
 ## 4. Recursos Humanos
 
-![Horários](/img/horarios.jpg)
+![Horários]()
 
 <p align="justify">Esta tabela representa os horários disponiveis do integrantes do grupo, com intuito de gerenciar os horarios disponiveis dos integrantes de acordo com as tarefas.</p>
 
