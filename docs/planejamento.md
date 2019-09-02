@@ -9,9 +9,13 @@ Este documento tem a finalidade de organizar e definir as etapas do o planejamen
 </p>
 
 ## 2. Cronogramas
-![Etapas](https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/Planejamento1.jpg?raw=true)
+<p align="center"> 
+          <img width="400px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/Planejamento1.jpg?raw=true">   
+</p>
 
-![Pontos de Controle](https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/Planejamento2.jpg?raw=true)
+<p align="center"> 
+          <img width="200px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/Planejamento2.jpg?raw=true">   
+</p>
 
 
 ## 3. Metodologia:
@@ -21,7 +25,10 @@ Este documento tem a finalidade de organizar e definir as etapas do o planejamen
 
 ## 4. Recursos Humanos
 
-![Horários](https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/horarios.jpg?raw=true)
+### Horários
+<p align="center"> 
+          <img width="600px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/horarios.jpg?raw=true">   
+</p>
 
 <p align="justify">Esta tabela representa os horários disponiveis do integrantes do grupo, com intuito de gerenciar os horarios disponiveis dos integrantes de acordo com as tarefas.</p>
 
