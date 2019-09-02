@@ -1,6 +1,7 @@
 site_name: Waze
 theme:
   name: 'material'
+  logo: 'img/docs_dir/waze_48px.ico'
 
 extra_css:
   - css/extra_css.css
@@ -10,4 +11,3 @@ nav:
   - Planejamento: planejamento.md
   - Pré-Rastreabilidade: 
     - RichPicture: richPicture.md
-  
