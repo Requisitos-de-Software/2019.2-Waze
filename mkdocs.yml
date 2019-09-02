@@ -6,5 +6,6 @@ extra_css:
   - css/extra_css.css
 
 nav:
+  - Home: README.md
   - Pré-ratreabilidade: 
     - RichPicture: richPicture.md
