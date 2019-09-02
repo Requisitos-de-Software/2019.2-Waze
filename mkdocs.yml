@@ -7,5 +7,7 @@ extra_css:
 
 nav:
   - Home: README.md
-  - Pré-ratreabilidade: 
+  - Planejamento: planejamento.md
+  - Pré-Rastreabilidade: 
     - RichPicture: richPicture.md
+  

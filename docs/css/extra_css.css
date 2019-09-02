@@ -2,4 +2,8 @@
 .md-header{
     background-color:#93c4d3;
 }
+
+html .md-nav--primary .md-nav__title--site {
+    background-color: #93c4d3;
+}
     
