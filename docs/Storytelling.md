@@ -5,7 +5,7 @@ Elicitar utilizando o método storytelling trabalha a ideia de adquirir conhecim
 
 </p>
 
-## Metodologia 
+## 2. Metodologia 
 <p align="justify">
 Para elicitar requisitos com o storytelling, foram chamadas pessoas que tenham usado o Waze por algum tempo, que tenham certa experiencia com o aplicativo(mais de uma semana).Então é pedido para que ele narre sua experiencia com o aplicativo, após isso é anotado pontos importantes sobre seu relato. Com base nas anotações é feita a elicitação dos requisitos.
 </p>
