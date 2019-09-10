@@ -44,6 +44,8 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
  <ul>
     <li> Deve ter opções de filtros para buscar restaurantes, postos e outros</li>
     <li> Deve ter histórico de rotas</li>
+    <li> Deve ter locais favoritos</li>
+    <li> Deve ter rotas planejadas/programadas </li>
  </ul>
 <h3>
 
@@ -53,6 +55,44 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
     <li> Deve mostrar as rotas alternativas </li>
     <li> Deve mostrar opções de compartilhamento e informações da rota</li>
     <li><i> Deve ter opções de desativa/ativar o que é mostrado no mapa </i></li>
+ </ul>
+<h3>
+
+<h3> 2.7 Integração com apps de mídia :</h3>
+ <ul>
+   <li>Deve conectar com apps de mídia</li>
+   <li>Deve continuar a navegação enquanto integrado com app de mídia</li>
+ </ul>
+<h3>
+
+<h3> 2.8 Configurações :</h3>
+ <ul>
+   <li>Deve ter configurações Geral de usuário</li>
+   <li>Deve ter configurações de Personalização de Som e Voz</li>
+   <li>Deve ter configurações de Navegação</li>
+   <li>Deve ter configurações de Detalhes do carro</li>
+   <li>Deve ter configurações de Passes de pedágio</li>
+   <li>Deve ter configurações de Alertas e avisos</li>
+   <li>Deve ter configurações de Postos de combustível</li>
+   <li>Deve ter configurações de Velocímetro</li>
+   <li>Deve ter configurações de Notificações</li>
+   <li>Deve ter configurações de Percursos Planejados</li>
+   <li>Deve ter configurações de Lembretes</li>
+   <li>Deve ter configurações de  Conta e Login</li>
+   <li>Deve ter configurações de Privacidade</li>
+   <li>Deve ter configurações de Relatar um Problema</li>
+   <li>Deve ter configurações de Cental de Ajuda</li>
+   <li>Deve ter configurações de Informações sobre o app</li>
+   <li>Deve ter configurações de Compartilhar app</li>
+   <li>Deve ter configurações de Editor de mapas do Waze</li>
+   <li>Deve ter configurações de Enviar logs</li>
+ </ul>
+<h3>
+
+<h3> 2.9 Carpool :</h3>
+ <ul>
+      <li>Deve ter opção de dar Carona</li>
+      <li>Deve ter opção de integrar/ ir para o app Carpool</li>
  </ul>
 <h3>
 
@@ -66,20 +106,20 @@ Nome | Gustavo
 |Escolaridade | Cursando Ensino Superior |
 |Nível de conhecimento do Waze | Conhece as funcionalidades pricipais da versão Android, não utiliza todas, apenas navegação principal. Conhecimento médio.|
 |Intenção ao usar Waze |Selecionar melhor rota ou guia para rotas desconhecidas|
-|História e contexto |Pereira gosta do aplicativo e prefere usá-lo pois sua operadora não cobra uso de dados do app Waze. Ele utiliza para momentos que não conhece o local, para verificação de engarrafamentos, blitz em determinados momentos.|
+|História e contexto |Gustavo gosta do aplicativo e prefere usá-lo pois sua operadora não cobra uso de dados do app Waze. Ele utiliza para momentos que não conhece o local, para verificação de engarrafamentos, blitz em determinados momentos.|
 |O que poderia mudar? |Simplificação ou personalização da tarefa principal de navegação e criação de rotas, precisão de rotas, pois as vezes o app tem um certo delay (com possível causa: rede de dados e/ou gps) que faz com que erre a rota em determinados momentos.|
 
 
 <h3>3.2 Persona 2</h3>
 
- Nome | Maria 
+ Nome | Maria
  |--|--| 
  |Profissão | Estudante de Eng. da Computação|
  |Escolaridade | Curso Superior completo e Cursando Ensino Superior em Eng. da Compt.|
 |Nível de conhecimento do Waze | Conhece as funcionalidades do Waze, utiliza pouco pois prefere uma interface mais "limpa" como a do Google Maps. Conhecimento Alto.|
 |Intenção ao usar Waze |Segunda opção de aplicativo para verificação de acidentes e blitz.|
-|História e contexto |Theresa gostou do aplicativo pois os usuários reportam blitz e acidentes. Antes a persona necessitava de feedback de grupos ou conhecidos por meio de redes socias para saber o que acontecia no trânsito de sua cidade.|
-|O que poderia mudar? | A persona não possui afinidade com a UserInterface,acha que deveria mudar.|
+|História e contexto |Maria gostou do aplicativo pois os usuários reportam blitz e acidentes. Antes a persona necessitava de feedback de grupos ou conhecidos por meio de redes socias para saber o que acontecia no trânsito de sua cidade.|
+|O que poderia mudar? | A persona não possui afinidade com a UserInterface, acha que deveria mudar.|
 
 
 <h3>3.3 Persona 3</h3>
@@ -94,12 +134,56 @@ Nome | Gustavo
 |O que poderia mudar? | Verificação de informações dadas pelos usuário. Muitos usuários reportam acidentes em lugares errados, ou que ja foram resolvidos. Outro problema que José vê é a utilização excessiva dos motoristas com o celular, resalta que deve selecionar a rota antes de começar a dirigir e fazer ajustes pontuais caso necessário na rota durante o trajeto.|
 
 
+<h2> Necessidades do Contexto </h2>
 
+<h3> Necessidades Técnicas </h3>
+   <ul>
+         <li> Dados móveis</li>
+         <li> Navegação por GPS</li>
+         <li> Personalização das informações na rota</li>
+         <li> Melhor integração com WazeCarpool</li>
+   </ul>
+<h3> Necessidades Sociais </h3>
+  <ul>
+         <li> Compartilhamento de informações</li>
+         <li> Integração com apps de mídia</li>
+         <li> Compartilhamento de rotas para outros apps de navegação</li>
+         <li> Avaliação de rotas dos usuários</li>
+   </ul>
+<h3> Necessidades Individuais </h3>
+  <ul>
+         <li> Muitas informações na tela de navegação</li>
+         <li> Melhor caminho é o mais rápido</li>
+         <li> Melhor caminho é o mais curto</li>
+         <li> Evitar caminhos indesejados</li>
+   </ul>
+
+<h2>Requisitos Elicitados e MoSCoW</h2>
+
+| Código | Descrição | Prioridade |
+|--------|-----------|------------|
+| INS00  | Precisão de rotas          |  Should         |
+| INS01  | Mudança de Interface          |  Could          |
+| INS02  | Veracidade de Informações de usuários          | Should            |
+| INS03  | O aplicativo deve consumir menos rede de dados / opção offline          | Should            |
+| INS04  | Design mais intuitivo           | Could            |
+| INS05  |Integração com redes sociais           | Could            |
+| INS06  | Aumentar tamanho de rotas | Could            |
+| INS07 |Cadastro de usuário e login | Must |
+| INS08 | A aplicação tem que solicitar ao usuário que ele digite o trajeto do destino.| Must |
+| INS09 | A aplicação tem que solicitar ao usuário um destino | Must |
+| INS10 | Validar endereço | Must |
+| INS11 | O usuário tem que receber dicas de lugares para que ele possa ir caso tenha digitado metade do endereço ou o endereço errado.| Could|
+| INS12 | | |
+| INS13 | | |
+| INS14 | | |
+| INS15 | | |
 
 
 
 <h2> Histórico de Versões</h2>
 
-| Data | Versão | Descrição | Autor(es) |
-|:--:|:--:|:--:|:--:|
-|09/10/19|1.0| Documento Introspecção |Guilherme Leal|
+|   Data   | Versão |           Descrição           |             Autor(es)              |
+|:--------:|:------:|:-----------------------------:|:----------------------------------:|
+| 09/10/19 |  1.0   |    Documento Introspecção     |           Guilherme Leal, Matheus Estanislau|
+| 09/10/19 |  1.1   | INS's, MOSCOW, e complementos | Guilherme Leal, Matheus Estanislau |
