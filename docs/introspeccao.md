@@ -174,10 +174,6 @@ Nome | Gustavo
 | INS09 | A aplicação tem que solicitar ao usuário um destino | Must |
 | INS10 | Validar endereço | Must |
 | INS11 | O usuário tem que receber dicas de lugares para que ele possa ir caso tenha digitado metade do endereço ou o endereço errado.| Could|
-| INS12 | | |
-| INS13 | | |
-| INS14 | | |
-| INS15 | | |
 
 
 
