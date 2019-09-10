@@ -249,6 +249,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../5W2H/" title="5W2H" class="md-nav__link">
       5W2H
     </a>
@@ -352,6 +364,8 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 <p><ul>
     <li> Deve ter opções de filtros para buscar restaurantes, postos e outros</li>
     <li> Deve ter histórico de rotas</li>
+    <li> Deve ter locais favoritos</li>
+    <li> Deve ter rotas planejadas/programadas </li>
  </ul>
 <h3></p>
 <h3> 2.5 Rotas :</h3>
@@ -363,28 +377,66 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
     <li><i> Deve ter opções de desativa/ativar o que é mostrado no mapa </i></li>
  </ul>
 <h3></p>
+<h3> 2.7 Integração com apps de mídia :</h3>
+
+<p><ul>
+   <li>Deve conectar com apps de mídia</li>
+   <li>Deve continuar a navegação enquanto integrado com app de mídia</li>
+ </ul>
+<h3></p>
+<h3> 2.8 Configurações :</h3>
+
+<p><ul>
+   <li>Deve ter configurações Geral de usuário</li>
+   <li>Deve ter configurações de Personalização de Som e Voz</li>
+   <li>Deve ter configurações de Navegação</li>
+   <li>Deve ter configurações de Detalhes do carro</li>
+   <li>Deve ter configurações de Passes de pedágio</li>
+   <li>Deve ter configurações de Alertas e avisos</li>
+   <li>Deve ter configurações de Postos de combustível</li>
+   <li>Deve ter configurações de Velocímetro</li>
+   <li>Deve ter configurações de Notificações</li>
+   <li>Deve ter configurações de Percursos Planejados</li>
+   <li>Deve ter configurações de Lembretes</li>
+   <li>Deve ter configurações de  Conta e Login</li>
+   <li>Deve ter configurações de Privacidade</li>
+   <li>Deve ter configurações de Relatar um Problema</li>
+   <li>Deve ter configurações de Cental de Ajuda</li>
+   <li>Deve ter configurações de Informações sobre o app</li>
+   <li>Deve ter configurações de Compartilhar app</li>
+   <li>Deve ter configurações de Editor de mapas do Waze</li>
+   <li>Deve ter configurações de Enviar logs</li>
+ </ul>
+<h3></p>
+<h3> 2.9 Carpool :</h3>
+
+<p><ul>
+      <li>Deve ter opção de dar Carona</li>
+      <li>Deve ter opção de integrar/ ir para o app Carpool</li>
+ </ul>
+<h3></p>
 <h2> 3. Personas </h2>
 
 <h3>3.1 Persona 1</h3>
 
-<p>Nome | Gustavo 
+<p>Nome | Gustavo
 |--|--|
 |Profissão | Estudante de Ed. Física|
 |Escolaridade | Cursando Ensino Superior |
 |Nível de conhecimento do Waze | Conhece as funcionalidades pricipais da versão Android, não utiliza todas, apenas navegação principal. Conhecimento médio.|
 |Intenção ao usar Waze |Selecionar melhor rota ou guia para rotas desconhecidas|
-|História e contexto |Pereira gosta do aplicativo e prefere usá-lo pois sua operadora não cobra uso de dados do app Waze. Ele utiliza para momentos que não conhece o local, para verificação de engarrafamentos, blitz em determinados momentos.|
+|História e contexto |Gustavo gosta do aplicativo e prefere usá-lo pois sua operadora não cobra uso de dados do app Waze. Ele utiliza para momentos que não conhece o local, para verificação de engarrafamentos, blitz em determinados momentos.|
 |O que poderia mudar? |Simplificação ou personalização da tarefa principal de navegação e criação de rotas, precisão de rotas, pois as vezes o app tem um certo delay (com possível causa: rede de dados e/ou gps) que faz com que erre a rota em determinados momentos.|</p>
 <h3>3.2 Persona 2</h3>
 
-<p>Nome | Maria 
+<p>Nome | Maria
  |--|--| 
  |Profissão | Estudante de Eng. da Computação|
  |Escolaridade | Curso Superior completo e Cursando Ensino Superior em Eng. da Compt.|
 |Nível de conhecimento do Waze | Conhece as funcionalidades do Waze, utiliza pouco pois prefere uma interface mais "limpa" como a do Google Maps. Conhecimento Alto.|
 |Intenção ao usar Waze |Segunda opção de aplicativo para verificação de acidentes e blitz.|
-|História e contexto |Theresa gostou do aplicativo pois os usuários reportam blitz e acidentes. Antes a persona necessitava de feedback de grupos ou conhecidos por meio de redes socias para saber o que acontecia no trânsito de sua cidade.|
-|O que poderia mudar? | A persona não possui afinidade com a UserInterface,acha que deveria mudar.|</p>
+|História e contexto |Maria gostou do aplicativo pois os usuários reportam blitz e acidentes. Antes a persona necessitava de feedback de grupos ou conhecidos por meio de redes socias para saber o que acontecia no trânsito de sua cidade.|
+|O que poderia mudar? | A persona não possui afinidade com a UserInterface, acha que deveria mudar.|</p>
 <h3>3.3 Persona 3</h3>
 
 <p>Nome | José 
@@ -395,6 +447,123 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 |Intenção ao usar Waze |Utilizar o Waze como acessório de trabalho, pois o waze fornece mais informações e alertas sobre acidentes, radares eletrônicos, blitz, controle de velocidade, rotas alternativas.|
 |História e contexto |José iniciou um trabalho de motorista de apps para gerar uma renda em seu horário livre, com isso precisava de um app de navegação do qual podesse confiar e que atendesse suas necessidades.|
 |O que poderia mudar? | Verificação de informações dadas pelos usuário. Muitos usuários reportam acidentes em lugares errados, ou que ja foram resolvidos. Outro problema que José vê é a utilização excessiva dos motoristas com o celular, resalta que deve selecionar a rota antes de começar a dirigir e fazer ajustes pontuais caso necessário na rota durante o trajeto.|</p>
+<h2> Necessidades do Contexto </h2>
+
+<h3> Necessidades Técnicas </h3>
+
+<p><ul>
+         <li> Dados móveis</li>
+         <li> Navegação por GPS</li>
+         <li> Personalização das informações na rota</li>
+         <li> Melhor integração com WazeCarpool</li>
+   </ul>
+<h3> Necessidades Sociais </h3>
+  <ul>
+         <li> Compartilhamento de informações</li>
+         <li> Integração com apps de mídia</li>
+         <li> Compartilhamento de rotas para outros apps de navegação</li>
+         <li> Avaliação de rotas dos usuários</li>
+   </ul>
+<h3> Necessidades Individuais </h3>
+  <ul>
+         <li> Muitas informações na tela de navegação</li>
+         <li> Melhor caminho é o mais rápido</li>
+         <li> Melhor caminho é o mais curto</li>
+         <li> Evitar caminhos indesejados</li>
+   </ul></p>
+<h2>Requisitos Elicitados e MoSCoW</h2>
+
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Descrição</th>
+<th>Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>INS00</td>
+<td>Precisão de rotas</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>INS01</td>
+<td>Mudança de Interface</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>INS02</td>
+<td>Veracidade de Informações de usuários</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>INS03</td>
+<td>O aplicativo deve consumir menos rede de dados / opção offline</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>INS04</td>
+<td>Design mais intuitivo</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>INS05</td>
+<td>Integração com redes sociais</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>INS06</td>
+<td>Aumentar tamanho de rotas</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>INS07</td>
+<td>Cadastro de usuário e login</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>INS08</td>
+<td>A aplicação tem que solicitar ao usuário que ele digite o trajeto do destino.</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>INS09</td>
+<td>A aplicação tem que solicitar ao usuário um destino</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>INS10</td>
+<td>Validar endereço</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>INS11</td>
+<td>O usuário tem que receber dicas de lugares para que ele possa ir caso tenha digitado metade do endereço ou o endereço errado.</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>INS12</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>INS13</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>INS14</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>INS15</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
 <h2> Histórico de Versões</h2>
 
 <table>
@@ -411,7 +580,13 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 <td align="center">09/10/19</td>
 <td align="center">1.0</td>
 <td align="center">Documento Introspecção</td>
-<td align="center">Guilherme Leal</td>
+<td align="center">Guilherme Leal, Matheus Estanislau</td>
+</tr>
+<tr>
+<td align="center">09/10/19</td>
+<td align="center">1.1</td>
+<td align="center">INS's, MOSCOW, e complementos</td>
+<td align="center">Guilherme Leal, Matheus Estanislau</td>
 </tr>
 </tbody>
 </table>
