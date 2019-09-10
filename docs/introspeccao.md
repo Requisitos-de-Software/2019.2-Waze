@@ -100,7 +100,7 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 
 <h3>3.1 Persona 1</h3>
 
-Nome | Gustavo
+|Nome | Gustavo |
 |--|--|
 |Profissão | Estudante de Ed. Física|
 |Escolaridade | Cursando Ensino Superior |
@@ -112,7 +112,7 @@ Nome | Gustavo
 
 <h3>3.2 Persona 2</h3>
 
- Nome | Maria
+ Nome | Maria |
  |--|--| 
  |Profissão | Estudante de Eng. da Computação|
  |Escolaridade | Curso Superior completo e Cursando Ensino Superior em Eng. da Compt.|
@@ -124,10 +124,10 @@ Nome | Gustavo
 
 <h3>3.3 Persona 3</h3>
 
- Nome | José 
- |--|--| 
- |Profissão | Motorista de apps e estudante de Administração|
- |Escolaridade | Curso Superior em andamento|
+| Nome | José |
+|--|--|
+|Profissão | Motorista de apps e estudante de Administração|
+|Escolaridade | Curso Superior em andamento|
 |Nível de conhecimento do Waze | Conhece e utiliza maioria das funcionalidades do Waze. Conhecimento Alto.|
 |Intenção ao usar Waze |Utilizar o Waze como acessório de trabalho, pois o waze fornece mais informações e alertas sobre acidentes, radares eletrônicos, blitz, controle de velocidade, rotas alternativas.|
 |História e contexto |José iniciou um trabalho de motorista de apps para gerar uma renda em seu horário livre, com isso precisava de um app de navegação do qual podesse confiar e que atendesse suas necessidades.|
@@ -183,3 +183,4 @@ Nome | Gustavo
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 09/10/19 |  1.0   |    Documento Introspecção     |           Guilherme Leal, Matheus Estanislau|
 | 09/10/19 |  1.1   | INS's, MOSCOW, e complementos | Guilherme Leal, Matheus Estanislau |
+| 09/10/19 |  1.2   | Revisão | Guilherme Leal, Matheus Estanislau |
