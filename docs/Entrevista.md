@@ -107,7 +107,7 @@ ENT04| O aplicativo deve auxiliar a navegação por um guia de audio.|Should
 
 >TI Especialistas: Técnicas de extração de Requisitos. Disponível em: https://www.tiespecialistas.com.br/tecnicas-de-extracao-de-requisitos/. Acesso em 09/10/19
 
-### Versionamento
+### Histórico de Versões
 
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
