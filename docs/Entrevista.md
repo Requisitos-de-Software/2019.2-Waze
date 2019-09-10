@@ -2,7 +2,7 @@
 
 ## Introdução
 <p align = "justify">
-A tecnica da entrevista visa encontrar requisitos ideais para o sistema.Questões são formuladas  e filtradas, acodando com possiveis requisitos para o sistema.
+A tecnica da entrevista visa encontrar requisitos ideais para o sistema.Questões são formuladas  e filtradas, de acordo com possiveis requisitos para o sistema.
 </p>
 
 ## Metodologia
@@ -10,7 +10,7 @@ A tecnica da entrevista visa encontrar requisitos ideais para o sistema.Questõe
  Um conjunto de perguntas foi previamente definido, onde os entrevistados(usuários do Waze) às responderam seguindo o tipo de entrevista fechada(roteiro não sofre alterações).A partir das respostas será possivel analizar como algumas funcionalidades são usadas.
  </p>
  
- ## Roteiro
+## Roteiro
 1. O que te levou a usar o aplicativo Waze?
 2. Existe alguma funcionalidade que não goste?
 3. Funcionalidades mais usadas?
@@ -18,12 +18,14 @@ A tecnica da entrevista visa encontrar requisitos ideais para o sistema.Questõe
 
 ## Entrevistas
 
+### Entrevista 1
 Nome | Papel 
 -----|-----
 Moacir Mascarenha| Entrevistador
 Lucas Macêdo| Entrevistado
 
-### Respostas
+#### Respostas
+
 Questão | Resposta
 --------|---------
  1   | Queria uma alternativa ao google maps, aplicativo que geralmente uso.
@@ -34,12 +36,13 @@ Questão | Resposta
 <br>
 <br>
 
+### Entrevista 2
  Nome | Papel 
 -----|-----
 Moacir Mascarenha| Entrevistador
 Lucas Lermen| Entrevistado
 
-### Respostas
+#### Respostas
 Questão | Resposta
 --------|---------
 1|Ir pra lugares que desconheço o caminho conheço e saber as condições do trânsito.
@@ -49,13 +52,14 @@ Questão | Resposta
 
 <br>
 
+### Entrevista 3
 
  Nome | Papel 
 -----|-----
 Moacir Mascarenha| Entrevistador
 Pedro| Entrevistado
 
-### Respostas
+#### Respostas
 Questão | Resposta
 --------|---------
 1|O Plano de uma operadora, me ofereceu navegação gratuita, então comecei a usar o aplicativo e gostei de usar o mesmo.
@@ -69,5 +73,17 @@ Questão | Resposta
 
 ID | Descrição | Prioridade
 ---|-----------|-----------
-ENT01| O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pelo usuário.|?
-ENT02||?
+ENT01| O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pelo usuário.|Should
+ENT02|O aplicativo deve informar sobre as condições da via.|Could
+ENT03|O Usuario pode dar feedback sobre as condições do seu percurso.|Could
+ENT04| O aplicativo deve auxiliar a navegação por um guia de audio.|should
+
+
+## Referências
+>DEVMEDIA: Técnicas para levantamento de Requisitos.Disponivel em:https://www.devmedia.com.br/tecnicas-para-levantamento-de-requisitos/9151
+
+### Versionamento
+
+|Data|Versão|Descrição|Autor(es)|
+|----|------|---------|---------|
+09/10/19|1.0|Criação do documento|Moacir Mascarenha|
