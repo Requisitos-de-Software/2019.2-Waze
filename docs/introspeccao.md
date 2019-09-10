@@ -100,7 +100,7 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 
 <h3>3.1 Persona 1</h3>
 
-Nome | Gustavo 
+Nome | Gustavo
 |--|--|
 |Profissão | Estudante de Ed. Física|
 |Escolaridade | Cursando Ensino Superior |
