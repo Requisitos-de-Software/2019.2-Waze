@@ -1,4 +1,4 @@
-<h1> 1. Introspecção</h1>
+# 1. Introspecção
 
 <p align="justify">
 Obter informações a respeito de um software por meio da introspecção, assim será uma forma de imaginar o caminho do usuário no sistema.
@@ -8,28 +8,28 @@ Obter informações a respeito de um software por meio da introspecção, assim 
 Problema:</b> uma instrospecção de um especialista de área diferente pode não ser adequada para a experiência dos reais usuários interessados.
 </p>
 
-<h2> 2. Perspectiva do Usuário</h2>
+## 2. Perspectiva do Usuário
 <p align="justify">
     Descrever a perspectiva do usuário quanto ao aplicativo já existente Waze.
     E também sugestões de percepções individuais do que poderia ser o <i>"my Waze"</i>.
 </p>
 
-<h3> 2.1 Primeiro acesso:</h3>
+### 2.1 Primeiro acesso:
  <ul>
     <li> Deve aparecer opções de registrar e/ou login</li>
     <li> Deve conectar gps para localizar usuário no mapa</li>
     <li><i> Deve ter opções de selecionar idioma</i></li>
  </ul>
-<h3>
 
-<h3> 2.2 Registro:</h3>
+
+### 2.2 Registro:
  <ul>
     <li> Deve ter opções de login com contas Google ou Facebook ou campo com email/senha para cadastrar</li>
     <li> Deve conectar gps para localizar usuário no mapa</li>
  </ul>
-<h3>
 
-<h3> 2.3 Tela principal:</h3>
+
+### 2.3 Tela principal:
  <ul>
     <li> Deve ter busca de rotas</li>
     <li> Deve ter menu de rotas favoritas</li>
@@ -38,34 +38,34 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
     <li> Deve ter opção de integrar com meu app de mídia</li>
     <li> Deve ter opção de selecionar meu tipo de veículo</li>
  </ul>
-<h3>
 
-<h3> 2.4 Campo de Busca:</h3>
+
+### 2.4 Campo de Busca:
  <ul>
     <li> Deve ter opções de filtros para buscar restaurantes, postos e outros</li>
     <li> Deve ter histórico de rotas</li>
     <li> Deve ter locais favoritos</li>
     <li> Deve ter rotas planejadas/programadas </li>
  </ul>
-<h3>
 
-<h3> 2.5 Rotas :</h3>
+
+### 2.5 Rotas :
  <ul>
     <li> Deve mostrar a melhor rota para local escolhido</li>
     <li> Deve mostrar as rotas alternativas </li>
     <li> Deve mostrar opções de compartilhamento e informações da rota</li>
     <li><i> Deve ter opções de desativa/ativar o que é mostrado no mapa </i></li>
  </ul>
-<h3>
 
-<h3> 2.7 Integração com apps de mídia :</h3>
+
+### 2.7 Integração com apps de mídia :
  <ul>
    <li>Deve conectar com apps de mídia</li>
    <li>Deve continuar a navegação enquanto integrado com app de mídia</li>
  </ul>
-<h3>
 
-<h3> 2.8 Configurações :</h3>
+
+### 2.8 Configurações :
  <ul>
    <li>Deve ter configurações Geral de usuário</li>
    <li>Deve ter configurações de Personalização de Som e Voz</li>
@@ -87,18 +87,18 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
    <li>Deve ter configurações de Editor de mapas do Waze</li>
    <li>Deve ter configurações de Enviar logs</li>
  </ul>
-<h3>
 
-<h3> 2.9 Carpool :</h3>
+
+### 2.9 Carpool :
  <ul>
       <li>Deve ter opção de dar Carona</li>
       <li>Deve ter opção de integrar/ ir para o app Carpool</li>
  </ul>
-<h3>
 
-<h2> 3. Personas </h2>
 
-<h3>3.1 Persona 1</h3>
+## 3. Personas
+
+### 3.1 Persona 1
 
 |Nome | Gustavo |
 |--|--|
@@ -110,7 +110,7 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 |O que poderia mudar? |Simplificação ou personalização da tarefa principal de navegação e criação de rotas, precisão de rotas, pois as vezes o app tem um certo delay (com possível causa: rede de dados e/ou gps) que faz com que erre a rota em determinados momentos.|
 
 
-<h3>3.2 Persona 2</h3>
+### 3.2 Persona 2
 
  Nome | Maria |
  |--|--| 
@@ -122,7 +122,7 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 |O que poderia mudar? | A persona não possui afinidade com a UserInterface, acha que deveria mudar.|
 
 
-<h3>3.3 Persona 3</h3>
+### 3.3 Persona 3
 
 | Nome | José |
 |--|--|
@@ -134,23 +134,25 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 |O que poderia mudar? | Verificação de informações dadas pelos usuário. Muitos usuários reportam acidentes em lugares errados, ou que ja foram resolvidos. Outro problema que José vê é a utilização excessiva dos motoristas com o celular, resalta que deve selecionar a rota antes de começar a dirigir e fazer ajustes pontuais caso necessário na rota durante o trajeto.|
 
 
-<h2> Necessidades do Contexto </h2>
+## Necessidades do Contexto
 
-<h3> Necessidades Técnicas </h3>
+### Necessidades Técnicas 
    <ul>
          <li> Dados móveis</li>
          <li> Navegação por GPS</li>
          <li> Personalização das informações na rota</li>
          <li> Melhor integração com WazeCarpool</li>
    </ul>
-<h3> Necessidades Sociais </h3>
+
+### Necessidades Sociais 
   <ul>
          <li> Compartilhamento de informações</li>
          <li> Integração com apps de mídia</li>
          <li> Compartilhamento de rotas para outros apps de navegação</li>
          <li> Avaliação de rotas dos usuários</li>
    </ul>
-<h3> Necessidades Individuais </h3>
+
+### Necessidades Individuais 
   <ul>
          <li> Muitas informações na tela de navegação</li>
          <li> Melhor caminho é o mais rápido</li>
@@ -158,17 +160,17 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
          <li> Evitar caminhos indesejados</li>
    </ul>
 
-<h2>Requisitos Elicitados e MoSCoW</h2>
+## Requisitos Elicitados e MoSCo
 
 | Código | Descrição | Prioridade |
 |--------|-----------|------------|
 | INS00  | Precisão de rotas          |  Should         |
-| INS01  | Mudança de Interface          |  Could          |
+| INS01  | Mudança de Interface          |  Would          |
 | INS02  | Veracidade de Informações de usuários          | Should            |
 | INS03  | O aplicativo deve consumir menos rede de dados / opção offline          | Should            |
-| INS04  | Design mais intuitivo           | Could            |
+| INS04  | Design mais intuitivo           | Would            |
 | INS05  |Integração com redes sociais           | Could            |
-| INS06  | Aumentar tamanho de rotas | Could            |
+| INS06  | Aumentar tamanho (km) de rotas | Could            |
 | INS07 |Cadastro de usuário e login | Must |
 | INS08 | A aplicação tem que solicitar ao usuário que ele digite o trajeto do destino.| Must |
 | INS09 | A aplicação tem que solicitar ao usuário um destino | Must |
@@ -177,10 +179,11 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 
 
 
-<h2> Histórico de Versões</h2>
+## Histórico de Versões
 
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 09/10/19 |  1.0   |    Documento Introspecção     |           Guilherme Leal, Matheus Estanislau|
 | 09/10/19 |  1.1   | INS's, MOSCOW, e complementos | Guilherme Leal, Matheus Estanislau |
 | 09/10/19 |  1.2   | Revisão | Guilherme Leal, Matheus Estanislau |
+| 09/10/19 |  1.3   | Deploy version | Guilherme Leal |

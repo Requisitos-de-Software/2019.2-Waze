@@ -35,7 +35,7 @@ ST03 | O aplicativo de informar o tempo do percurso | Should
 
 ##  Storytelling 2
 <p align="justify">
-Samuel, 20 anos, estudante, motorista a 1 anos e usuario do aplicatico waze.
+Samuel, 20 anos, estudante, motorista a 1 ano e usuário do aplicatico waze.
 </p>
 
 ### Interesse do Usuário

@@ -1,23 +1,24 @@
 # RichPicture
 
-### V1 RichPicture
+## V1 RichPicture
 
 <p align="center">  
           <img width="400px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/rich1.jpg?raw=true">   
 </p>
 
-### V2 RichPicture
+### V1.2 RichPicture
 
 <p align="center">  
           <img width="400px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/richv2.jpg?raw=true">   
 </p>
 
+
+## V2 RichPicture
+
 ### RichPicture Atores
 
 <p align="center">  
           <img width="800px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/RP_Atores.png?raw=true">
-
-
 
 </p>
 
@@ -30,8 +31,6 @@
 
 <p align="center">  
           <img width="800px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/RP_Usabilidade.png?raw=true">
-
-
 
 </p>
 

@@ -2,7 +2,7 @@
 
 ## 1. Introdução
 <p align = "justify">
-A tecnica da entrevista visa encontrar requisitos ideais para o sistema. Questões são formuladas  e filtradas, de acordo com possiveis requisitos para o sistema. Nosso grupo optou por utilizar a entrevista para obter informações de usuários do Waze para fazer uma análise dos pontos fortes e fracos das funcionalidades do aplicativo.
+A técnica da entrevista visa encontrar requisitos ideais para o sistema. Questões são formuladas  e filtradas, de acordo com possiveis requisitos para o sistema. Nosso grupo optou por utilizar a entrevista para obter informações de usuários do Waze para fazer uma análise dos pontos fortes e fracos das funcionalidades do aplicativo.
 </p>
 
 ## 2. Metodologia
