@@ -1,3 +1,4 @@
+
 # Waze
 
 <p align="center">  
@@ -22,50 +23,52 @@ Waze é uma aplicação para smartphones baseada na navegação por satélite co
 
 ## Autores
 
-
-<div style="float: left; margin-right: 40px"class="card">
-  <img style="border-radius: 90px;" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/GuilhermeLeal.png?raw=true">
-  <div class="container">
+<div class="container row">
+<div class="card">
+  <img  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/GuilhermeLeal.png?raw=true">
+  <div style="padding: 2px 16px;" class="container">
     <h4><b>Guilherme Leal</b></h4>
     <a href="https://github.com/gleal17">@gleal17</a>
   </div>
 </div>
 
-<div style="float: left;margin-right: 40px" class="card">
-    <img style="border-radius: 90px;" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/joao.jpg?raw=true">  <div class="container">
+<div  class="card">
+    <img  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/joao.jpg?raw=true">  
+    <div style="padding: 2px 16px;" class="container">
     <h4><b>João Pedro Soares</b></h4>
     <a href="https://github.com/jpcirqueira">@jpcirqueira</a>
   </div>
 </div>
 
-<div style="float: left;margin-right: 40px" class="card">
-    <img style="border-radius: 90px;" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/MatheusEstanislau.jpg?raw=true">
-    <h4><b>Matheus de Cristo</b></h4>
-    <a href="https://github.com/MatheusEstanislau">@MatheusEstanislau</a>
-  </div>
-</div>
-
-<div style="float: left;margin-right: 40px" class="card">
-    <img style="border-radius: 90px;" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/LucasA.png?raw=true">
+<div  class="card">
+    <img  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/LucasA.png?raw=true">
+    <div style="padding: 2px 16px;" class="container">
     <h4><b>Lucas Alexandre</b></h4>
     <a href="https://github.com/lucasA27">@lucasA27</a>
   </div>
 </div>
 
+<div class="card">
+    <img  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/MatheusEstanislau.jpg?raw=true">
+    <div style="padding: 2px 16px;" class="container">
+    <h4><b>Matheus de Cristo</b></h4>
+    <a href="https://github.com/MatheusEstanislau">@MatheusEstanislau</a>
+  </div>
+</div>
 
-
-<div style="float: left;margin-right: 40px" class="card">
-    <img  style="border-radius: 90px;" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/Moacir.jpg?raw=true">
+<div  class="card">
+    <img  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/Moacir.jpg?raw=true">
+    <div style="padding: 2px 16px;" class="container">
     <h4><b>Moacir Mascarenha</b></h4>
     <a href="https://github.com/MoacirMSJ">@moacirmsj</a>
   </div>
 </div>
 
-<div style="float: left;margin-right: 40px" class="card">
-          <img style="border-radius: 90px;" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/Renan.jpg?raw=true">
+<div class="card">
+    <img  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/Renan.jpg?raw=true">
+          <div style="padding: 2px 16px;" class="container">
     <h4><b>Renan Cristyan</b></h4>
     <a href="https://github.com/RCristyan">@RCristyan</a>
   </div>
 </div>
-
-
+</div>
