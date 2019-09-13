@@ -8,10 +8,10 @@ Um Rich Picture é um desenho que ilustra os principais elementos e relacionamen
 
 ## Metologia
 <p align="justify">
-    Para a criação dos richpictures foi utilizado a ferramenta <a href="https://www.draw.io">Draw.io</a>. Além disso utilizaremos a seguinte tabela para versionamento, permitindo a rastreabilidade.
+    Para a criação dos richpictures foi utilizado a ferramenta <a href="https://www.draw.io">Draw.io</a>. Além disso utilizaremos a seguinte tabela para versionamento
 </p>
 
-|   Data   | Versão |           Descrição           |             Autor(es)              |
+|   Data   | Versão |           Modificação          |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | XX/XX/19 |  X.X   | Descrição do RichPicture      |             Autores                |
 
@@ -21,33 +21,33 @@ Um Rich Picture é um desenho que ilustra os principais elementos e relacionamen
           <img width="800px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/rich1.jpg?raw=true">   
 </p>
 
+## RP 01 Visão Geral 
+
 <p align="center">  
           <img width="800px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/richv2.jpg?raw=true">   
 </p>
 
-|   Data   | Versão |           Descrição           |             Autor(es)              |
-|:--------:|:------:|:-----------------------------:|:----------------------------------:|
-| 01/09/19 |  1.0   |    RichPicture Visão Geral   |       Matheus Estanislau, Moacir Mascarenhas|
-
-## RP 01 Atores
+## RP 02 Atores
 
 <p align="center">  
           <img width="800px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/RP_Atores.png?raw=true">
 
 </p>
 
-|   Data   | Versão |           Descrição           |             Autor(es)              |
-|:--------:|:------:|:-----------------------------:|:----------------------------------:|
-| 09/10/19 |  1.0   |    RichPicture Atores    |       Matheus Estanislau, Guilherme Leal|
 
-
-## RP 02 Usabilidade
+## RP 03 Usabilidade
 
 <p align="center">  
           <img width="800px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/RP_Usabilidade.png?raw=true">
 
 </p>
 
+
+## Versionamento
+
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
-| 09/10/19 |  1.0   |    RichPicture Usabilidade    |       Matheus Estanislau, Guilherme Leal|
+| 01/09/2019 |  1.0   |    Realizado primeiro RichPicture contendo a visão geral    |  Matheus Estanislau e Moacir Mascarenhas|
+| 03/09/2019 |  1.0   | Foi utilizado o Draw.io para melhor visualização do richpicture   |  Matheus Estanislau|
+| 07/09/2019 |  1.0   | Acrescentado RichPicture Atores   |  Matheus Estanislau e Guilherme Leal|
+| 07/09/2019 |  1.0   | Acrescentado RichPicture de Usabilidade   |  Matheus Estanislau e Guilherme Leal|
