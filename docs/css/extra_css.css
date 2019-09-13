@@ -1,4 +1,3 @@
-
 .md-header{
     background-color:#93c4d3;
 }
@@ -8,11 +7,14 @@ html .md-nav--primary .md-nav__title--site {
 }
 
 
+
 .container {
   display: flex;
   flex-direction: row;
 }
-
+.container h4{
+  color: black;
+}
 .card {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -20,11 +22,15 @@ html .md-nav--primary .md-nav__title--site {
     margin-right: 20px;
     margin-bottom: 20px;
     text-align: center;
-    }
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+
+  }
   
   /* On mouse-over, add a deeper shadow */
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-position: right center;
   }
   
   /* Add some padding inside the card container */
@@ -33,8 +39,11 @@ html .md-nav--primary .md-nav__title--site {
   .integrante{
     border-radius: 5px 5px 0 0;
     width:100%;
+    margin-top: 1em;
   }
 
   .icon{
     width: 25px;
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
+    
   }

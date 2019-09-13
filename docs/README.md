@@ -24,63 +24,57 @@ Waze é uma aplicação para smartphones baseada na navegação por satélite co
 ## Autores
 
 <div class="container">
-  <div class="card">
-    <img class="integrante" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/GuilhermeLeal.png?raw=true">
+  <div class="card" style="width: 18rem;">
+  <a href="https://github.com/gleal17">
+    <img class="integrante" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/GuilhermeLeal.png?raw=true" alt="drawing" style="width:120px;border-radius: 50%;">
     <div  class="item">
       <h4><b>Guilherme Leal</b></h4>
-      <a href="https://github.com/gleal17">
-        <img class="icon" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/icons/githubIcon.png?raw=true">
       </a>
     </div>
   </div>
 
-  <div  class="card">
-      <img class="integrante" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/joao.jpg?raw=true">  
+  <div  class="card" style="width: 18rem;">
+  <a href="https://github.com/jpcirqueira">
+      <img class="integrante" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/joao.jpg?raw=true" alt="drawing" style="width:120px;border-radius: 50%;">  
       <div class="item">
       <h4><b>João Pedro Soares</b></h4>
-      <a href="https://github.com/jpcirqueira">
-        <img class="icon" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/icons/githubIcon.png?raw=true">
       </a>
     </div>
   </div>
 
-  <div  class="card">
-      <img class="integrante" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/LucasA.png?raw=true">
+  <div  class="card" style="width: 18rem;">
+  <a href="https://github.com/lucasA27">
+      <img class="integrante" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/LucasA.png?raw=true" alt="drawing" style="width:120px;border-radius: 50%;">
       <div class="item">
       <h4><b>Lucas Alexandre</b></h4>
-      <a href="https://github.com/lucasA27">
-        <img class="icon" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/icons/githubIcon.png?raw=true">
       </a>
     </div>
   </div>
 </div>
 <div class="container">
-  <div class="card">
-      <img class="integrante" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/MatheusEstanislau.jpg?raw=true">
+  <div class="card" style="width: 18rem;">
+    <a href="https://github.com/MatheusEstanislau">
+      <img class="integrante" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/MatheusEstanislau.jpg?raw=true" alt="drawing" style="width:120px;border-radius: 50%;">
       <div class="item">
       <h4><b>Matheus de Cristo</b></h4>
-      <a href="https://github.com/MatheusEstanislau">
-        <img class="icon" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/icons/githubIcon.png?raw=true">
-      </a>
     </div>
+    </a>
   </div>
 
-  <div  class="card">
-      <img class="integrante" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/Moacir.jpg?raw=true">
+  <div  class="card" style="width: 18rem;">
+  <a href="https://github.com/MoacirMSJ">
+      <img class="integrante" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/Moacir.jpg?raw=true" alt="drawing" style="width:120px;border-radius: 50%;">
       <div class="item">
       <h4><b>Moacir Mascarenha</b></h4>
-      <a href="https://github.com/MoacirMSJ">
-        <img class="icon" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/icons/githubIcon.png?raw=true">
       </a>
     </div>
   </div>
 
-  <div class="card">
-      <img  class="integrante" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/Renan.jpg?raw=true">
+  <div class="card" style="width: 18rem;">
+  <a href="https://github.com/RCristyan">
+      <img  class="integrante" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/equipe/Renan.jpg?raw=true" alt="drawing" style="width:120px;border-radius: 50%;">
             <div  class="item">
       <h4><b>Renan Cristyan</b></h4>
-      <a href="https://github.com/RCristyan">
-        <img class="icon" src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/icons/githubIcon.png?raw=true">
       </a>
     </div>
   </div>
