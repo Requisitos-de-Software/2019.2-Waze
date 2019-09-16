@@ -11,10 +11,6 @@ Um Rich Picture é um desenho que ilustra os principais elementos e relacionamen
     Para a criação dos richpictures foi utilizado a ferramenta <a href="https://www.draw.io">Draw.io</a>. Além disso utilizaremos a seguinte tabela para versionamento
 </p>
 
-|   Data   | Versão |           Modificação          |             Autor(es)              |
-|:--------:|:------:|:-----------------------------:|:----------------------------------:|
-| XX/XX/19 |  X.X   | Descrição do RichPicture      |             Autores                |
-
 ## RP 00 Visão Geral
 
 <p align="center">  

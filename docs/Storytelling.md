@@ -61,5 +61,5 @@ ST05 | O aplicativo deve conter uma area comum para feedback do usuario | Could
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
-|09/10/19|1.0| Criado documento |João Pedro/Lucas Alexandre /Moacir Mascarenha |
+|09/10/19|1.0| Criado documento |João Pedro, Lucas Alexandre, Moacir Mascarenha |
 
