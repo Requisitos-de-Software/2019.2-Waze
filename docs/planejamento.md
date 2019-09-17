@@ -1,6 +1,5 @@
 # Planejamento
 
-
 ## 1. Introdução
 
 <p align="justify">
