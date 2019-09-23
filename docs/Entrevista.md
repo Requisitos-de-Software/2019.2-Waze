@@ -18,11 +18,16 @@ A técnica da entrevista visa encontrar requisitos ideais para o sistema. Quest�
 
 ## 4. Entrevistas
 
-### Entrevista 1
+### **Entrevista 1**
 Nome | Papel 
 -----|------
 Moacir Mascarenha| Entrevistador
 Lucas Macêdo| Entrevistado
+
+Data|Hora |Descrição
+----|-----|---------
+09/09/19 | 09:34 | Entrevista realizada via WhatsApp.
+
 
 ### Respostas
 
@@ -33,11 +38,15 @@ Questão | Resposta
  3|GPS, verificar acidentes e engarrafamentos.
  4|Não.
 
-### Entrevista 2
+### **Entrevista 2**
 Nome | Papel 
 -----|-----
 Moacir Mascarenha| Entrevistador
 Lucas Lermen| Entrevistado
+
+Data|Hora |Descrição
+----|-----|---------
+09/09/19 | 11:25 | Entrevista realizada via WhatsApp.
 
 ### Respostas
 Questão | Resposta
@@ -47,11 +56,15 @@ Questão | Resposta
 3|Guia e informação de trânsito.
 4|Nenhuma.
 
-### Entrevista 3
+### **Entrevista 3**
 Nome | Papel 
 -----|-----
 Moacir Mascarenha | Entrevistador
 Pedro | Entrevistado
+
+Data|Hora |Descrição
+----|-----|---------
+09/09/19 | 12:04 | Entrevista realizada via WhatsApp.
 
 ### Respostas
 Questão | Resposta
@@ -61,11 +74,15 @@ Questão | Resposta
 3|Navegação via GPS, a qual é o principal objetivo do App.
 4|Não, o aplicativo é de uso simples.
 
-### Entrevista 4
+### **Entrevista 4**
 Nome | Papel
 -----|------
 Renan Cristyan | Entrevistador
 Charles Renan | Entrevistado
+
+Data|Hora |Descrição
+----|-----|---------
+09/09/19 | 21:00| Entrevista presencial.
 
 ### Respostas
 Questão | Resposta
@@ -75,11 +92,15 @@ Questão | Resposta
 3|Informações sobre o trânsito, rotas mais rápidas, informações sobre horário de pico.
 4|Problemas de conexão com a internet em dias nublados.
 
-### Entrevista 5
+### **Entrevista 5**
 Nome | Papel
 -----|------
 Renan Cristyan | Entrevistador
 Kanra Yuuto | Entrevistada
+
+Data|Hora |Descrição
+----|-----|---------
+09/09/19 | 20:30 | Entrevista realizada via Facebook.
 
 ### Respostas
 Questão | Resposta
@@ -103,13 +124,14 @@ ENT04| O aplicativo deve auxiliar a navegação por um guia de audio.|Should
 </br>
 
 ## 6. Referências
->DEVMEDIA: Técnicas para levantamento de Requisitos. Disponivel em: https://www.devmedia.com.br/tecnicas-para-levantamento-de-requisitos/9151. Acesso em 09/10/19
+>DEVMEDIA: Técnicas para levantamento de Requisitos. Disponivel em: https://www.devmedia.com.br/tecnicas-para-levantamento-de-requisitos/9151. Acesso em 09/09/19
 
->TI Especialistas: Técnicas de extração de Requisitos. Disponível em: https://www.tiespecialistas.com.br/tecnicas-de-extracao-de-requisitos/. Acesso em 09/10/19
+>TI Especialistas: Técnicas de extração de Requisitos. Disponível em: https://www.tiespecialistas.com.br/tecnicas-de-extracao-de-requisitos/. Acesso em 09/09/19
 
 ### Histórico de Versões
 
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
-09/10/19|1.0|Criação do documento|Moacir Mascarenha|
-09/10/19|1.1|Correções no texto e adições de 2 entrevistas|Renan Cristyan
+09/09/19|1.0|Criação do documento|Moacir Mascarenha|
+09/09/19|1.1|Correções no texto e adições de 2 entrevistas|Renan Cristyan
+|23/09/19|1.2|Adicionado horário da entrevista|Moacir Mascarenha|
