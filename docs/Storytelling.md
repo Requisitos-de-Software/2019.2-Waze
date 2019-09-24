@@ -19,7 +19,7 @@ Charles, 21 anos, motorista de uber, motorista há 2 anos e usuario do aplicatic
 
 Nome  | Papel | Observação| Data
 --------- | ------|-----|----
-Charles | Narração | Usuario | 09/10/19
+Charles | Narração | Usuario | 09/09/19
 Moacir Mascarenha, Lucas alexandre| Relator | Membro da equipe 
 
 ### Interesse do Usuário
@@ -65,12 +65,12 @@ ST04 | O aplicativo deve calcular a melhor rota para o destino desejado pelo usu
 ST05 | O aplicativo deve conter uma area comum para feedback do usuario | Could
 
 ## 4. Referências
->Storytelling: contar histórias pode revolucionar o Marketing da sua empresa. Disponível em: https://rockcontent.com/blog/storytelling-guia/. Acesso em 09/10/19
+>Storytelling: contar histórias pode revolucionar o Marketing da sua empresa. Disponível em: https://rockcontent.com/blog/storytelling-guia/. Acesso em 09/09/19
 
 
 # Versionamento
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
-|09/10/19|1.0| Criado documento |João Pedro, Lucas Alexandre, Moacir Mascarenha |
-|16/10/19|1.0| Refatorado Storytelling |João Pedro|
+|09/09/19|1.0| Criado documento |João Pedro, Lucas Alexandre, Moacir Mascarenha |
+|16/09/19|1.0| Refatorado Storytelling |João Pedro|

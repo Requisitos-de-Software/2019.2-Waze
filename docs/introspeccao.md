@@ -183,7 +183,7 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
-| 09/10/19 |  1.0   |    Documento Introspecção     |           Guilherme Leal, Matheus Estanislau|
-| 09/10/19 |  1.1   | INS's, MOSCOW, e complementos | Guilherme Leal, Matheus Estanislau |
-| 09/10/19 |  1.2   | Revisão | Guilherme Leal, Matheus Estanislau |
-| 09/10/19 |  1.3   | Deploy version | Guilherme Leal |
+| 09/09/19 |  1.0   |    Documento Introspecção     |           Guilherme Leal, Matheus Estanislau|
+| 09/09/19 |  1.1   | INS's, MOSCOW, e complementos | Guilherme Leal, Matheus Estanislau |
+| 09/09/19 |  1.2   | Revisão | Guilherme Leal, Matheus Estanislau |
+| 09/09/19 |  1.3   | Deploy version | Guilherme Leal |

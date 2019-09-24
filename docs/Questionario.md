@@ -63,7 +63,7 @@ Q06 | O usuário deve ser informado sobre estabelicimentos próximos | Would
 
 > ANÁLISE DAS TÉCNICAS DE LEVANTAMENTO DE REQUISITOS
 PARA DESENVOLVIMENTO DE SOFTWARE NAS EMPRESAS DE
-VITÓRIA DA CONQUISTA – BA. Disponível em: http://www2.uesb.br/computacao/wp-content/uploads/2014/09/AN%C3%81LISE-DAS-T%C3%89CNICAS-DE-LEVANTAMENTO-DE-REQUISITOS-PARA-DESENVOLVIMENTO-DE-SOFTWARE-NAS-EMPRESAS-DE-VIT%C3%93RIA-DA-CONQUISTA-%E2%80%93-BA.pdf. Acesso em 09/10/19
+VITÓRIA DA CONQUISTA – BA. Disponível em: http://www2.uesb.br/computacao/wp-content/uploads/2014/09/AN%C3%81LISE-DAS-T%C3%89CNICAS-DE-LEVANTAMENTO-DE-REQUISITOS-PARA-DESENVOLVIMENTO-DE-SOFTWARE-NAS-EMPRESAS-DE-VIT%C3%93RIA-DA-CONQUISTA-%E2%80%93-BA.pdf. Acesso em 09/09/19
 
 > Elicitação de requisitos, Questionario. Disponível em: https://fga-disciplinas.github.io/2019.1-Guia-Bolso/elicitacao-de-requisitos/questionario/
 
@@ -71,5 +71,5 @@ VITÓRIA DA CONQUISTA – BA. Disponível em: http://www2.uesb.br/computacao/wp-
 
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
-09/10/19|1.0|Criação do documento|João Pedro, Lucas Alexandre, Moacir Mascarenha|
+09/09/19|1.0|Criação do documento|João Pedro, Lucas Alexandre, Moacir Mascarenha|
 
