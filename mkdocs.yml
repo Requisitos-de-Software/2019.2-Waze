@@ -17,4 +17,7 @@ nav:
     - Introspecção: introspeccao.md
     - Questionário: Questionario.md
     - Storytelling: Storytelling.md
+  - Modelagem:
+    - Especificação Suplementar: EspSuplementar.md
+  - Pesonas: Personas.md
     
