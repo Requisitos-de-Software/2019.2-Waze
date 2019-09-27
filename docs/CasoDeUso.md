@@ -1,8 +1,7 @@
 # Casos de uso
 
 ## 1. Introdução
-
- O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do usuário, descrevendo as principais funcionalidades do sistema e sua interação com os usuários.Nesse dia5grama não nos aprofundamos em detalhes técnicos que dizem como o sistema faz.
+ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do usuário, descrevendo as principais funcionalidades do sistema e sua interação com os usuários.Nesse diagrama não nos aprofundamos em detalhes técnicos que dizem como o sistema faz.
 
 ## 2. Casos de uso :
 
