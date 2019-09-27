@@ -34,6 +34,8 @@ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do 
 |**Software Utilizado**|Lucidchart|
 
 
+
+
 ### **UC3 - Exibição de mapa**
 ![Exibição de mapa](img/Exibição_de_mapa.png)
 
@@ -46,6 +48,22 @@ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do 
 |**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> - Usuário preciona exibição de mapa |
 |**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> - Usuário preciona exibição de mapa<br>- Usuário escolhe umas das opções de exibir no mapa<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> - Usuário preciona exibição de mapa <br> - Usuário Preciona a label Velocimetro<br>**FA3:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> - Usuário preciona exibição de mapa <br>- Outras Opções<br>|
 |**Software Utilizado**|Draw.io|
+
+
+### **UC4 - Navegação**
+
+![Navegação](img/navegacao.png)
+
+| UC4 | informações | 
+|:----:|:------:|
+|**Caso de uso**|Navegação|
+|**Data**|26/09/19|
+|**Hora**|19:26|
+|**Autor(es)**|João Pedro, Moacir Mascarenha|
+|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> - Usuário preciona Navegação<br> - Usuário acessa menu de preferencias|
+|**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> - Usuário preciona Navegação<br> - Usuário acessa o menu de Preferências<br> - Usuário escolhe alguma das opções(Evitar pedágio, passes de pedágio, Evitar balsas, Evitar vias expressas, Vias de terra e Evitar conversões difíceis)<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> - Usuário preciona exibição de mapa <br> - Usuário preciona detalhes do veículo<br> -Usuário especifica detalhes sobre veículo <br>|
+|**Software Utilizado**|Draw.io|
+
 
 ## 3. Referências Bibliográficas
 >O que é UML e Diagramas de Caso de Uso: Introdução Prática à UML, Disponível em:
@@ -64,3 +82,4 @@ https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pr
 |26/09/19|2.0| Ajustado UC1 |João Pedro, Moacir Mascarenha|
 |26/09/19|2.1|Adicionado UC2 |João Pedro, Moacir Mascarenha|
 |26/09/19|2.2|Adicionado UC3 |João Pedro, Moacir Mascarenha|
+|27/09/19|2.3|Adicionado UC4 |João Pedro, Moacir Mascarenha|
