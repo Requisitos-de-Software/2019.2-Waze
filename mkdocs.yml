@@ -20,4 +20,5 @@ nav:
   - Modelagem:
     - Especificação Suplementar: EspSuplementar.md
   - Pesonas: Personas.md
-    
+  - Modelagem :
+    - Caso de Uso : CasoDeUso.md
