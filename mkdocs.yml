@@ -17,4 +17,10 @@ nav:
     - Introspecção: introspeccao.md
     - Questionário: Questionario.md
     - Storytelling: Storytelling.md
-    
+  - Modelagem:
+    - Especificação Suplementar: EspSuplementar.md
+    - Cenários: Cenarios.md
+    - Léxico: Lexico.md
+  - Pesonas: Personas.md
+  - Modelagem :
+    - Caso de Uso : CasoDeUso.md
