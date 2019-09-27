@@ -1,5 +1,10 @@
 # Cenários
 
+## Introdução
+<p align="justify">
+Os cenários narrativas textuais que descrevem sistemas da  perspectiva de um ou mais usuários, narrando seus objetivos, planos e reações. São uma estratégia para compreender as interações entre ambientes e sistemas, assim como elicitar a parte comportamental do software, sua dinâmica e/ou seu fluxo.
+</p>
+
 ## Cenário 1
 **Título**:
     
@@ -41,3 +46,15 @@
     Rota calculada pelo Waze pode não ser a melhor
     Assalto no caminho
     Distração ao usar o smartphone enquanto dirige pode causar acidentes
+
+## Referências Bibliográficas
+
+> LUCENA, S.V.; KEMCZINSKI, A.;  GASPARINI, I.;  MATOS, A.V.M.; OGAWA, A.N.; "Modelagem de requisitos baseada em cenários para o Storyboard da Metodologia para Construção de Objetos de Aprendizagem Interativos", Nuevas Ideas en Informática Educativa TISE, 2014.
+
+## Histórico de versões
+
+| Data | Versão | Descrição | Autor(es) |
+|:--:|:--:|:--:|:--:|
+|24/09/19|1.0|Criação do documento|Renan Cristyan|
+|27/09/19|1.1|Inclusão na Wiki|Renan Cristyan|
+|27/09/19|1.2|Adicionados introdução, referências bibliográficas e histórico de versões|Renan Cristyan|
