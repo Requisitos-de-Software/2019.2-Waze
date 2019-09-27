@@ -8,6 +8,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 
 ## 2. Cenários :
 
+
 ### **C1 - Chegar a um destino desejado**
 
 | C1 | Informações | 
@@ -17,13 +18,14 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Autor(es)**|Renan Cristyan|
 |**Cenário**|Chegar a um destino desejado|
 |**Objetivo**|Utilizar um sistema de navegação por GPS|
-|**Contexto**|<br>Local: Centro da cidade<br>Tempo: Durante a manhã<br>Pré-condição: Acesso à internet<br>|
+|**Contexto**|Local: Centro da cidade<br>Tempo: Durante a manhã<br>Pré-condição: Acesso à internet|
 |**Atores**|Usuário|
-|**Recursos**|<br>Smartphone<br>acesso à internet<br> veículo|
-|**Restrição**|<br>Ter o Waze previamente instalado no smartphone<br> Ter acesso à internet
-<br>|
-|**Episódios**|<br>Usuário quer ir a algum lugar<br>Usuário utiliza o Waze no seu smartphone<br>Usuário digita o lugar que deseja chegar no campo de pesquisa do aplicativo<br>Waze tenta calcular a melhor rota possível<br>Usuário segue essa rota até chegar no local<br>|
-|**Exceção**|<br>Rota calculada pelo Waze pode não ser a melhor<br>Distração ao usar o smartphone enquanto dirige pode causar acidentes<br>|
+|**Recursos**|Smartphone<br>Acesso à internet<br> Veículo|
+|**Restrição**|Ter o Waze previamente instalado no smartphone<br> Ter acesso à internet|
+|**Episódios**|Usuário quer ir a algum lugar<br>Usuário utiliza o Waze no seu smartphone<br>Usuário digita o lugar que deseja chegar no campo de pesquisa do aplicativo<br>Waze tenta calcular a melhor rota possível<br>Usuário segue essa rota até chegar no local|
+|**Exceção**|Rota calculada pelo Waze pode não ser a melhor<br>Distração ao usar o smartphone enquanto dirige pode causar acidentes|
+
+<br>
 
 ### **C2 - Encontrar alguém através da localização**
 
@@ -34,13 +36,30 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Autor(es)**|João Pedro|
 |**Cenário**|Encontrar alguém através da localização|
 |**Objetivo**|Encontrar localização de alguém utilizando um sistema de navegação por GPS|
-|**Contexto**|<br>Local: localização atual do usuário<br>Pré-condição: Acesso à internet e localização atual de um amigo<br>|
+|**Contexto**|Local: localização atual do usuário<br>Pré-condição: Acesso à internet e localização atual de um amigo|
 |**Atores**|Usuário|
-|**Recursos**|<br>Smartphone<br>acesso à rede<br>veículo<br>localização atual do Usuário<br>localização atual da pessoa<br>|
-|**Restrição**|<br>Ter acesso à internet<br>Ter o Waze previamente instalado<br>Recurso de localização do Smartphone ligado<br>|
-|**Episódios**|<br>Usuário quer encontrar amigo em um lugar desconhecido pelo usuário<br>Usuário recebe localização do amigo por outro aplicativo<br>Usuário abre a localização de seu amigo usando Waze no seu smartphone<br>Waze calcula a melhor rota para chegar ao destino<br>Waze mostra possíveis eventos no percurso<br>Waze guia o usuário até o destino<br>|
-|**Exceção**|<br>Localização enviada inválida<br>Rota calculada pelo Waze não ser a melhor opção<br>Aplicativo sem acesso à rede<br>Distração ao usar o smartphone enquanto dirige que pode causar acidentes<br>|
+|**Recursos**|Smartphone<br>Acesso à rede<br>Veículo<br>Localização atual do Usuário<br>Localização atual da pessoa|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br>Recurso de localização do Smartphone ligado<br>|
+|**Episódios**|Usuário quer encontrar amigo em um lugar desconhecido pelo usuário<br>Usuário recebe localização do amigo por outro aplicativo<br>Usuário abre a localização de seu amigo usando Waze no seu smartphone<br>Waze calcula a melhor rota para chegar ao destino<br>Waze mostra possíveis eventos no percurso<br>Waze guia o usuário até o destino<br>|
+|**Exceção**|Localização enviada inválida<br>Rota calculada pelo Waze não ser a melhor opção<br>Aplicativo sem acesso à rede<br>Distração ao usar o smartphone enquanto dirige que pode causar acidentes<br>|
 
+<br>
+
+### **C3 - Planejar uma rota**
+
+| C3 | Informações | 
+|:--:|:--:|
+|**Data**|27/09/19|
+|**Hora**|19:30|
+|**Autor(es)**|Renan Cristyan|
+|**Cenário**|Planejar uma rota|
+|**Objetivo**|Fazer o planejamento de uma rota e sair quando for a hora certa|
+|**Contexto**|Local: localização atual do usuário<br>Pré-condição: Acesso à internet|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>Acesso à internet<br>Localização do usuário<br>Localização do destino desejado|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br>Recurso de localização do Smartphone ligado<br>|
+|**Episódios**|Usuário deseja ir a algum lugar mas não imediatamente<br>Usuário utiliza a ferramenta de planejamento de rota do Waze<br>Usuário digita o local que deseja ir<br>Usuário escolhe que horas deseja chegar no local<br>Waze calcula a rota e o melhor momento para partir<br>Waze notifica o usuário quando for hora de sair|
+|**Exceção**|Aplicativo sem acesso à internet<br>Bateria do smatphone acabar|
 
 ## 2. Referências Bibliográficas
 
@@ -53,7 +72,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |24/09/19|1.0|Criação do documento|Renan Cristyan|
 |27/09/19|2.0|Incluido Cenário 1 |Renan Cristyan|
 |27/09/19|2.1|Criado Cenário 2|João Pedro|
-
+|27/09/19|2.2|Criado Cenário 3|Renan Cristyan|
 
 
 <!-- | C1 | Informações | 
