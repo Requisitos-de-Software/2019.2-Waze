@@ -404,6 +404,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#c3-planejar-uma-rota" class="md-nav__link">
+    C3 - Planejar uma rota
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -524,6 +531,13 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#c3-planejar-uma-rota" class="md-nav__link">
+    C3 - Planejar uma rota
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -597,7 +611,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 </tr>
 <tr>
 <td align="center"><strong>Contexto</strong></td>
-<td align="center"><br>Local: Centro da cidade<br>Tempo: Durante a manhã<br>Pré-condição: Acesso à internet<br></td>
+<td align="center">Local: Centro da cidade<br>Tempo: Durante a manhã<br>Pré-condição: Acesso à internet</td>
 </tr>
 <tr>
 <td align="center"><strong>Atores</strong></td>
@@ -605,26 +619,23 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 </tr>
 <tr>
 <td align="center"><strong>Recursos</strong></td>
-<td align="center"><br>Smartphone<br>acesso à internet<br> veículo</td>
+<td align="center">Smartphone<br>Acesso à internet<br> Veículo</td>
 </tr>
 <tr>
 <td align="center"><strong>Restrição</strong></td>
-<td align="center"><br>Ter o Waze previamente instalado no smartphone<br> Ter acesso à internet</td>
-</tr>
-<tr>
-<td align="center"><br></td>
-<td align="center"></td>
+<td align="center">Ter o Waze previamente instalado no smartphone<br> Ter acesso à internet</td>
 </tr>
 <tr>
 <td align="center"><strong>Episódios</strong></td>
-<td align="center"><br>Usuário quer ir a algum lugar<br>Usuário utiliza o Waze no seu smartphone<br>Usuário digita o lugar que deseja chegar no campo de pesquisa do aplicativo<br>Waze tenta calcular a melhor rota possível<br>Usuário segue essa rota até chegar no local<br></td>
+<td align="center">Usuário quer ir a algum lugar<br>Usuário utiliza o Waze no seu smartphone<br>Usuário digita o lugar que deseja chegar no campo de pesquisa do aplicativo<br>Waze tenta calcular a melhor rota possível<br>Usuário segue essa rota até chegar no local</td>
 </tr>
 <tr>
 <td align="center"><strong>Exceção</strong></td>
-<td align="center"><br>Rota calculada pelo Waze pode não ser a melhor<br>Distração ao usar o smartphone enquanto dirige pode causar acidentes<br></td>
+<td align="center">Rota calculada pelo Waze pode não ser a melhor<br>Distração ao usar o smartphone enquanto dirige pode causar acidentes</td>
 </tr>
 </tbody>
 </table>
+<p><br></p>
 <h3 id="c2-encontrar-alguem-atraves-da-localizacao"><strong>C2 - Encontrar alguém através da localização</strong></h3>
 <table>
 <thead>
@@ -656,7 +667,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 </tr>
 <tr>
 <td align="center"><strong>Contexto</strong></td>
-<td align="center"><br>Local: localização atual do usuário<br>Pré-condição: Acesso à internet e localização atual de um amigo<br></td>
+<td align="center">Local: localização atual do usuário<br>Pré-condição: Acesso à internet e localização atual de um amigo</td>
 </tr>
 <tr>
 <td align="center"><strong>Atores</strong></td>
@@ -664,19 +675,75 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 </tr>
 <tr>
 <td align="center"><strong>Recursos</strong></td>
-<td align="center"><br>Smartphone<br>acesso à rede<br>veículo<br>localização atual do Usuário<br>localização atual da pessoa<br></td>
+<td align="center">Smartphone<br>Acesso à rede<br>Veículo<br>Localização atual do Usuário<br>Localização atual da pessoa</td>
 </tr>
 <tr>
 <td align="center"><strong>Restrição</strong></td>
-<td align="center"><br>Ter acesso à internet<br>Ter o Waze previamente instalado<br>Recurso de localização do Smartphone ligado<br></td>
+<td align="center">Ter acesso à internet<br>Ter o Waze previamente instalado<br>Recurso de localização do Smartphone ligado<br></td>
 </tr>
 <tr>
 <td align="center"><strong>Episódios</strong></td>
-<td align="center"><br>Usuário quer encontrar amigo em um lugar desconhecido pelo usuário<br>Usuário recebe localização do amigo por outro aplicativo<br>Usuário abre a localização de seu amigo usando Waze no seu smartphone<br>Waze calcula a melhor rota para chegar ao destino<br>Waze mostra possíveis eventos no percurso<br>Waze guia o usuário até o destino<br></td>
+<td align="center">Usuário quer encontrar amigo em um lugar desconhecido pelo usuário<br>Usuário recebe localização do amigo por outro aplicativo<br>Usuário abre a localização de seu amigo usando Waze no seu smartphone<br>Waze calcula a melhor rota para chegar ao destino<br>Waze mostra possíveis eventos no percurso<br>Waze guia o usuário até o destino<br></td>
 </tr>
 <tr>
 <td align="center"><strong>Exceção</strong></td>
-<td align="center"><br>Localização enviada inválida<br>Rota calculada pelo Waze não ser a melhor opção<br>Aplicativo sem acesso à rede<br>Distração ao usar o smartphone enquanto dirige que pode causar acidentes<br></td>
+<td align="center">Localização enviada inválida<br>Rota calculada pelo Waze não ser a melhor opção<br>Aplicativo sem acesso à rede<br>Distração ao usar o smartphone enquanto dirige que pode causar acidentes<br></td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<h3 id="c3-planejar-uma-rota"><strong>C3 - Planejar uma rota</strong></h3>
+<table>
+<thead>
+<tr>
+<th align="center">C3</th>
+<th align="center">Informações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><strong>Data</strong></td>
+<td align="center">27/09/19</td>
+</tr>
+<tr>
+<td align="center"><strong>Hora</strong></td>
+<td align="center">19:30</td>
+</tr>
+<tr>
+<td align="center"><strong>Autor(es)</strong></td>
+<td align="center">Renan Cristyan</td>
+</tr>
+<tr>
+<td align="center"><strong>Cenário</strong></td>
+<td align="center">Planejar uma rota</td>
+</tr>
+<tr>
+<td align="center"><strong>Objetivo</strong></td>
+<td align="center">Fazer o planejamento de uma rota e sair quando for a hora certa</td>
+</tr>
+<tr>
+<td align="center"><strong>Contexto</strong></td>
+<td align="center">Local: localização atual do usuário<br>Pré-condição: Acesso à internet</td>
+</tr>
+<tr>
+<td align="center"><strong>Atores</strong></td>
+<td align="center">Usuário</td>
+</tr>
+<tr>
+<td align="center"><strong>Recursos</strong></td>
+<td align="center">Smartphone<br>Acesso à internet<br>Localização do usuário<br>Localização do destino desejado</td>
+</tr>
+<tr>
+<td align="center"><strong>Restrição</strong></td>
+<td align="center">Ter acesso à internet<br>Ter o Waze previamente instalado<br>Recurso de localização do Smartphone ligado<br></td>
+</tr>
+<tr>
+<td align="center"><strong>Episódios</strong></td>
+<td align="center">Usuário deseja ir a algum lugar mas não imediatamente<br>Usuário utiliza a ferramenta de planejamento de rota do Waze<br>Usuário digita o local que deseja ir<br>Usuário escolhe que horas deseja chegar no local<br>Waze calcula a rota e o melhor momento para partir<br>Waze notifica o usuário quando for hora de sair</td>
+</tr>
+<tr>
+<td align="center"><strong>Exceção</strong></td>
+<td align="center">Aplicativo sem acesso à internet<br>Bateria do smatphone acabar</td>
 </tr>
 </tbody>
 </table>
@@ -712,6 +779,12 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 <td align="center">2.1</td>
 <td align="center">Criado Cenário 2</td>
 <td align="center">João Pedro</td>
+</tr>
+<tr>
+<td align="center">27/09/19</td>
+<td align="center">2.2</td>
+<td align="center">Criado Cenário 3</td>
+<td align="center">Renan Cristyan</td>
 </tr>
 </tbody>
 </table>
