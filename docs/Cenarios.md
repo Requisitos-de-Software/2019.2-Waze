@@ -61,6 +61,23 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Episódios**|Usuário deseja ir a algum lugar mas não imediatamente<br>Usuário utiliza a ferramenta de planejamento de rota do Waze<br>Usuário digita o local que deseja ir<br>Usuário escolhe que horas deseja chegar no local<br>Waze calcula a rota e o melhor momento para partir<br>Waze notifica o usuário quando for hora de sair|
 |**Exceção**|Aplicativo sem acesso à internet<br>Bateria do smatphone acabar|
 
+### **C4 - Saber sobre alertas dentro da rota**
+
+| C1 | Informações | 
+|:--:|:--:|
+|**Data**|28/09/19|
+|**Hora**|16:06|
+|**Autor(es)**|João Pedro|
+|**Cenário**|Saber de possíveis alertas dentro de uma rota|
+|**Objetivo**|Utilizar um sistema de navegação por GPS com avisos de eventos dentro da rota desejada|
+|**Contexto**|Local: localização atual do usuário<br>Pré-condição: Acesso à internet , Ter o Waze previamente instalado<br>|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>acesso à rede<br>Localização do destino desejado<br>|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br>|
+|**Episódios**|Usuário quer saber de possíveis eventos em seu trajeto. desconhecido pelo usuário<br>Usuário insere o local desejado<br>Waze calcula a melhor rota para chegar ao destino<br>Waze mostra possíveis alertas no percurso<br>Usuário abre mais informações sobre esses eventos<br>Usuário dá feedback sobre estes eventos<br>Waze calcula tempo estimado para a rota<br>|
+|**Exceção**|alertas desatualizados<br>Alertas errados<br>Aplicativo sem acesso à rede<br>|
+
+
 ## 2. Referências Bibliográficas
 
 > LUCENA, S.V.; KEMCZINSKI, A.;  GASPARINI, I.;  MATOS, A.V.M.; OGAWA, A.N.; "Modelagem de requisitos baseada em cenários para o Storyboard da Metodologia para Construção de Objetos de Aprendizagem Interativos", Nuevas Ideas en Informática Educativa TISE, 2014.
@@ -73,6 +90,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |27/09/19|2.0|Incluido Cenário 1 |Renan Cristyan|
 |27/09/19|2.1|Criado Cenário 2|João Pedro|
 |27/09/19|2.2|Criado Cenário 3|Renan Cristyan|
+|28/09/19|2.3|Criado Cenário 4|João Pedro|
 
 
 <!-- | C1 | Informações | 
