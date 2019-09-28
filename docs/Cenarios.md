@@ -63,7 +63,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 
 ### **C4 - Saber sobre alertas dentro da rota**
 
-| C1 | Informações | 
+| C4 | Informações | 
 |:--:|:--:|
 |**Data**|28/09/19|
 |**Hora**|16:06|
@@ -75,8 +75,23 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Recursos**|Smartphone<br>acesso à rede<br>Localização do destino desejado<br>|
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br>|
 |**Episódios**|Usuário quer saber de possíveis eventos em seu trajeto. desconhecido pelo usuário<br>Usuário insere o local desejado<br>Waze calcula a melhor rota para chegar ao destino<br>Waze mostra possíveis alertas no percurso<br>Usuário abre mais informações sobre esses eventos<br>Usuário dá feedback sobre estes eventos<br>Waze calcula tempo estimado para a rota<br>|
-|**Exceção**|alertas desatualizados<br>Alertas errados<br>Aplicativo sem acesso à rede<br>|
+|**Exceção**|Alertas desatualizados<br>Alertas errados<br>Aplicativo sem acesso à rede<br>|
 
+### **C5 - Adicionar alerta**
+
+| C5 | Informações | 
+|:--:|:--:|
+|**Data**|28/09/19|
+|**Hora**|18:49|
+|**Autor(es)**|João Pedro|
+|**Cenário**|Adicionar alerta|
+|**Objetivo**|Utilizar um sistema de navegação por GPS para alertar motoristas|
+|**Contexto**|Local: localização atual do usuário<br>Pré-condição: Acesso à internet<br>|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>acesso à rede<br>Localização atual<br>|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado|
+|**Episódios**|Usuário se depara com algum evento nas pista (Trânsito,Acidente,Perigo...) <br> Usuário insere o local do evento <br> Usuário especifica o tipo de evento <br>Waze envia este evento como alerta aos outros motoristas|
+|**Exceção**|Localização do alerta errada<br>Alerta desatualizado<br>Alerta errado<br>Aplicativo sem acesso à rede<br>|
 
 ## 2. Referências Bibliográficas
 
@@ -91,7 +106,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |27/09/19|2.1|Criado Cenário 2|João Pedro|
 |27/09/19|2.2|Criado Cenário 3|Renan Cristyan|
 |28/09/19|2.3|Criado Cenário 4|João Pedro|
-
+|28/09/19|2.4|Criado Cenário 5|João Pedro|
 
 <!-- | C1 | Informações | 
 |:--:|:--:|
