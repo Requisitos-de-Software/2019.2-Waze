@@ -96,7 +96,10 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
  </ul>
 
 
-## 3.0 Requisitos Elicitados (MoSCoW)
+
+## 3. Requisitos Elicitados
+
+### 3.1 MoSCow
 
 | Código | Descrição | Prioridade |
 |--------|-----------|------------|
@@ -115,7 +118,7 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 
 
 
-### 3.1 Requisitos Elicitados (First Things First)
+### 3.2 First Things First
 
 Funcionalidades |Beneficio Relativo|Penalidade Relativa|Valor Total| Valor %| Custo Relativo| Custo %| Risco Relativo|Risco %| Prioridade
 ----------------|------------------|-------------------|-----------|---------|---------------|---------|---------------|--------|-----------

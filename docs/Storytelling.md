@@ -14,12 +14,12 @@ Para elicitar requisitos com o storytelling, foram chamadas pessoas que tenham u
 
 ## Storytelling 1 
 <p align="justify">
-Charles, 21 anos, motorista de uber, motorista há 2 anos e usuario do aplicatico waze.
+Charles, 21 anos, motorista de uber, motorista há 2 anos e usuário do aplicatico waze.
 </p>
 
 Nome  | Papel | Observação| Data
 --------- | ------|-----|----
-Charles | Narração | Usuario | 09/09/19
+Charles | Narração | Usuário | 09/09/19
 Moacir Mascarenha, Lucas alexandre| Relator | Membro da equipe 
 
 ### Interesse do Usuário
@@ -46,7 +46,7 @@ Samuel, 20 anos, estudante, motorista há 1 ano e usuário do aplicatico waze.
 
 Nome  | Papel | Observação| Data
 --------- | ------|-----|----
-Samuel | Narração | Usuario | 08/10/19
+Samuel | Narração | Usuário | 08/10/19
 João Pedro | Relator | Membro da equipe 
 
 ### Interesse do Usuário
@@ -55,22 +55,37 @@ João Pedro | Relator | Membro da equipe
 Samuel ao ir para sua faculdade por o mesmo caminho de seu costume, percebeu um engarrafamento em seu trajeto, parou o veículo e decidiu usar o aplicativo waze já instalado em seu celular para calcular uma rota alternativa para sua faculdade, evitando o congestionamento que ocorria em seu trajeto o qual já era acostumado. Ao ver o engarrafamento samuel pode ler comentários sobre os eventos no percurso e assim descobriu que era apenas um maior volume de carros por conta de um acidente, assim samuel soube que não seria algo passageiro então decidiu ir por outro caminho para chegar em seu destino sem atraso.
 </p>
 
-## Requisitos Elicitados
+## 3. Requisitos Elicitados
 
-### MoSCow
+### 3.1 MoSCow
 
 ID  | Descrição | Prioridade
 --------- | ------|-----
-ST04 | O aplicativo deve calcular a melhor rota para o destino desejado pelo usuario | Must 
-ST05 | O aplicativo deve conter uma area comum para feedback do usuario | Could
+ST04 | O aplicativo deve calcular a melhor rota para o destino desejado pelo usuário | Must 
+ST05 | O aplicativo deve conter uma area comum para feedback do usuário | Could
 
-## 4. Referências
+
+## 4. First Things First
+
+Funcionalidades |Beneficio Relativo|Penalidade Relativa|Valor Total| Valor %| Custo Relativo| Custo %| Risco Relativo|Risco %| Prioridade
+----------------|------------------|-------------------|-----------|---------|---------------|---------|---------------|--------|-----------
+O aplicativo deve informar ao usuário sobre o engarrafamento	|7	|8	|22	|23.91	|6	|19.35	|5	|17.86	|0.845
+O aplicativo deve conter uma area comum para feedbacks do usuário	|5	|6	|16	|17.39	|5	|16.13	|4	|14.29	|0.747
+O aplicativo deve calcular a melhor rota para o destino desejado pelo usurio	|9	|9	|27	|29.35	|8	|25.81	|9	|32.14	|0.701
+O aplicativo deve informar o tempo do percurso	|7	|8	|22	|23.91	|7	|22.58	|7	|25.00	|0.682
+O aplicativo deve informar sobre estabelecimentos de interesse motorista	|2	|1	|5	|5.43	|5	|16.13	|3	|10.71	|0.253
+
+
+
+
+## 5. Referências
 >Storytelling: contar histórias pode revolucionar o Marketing da sua empresa. Disponível em: https://rockcontent.com/blog/storytelling-guia/. Acesso em 09/09/19
 
 
-# Versionamento
+## 6. Histórico de Versões
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
 |09/09/19|1.0| Criado documento |João Pedro, Lucas Alexandre, Moacir Mascarenha |
 |16/09/19|1.0| Refatorado Storytelling |João Pedro|
+| 29/09/19 |  2.0   | Adicionado técnica First Things First | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir, Renan Cristyan|

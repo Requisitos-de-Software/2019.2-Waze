@@ -112,7 +112,7 @@ Questão | Resposta
 
 ## 5. Requisitos Elicitados
 
-### MoSCow
+### 5.1 MoSCow
 
 ID | Descrição | Prioridade
 ---|-----------|-----------
@@ -121,9 +121,8 @@ ENT02|O aplicativo deve informar sobre as condições da via.|Could
 ENT03|O usuário pode dar feedback sobre as condições do seu percurso.|Could
 ENT04| O aplicativo deve auxiliar a navegação por um guia de audio.|Should
 
-</br>
 
-### First Things First
+### 5.2 First Things First
 
 Funcionalidades |Beneficio Relativo|Penalidade Relativa|Valor Total| Valor %| Custo Relativo| Custo %| Risco Relativo|Risco %| Prioridade
 ----------------|------------------|-------------------|-----------|---------|---------------|---------|---------------|--------|-----------
