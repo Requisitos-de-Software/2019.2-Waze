@@ -6,7 +6,22 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 </p>
 
 
-## 2. Cenários :
+## 2. Metodologia
+
+| Tag cenário | Informações | 
+|:--:|:--:|
+|**Data**| -- |
+|**Hora**| -- |
+|**Autor(es)**| -- |
+|**Cenário**| -- |
+|**Objetivo**| -- |
+|**Contexto**| -- |
+|**Atores**| -- |
+|**Recursos**| -- |
+|**Restrição**| -- |
+|**Episódios**| -- |
+|**Exceção**| -- |
+## 3. Cenários
 
 
 ### **C1 - Chegar a um destino desejado**
@@ -110,11 +125,11 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Episódios**|Usuário abre o aplicativo Waze<br>Usuário pesquisa pelo local desejado<br>Waze calcula melhor rota<br>Usuário confirma a rota<br>Usuário acessa opção de encontrar melhor hora para sair<br>Waze retorna uma estatísticas da melhor hora para esta rota|
 |**Exceção**|Hora sugerida não ser melhor opção<br>Aplicativo sem acesso à rede|
 
-## 2. Referências Bibliográficas
+## 4. Referências Bibliográficas
 
 > LUCENA, S.V.; KEMCZINSKI, A.;  GASPARINI, I.;  MATOS, A.V.M.; OGAWA, A.N.; "Modelagem de requisitos baseada em cenários para o Storyboard da Metodologia para Construção de Objetos de Aprendizagem Interativos", Nuevas Ideas en Informática Educativa TISE, 2014.
 
-## Histórico de versões
+## 5. Histórico de versões
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
