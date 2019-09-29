@@ -93,6 +93,23 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Episódios**|Usuário se depara com algum evento nas pista (Trânsito,Acidente,Perigo...) <br> Usuário insere o local do evento <br> Usuário especifica o tipo de evento <br>Waze envia este evento como alerta aos outros motoristas|
 |**Exceção**|Localização do alerta errada<br>Alerta desatualizado<br>Alerta errado<br>Aplicativo sem acesso à rede<br>|
 
+
+### **C6 -  Melhor Horário para o percurso**
+
+| C6 | Informações | 
+|:--:|:--:|
+|**Data**|28/09/19|
+|**Hora**|21:15|
+|**Autor(es)**|João Pedro|
+|**Cenário**|Encontrar o melhor horário para um caminho desejado|
+|**Objetivo**|Utilizar um sistema de navegação por GPS e experiências de outros motoristas para  descobrir o melhor horário para um percurso|
+|**Contexto**|Local: localização atual do usuário<br>Pré-condição: Acesso à internet|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>acesso à rede<br>Localização atual|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado|
+|**Episódios**|Usuário abre o aplicativo Waze<br>Usuário pesquisa pelo local desejado<br>Waze calcula melhor rota<br>Usuário confirma a rota<br>Usuário acessa opção de encontrar melhor hora para sair<br>Waze retorna uma estatísticas da melhor hora para esta rota|
+|**Exceção**|Hora sugerida não ser melhor opção<br>Aplicativo sem acesso à rede|
+
 ## 2. Referências Bibliográficas
 
 > LUCENA, S.V.; KEMCZINSKI, A.;  GASPARINI, I.;  MATOS, A.V.M.; OGAWA, A.N.; "Modelagem de requisitos baseada em cenários para o Storyboard da Metodologia para Construção de Objetos de Aprendizagem Interativos", Nuevas Ideas en Informática Educativa TISE, 2014.
@@ -107,6 +124,9 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |27/09/19|2.2|Criado Cenário 3|Renan Cristyan|
 |28/09/19|2.3|Criado Cenário 4|João Pedro|
 |28/09/19|2.4|Criado Cenário 5|João Pedro|
+|28/09/19|2.5|Criado Cenário 6|João Pedro|
+
+
 
 <!-- | C1 | Informações | 
 |:--:|:--:|
