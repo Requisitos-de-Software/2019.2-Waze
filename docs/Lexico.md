@@ -25,6 +25,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
+### **L2 - Smartphone**
+
 | L2 | Smartphone |  
 |--| -- |
 |Classificação| Objeto |
@@ -32,6 +34,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Impacto| Através dele serão realizadas as tarefas do app <br> Feedback para o usuário |
 
 <br>
+
+### **L3 - Usuário está se locomovendo**
 
 | L3 | Usuário está se locomovendo |  
 |--| -- |
@@ -41,6 +45,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
+### **L4 - Planejar rota**
+
 | L4 | Planejar rota |  
 |--| -- |
 |Classificação| Verbo |
@@ -48,6 +54,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Impacto| O Waze calcula o transito e a rota <br> O Waze informa o usuário quando ele deve sair para chegar na hora desejada |
 
 <br>
+
+### **L5 - Veículo**
 
 | L5 | Veículo |  
 |--| -- |
@@ -57,6 +65,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
+### **L6 - O usuário está com pressa**
+
 | L6 | O usuário está com pressa |  
 |--| -- |
 |Classificação| Estado |
@@ -64,6 +74,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Impacto| O Waze mostra a rota mais rápida possível|
 
 <br>
+
+### **L7 - Dar feedback**
 
 | L7 | Dar feedback |  
 |--| -- |
@@ -73,6 +85,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
+### **L8 - Avaliar feedback**
+
 | L8 | Avaliar feedback |  
 |--| -- |
 |Classificação| Verbo |
@@ -80,6 +94,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Impacto| Se o feedback receber avaliações negativas ele será removido do app|
 
 <br>
+
+### **L9 - Mapa**
 
 | L9 | Mapa |  
 |--| -- |
@@ -89,6 +105,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
+### **L10 - Engarrafamento**
+
 | L10 | Engarrafamento |  
 |--| -- |
 |Classificação| Estado |
@@ -96,6 +114,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Impacto| Através dos feedbacks de usuários, aquela rota não será oferecida pelo Waze aos usuários que podem passar por ali|
 
 <br>
+
+### **L11 - Fiscalização eletrônica**
 
 | L11 | Fiscalização eletrônica | 
 |--| -- |
@@ -105,6 +125,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
+### **L12 - Consultar postos de gasolina**
+
 | L12 | Consultar postos de gasolina |  
 |--| -- |
 |Classificação| Verbo |
@@ -112,6 +134,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Impacto| O Waze informa o posto de gasolina mais próximo <br> O Waze informa o preço de gasolina dos postos |
 
 <br>
+
+### **L13 - Acidentes na rota**
 
 | L13 | Acidentes na rota |  
 |--| -- |
@@ -121,6 +145,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
+### **L14 - Eventos**
+
 | L14 | Eventos |  
 |--| -- |
 |Classificação| Estado |
@@ -129,11 +155,15 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
+### **L15 - Adicionar locais favoritos**
+
 | L15 | Adicionar locais favoritos |  
 |--| -- |
 |Classificação| Verbo |
 |Noção| Usuário quer adicionar locais para ter acesso mais rápido <br> Usuário acessa facilmente os favoritos, sem precisar reescrever o local sempre que usar o app|
 |Impacto| O Waze salva os locais favoritos e exibe de maneira clara para o usuário|
+
+<br>
 
 ## Referências Bibliográficas
 
