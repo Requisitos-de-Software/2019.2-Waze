@@ -141,6 +141,40 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Episódios**|Usuário verifica que o combustível do seu carro está acabando<br>Usuário abre o aplicativo Waze<br>Usuário acessa o mapa<br>Usuário acessa a pesquisa<br>Usuário clica na opção postos de combustíveis<br>Waze mostra postos próximos a sua localização<br>Waze mostra o preços atualizados dos combustíveis disponíveis<br>Waze mostra distância até os postos de combustíveis próximos<br>Usuário acessa posto de combustível de sua preferência<br>Waze sugere melhor rota até o posto escolhido|
 |**Exceção**|Aplicativo sem acesso à rede<br>Local não contém postos próximos<br>Preços desatualizados<br>Estabelecimento fechado<br>Rota sugerida não ser melhor opção|
 
+### **C8 - Buscar Estacionamentos próximo ao destino**
+
+| C8 | Informações | 
+|:--:|:--:|
+|**Data**|29/09/19|
+|**Hora**|23:05|
+|**Autor(es)**|João Pedro, Moacir|
+|**Cenário**|Encontrar um lugar para estacionar o carro ao chegar em um destino|
+|**Objetivo**|Antes de chegar ao destino buscar um estacionamento|
+|**Contexto**|Local: localização atual do usuário<br>Pré-condição: Acesso à internet|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>Acesso à rede<br>Localização atual|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário realiza a pesquisa de uma rota<br>O usuário clica na opção de estacionamento mais próximo<br>O aplicativo sugere estacionamento próximo do destino<br>O usuário clica na opção ”estacionar aqui”<br>O aplicativo gera uma rota até o estacionamento|
+|**Exceção**|Aplicativo sem acesso à rede<br>Local há estacionamento próximo ao destino<br>Rota sugerida não ser melhor opção<br>Estacionamento não cadastrado|
+
+### **C9 - Adicionando local aos favoritos**
+
+| C9 | Informações | 
+|:--:|:--:|
+|**Data**|29/09/19|
+|**Hora**|23:20|
+|**Autor(es)**|João Pedro, Moacir|
+|**Cenário**|O usuário possui um local que deseja salvar como favorito|
+|**Objetivo**|Permitir ao usuário que salve locais de sua preferência para que depois tenha um acesso rápido a esta rota|
+|**Contexto**|Local: localização atual do usuário<br>Pré-condição: Acesso à internet|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>Acesso à rede<br>Localização atual|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário clica na opção “Favoritos<br>O usuário clica na opção “Adicionar novo favorito”<br>O usuário digita o local na barra de pesquisa “Pesquisar endereço”<br>O aplicativo sugere locais<br>O usuário seleciona uma das opções|
+|**Exceção**|Aplicativo sem acesso à rede<br>Rota sugerida não ser melhor opção<br>Localização inválida|
+
+
+
 ## 4. Referências Bibliográficas
 
 > LUCENA, S.V.; KEMCZINSKI, A.;  GASPARINI, I.;  MATOS, A.V.M.; OGAWA, A.N.; "Modelagem de requisitos baseada em cenários para o Storyboard da Metodologia para Construção de Objetos de Aprendizagem Interativos", Nuevas Ideas en Informática Educativa TISE, 2014.
@@ -157,8 +191,8 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |28/09/19|2.4|Criado Cenário 5|João Pedro|
 |28/09/19|2.5|Criado Cenário 6|João Pedro|
 |28/09/19|2.6|Criado Cenário 7|João Pedro, Moacir|
-
-
+|28/09/19|2.7|Criado Cenário 8|João Pedro, Moacir|
+|28/09/19|2.7|Criado Cenário 9|João Pedro, Moacir|
 <!-- | C1 | Informações | 
 |:--:|:--:|
 |**Data**||
