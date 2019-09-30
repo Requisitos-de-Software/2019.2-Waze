@@ -3,6 +3,10 @@
 <p align="justify">
 Explicitar os requisitos do aplicativo, abrangendo requisitos de usabilidade, confiabilidade, suportabilidade, desempenho, além de outros requisitos como sistemas operacionais, restrições de Design, interfaces e licenciamento. </p>
 
+## 2. Escopo
+
+O Waze desenvolve soluções práticas que possibilitam às pessoas fazer escolhas melhores, como pegar a rota mais rápida, sair na hora certa e dividir caronas diariamente.
+
 ## 3.  Funcionalidades
 
 As funcionalidades elicitadas estão disponíveis nas documentações presentes em [Waze Documentação](https://requisitos-de-software.github.io/2019.2-Waze/).
@@ -86,7 +90,6 @@ Software Waze v2.x é distribuído sobre Licença Pública Geral GNU v2. A vers�
 Os usuários estão sujeitos às leis de direitos autorais. Disponíveis no <a href= "https://www.waze.com/pt-BR/legal/tos">termos de uso</a>.
 
 ### Referências 
-
 
 >Waze - GPS, Mapas, Alertas, Trânsito em Tempo Real, Disponível em:https://play.google.com/store/apps/details?id=com.waze&hl=pt_BR
 
