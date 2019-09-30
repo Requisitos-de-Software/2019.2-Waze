@@ -12,6 +12,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Classificação| --- |
 |Noção| --- <br> ---|
 |Impacto| --- <br> --- |
+|Rastro| --- <br> --- |
 
 ## 3. Léxicos
 
@@ -22,6 +23,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Classificação| Verbo |
 |Noção| Ação realizada pelo usuário <br> O usuário digita na área de pesquisa uma palavra-chave|
 |Impacto|O Waze irá calcular a melhor rota possível <br>|
+|Rastro| <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/">Storytelling<a> |
 
 <br>
 
@@ -42,7 +44,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Classificação| Estado |
 |Noção| O Waze acessa a localização do usuário em tempo real <br> O usuário utiliza os recursos do app para orientação |
 |Impacto| O Waze notifica o usuário caso alguma algum evento ocorra na rota |
-
+|Rastro| <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/">Storytelling<a> |
 <br>
 
 ### **L4 - Planejar rota**
@@ -52,8 +54,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Classificação| Verbo |
 |Noção| O usuário informa o local que deseja ir <br> O usuário informa o horário que deseja chegar |
 |Impacto| O Waze calcula o transito e a rota <br> O Waze informa o usuário quando ele deve sair para chegar na hora desejada |
+|Rastro| <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/">Storytelling<a> |
 
-<br>
 
 ### **L5 - Veículo**
 
@@ -62,8 +64,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Classificação| Objeto |
 |Noção| Meio de transporte do usuário|
 |Impacto| O usuário utiliza o veículo para se locomover <br> O Waze calcula a velocidade do veículo utilizando os sensores do smartphone <br> Através da velocidade do veículo o app informa caso o usuário esteja excedendo a velocidade da via |
+|Rastro| <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/">Introspecção<a>|
 
-<br>
 
 ### **L6 - O usuário está com pressa**
 
@@ -72,8 +74,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Classificação| Estado |
 |Noção| O usuário quer chegar ao seu destino o mais rápido possível <br> O usuário só quer do app a rota mais rápida possível e descarta as outras rotas mais lentas/longas|
 |Impacto| O Waze mostra a rota mais rápida possível|
+|Rastro| <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/">Introspecção<a>|
 
-<br>
 
 ### **L7 - Dar feedback**
 
@@ -82,8 +84,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Classificação| Verbo |
 |Noção| Usuário quer informar os eventos da sua rota <br> O Waze disponibiliza uma ferramenta para o usuário dar feedback|
 |Impacto| O Waze exibe o feedback para outros usuários em tempo real <br> |
-
-<br>
+|Rastro| <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/">Storytelling<a> |
 
 ### **L8 - Avaliar feedback**
 
@@ -93,7 +94,6 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Noção| O Waze mostra o feedback de vários usuários <br> O usuário confirma ou não se o feedback procede|
 |Impacto| Se o feedback receber avaliações negativas ele será removido do app|
 
-<br>
 
 ### **L9 - Mapa**
 
@@ -102,8 +102,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Classificação| Objeto |
 |Noção| Waze utiliza para realizar cálculos e definir a melhor rota|
 |Impacto| Usuário utiliza para se orientar e chegar ao destino <br> Usuário utiliza para procurar novos lugares interessantes|
-
-<br>
+|Rastro| <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/">Introspecção<a>|
 
 ### **L10 - Engarrafamento**
 
@@ -112,8 +111,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Classificação| Estado |
 |Noção| Pista lenta/bloqueada <br> Usuário quer evitar a qualquer custo|
 |Impacto| Através dos feedbacks de usuários, aquela rota não será oferecida pelo Waze aos usuários que podem passar por ali|
-
-<br>
+|Rastro| <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/">Storytelling<a> |
 
 ### **L11 - Fiscalização eletrônica**
 
@@ -122,8 +120,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Classificação| Objeto |
 |Noção| Objeto que registra a velocidade do veículo ao passar por ele <br> O Waze exibe as localizações das barreiras eletrônicas|
 |Impacto| Se a velocidade for maior que a da via, o dono do veículo receberá uma multa <br> O usuário pode informar a localização de barreiras eletrônicas|
-
-<br>
+|Rastro| <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/">Introspecção<a>|
 
 ### **L12 - Consultar postos de gasolina**
 
@@ -132,8 +129,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Classificação| Verbo |
 |Noção| O usuário quer saber os postos de gasolina mais próximos <br> O usuário quer saber o preço dos postos de gasolina próximos|
 |Impacto| O Waze informa o posto de gasolina mais próximo <br> O Waze informa o preço de gasolina dos postos |
-
-<br>
+|Rastro| <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/">Introspecção<a>|
 
 ### **L13 - Acidentes na rota**
 
@@ -142,8 +138,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |Classificação| Estado |
 |Noção| O usuário quer ser informado de acidentes na pista <br> Os usuários podem informar sobre acidentes na rota|
 |Impacto| O Waze informa se ocorreu algum acidente na rota do usuário <br>|
-
-<br>
+|Rastro| <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/">Introspecção<a>|
 
 ### **L14 - Eventos**
 
@@ -179,3 +174,4 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |27/09/19|1.1|Inclusão na Wiki|Renan Cristyan|
 |27/09/19|1.2|Adicionados introdução, referências bibliográficas e histórico de versões|Renan Cristyan|
 |29/09/19|2.0|Várias inclusões de léxicos|Lucas Alexandre, Matheus Estanislau, Renan Cristyan|
+|30/09/19|2.1|Adicionado Rastro aos Léxicos| Matheus Estanislau, Lucas Alexandre|
