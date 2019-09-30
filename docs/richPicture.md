@@ -13,30 +13,23 @@ Um Rich Picture é um desenho que ilustra os principais elementos e relacionamen
 
 ## RP 00 Visão Geral
 
-<p align="center">  
-          <img width="800px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/rich1.jpg?raw=true">   
-</p>
+[![Rich Picture 1](img/rich1.jpg)](img/rich1.jpg)
+
+
 
 ## RP 01 Visão Geral 
 
-<p align="center">  
-          <img width="800px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/richv2.jpg?raw=true">   
-</p>
+[![Rich Picture 2](img/richv2.jpg)](img/richv2.jpg)
+
 
 ## RP 02 Atores
 
-<p align="center">  
-          <img width="800px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/RP_Atores.png?raw=true">
-
-</p>
+[![RP 2](img/RP_Atores.png)](img/RP_Atores.png)
 
 
 ## RP 03 Usabilidade
 
-<p align="center">  
-          <img width="800px"  src="https://github.com/Requisitos2-2019/Waze/blob/master/docs/img/RP_Usabilidade.png?raw=true">
-
-</p>
+[![RP 2](img/RP_Usabilidade.png)](img/RP_Usabilidade.png)
 
 
 ## Versionamento
