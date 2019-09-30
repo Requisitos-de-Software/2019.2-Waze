@@ -202,9 +202,26 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Contexto**|Local: localização atual do usuário<br>Pré-condição: Acesso à internet|
 |**Atores**|Usuário|
 |**Recursos**|Smartphone<br>Acesso à rede<br>Localização atual|
-|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br>GPS so Smartphone ligado|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br>GPS do Smartphone ligado|
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário digita uma rota<br>O usuário seleciona a rota<br>O usuário clica no botão "Ir agora"<br>Waze informa rota e alertas durante o percurso através da assistente de voz|
 |**Exceção**|Aplicativo sem acesso à rede<br>Rota sugerida não ser melhor opção<br>Localização inválida|
+
+### **C12 - Ouvir musica durante sua rota**
+
+| C12 | Informações |
+|:--:|:--:|
+|**Data**|30/09/19|
+|**Hora**|00:09|
+|**Autor(es)**|João Pedro, Moacir|
+|**Cenário**|Ter informações sobre a rota e ouvir músicas durante o trajeto|
+|**Objetivo**|Usuário pode ouvir músicas ao mesmo tempo que está se deslocando ao destino desejado, integrando waze a aplicativos de músicas|
+|**Contexto**|Local: localização atual do usuário<br>Pré-condição: Acesso à internet|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>Acesso à rede<br>Localização atual|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br>GPS do Smartphone ligado<br>ter aplicativo de música instalado <br>Ter sido aceito o termo de uso no Waze|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário digita uma rota<br>O usuário seleciona a rota<br>O usuário clica no botão "Ir agora"<br>O usuário acessa opção de música<br> usuário escolhe p aplicativo que deseja integrar ao Waze<br>Waze se conecta ao aplicativo <br>Usuário escolher músicas de sua preferência pelo Waze|
+|**Exceção**|Aplicativo sem acesso à rede<br>Aplicativo de música não ter compatibilidade com Waze|
+
 
 ## 4. Referências Bibliográficas
 
@@ -226,7 +243,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |29/09/19|2.8|Criado Cenário 9|João Pedro, Moacir|
 |29/09/19|2.9|Criado Cenário 10|João Pedro, Moacir|
 |29/09/19|2.10|Criado Cenário 11|João Pedro, Moacir|
-|29/09/19|2.11|Criado Cenário 11|João Pedro, Moacir|
+|30/09/19|2.11|Criado Cenário 12|João Pedro, Moacir|
 
 <!-- | C1 | Informações | 
 |:--:|:--:|
