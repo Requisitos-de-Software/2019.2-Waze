@@ -174,6 +174,22 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Exceção**|Aplicativo sem acesso à rede<br>Rota sugerida não ser melhor opção<br>Localização inválida|
 
 
+### **C10 - Planejar uma viagem futura**
+
+| C10 | Informações | 
+|:--:|:--:|
+|**Data**|29/09/19|
+|**Hora**|23:33|
+|**Autor(es)**|João Pedro, Moacir|
+|**Cenário**|Agendar um percurso para um evento agendado|
+|**Objetivo**|O usuário deseja planejar uma viagem adicionando uma rota para ser notificado em certa data|
+|**Contexto**|Local: localização atual do usuário<br>Pré-condição: Acesso à internet|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>Acesso à rede<br>Localização atual<br>Ter permissão da agenda do Smartphone ou rede social|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário clica na opção “Planejado”<br>O usuário clica no botão laranja para adicionar um destino<br>O usuário digita o local na barra de pesquisa “Digite o destino”<br>O usuário adiciona informações sobre a data e horário para o percurso planejado<br>O usuário seleciona uma das opções|
+|**Exceção**|Aplicativo sem acesso à rede<br>Rota sugerida não ser melhor opção<br>Localização inválida|
+
 
 ## 4. Referências Bibliográficas
 
@@ -192,7 +208,10 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |28/09/19|2.5|Criado Cenário 6|João Pedro|
 |28/09/19|2.6|Criado Cenário 7|João Pedro, Moacir|
 |28/09/19|2.7|Criado Cenário 8|João Pedro, Moacir|
-|28/09/19|2.7|Criado Cenário 9|João Pedro, Moacir|
+|28/09/19|2.8|Criado Cenário 9|João Pedro, Moacir|
+|28/09/19|2.9|Criado Cenário 10|João Pedro, Moacir|
+
+
 <!-- | C1 | Informações | 
 |:--:|:--:|
 |**Data**||
