@@ -7,7 +7,7 @@ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do 
 
 ### **UC1 - Buscar Rota ( Para onde? )**
 
-![Buscar rota](img/diagrama_de_caso_de_uso.png)
+[![Buscar rota](img/diagrama_de_caso_de_uso.png)](img/diagrama_de_caso_de_uso.png)
 
 | UC1 | informações | 
 |:----:|:------:|
@@ -21,7 +21,7 @@ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do 
 
 ### **UC2 - Detalhes do carro**
 
-![Inforções veiculo](img/Cadastrar_informaçoes_sobre_o_carro.png)
+[![Inforções veiculo](img/Cadastrar_informaçoes_sobre_o_carro.png)](img/Cadastrar_informaçoes_sobre_o_carro.png)
 
 | UC2 | informações | 
 |:----:|:------:|
@@ -37,7 +37,7 @@ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do 
 
 
 ### **UC3 - Exibição de mapa**
-![Exibição de mapa](img/Exibição_de_mapa.png)
+[![Exibição de mapa](img/Exibição_de_mapa.png)](img/Exibição_de_mapa.png)
 
 | UC3 | informações | 
 |:----:|:------:|
@@ -52,7 +52,7 @@ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do 
 
 ### **UC4 - Navegação**
 
-![Navegação](img/navegacao.png)
+[![Navegação](img/navegacao.png)](img/navegacao.png)
 
 | UC4 | informações | 
 |:----:|:------:|
