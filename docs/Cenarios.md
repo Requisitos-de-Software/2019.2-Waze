@@ -125,6 +125,22 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Episódios**|Usuário abre o aplicativo Waze<br>Usuário pesquisa pelo local desejado<br>Waze calcula melhor rota<br>Usuário confirma a rota<br>Usuário acessa opção de encontrar melhor hora para sair<br>Waze retorna uma estatísticas da melhor hora para esta rota|
 |**Exceção**|Hora sugerida não ser melhor opção<br>Aplicativo sem acesso à rede|
 
+### **C7 - Buscar postos de combustíveis com melhor preço**
+
+| C7 | Informações | 
+|:--:|:--:|
+|**Data**|29/09/19|
+|**Hora**|22:37|
+|**Autor(es)**|João Pedro, Moacir|
+|**Cenário**|Encontrar o melhor preço de combustível na minha região|
+|**Objetivo**|Encontrar melhores preços de combustíveis na minha região, sugeridos pelo aplicativo|
+|**Contexto**|Local: localização atual do usuário<br>Pré-condição: Acesso à internet|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>acesso à rede<br>Localização atual|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado|
+|**Episódios**|Usuário verifica que o combustível do seu carro está acabando<br>Usuário abre o aplicativo Waze<br>Usuário acessa o mapa<br>Usuário acessa a pesquisa<br>Usuário clica na opção postos de combustíveis<br>Waze mostra postos próximos a sua localização<br>Waze mostra o preços atualizados dos combustíveis disponíveis<br>Waze mostra distância até os postos de combustíveis próximos<br>Usuário acessa posto de combustível de sua preferência<br>Waze sugere melhor rota até o posto escolhido|
+|**Exceção**|Aplicativo sem acesso à rede<br>Local não contém postos próximos<br>Preços desatualizados<br>Estabelecimento fechado<br>Rota sugerida não ser melhor opção|
+
 ## 4. Referências Bibliográficas
 
 > LUCENA, S.V.; KEMCZINSKI, A.;  GASPARINI, I.;  MATOS, A.V.M.; OGAWA, A.N.; "Modelagem de requisitos baseada em cenários para o Storyboard da Metodologia para Construção de Objetos de Aprendizagem Interativos", Nuevas Ideas en Informática Educativa TISE, 2014.
@@ -140,7 +156,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |28/09/19|2.3|Criado Cenário 4|João Pedro|
 |28/09/19|2.4|Criado Cenário 5|João Pedro|
 |28/09/19|2.5|Criado Cenário 6|João Pedro|
-
+|28/09/19|2.6|Criado Cenário 7|João Pedro, Moacir|
 
 
 <!-- | C1 | Informações | 
