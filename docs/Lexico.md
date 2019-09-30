@@ -177,6 +177,8 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
+### **L16 - Ouvir músicas no aplicativo**
+
 | L16 | Ouvir músicas no aplicativo |  
 |--| -- |
 |Classificação| Verbo |
