@@ -21,6 +21,8 @@
 
 ## Requisitos levantados
 
+### MoSCoW
+
 | Código | Descrição | Prioridade |
 |--------|-----------|------------|
 | AP01  | O Waze deve mostrar um pequeno resumo sobre o que é o app |  Would  |
@@ -36,6 +38,23 @@
 |AP11 | O usuário deve ser capaz de compartilhar sua rota | Would |
 |AP12 | O waze deve ter uma opção de economia de bateria | Could |
 
+### First Things First
+
+Funcionalidades |Beneficio Relativo|Penalidade Relativa|Valor Total| Valor %| Custo Relativo| Custo %| Risco Relativo|Risco %| Prioridade
+----------------|------------------|-------------------|-----------|---------|---------------|---------|---------------|--------|-----------
+Deve ser mostrado os termos de serviço	|3	|3	|9	|4.81	|1	|2.13	|1	|2.22	|1.486
+O aplicativo deve informar a velocidade do veículo	|5	|3	|13	|6.95	|2	|4.26	|1	|2.22	|1.295
+O waze deve mostrar resumo sobre o app	|3	|1	|7	|3.74	|1	|2.13	|1	|2.22	|1.156
+O aplicativo deve informar a hora de chegada no destino	|6	|4	|16	|8.56	|3	|6.38	|2	|4.44	|0.994
+O aplicativo deve informar o tempo do percurso	|7	|6	|20	|10.70	|5	|10.64	|4	|8.89	|0.709
+O usuário deve ser capaz de compartilhar sua rota	|3	|1	|7	|3.74	|2	|4.26	|1	|2.22	|0.698
+O usuário deve ser capaz de usar o app sem cadastro	|7	|7	|21	|11.23	|5	|10.64	|5	|11.11	|0.693
+O aplicativo deve ser capaz de informar alertas na rota	|7	|8	|22	|11.76	|5	|10.64	|7	|15.56	|0.639
+O usuário deve ser capaz de alterar rota	|7	|9	|23	|12.30	|6	|12.77	|7	|15.56	|0.599
+O usuario deve ser capaz de informar o destino	|9	|9	|27	|14.44	|7	|14.89	|9	|20.00	|0.580
+O usuário ser capaz de informar o tipo de veículo que usa	|3	|2	|8	|4.28	|3	|6.38	|1	|2.22	|0.571
+O waze deve ter uma opcao de economia de bateria	|5	|4	|14	|7.49	|7	|14.89	|6	|13.33	|0.347
+
 ## Referências Bibliográfica
 
 >SEQ18RRANO, Maurício; SERRANO, Milene. Requisitos - Aula 07. 1º/2019. 50 slides. Material apresentado para a disciplina de Requisitos de Software no curso de Engenharia de Software da UnB, FGA.
@@ -44,5 +63,6 @@
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
-|30/09/19|1.0| Criado documento |Matheus Estanislau e Lucas Alexandre|
+|30/09/19|1.0| Criado documento |Matheus Estanislau e Lucas Alexandre| 
+|30/09/19|1.1| Adicionado FTF |Matheus Estanislau, Lucas Alexandre e Moacir Mascarenha|
 

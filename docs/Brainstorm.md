@@ -148,8 +148,44 @@ priorizada de necessidades e desejos dos usuários.
 | BS16   |O aplicativo deve ter suporte offline | Should |
 | BS17   |O aplicativo deve ter suporte para anúncios | Would |
 | BS18   |O usuário deve ser capaz de editar informações no mapa| Could |
-| BS19   |O aplicativo deve ter opção de evitar algumas situações durante o percurso| Should |
+| BS19   |O aplicativo deve ter opção de evitar algumas situações durante o percurso| Should   |
 | BS20   |O aplicativo deve poder definir suas preferências de percurso| Could |
+
+
+<br>
+
+Funcionalidades |Beneficio Relativo|Penalidade Relativa|Valor Total| Valor %| Custo Relativo| Custo %| Risco Relativo|Risco %| Prioridade
+----------------|------------------|-------------------|-----------|---------|---------------|---------|---------------|--------|-----------
+O usuário deve ser capaz de avaliar feedback de outros usuários	|5	|3	|13	|3.94	|2	|1.96	|2	|1.89	|1.356
+O aplicativo deve mostrar estabelecimentos importantes para o motorista	|3	|1	|7	|2.12	|1	|0.98	|2	|1.89	|1.103
+O aplicativo deve sugerir o tempo aproximado de rota	|7	|7	|21	|6.36	|5	|4.90	|4	|3.77	|0.937
+O aplicativo deve fornecer informações sobre condições da pista	|7	|6	|20	|6.06	|4	|3.92	|6	|5.66	|0.898
+O aplicativo deve informar a localização atual do usuário	|9	|9	|27	|8.18	|6	|5.88	|8	|7.55	|0.847
+O aplicativo deve ter mapa atualizado	|9	|9	|27	|8.18	|6	|5.88	|8	|7.55	|0.847
+O aplicativo deve ter opção de evitar algumas situações durante percurso	|8	|7	|23	|6.97	|6	|5.88	|5	|4.72	|0.846
+O aplicativo deve ser intuitivo e agradavel	|7	|6	|20	|6.06	|5	|4.90	|6	|5.66	|0.784
+O aplicativo deve usar eventos das redes sociais	|2	|2	|6	|1.82	|2	|1.96	|1	|0.94	|0.747
+O usuário deve definir locais favoritos	|3	|1	|7	|2.12	|2	|1.96	|2	|1.89	|0.730
+O aplicativo deve ter a opção para mudar a rota a qualquer momento	|8	|9	|25	|7.58	|7	|6.86	|8	|7.55	|0.712
+O aplicativo deve sugerir a menor rota	|7	|8	|22	|6.67	|7	|6.86	|8	|7.55	|0.627
+O aplicativo deve ter suporte offline	|9	|8	|26	|7.88	|9	|8.82	|9	|8.49	|0.603
+O aplicativo deve poder definir suas preferencias de percurso	|7	|7	|21	|6.36	|7	|6.86	|7	|6.60	|0.626
+O usuário deve ser capaz de editar informações no mapa	|6	|4	|16	|4.85	|6	|5.88	|7	|6.60	|0.528
+O aplicativo ter suporte para anuncios	|2	|1	|5	|1.52	|2	|1.96	|2	|1.89	|0.522
+O aplicativo deve ser leve	|6	|5	|17	|5.15	|7	|6.86	|8	|7.55	|0.484
+O aplicativo deve disponibilizar uma funcionalidade para economia de energia	|5	|4	|14	|4.24	|7	|6.86	|6	|5.66	|0.438
+O aplicativo deve ter um sistema de chat	|4	|2	|10	|3.03	|6	|5.88	|3	|2.83	|0.415
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Referências
@@ -161,5 +197,5 @@ priorizada de necessidades e desejos dos usuários.
 
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
-23/09/19|1.0|Criação do documento|Guilherme Leal, Lucas Alexandre, João Pedro, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan|
-23/09/19|2.0|Priorização|Guilherme Leal, Lucas Alexandre, João Pedro, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan|
+23/09/19|1.0|Criação do documento|Guilherme Leal, João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan|
+23/09/19|1.1|Priorização|João Pedro, Lucas Alexandre,  Matheus Estanislau, Moacir Mascarenha|

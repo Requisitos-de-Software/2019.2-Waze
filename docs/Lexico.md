@@ -43,7 +43,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Objeto |
 |**Noção**| Aparelho onde será instalado o Waze <br> Responsável pela interação entre o usuário e o app |
 |**Impacto**| Através dele serão realizadas as tarefas do app <br> Feedback para o usuário |
-|**Rastro**| Não possui |
+|**Rastro**| [BS08](../Brainstorm/#moscow) |
 
 <br>
 
@@ -127,7 +127,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Verbo |
 |**Noção**| O Waze mostra o feedback de vários usuários <br> O usuário confirma ou não se o feedback procede|
 |**Impacto**| Se o feedback receber avaliações negativas ele será removido do app|
-|**Rastro**| Não possui|
+|**Rastro**| [BS13](../introspeccao/#31-moscow)|
 
 <br>
 
@@ -141,7 +141,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Objeto |
 |**Noção**| Waze utiliza para realizar cálculos e definir a melhor rota|
 |**Impacto**| Usuário utiliza para se orientar e chegar ao destino <br> Usuário utiliza para procurar novos lugares interessantes|
-|**Rastro**| Não possui|
+|**Rastro**| [BS11](../introspeccao/#31-moscow)|
 
 <br>
 
@@ -212,7 +212,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Estado |
 |**Noção**| O Waze acessa os eventos das redes sociais do usuário|
 |**Impacto**| O Waze indica as rotas para esses eventos|
-|**Rastro**| Não possui |
+|**Rastro**| Não Possui |
 
 <br>
 
@@ -226,7 +226,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Verbo |
 |**Noção**| Usuário quer adicionar locais para ter acesso mais rápido <br> Usuário acessa facilmente os favoritos, sem precisar reescrever o local sempre que usar o app|
 |**Impacto**| O Waze salva os locais favoritos e exibe de maneira clara para o usuário|
-|**Rastro**| Não Possui |
+|**Rastro**| [BS02](../introspeccao/#31-moscow) |
 
 <br>
 
@@ -240,7 +240,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Verbo |
 |**Noção**| Usuário quer ouvir músicas enquanto utiliza o app <br>|
 |**Impacto**| O Waze disponibiliza uma ferramenta que é integrada com aplicativos de música como Spotify e Deezer <br> Usuário utiliza os mapas para se orientar e ouve música ao mesmo tempo com o Waze|
-|**Rastro**| [Q02](../Questionario/#moscow)|
+|**Rastro**| [Q02](../Questionario/#moscow), [BS10](../introspeccao/#31-moscow)|
 
 <br>
 
@@ -254,7 +254,7 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Verbo |
 |**Noção**| Um usuário que estiver viajando quer ser capaz de usar a navegação do Waze mesmo em lugares sem sinais |
 |**Impacto**| O Waze é capaz de funcionar mesmo quando não há internet |
-|**Rastro**| [Q03](../Questionario/#moscow) |
+|**Rastro**| [Q03](../Questionario/#moscow), [BS16](../introspeccao/#31-moscow) |
 
 ## Referências Bibliográficas
 
@@ -273,3 +273,4 @@ O LAL (Léxico Ampliado da Linguagem) é uma técnica que procura descrever os s
 |30/09/19|1.4|Adicionado Rastro aos Léxicos| Matheus Estanislau, Lucas Alexandre|
 |30/09/19|1.5|Adicionado L16|Renan Cristyan|
 |30/09/19|1.6|Refatorado o documento|Lucas Alexandre, Matheus Estanislau|
+|01/09/19|1.7|Adicionado mais rastros| Matheus Estanislau|
