@@ -17,6 +17,7 @@ nav:
     - Introspecção: introspeccao.md
     - Questionário: Questionario.md
     - Storytelling: Storytelling.md
+    - Análise de Protocolo: analiseProtocolo.md
   - Modelagem:
     - Especificação Suplementar: EspSuplementar.md
     - Cenários: Cenarios.md
