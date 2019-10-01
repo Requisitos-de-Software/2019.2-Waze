@@ -21,6 +21,8 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**| -- |
 |**Episódios**| -- |
 |**Exceção**| -- |
+
+
 ## 3. Cenários
 
 
