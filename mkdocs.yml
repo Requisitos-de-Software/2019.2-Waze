@@ -1,4 +1,6 @@
 site_name: Waze
+repo_name: 'Repositório de Requisitos Waze'
+repo_url: 'https://github.com/Requisitos2-2019/2019.2-Waze'
 theme:
   name: 'material'
   logo: 'img/docs_dir/waze_48px.ico'
