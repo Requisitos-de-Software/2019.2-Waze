@@ -224,10 +224,27 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário digita uma rota<br>O usuário seleciona a rota<br>O usuário clica no botão "Ir agora"<br>O usuário acessa opção de música<br> usuário escolhe p aplicativo que deseja integrar ao Waze<br>Waze se conecta ao aplicativo <br>Usuário escolher músicas de sua preferência pelo Waze|
 |**Exceção**|Aplicativo sem acesso à rede<br>Aplicativo de música não ter compatibilidade com Waze|
 
+### **C13 - Opções de voz e som**
+
+| C13 | Informações |
+|:--:|:--:|
+|**Data**|07/10/19|
+|**Hora**|08:47|
+|**Autor(es)**|João Pedro|
+|**Cenário**|Mudar alguma opção de voz|
+|**Objetivo**|Poder mudar algo no auxilio de voz para o percurso.|
+|**Contexto**|Pré-condição: Acesso à internet|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>Acesso à rede|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br>ter aplicativo de música instalado <br>Ter sido aceito o termo de uso no Waze|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa configurções do waze<br>O usuario acessa opção de "Voz e som<br>Waze mostra opções de mudança de voz para usuário|
+|**Exceção**|Aplicativo sem acesso à rede<br>Aplicatico sem acesso ao audio do celular|
 
 ## 4. Referências Bibliográficas
 
+
 > LUCENA, S.V.; KEMCZINSKI, A.;  GASPARINI, I.;  MATOS, A.V.M.; OGAWA, A.N.; "Modelagem de requisitos baseada em cenários para o Storyboard da Metodologia para Construção de Objetos de Aprendizagem Interativos", Nuevas Ideas en Informática Educativa TISE, 2014.
+
 
 ## 5. Histórico de versões
 
@@ -246,17 +263,4 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |29/09/19|2.9|Criado Cenário 10|João Pedro, Moacir|
 |29/09/19|2.10|Criado Cenário 11|João Pedro, Moacir|
 |30/09/19|2.11|Criado Cenário 12|João Pedro, Moacir|
-
-<!-- | C1 | Informações | 
-|:--:|:--:|
-|**Data**||
-|**Hora**||
-|**Autor(es)**||
-|**Cenário**||
-|**Objetivo**||
-|**Contexto**||
-|**Atores**||
-|**Recursos**||
-|**Restrição**||
-|**Episódios**||
-|**Exceção**|| -->
+|07/10/19|3.0| Criado cenário 13| João Pedro|
