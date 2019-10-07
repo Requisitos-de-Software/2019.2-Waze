@@ -63,4 +63,10 @@
    </ul>
 
 
-| 25/09/19 |  1.0   | Refatoração de Personas | Guilherme Leal |
+
+>Versionamento
+
+|   Data   | Versão |           Descrição           |             Autor(es)              |
+|:--------:|:------:|:-----------------------------:|:----------------------------------:|
+| 25/09/19 |  1.0   |   Refatoração de Personas     |           Guilherme Leal |
+

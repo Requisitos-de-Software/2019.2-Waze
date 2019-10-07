@@ -5,29 +5,29 @@ Explicitar os requisitos do aplicativo, abrangendo requisitos de usabilidade, co
 
 ## 2. Escopo
 
-O Waze desenvolve soluções práticas que possibilitam às pessoas fazer escolhas melhores, como pegar a rota mais rápida, sair na hora certa e dividir caronas diariamente.
+<p align="justify">O Waze desenvolve soluções práticas que possibilitam às pessoas fazer escolhas melhores, como pegar a rota mais rápida, sair na hora certa e dividir caronas diariamente.</p>
 
 ## 3.  Funcionalidades
 
-As funcionalidades elicitadas estão disponíveis nas documentações presentes em [Waze Documentação](https://requisitos-de-software.github.io/2019.2-Waze/).
+<p align="justify">As funcionalidades elicitadas estão disponíveis nas documentações presentes em [Waze Documentação](https://requisitos-de-software.github.io/2019.2-Waze/).</p>
 
 ## 4.  Usabilidades
 
 ### Interface gráfica simples e minimalista
 
-O Waze possui um interface gráfica bem simples e minimalista possibilitando que o usuário tenha facilidade no uso e  uma aprendizagem mais rapida, além disso seu design é bastante intuitivo.
+<p align="justify">O Waze possui um interface gráfica bem simples e minimalista possibilitando que o usuário tenha facilidade no uso e  uma aprendizagem mais rapida, além disso seu design é bastante intuitivo.</p>
 
 ### Facilidade no uso
 
-O usuário tem a suas disposição divessas funcionalidades bem descritas e intuitivas. O usuário realiza a execução de alguma tarefa em no máximo 10 clicks.
+<p align="justify">O usuário tem a suas disposição divessas funcionalidades bem descritas e intuitivas. O usuário realiza a execução de alguma tarefa em no máximo 10 clicks.</p>
 
 ### Curva de Aprendizado
 
-Por possuir uma interface bastante intuitiva e descritiva, usuários tem um aprendizado rápido.Possuindo uma curva de aprendizado pequena.
+<p align="justify">Por possuir uma interface bastante intuitiva e descritiva, usuários tem um aprendizado rápido.Possuindo uma curva de aprendizado pequena.</p>
 
 ### Conhecimentos prévios
 
-A aplicação exige que o usuário tenha conhecimento básico no sistema operacional do seu dispositivo(Android ou IOS).
+<p align="justify">A aplicação exige que o usuário tenha conhecimento básico no sistema operacional do seu dispositivo(Android ou IOS).</p>
 
 ### Cores
 
@@ -49,7 +49,7 @@ Os servidores devem estar sempre disponíveis(24 horas por dia, 7 dias da semana
 
 ### Internet
 
-A Waze deve ser capaz de funcionar em aparelhos sem acesso à internet, com funcionalidades reduzidas(mantendo outras essencias como localização aproximada,Informações sobre o trajeto, etc). 
+<p align="justify">A Waze deve ser capaz de funcionar em aparelhos sem acesso à internet, com funcionalidades reduzidas(mantendo outras essencias como localização aproximada,Informações sobre o trajeto, etc). </p>
 
 ### Compatibilidade
 
@@ -71,7 +71,7 @@ Rastro: [Waze Play Store](https://play.google.com/store/apps/details?id=com.waze
 
 ### Localização
 
-O aplicativo necessita que o aparelho estaja com o sistema de localização(GPS) ligado para que tenha maior precisão de sua localização. Caso contrário será mostrada a localização aproximada do aparelho.  
+<p align="justify">O aplicativo necessita que o aparelho estaja com o sistema de localização(GPS) ligado para que tenha maior precisão de sua localização. Caso contrário será mostrada a localização aproximada do aparelho.  </p>
 
 
 ## 8.  Restrições de Design
@@ -86,8 +86,8 @@ A interface do aplicativo é desenvolvida voltada para aplicativos Mobile: iOS e
 
 ## 10.  Licenciamento
 
-Software Waze v2.x é distribuído sobre Licença Pública Geral GNU v2. A versão 3 do programa Waze houve mudança para uma licença proprietária. A última fonte aberta da versão do cliente para iPhone é 3.9.2, para Android é 3.9.4.0.
-Os usuários estão sujeitos às leis de direitos autorais. Disponíveis no <a href= "https://www.waze.com/pt-BR/legal/tos">termos de uso</a>.
+<p align="justify">Software Waze v2.x é distribuído sobre Licença Pública Geral GNU v2. A versão 3 do programa Waze houve mudança para uma licença proprietária. A última fonte aberta da versão do cliente para iPhone é 3.9.2, para Android é 3.9.4.0.
+Os usuários estão sujeitos às leis de direitos autorais. Disponíveis no <a href= "https://www.waze.com/pt-BR/legal/tos">termos de uso</a>.</p>
 
 ### Referências 
 
