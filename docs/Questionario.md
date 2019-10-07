@@ -56,7 +56,7 @@ Q03|A navegação deve funcionar offline| Must
 Q04|O usuário deve receber informações sobre a via(radares ou velocidade)| Should
 Q05| O usuário deve informar eventos na sua rota| Could
 Q06 | O usuário deve ser informado sobre estabelicimentos próximos | Would
-
+Q07 | O usuário deve utilizar um veículo para se locomover | Should
 
 
 ## 8.Referências Bibliográficas
@@ -72,4 +72,5 @@ VITÓRIA DA CONQUISTA – BA. Disponível em: http://www2.uesb.br/computacao/wp-
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
 09/09/19|1.0|Criação do documento|João Pedro, Lucas Alexandre, Moacir Mascarenha|
+30/09/19|1.1|Adicionado Q07| Lucas Alexandre|
 
