@@ -64,6 +64,33 @@ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do 
 |**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> - Usuário preciona Navegação<br> - Usuário acessa o menu de Preferências<br> - Usuário escolhe alguma das opções(Evitar pedágio, passes de pedágio, Evitar balsas, Evitar vias expressas, Vias de terra e Evitar conversões difíceis)<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> - Usuário preciona exibição de mapa <br> - Usuário preciona detalhes do veículo<br> -Usuário especifica detalhes sobre veículo <br>|
 |**Software Utilizado**|Draw.io|
 
+### **UC5 - Economia de bateria**
+[![economia_de_bateria](img/caso_de_uso_economia_de_bateria.png)](img/caso_de_uso_economia_de_bateria.png)
+
+| UC5 | informações | 
+|:----:|:------:|
+|**Caso de uso**|Economia de bateria|
+|**Data**|07/10/19|
+|**Hora**|06:00|
+|**Autor(es)**| Moacir Mascarenha|
+|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> - Usuário preciona Economia de bateria
+|**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> -  Usuário preciona Economia de bateria<br> - Usuário acessa a opção Deixar ligado ao recarregar<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> -  Usuário preciona Economia de bateria<br> - Usuário acessa a opção Economia de bateria<br>**FA3:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> -  Usuário preciona Economia de bateria<br> - Usuário acessa a opção Ligar durante o percurso atual <br>|
+|**Software Utilizado**|Draw.io|
+
+### UC6 - Voz e som
+
+[![voz e som](img/caso_de_uso_voz_e_som.png)](img/caso_de_uso_voz_e_som.png)
+
+| UC6 | informações | 
+|:----:|:------:|
+|**Caso de uso**|Voz e som|
+|**Data**|07/10/19|
+|**Hora**|06:10|
+|**Autor(es)**| Moacir Mascarenha|
+|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> - Usuário preciona Voz e som
+|**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> -  Usuário preciona Voz e som<br> - Usuário acessa a opção Sons<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> -  Usuário preciona Voz e som<br> - Usuário acessa a opção Voz Waze<br>**FA3:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> -  Usuário preciona Voz e som<br> - Usuário acessa a opção Idioma de entrada.<br>**FA4:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> -  Usuário preciona Voz e som<br> - Usuário acessa a opção Som<br>**FA5:**<br> - Usuário acessa o Waze<br> - Usuário preciona botão de configurações<br> -  Usuário preciona Voz e som<br> - Usuário acessa a opção Mostrar tocador de áudio<br>|
+|**Software Utilizado**|Draw.io|
+
 
 ## 3. Referências Bibliográficas
 >O que é UML e Diagramas de Caso de Uso: Introdução Prática à UML, Disponível em:
@@ -83,3 +110,5 @@ https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pr
 |26/09/19|2.1|Adicionado UC2 |João Pedro, Moacir Mascarenha|
 |26/09/19|2.2|Adicionado UC3 |João Pedro, Moacir Mascarenha|
 |27/09/19|2.3|Adicionado UC4 |João Pedro, Moacir Mascarenha|
+|07/10/19|2.4|Atualizado UC2, UC3,UC4 |Moacir Mascarenha|
+|07/10/19|2.5|Adicionado UC5 e UC6 | Moacir Mascarenha|
