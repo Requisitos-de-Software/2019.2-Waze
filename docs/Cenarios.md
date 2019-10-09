@@ -240,6 +240,22 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa configurções do waze<br>O usuario acessa opção de "Voz e som<br>Waze mostra opções de mudança de voz para usuário|
 |**Exceção**|Aplicativo sem acesso à rede<br>Aplicatico sem acesso ao audio do celular|
 
+### **C14 - Buscar restaurantes nas proximidades**
+
+| C13 | Informações |
+|:--:|:--:|
+|**Data**|09/10/19|
+|**Hora**|19:49|
+|**Autor(es)**|Matheus Estanislau|
+|**Cenário**|Encontrar algum lugar para refeições|
+|**Objetivo**|Poder escolher algum restaurante próximo|
+|**Contexto**|Pré-condição: Acesso à internet|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>Acesso à rede|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br <br>Ter sido aceito o termo de uso no Waze|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuario acessa o ícone restaurante, simbolizado por talheres<br>Waze mostra os restaurantes mais próximos <br> O usuário clica no restaurante desejado <br> O Waze gera uma rota até o estacionamento|
+|**Exceção**|Aplicativo sem acesso à rede<br>Restaurante não cadastrado <br>Estabelecimento fechado|
+
 ## 4. Referências Bibliográficas
 
 
@@ -264,3 +280,4 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |29/09/19|2.10|Criado Cenário 11|João Pedro, Moacir|
 |30/09/19|2.11|Criado Cenário 12|João Pedro, Moacir|
 |07/10/19|3.0| Criado cenário 13| João Pedro|
+|09/10/19|3.1| Criado cenário 14| Matheus Estanislau|

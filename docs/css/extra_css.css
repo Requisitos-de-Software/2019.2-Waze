@@ -11,6 +11,9 @@ html .md-nav--primary .md-nav__title--site {
 .container {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .card {
@@ -20,6 +23,8 @@ html .md-nav--primary .md-nav__title--site {
     margin-right: 20px;
     margin-bottom: 20px;
     text-align: center;
+    border-radius: 10px;
+
     }
   
   /* On mouse-over, add a deeper shadow */
@@ -31,7 +36,7 @@ html .md-nav--primary .md-nav__title--site {
   /* Add some padding inside the card container */
 
   .integrante{
-    border-radius: 5px 5px 0 0;
+    border-radius: 10px 10px 0px 0px;
     width:100%;
   }
 
