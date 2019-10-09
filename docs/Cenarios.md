@@ -295,7 +295,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Data**|09/10/19|
 |**Hora**|20:30|
 |**Autor(es)**|Matheus Estanislau
-|**Cenário**|Encontrar farmácias próximas|Hotéis e hospedagem próximos|
+|**Cenário**|Encontrar Hotéis e hospedagem próximos|
 |**Objetivo**|Hotéis e hospedagem na proximidade|
 |**Contexto**|Pré-condição: Acesso à internet|
 |**Atores**|Usuário|
