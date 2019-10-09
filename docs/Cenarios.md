@@ -277,7 +277,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 | C16 | Informações |
 |:--:|:--:|
 |**Data**|09/10/19|
-|**Hora**|19:49|
+|**Hora**|20:20|
 |**Autor(es)**|Matheus Estanislau|
 |**Cenário**|Encontrar farmácias próximas|
 |**Objetivo**|Poder escolher alguma farmácia na proximidade|
@@ -287,6 +287,21 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário acessa o ícone categorias, simbolizado por 3 pontos contíguos<br>Waze mostra as farmácias mais próximas <br> O usuário clica na farmácia desejada <br> O Waze gera uma rota até o estabelecimento|
 |**Exceção**|Aplicativo sem acesso à rede<br>Farmácia não cadastrada <br>Estabelecimento fechado|
+
+### **C17 - Buscar Hotéis e hospedagem**
+
+| C17 | Informações |
+|:--:|:--:|
+|**Data**|09/10/19|
+|**Hora**|20:30|
+|**Autor(es)**|Matheus EstanislauHotéis e hospedagem próximos|
+|**Objetivo**|Poder escolher Hotéis e hospedagem na proximidade|
+|**Contexto**|Pré-condição: Acesso à internet|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>Acesso à rede|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário acessa o ícone categorias, simbolizado por 3 pontos contíguos<br>Waze mostra hotéis e hospedagem mais próximos <br> O usuário clica no estabelecimento desejado <br> O Waze gera uma rota até o estabelecimento|
+|**Exceção**|Aplicativo sem acesso à rede <br>Hotel não cadastrado <br>Hotel sem vagas <br>Estabelecimento fechado|
 
 ## 4. Referências Bibliográficas
 
@@ -315,3 +330,4 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |09/10/19|3.1| Criado cenário 14| Matheus Estanislau|
 |09/10/19|3.2| Criado cenário 15| Matheus Estanislau|
 |09/10/19|3.3| Criado cenário 16| Matheus Estanislau|
+|09/10/19|3.4| Criado cenário 17| Matheus Estanislau|
