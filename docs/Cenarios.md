@@ -252,9 +252,25 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Contexto**|Pré-condição: Acesso à internet|
 |**Atores**|Usuário|
 |**Recursos**|Smartphone<br>Acesso à rede|
-|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br <br>Ter sido aceito o termo de uso no Waze|
-|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuario acessa o ícone restaurante, simbolizado por talheres<br>Waze mostra os restaurantes mais próximos <br> O usuário clica no restaurante desejado <br> O Waze gera uma rota até o estacionamento|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário acessa o ícone restaurante, simbolizado por talheres<br>Waze mostra os restaurantes mais próximos <br> O usuário clica no restaurante desejado <br> O Waze gera uma rota até o estabelecimento|
 |**Exceção**|Aplicativo sem acesso à rede<br>Restaurante não cadastrado <br>Estabelecimento fechado|
+
+### **C15 - Hospitais e emergência próximos**
+
+| C13 | Informações |
+|:--:|:--:|
+|**Data**|09/10/19|
+|**Hora**|20:13|
+|**Autor(es)**|Matheus Estanislau|
+|**Cenário**|Encontrar hospitais nas próximidades|
+|**Objetivo**|Poder escolher algum hospital próximo|
+|**Contexto**|Pré-condição: Acesso à internet|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone<br>Acesso à rede|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário acessa o ícone categorias, simbolizado por 3 pontos contíguos<br>Waze mostra os hospitais e emergências mais próximos <br> O usuário clica no hospital desejado  <br> O Waze gera uma rota até o hospital|
+|**Exceção**|<br>Aplicativo sem acesso à rede <br>Hospital fechado <br> Hospital sem vagas|
 
 ## 4. Referências Bibliográficas
 
@@ -281,3 +297,4 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |30/09/19|2.11|Criado Cenário 12|João Pedro, Moacir|
 |07/10/19|3.0| Criado cenário 13| João Pedro|
 |09/10/19|3.1| Criado cenário 14| Matheus Estanislau|
+|09/10/19|3.2| Criado cenário 14| Matheus Estanislau|
