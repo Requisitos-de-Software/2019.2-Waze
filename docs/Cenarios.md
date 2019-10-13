@@ -323,8 +323,21 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa configuraçoes<br>O usuário acessa o ícone Economia de bateria<br>Waze mostra opções de economia de bateria <br> O usuário ativa a opção desejada|
 |**Exceção**|Falta de acesso ao aplicativo|
 
+### **C19 - Alterar exibição de mapa**
 
-
+| C19 | Informações |
+|:--:|:--:|
+|**Data**|13/10/19|
+|**Hora**|15:32|
+|**Autor(es)**|João Pedro|
+|**Cenário**|Alterar visualização do mapa|
+|**Objetivo**|Personalizar o mapa para uma melhor visualização de acordo com|
+|**Contexto**|Pré-condição: Nenhuma|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone|
+|**Restrição**|Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa configuraçoes<br>O usuário acessa o Exibição de mapa<br>Waze mostra opções para exibição de mapa <br> O usuário ativa a opção desejada|
+|**Exceção**|Nenhuma|
 
 ## 4. Referências Bibliográficas
 
@@ -354,4 +367,5 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |09/10/19|3.2| Criado cenário 15| Matheus Estanislau|
 |09/10/19|3.3| Criado cenário 16| Matheus Estanislau|
 |09/10/19|3.4| Criado cenário 17| Matheus Estanislau|
-|13/10/19|3.5| Criado cenário 18| João Pedro|
+|12/10/19|3.5| Criado cenário 18| João Pedro|
+|13/10/19|3.6| Criado cenário 19| João Pedro|
