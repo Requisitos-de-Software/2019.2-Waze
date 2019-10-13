@@ -290,6 +290,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 
 ### **C17 - Buscar Hotéis e hospedagem**
 
+
 | C17 | Informações |
 |:--:|:--:|
 |**Data**|09/10/19|
@@ -297,12 +298,14 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Autor(es)**|Matheus Estanislau
 |**Cenário**|Encontrar Hotéis e hospedagem próximos|
 |**Objetivo**|Hotéis e hospedagem na proximidade|
-|**Contexto**|Pré-condição: Nenhuma|
+|**Contexto**|Pré-condição: Acesso à internet|
 |**Atores**|Usuário|
-|**Recursos**|Smartphone|
-|**Restrição**|Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
-|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa configuraçoes<br>O usuário acessa o ícone Economia de bateria<br>Waze mostra opções de economia de bateria <br> O usuário ativa a opção desejada|
-|**Exceção**|Falta de acesso ao aplicativo|
+|**Recursos**|Smartphone<br>Acesso à rede|
+|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário acessa o ícone categorias, simbolizado por 3 pontos contíguos<br>Waze mostra hotéis e hospedagem mais próximos <br> O usuário clica no estabelecimento desejado <br> O Waze gera uma rota até o estabelecimento|
+|**Exceção**|Aplicativo sem acesso à rede <br>Hotel não cadastrado <br>Hotel sem vagas <br>Estabelecimento fechado|
+
+
 
 ### **C18 - Ativar modo economia de bateria**
 
@@ -313,12 +316,15 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Autor(es)**|João Pedro|
 |**Cenário**|Ativar modo economia de bateria|
 |**Objetivo**|Diminuir o gasto de bateria do aplicativo|
-|**Contexto**|Pré-condição: Acesso à internet|
+|**Contexto**|Pré-condição: Nenhuma|
 |**Atores**|Usuário|
-|**Recursos**|Smartphone<br>Acesso à rede|
-|**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
-|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário acessa o ícone categorias, simbolizado por 3 pontos contíguos<br>Waze mostra hotéis e hospedagem mais próximos <br> O usuário clica no estabelecimento desejado <br> O Waze gera uma rota até o estabelecimento|
-|**Exceção**|Aplicativo sem acesso à rede <br>Hotel não cadastrado <br>Hotel sem vagas <br>Estabelecimento fechado|
+|**Recursos**|Smartphone|
+|**Restrição**|Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa configuraçoes<br>O usuário acessa o ícone Economia de bateria<br>Waze mostra opções de economia de bateria <br> O usuário ativa a opção desejada|
+|**Exceção**|Falta de acesso ao aplicativo|
+
+
+
 
 ## 4. Referências Bibliográficas
 
