@@ -297,6 +297,22 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Autor(es)**|Matheus Estanislau
 |**Cenário**|Encontrar Hotéis e hospedagem próximos|
 |**Objetivo**|Hotéis e hospedagem na proximidade|
+|**Contexto**|Pré-condição: Nenhuma|
+|**Atores**|Usuário|
+|**Recursos**|Smartphone|
+|**Restrição**|Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa configuraçoes<br>O usuário acessa o ícone Economia de bateria<br>Waze mostra opções de economia de bateria <br> O usuário ativa a opção desejada|
+|**Exceção**|Falta de acesso ao aplicativo|
+
+### **C18 - Ativar modo economia de bateria**
+
+| C18 | Informações |
+|:--:|:--:|
+|**Data**|12/10/19|
+|**Hora**|15:14|
+|**Autor(es)**|João Pedro|
+|**Cenário**|Ativar modo economia de bateria|
+|**Objetivo**|Diminuir o gasto de bateria do aplicativo|
 |**Contexto**|Pré-condição: Acesso à internet|
 |**Atores**|Usuário|
 |**Recursos**|Smartphone<br>Acesso à rede|
@@ -332,3 +348,4 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |09/10/19|3.2| Criado cenário 15| Matheus Estanislau|
 |09/10/19|3.3| Criado cenário 16| Matheus Estanislau|
 |09/10/19|3.4| Criado cenário 17| Matheus Estanislau|
+|13/10/19|3.5| Criado cenário 18| João Pedro|
