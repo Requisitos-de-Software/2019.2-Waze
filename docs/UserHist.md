@@ -38,3 +38,7 @@ Ex.: Eu, como usuário, gostaria de (...) de mode que (...) .
 >Beck, K., Fowler, M., (2001) Planning Extreme Programming. Addison-Wesley. Cohn,
 M., User Stories Applied: For Agile Software Development, Addison-Wesley, 2004.
 
+## Histórico de Versões
+|Data|Versão|Informação|Autor(es)|
+|:----:|:----:|:----:|:----:|
+| 13/10/19 |  1.0   | Documento de História de Usuários| Guilherme Leal e Moacir Mascarenha |
