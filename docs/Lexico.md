@@ -8,7 +8,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ## 2. Metodologia
 
 | Tag léxico | Título |  
-|--| -- |
+|--|--|
 |**Data**| -- |
 |**Hora**| -- |
 |**Autor(es)**| -- |
@@ -22,7 +22,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L1 - Definir o destino**
 
 | L1 | Definir o destino |  
-|--| -- |
+|--|--|
 |**Data**| 27/09 |
 |**Hora**| 8:56 |
 |**Autor(es)**| Renan Cristyan |
@@ -36,7 +36,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L2 - Smartphone**
 
 | L2 | Smartphone |  
-|--| -- |
+|--|--|
 |**Data**| 29/09 |
 |**Hora**| 16:40 |
 |**Autor(es)**| Lucas Alexandre |
@@ -50,7 +50,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L3 - Usuário está se locomovendo**
 
 | L3 | Usuário está se locomovendo |  
-|--| -- |
+|--|--|
 |**Data**| 29/09 |
 |**Hora**| 16:48 |
 |**Autor(es)**| Renan Cristyan |
@@ -64,7 +64,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L4 - Planejar rota**
 
 | L4 | Planejar rota |  
-|--| -- |
+|--|--|
 |**Data**| 29/09 |
 |**Hora**| 17:05 |
 |**Autor(es)**| Matheus Estanislau |
@@ -78,7 +78,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L5 - Veículo**
 
 | L5 | Veículo |  
-|--| -- |
+|--|--|
 |**Data**| 29/09 |
 |**Hora**| 17:15 |
 |**Autor(es)**| Lucas Alexandre |
@@ -92,7 +92,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L6 - O usuário está com pressa**
 
 | L6 | O usuário está com pressa |  
-|--| -- |
+|--|--|
 |**Data**| 29/09 |
 |**Hora**| 17:29 |
 |**Autor(es)**| Renan Cristyan |
@@ -106,7 +106,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L7 - Dar feedback**
 
 | L7 | Dar feedback |  
-|--| -- |
+|--|--|
 |**Data**| 29/09 |
 |**Hora**| 17:46 |
 |**Autor(es)**| Matheus Estanislau |
@@ -120,7 +120,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L8 - Avaliar feedback**
 
 | L8 | Avaliar feedback |  
-|--| -- |
+|--|--|
 |**Data**| 29/09 |
 |**Hora**| 17:57 |
 |**Autor(es)**| Lucas Alexandre |
@@ -134,7 +134,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L9 - Mapa**
 
 | L9 | Mapa |  
-|--| -- |
+|--|--|
 |**Data**|29/09|
 |**Hora**| 20:00 |
 |**Autor(es)**| Renan Cristyan |
@@ -148,7 +148,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L10 - Engarrafamento**
 
 | L10 | Engarrafamento |  
-|--| -- |
+|--|--|
 |**Data**| 29/09 |
 |**Hora**| 20:10 |
 |**Autor(es)**| Matheus Estanislau |
@@ -162,7 +162,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L11 - Fiscalização eletrônica**
 
 | L11 | Fiscalização eletrônica | 
-|--| -- |
+|--|--|
 |**Data**| 29/09 |
 |**Hora**| 20:18 |
 |**Autor(es)**| Lucas Alexandre |
@@ -176,7 +176,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L12 - Consultar postos de gasolina**
 
 | L12 | Consultar postos de gasolina |  
-|--| -- |
+|--|--|
 |**Data**| 29/09 |
 |**Hora**| 20:30 |
 |**Autor(es)**| Renan Cristyan |
@@ -190,7 +190,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L13 - Acidentes na rota**
 
 | L13 | Acidentes na rota |  
-|--| -- |
+|--|--|
 |**Data**| 29/09 |
 |**Hora**| 20:54 |
 |**Autor(es)**| Matheus Estanislau |
@@ -205,7 +205,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L14 - Eventos**
 
 | L14 | Eventos |  
-|--| -- |
+|--|--|
 |**Data**| 29/09 |
 |**Hora**| 21:10 |
 |**Autor(es)**| Lucas Alexandre |
@@ -219,7 +219,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L15 - Adicionar locais favoritos**
 
 | L15 | Adicionar locais favoritos |  
-|--| -- |
+|--|--|
 |**Data**| 30/09 |
 |**Hora**| 14:00 |
 |**Autor(es)**| Renan Cristyan |
@@ -233,7 +233,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L16 - Ouvir músicas no aplicativo**
 
 | L16 | Ouvir músicas no aplicativo |  
-|--| -- |
+|--|--|
 |**Data**| 30/09 |
 |**Hora**| 14:15 |
 |**Autor(es)**| Renan Cristyan |
@@ -247,7 +247,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L17 - Utilizar o Waze onde não há sinal de internet**
 
 | L17 | Utilizar o Waze onde não há sinal de internet |  
-|--| -- |
+|--|--|
 |**Data**| 30/09 |
 |**Hora**| 20:05 |
 |**Autor(es)**| Lucas Alexandre |
@@ -259,13 +259,24 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L18 - Definir casa**
 
 | L18 | Definir casa |  
-|--| -- |
+|--|--|
 |**Data**| 15/10 |
 |**Hora**| 08:50 |
 |**Autor(es)**| Renan Cristyan |
 |**Classificação**| Verbo |
 |**Noção**| Usuário quer definir o local da sua casa para acesso rápido <br> Útil para evitar digitar o mesmo local várias vezes|
-|**Impacto**| O local "casa" recebe destaque no menu de busca do aplicativo <br> O acesso às rotas é muito mais rápido e prático |
+|**Impacto**| O local "Casa" recebe destaque no menu de busca do aplicativo <br> O acesso às rotas é muito mais rápido e prático |
+
+### ** L19 - Definir trabalho **
+
+| L19 | Definir trabalho |  
+|--|--|
+|**Data**| -- |
+|**Hora**| -- |
+|**Autor(es)**| -- |
+|**Classificação**| --- |
+|**Noção**| Usuário quer definir o local do seu trabalho para acesso rápido <br> Útil para evitar digitar o mesmo lugar várias vezes|
+|**Impacto**| O local "Trabalho" recebe destaque no menu de busca do aplicativo <br> O acesso às rotas é muito mais fácil e prático |
 
 ## Referências Bibliográficas
 
@@ -284,4 +295,6 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |30/09/19|1.4|Adicionado Rastro aos Léxicos| Matheus Estanislau, Lucas Alexandre|
 |30/09/19|1.5|Adicionado L16|Renan Cristyan|
 |30/09/19|1.6|Refatorado o documento|Lucas Alexandre, Matheus Estanislau|
-|01/09/19|1.7|Adicionado mais rastros| Matheus Estanislau|
+|30/09/19|1.7|Adicionado L17|Lucas Alexandre|
+|01/10/19|1.8|Adicionado mais rastros| Matheus Estanislau|
+|15/10/19|1.9|Adicionados L18 e L19|Renan Cristyan|
