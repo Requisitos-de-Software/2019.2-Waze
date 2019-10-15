@@ -271,10 +271,10 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 | L19 | Definir trabalho |  
 |--|--|
-|**Data**| -- |
-|**Hora**| -- |
-|**Autor(es)**| -- |
-|**Classificação**| --- |
+|**Data**| 15/10 |
+|**Hora**| 09:00 |
+|**Autor(es)**| Renan Cristyan |
+|**Classificação**| Verbo |
 |**Noção**| Usuário quer definir o local do seu trabalho para acesso rápido <br> Útil para evitar digitar o mesmo lugar várias vezes|
 |**Impacto**| O local "Trabalho" recebe destaque no menu de busca do aplicativo <br> O acesso às rotas é muito mais fácil e prático |
 
