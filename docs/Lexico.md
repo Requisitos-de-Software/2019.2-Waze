@@ -220,7 +220,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 | L15 | Adicionar locais favoritos |  
 |--| -- |
-|**Data**| 30/10 |
+|**Data**| 30/09 |
 |**Hora**| 14:00 |
 |**Autor(es)**| Renan Cristyan |
 |**Classificação**| Verbo |
@@ -234,7 +234,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 | L16 | Ouvir músicas no aplicativo |  
 |--| -- |
-|**Data**| 30/10 |
+|**Data**| 30/09 |
 |**Hora**| 14:15 |
 |**Autor(es)**| Renan Cristyan |
 |**Classificação**| Verbo |
@@ -248,13 +248,24 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 | L17 | Utilizar o Waze onde não há sinal de internet |  
 |--| -- |
-|**Data**| 30/10 |
+|**Data**| 30/09 |
 |**Hora**| 20:05 |
 |**Autor(es)**| Lucas Alexandre |
 |**Classificação**| Verbo |
 |**Noção**| Um usuário que estiver viajando quer ser capaz de usar a navegação do Waze mesmo em lugares sem sinais |
 |**Impacto**| O Waze é capaz de funcionar mesmo quando não há internet |
 |**Rastro**| [Q03](../Questionario/#moscow), [BS16](../introspeccao/#31-moscow) |
+
+### **L18 - Definir casa**
+
+| L18 | Definir casa |  
+|--| -- |
+|**Data**| 15/10 |
+|**Hora**| 08:50 |
+|**Autor(es)**| Renan Cristyan |
+|**Classificação**| Verbo |
+|**Noção**| Usuário quer definir o local da sua casa para acesso rápido <br> Útil para evitar digitar o mesmo local várias vezes|
+|**Impacto**| O local "casa" recebe destaque no menu de busca do aplicativo <br> O acesso às rotas é muito mais rápido e prático |
 
 ## Referências Bibliográficas
 
