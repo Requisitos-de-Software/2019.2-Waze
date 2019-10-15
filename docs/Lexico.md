@@ -291,7 +291,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 ### **L21 - Criar uma conta**
 
-| Tag léxico | Título |  
+| L21 | Criar uma conta |  
 |--|--|
 |**Data**| 15/10 |
 |**Hora**| 09:20 |
