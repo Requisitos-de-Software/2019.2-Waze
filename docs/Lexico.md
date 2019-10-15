@@ -267,7 +267,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Noção**| Usuário quer definir o local da sua casa para acesso rápido <br> Útil para evitar digitar o mesmo local várias vezes|
 |**Impacto**| O local "Casa" recebe destaque no menu de busca do aplicativo <br> O acesso às rotas é muito mais rápido e prático |
 
-### ** L19 - Definir trabalho **
+### **L19 - Definir trabalho**
 
 | L19 | Definir trabalho |  
 |--|--|
@@ -277,6 +277,17 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Verbo |
 |**Noção**| Usuário quer definir o local do seu trabalho para acesso rápido <br> Útil para evitar digitar o mesmo lugar várias vezes|
 |**Impacto**| O local "Trabalho" recebe destaque no menu de busca do aplicativo <br> O acesso às rotas é muito mais fácil e prático |
+
+### **L20 - Configurar/Personalizar**
+
+| L20 | Configurar/Personalizar |  
+|--|--|
+|**Data**| 15/10 |
+|**Hora**| 09:10 |
+|**Autor(es)**| Renan Cristyan |
+|**Classificação**| Verbo |
+|**Noção**| Usuário deseja alterar alguma configuração do aplicativo <br> Usuário deseja personalizar alguma funcionalidade do aplicativo |
+|**Impacto**| Após acessar a área "Configurações", é possível alterar uma série de configurações do aplicativo, como notificações, idioma, pesquisa por voz, entre outras|
 
 ## Referências Bibliográficas
 
@@ -297,4 +308,4 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |30/09/19|1.6|Refatorado o documento|Lucas Alexandre, Matheus Estanislau|
 |30/09/19|1.7|Adicionado L17|Lucas Alexandre|
 |01/10/19|1.8|Adicionado mais rastros| Matheus Estanislau|
-|15/10/19|1.9|Adicionados L18 e L19|Renan Cristyan|
+|15/10/19|1.9|Adicionados L18, L19 e L20|Renan Cristyan|
