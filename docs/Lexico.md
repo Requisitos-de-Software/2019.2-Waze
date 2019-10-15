@@ -289,6 +289,17 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Noção**| Usuário deseja alterar alguma configuração do aplicativo <br> Usuário deseja personalizar alguma funcionalidade do aplicativo |
 |**Impacto**| Após acessar a área "Configurações", é possível alterar uma série de configurações do aplicativo, como notificações, idioma, pesquisa por voz, entre outras|
 
+### **L21 - Criar uma conta**
+
+| Tag léxico | Título |  
+|--|--|
+|**Data**| 15/10 |
+|**Hora**| 09:20 |
+|**Autor(es)**| Renan Cristyan |
+|**Classificação**| Verbo |
+|**Noção**| Usuário quer trocar de dispositivo mas não quer ter que transferir todos os locais favoritos manualmente <br> Usuário pode criar uma conta gratuita no Waze|
+|**Impacto**| Apesar de não ser obrigatório, criar uma conta no Waze oferece benefícios interessantes, como ter os locais favoritos salvos caso o usuário troque de dispositivo|
+
 ## Referências Bibliográficas
 
 > Léxico Aplicado da Linguagem (Resumo). Disponível em: http://www-di.inf.puc-rio.br/~julio/lal.pdf Acesso em: 27/09/19
@@ -308,4 +319,4 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |30/09/19|1.6|Refatorado o documento|Lucas Alexandre, Matheus Estanislau|
 |30/09/19|1.7|Adicionado L17|Lucas Alexandre|
 |01/10/19|1.8|Adicionado mais rastros| Matheus Estanislau|
-|15/10/19|1.9|Adicionados L18, L19 e L20|Renan Cristyan|
+|15/10/19|1.9|Adicionados L18, L19, L20 e L21|Renan Cristyan|
