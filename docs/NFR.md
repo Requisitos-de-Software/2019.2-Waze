@@ -18,7 +18,7 @@ Foi usado o programa StarUML para fazer o NFR
 |**Rastro**| --- |
 
 ## NFR01 - Usabilidade
-[![Usabilidade](img/NFR-USABILIDADE-REQUISITOS.jpg)](NFR-USABILIDADE-REQUISITOS.jpg)
+[![Usabilidade](img/NFR-USABILIDADE-REQUISITOS.jpg)](img/NFR-USABILIDADE-REQUISITOS.jpg)
 
 
 | NFR01 | Atores |  
@@ -26,13 +26,13 @@ Foi usado o programa StarUML para fazer o NFR
 |**Data**| 15/10/2019 |
 |**Hora**| 16h30 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](../EspSuplementar/#4-usabilidades)|
+|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#.4-Usabilidades)|
 
 ### Análise do NFR de Usabilidade
 
 ## NFR02 - Desempenho
 
-[![Usabilidade](img/NFR-DESEMPENHO-REQUISITOS.jpg)](NFR-DESEMPENHO-REQUISITOS.jpg)
+[![Usabilidade](img/NFR-DESEMPENHO-REQUISITOS.jpg)](img/NFR-DESEMPENHO-REQUISITOS.jpg)
 
 
 | NFR02 | Atores |  
@@ -40,13 +40,13 @@ Foi usado o programa StarUML para fazer o NFR
 |**Data**| 16/10/2019 |
 |**Hora**| 17h10 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](../EspSuplementar/#7-desempenho)|
+|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#7-desempenho)|
 
 ### Análise do NFR de Desempenho
 
 ## NFR03 - Suportabilidade
 
-[![Suportabilidade](img/NFR-SUPORTABILIDADEV1-REQUISITOS.jpg)](NFR-SUPORTABILIDADEV1-REQUISITOS.jpg)
+[![Suportabilidade](img/NFR-SUPORTABILIDADEV1-REQUISITOS.jpg)](img/NFR-SUPORTABILIDADEV1-REQUISITOS.jpg)
 
 
 | NFR03| Atores |  
@@ -54,7 +54,7 @@ Foi usado o programa StarUML para fazer o NFR
 |**Data**| 16/10/2019 |
 |**Hora**| 17h30 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](../EspSuplementar/#7-suportabilidade) |
+|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#6-suportabilidade) |
 
 ### Análise do NFR de Suportabilidade
 
@@ -68,7 +68,7 @@ Foi usado o programa StarUML para fazer o NFR
 |**Data**| 16/10/2019 |
 |**Hora**| 18h13 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](../EspSuplementar/#5-confiabilidade) |
+|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#5-confiabilidade) |
 
 ### Análise do NFR de Confiabilidade
 
