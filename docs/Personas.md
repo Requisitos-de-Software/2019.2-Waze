@@ -35,6 +35,17 @@
 |História e contexto |José iniciou um trabalho de motorista de apps para gerar uma renda em seu horário livre, com isso precisava de um app de navegação do qual podesse confiar e que atendesse suas necessidades.|
 |O que poderia mudar? | Verificação de informações dadas pelos usuário. Muitos usuários reportam acidentes em lugares errados, ou que ja foram resolvidos. Outro problema que José vê é a utilização excessiva dos motoristas com o celular, resalta que deve selecionar a rota antes de começar a dirigir e fazer ajustes pontuais caso necessário na rota durante o trajeto.|
 
+### 1.4 Persona 4
+
+| Nome | Leonardo |
+|--|--|
+|Profissão | Funcionário Público - Cargo: Motorista|
+|Escolaridade | Ensino Médio Completo|
+|Nível de conhecimento do Waze | Conhece e utiliza algumas das funcionalidades do Waze. Conhecimento Médi/o.|
+|Intenção ao usar Waze |Utilizar o Waze como acessório de trabalho, pois o waze fornece mais informações e alertas de radares eletrônicos, blitz, controle de velocidade, rotas alternativas e acidentes. Fornece informções sobre estimativa de tempo e kilometragem da rota e auxilia para encontrar os destinos durante a jornada de trabalho.|
+|História e contexto |Leonardo tomou posso como motorista de órgão público, com isso precisava e foi oferecido pela instituição um aparelho eletrônico com de app de navegação compatível com a disponibiblidade da Instituição.|
+|O que poderia mudar? | Não há opiniões de mudanças, pois utiliza apenas como auxílio de navegação, e o app atende as necessidades.|
+
 
 ## 2. Necessidades do Contexto
 
@@ -62,11 +73,10 @@
          <li> Evitar caminhos indesejados</li>
    </ul>
 
-
-
 >Versionamento
 
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
-| 25/09/19 |  1.0   |   Refatoração de Personas     |           Guilherme Leal |
+| 25/09/19 |  1.0   |   Criação de Personas     |           Guilherme Leal |
+| 16/10/19 |  2.0   |   Refatoração de Personas     |           Guilherme Leal |
 
