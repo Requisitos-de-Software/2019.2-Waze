@@ -54,6 +54,17 @@ Foi usado o programa StarUML para fazer o NFR
 
 ### Análise do NFR de Suportabilidade
 
+## NFR04 - Confiabiliade
+
+[![Confiabilidade](img/NFR-CONFIABILIADEV1-REQUISITOS.jpg)](img/NFR-CONFIABILIADEV1-REQUISITOS.jpg)
+| NF02| Atores |  
+|--|--|
+|**Data**| 16/10/2019 |
+|**Hora**| 18h13 |
+|**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
+|**Rastro**| [Especificação suplementar](../EspSuplementar/#5-confiabilidade) |
+
+### Análise do NFR de Confiabilidade
 
 ## Referências
 
@@ -63,5 +74,7 @@ Foi usado o programa StarUML para fazer o NFR
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
 |16/10/19|1.0|Criação do documento|Lucas Alexandre, Matheus Estanislau|
-|16/10/19|1.1| Adicionado NFR desempenho e usabilidade| Lucas Alexandre, Matheus Estanislau
-|16/10/19|1.2| Adicionado NFR suportabilidade| Lucas Alexandre, Matheus Estanislau
+|16/10/19|1.1| Adicionado NFR desempenho e usabilidade| Lucas Alexandre, Matheus Estanislau|
+|16/10/19|1.2| Adicionado NFR suportabilidade| Lucas Alexandre, Matheus Estanislau|
+|16/10/19|1.3| Adicionado NFR Confiabilidade| Lucas Alexandre, Matheus Estanislau|
+
