@@ -33,30 +33,36 @@ Foi usado o programa StarUML para fazer o NFR
 ## NFR02 - Desempenho
 
 [![Usabilidade](img/NFR-DESEMPENHO-REQUISITOS.jpg)](NFR-DESEMPENHO-REQUISITOS.jpg)
-| NF02| Atores |  
+
+
+| NFR02 | Atores |  
 |--|--|
 |**Data**| 16/10/2019 |
 |**Hora**| 17h10 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](../EspSuplementar/#7-desempenho) |
+|**Rastro**| [Especificação suplementar](../EspSuplementar/#7-desempenho)|
 
 ### Análise do NFR de Desempenho
 
 ## NFR03 - Suportabilidade
 
 [![Suportabilidade](img/NFR-SUPORTABILIDADEV1-REQUISITOS.jpg)](NFR-SUPORTABILIDADEV1-REQUISITOS.jpg)
+
+
 | NF02| Atores |  
 |--|--|
 |**Data**| 16/10/2019 |
 |**Hora**| 17h30 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](../EspSuplementar/#6-suportabilidade) |
+|**Rastro**| [Especificação suplementar](../EspSuplementar/#7-suportabilidade) |
 
 ### Análise do NFR de Suportabilidade
 
 ## NFR04 - Confiabiliade
 
 [![Confiabilidade](img/NFR-CONFIABILIADEV1-REQUISITOS.jpg)](img/NFR-CONFIABILIADEV1-REQUISITOS.jpg)
+
+
 | NF02| Atores |  
 |--|--|
 |**Data**| 16/10/2019 |
