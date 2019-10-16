@@ -44,6 +44,8 @@ Foi usado o programa StarUML para fazer o NFR
 
 ### Análise do NFR de Desempenho
 
+[![Usabilidade](img/NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)](NFR-DESEMPENHO-REQUISITOS.jpg)
+
 ## NFR03 - Suportabilidade
 
 [![Suportabilidade](img/NFR-SUPORTABILIDADEV1-REQUISITOS.jpg)](NFR-SUPORTABILIDADEV1-REQUISITOS.jpg)
