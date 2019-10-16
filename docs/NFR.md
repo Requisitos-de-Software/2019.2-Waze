@@ -32,7 +32,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |**Data**| 16/10/2019 |
 |**Hora**| 16h30 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](./EspSuplementar.md)|
+|**Rastro**| [Especificação suplementar](../EspSuplementar)|
 
 
 ## NFR01 - Usabilidade
@@ -44,7 +44,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |**Data**| 15/10/2019 |
 |**Hora**| 16h30 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#.4-Usabilidades)|
+|**Rastro**| [Especificação suplementar](../EspSuplementar/#4-usabilidades)|
 
 ### Análise do NFR de Usabilidade
 
@@ -61,7 +61,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |**Data**| 16/10/2019 |
 |**Hora**| 17h10 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#7-desempenho)|
+|**Rastro**| [Especificação suplementar](../EspSuplementar/#7-desempenho)|
 
 ### Análise do NFR de Desempenho
 
@@ -77,7 +77,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |**Data**| 16/10/2019 |
 |**Hora**| 17h30 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#6-suportabilidade) |
+|**Rastro**| [Especificação suplementar](../EspSuplementar/#6-suportabilidade) |
 
 ### Análise do NFR de Suportabilidade
 
@@ -93,7 +93,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |**Data**| 16/10/2019 |
 |**Hora**| 18h13 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#5-confiabilidade) |
+|**Rastro**| [Especificação suplementar](../EspSuplementar/#5-confiabilidade) |
 
 ### Análise do NFR de Confiabilidade
 
