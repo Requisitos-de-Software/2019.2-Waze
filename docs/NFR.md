@@ -8,7 +8,6 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 ## Metodologia
 
-Foi usado o programa StarUML para fazer o NFR
 
 | Tag NFR | Atores |  
 |--|--|
@@ -16,6 +15,25 @@ Foi usado o programa StarUML para fazer o NFR
 |**Hora**| -- |
 |**Autor(es)**| -- |
 |**Rastro**| --- |
+
+## Ferramenta utilizada
+
+Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
+
+
+## NFR00 - Geral 
+
+
+[![Usabilidade](img/NFR-GERAL-REQUISITOS.jpg)](img/NFR-GERAL-REQUISITOS.jpg)
+
+
+| NFR00 | Atores |  
+|--|--|
+|**Data**| 16/10/2019 |
+|**Hora**| 16h30 |
+|**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
+|**Rastro**| [Especificação suplementar](./EspSuplementar.md)|
+
 
 ## NFR01 - Usabilidade
 [![Usabilidade](img/NFR-USABILIDADE-REQUISITOS.jpg)](img/NFR-USABILIDADE-REQUISITOS.jpg)
@@ -44,7 +62,7 @@ Foi usado o programa StarUML para fazer o NFR
 
 ### Análise do NFR de Desempenho
 
-[![Usabilidade](img/NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)](NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)
+[![Desempenho](img/NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)](NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)
 
 ## NFR03 - Suportabilidade
 
