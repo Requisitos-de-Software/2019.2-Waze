@@ -1,4 +1,17 @@
-## 1. Personas
+# Personas
+
+## Introdução
+<p align="justify">
+Para Cooper (2007), no Design de Interação, as Personas são modelos e, o
+conceito de modelo é usado nas ciências naturais e sociais para representar fenômenos
+ou estruturas complexas e suas relações com o propósito de melhor compreendê-los,
+discuti-los e visualizá-los. Economistas usam modelos para descrever o comportamento
+de mercados, físicos criam modelos para descrever o comportamento de partículas e
+designers criam modelos para descrever os usuários. Portanto, Personas são modelos
+baseados nos comportamentos e motivações de pessoas reais. São arquétipos
+compostos a partir de padrões comportamentais observados em diversos usuários reais
+durante o processo de pesquisa. 
+</p>
 
 ### 1.1 Persona 1
 
@@ -73,7 +86,13 @@
          <li> Evitar caminhos indesejados</li>
    </ul>
 
->Versionamento
+## Referências Bibliográficas
+
+> COOPER, A. About Face 3: The Essentials of Interaction Design. Indianapolis: Wiley Publishing, 2007.
+
+> REIS, A. V. dos; DICK, M. E.; SOUSA, R. P. L. de; GONÇALVES, B. S.; Análise Comportamental na Análise de Personas. Educação Gráfica, ISSN 2179-7374, Ano 2014, V. 18, No. 03.
+
+## Histórico de versões
 
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
