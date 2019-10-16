@@ -30,6 +30,9 @@ Foi usado o programa StarUML para fazer o NFR
 
 ### Análise do NFR de Usabilidade
 
+[![Usabilidade](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS)
+
+
 ## NFR02 - Desempenho
 
 [![Usabilidade](img/NFR-DESEMPENHO-REQUISITOS.jpg)](img/NFR-DESEMPENHO-REQUISITOS.jpg)
@@ -93,4 +96,5 @@ Foi usado o programa StarUML para fazer o NFR
 |16/10/19|1.3| Adicionado NFR Confiabilidade| Lucas Alexandre, Matheus Estanislau|
 |16/10/19|1.4| Adicionados NFR de análise de Suportabilidade e Desempenho| Lucas Alexandre, Matheus Estanislau|
 |16/10/19|1.5| Adicionados NFR de análise de Confiabilidade| Lucas Alexandre, Matheus Estanislau|
+|16/10/19|1.6| Adicionados NFR de análise de Usabilidade| Lucas Alexandre, Matheus Estanislau|
 
