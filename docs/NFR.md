@@ -49,7 +49,7 @@ Foi usado o programa StarUML para fazer o NFR
 [![Suportabilidade](img/NFR-SUPORTABILIDADEV1-REQUISITOS.jpg)](NFR-SUPORTABILIDADEV1-REQUISITOS.jpg)
 
 
-| NF02| Atores |  
+| NFR03| Atores |  
 |--|--|
 |**Data**| 16/10/2019 |
 |**Hora**| 17h30 |
@@ -63,7 +63,7 @@ Foi usado o programa StarUML para fazer o NFR
 [![Confiabilidade](img/NFR-CONFIABILIADEV1-REQUISITOS.jpg)](img/NFR-CONFIABILIADEV1-REQUISITOS.jpg)
 
 
-| NF02| Atores |  
+| NFR04| Atores |  
 |--|--|
 |**Data**| 16/10/2019 |
 |**Hora**| 18h13 |
