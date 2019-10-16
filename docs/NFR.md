@@ -44,11 +44,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |**Data**| 15/10/2019 |
 |**Hora**| 16h30 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-<<<<<<< HEAD
 |**Rastro**| [Especificação suplementar](./EspSuplementar/#4-usabilidades)|
-=======
-|**Rastro**| [Especificação suplementar](../EspSuplementar/#4-usabilidades)|
->>>>>>> 897386ce675de54519ba5b48d2b5435d5d9a462c
 
 ### Análise do NFR de Usabilidade
 
