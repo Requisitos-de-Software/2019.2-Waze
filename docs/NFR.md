@@ -44,7 +44,7 @@ Foi usado o programa StarUML para fazer o NFR
 
 ### Análise do NFR de Desempenho
 
-[![Usabilidade](img/NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)](NFR-DESEMPENHO-REQUISITOS.jpg)
+[![Usabilidade](img/NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)](NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)
 
 ## NFR03 - Suportabilidade
 
@@ -59,6 +59,8 @@ Foi usado o programa StarUML para fazer o NFR
 |**Rastro**| [Especificação suplementar](./EspSuplementar.md/#6-suportabilidade) |
 
 ### Análise do NFR de Suportabilidade
+
+[![Suportabilidade](img/NFR-ANALISE-SUPORTABILIDADE-REQUISITOS.jpg)](img/NFR-ANALISE-SUPORTABILIDADE-REQUISITOS.jpg)
 
 ## NFR04 - Confiabiliade
 
