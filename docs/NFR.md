@@ -4,7 +4,7 @@
 
 <p align="justify">
 O NFR Framework trata-se de um framework conceitual orientado a requisitos não funcionais, ele decompõe os requisitos facilitando assim a compreensão e a priorização destes requisitos.
-
+</p>
 
 ## Metodologia
 
