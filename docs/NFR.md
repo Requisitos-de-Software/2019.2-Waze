@@ -44,11 +44,11 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |**Data**| 15/10/2019 |
 |**Hora**| 16h30 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#.4-Usabilidades)|
+|**Rastro**| [Especificação suplementar](./EspSuplementar/#4-usabilidades)|
 
 ### Análise do NFR de Usabilidade
 
-[![Usabilidade](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS)
+[![Usabilidade](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)
 
 
 ## NFR02 - Desempenho
@@ -65,7 +65,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 
 ### Análise do NFR de Desempenho
 
-[![Desempenho](img/NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)](NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)
+[![Desempenho](img/NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)](img/NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)
 
 ## NFR03 - Suportabilidade
 
@@ -97,7 +97,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 
 ### Análise do NFR de Confiabilidade
 
-[![Confiabilidade](img/NFR-ANALISE-CONFIABILIDADEV1-REQUISITOS.jpg)](img/FR-ANALISE-CONFIABILIDADEV1-REQUISITOS.jpg)
+[![Confiabilidade](img/NFR-ANALISE-CONFIABILIDADEV1-REQUISITOS.jpg)](img/NFR-ANALISE-CONFIABILIDADEV1-REQUISITOS.jpg)
 
 
 
