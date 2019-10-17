@@ -97,5 +97,6 @@ durante o processo de pesquisa.
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
 | 25/09/19 |  1.0   |   Criação de Personas     |           Guilherme Leal |
+| 14/10/19 | 1.1 | Adicionados Introdução e Referências Bibliográficas| Renan Cristyan |
 | 16/10/19 |  2.0   |   Refatoração de Personas     |           Guilherme Leal |
 
