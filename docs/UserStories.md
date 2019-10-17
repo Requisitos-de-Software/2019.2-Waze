@@ -10,7 +10,7 @@ equipe uma capacidade para responder rapidamente o que o usuário quer e precisa
 
 ## Metodologia
 
-A sintaxe de uma hitóris de usuário sugerida deve conter:
+A sintaxe de uma História de Usuário sugerida deve conter:
 
 Ator, motivação e justificativa.
 
