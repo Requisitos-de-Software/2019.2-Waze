@@ -45,6 +45,15 @@ O sistema deve dar feedbacks ao usuário, de forma que o usuário seja sempre in
 
 Os servidores devem estar sempre disponíveis(24 horas por dia, 7 dias da semana).
 
+## Integridade dos Dados
+Os dados mostrados na aplicação devem estar condizentes com o que está no banco de dados da aplicação.
+
+## Privacidade dos Dados
+Os dados pessoais do usuários devem ser mantidos seguros, para manter a privacidade do mesmo.
+
+## Transparência
+O aplicativo deve deixar transparente todas informaçoes coletadas do usuário sobre como serão usadas.
+
 ## 6.  Suportabilidade
 
 ### Internet
@@ -104,3 +113,4 @@ Os usuários estão sujeitos às leis de direitos autorais. Disponíveis no <a h
 | 25/09/19 |  1.0   | Documento de Especificaçõ Suplementar | Guilherme Leal e Moacir Mascarenha |
 |27/09/19|2.0|Atualizado documento|Guilherme Leal e Moacir Mascarenha|
 |27/09/19|2.1| Revisão e atualização|Guilherme Leal e Moacir Mascarenha|
+|16/10/19|3.0| Atualizado a Confiabilidade|Lucas Alexandre |
