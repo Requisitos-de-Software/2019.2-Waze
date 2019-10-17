@@ -26,6 +26,8 @@ nav:
     - Cenários: Cenarios.md
     - Léxico Ampliado da Linguagem: Lexico.md
     - Caso de Uso : CasoDeUso.md
+  - Ágil:
+    - História de Usuários: UserHist.md
     - NFR framework: NFR.md
   - Personas: Personas.md
   

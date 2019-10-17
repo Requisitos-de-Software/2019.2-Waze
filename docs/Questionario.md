@@ -50,10 +50,10 @@ Além disso, 100% dos questionados, até aqueles que não utilizam o Waze deseja
 
 ID|Descrição| Prioridade
 --|--------|-----------
-Q01|O usuário deve ser informado sobre acontecimentos em sua rota(blitz ou acidentes)| Must
+Q01|O usuário deve ser informado sobre acontecimentos em sua rota (blitz ou acidentes)| Must
 Q02|O aplicativo deve ter conexão com um aplicativo de mídia| Would
 Q03|A navegação deve funcionar offline| Must
-Q04|O usuário deve receber informações sobre a via(radares ou velocidade)| Should
+Q04|O usuário deve receber informações sobre a via (radares ou velocidade)| Should
 Q05| O usuário deve informar eventos na sua rota| Could
 Q06 | O usuário deve ser informado sobre estabelicimentos próximos | Would
 Q07 | O usuário deve utilizar um veículo para se locomover | Should
