@@ -7,7 +7,7 @@ O Product Backlog é uma lista com todas as funcionalidades que são desejadas p
 
 ## Metodologia
 
-|ID| Tema | Epico | Eu, como | Desejo | Para |Rastro |
+|ID| Épico | Feature | Eu, como | Desejo | Para |Rastro |
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 | US01 | Mapa | Rota | Usuário | adicionar uma nova rota | chegar no meu destino |[BS05](../Brainstorm/#moscow), [INS00](../introspeccao/#moscow)|
 | US02 | Mapa | Rota | Usuário | alterar a rota| escolher o melhor caminho | [BS07](../Brainstorm/#moscow) |
@@ -43,19 +43,19 @@ O Product Backlog é uma lista com todas as funcionalidades que são desejadas p
 |US32| | | Usuário | integração com aplicativos de streaming | escutar musica durante o trajeto |BS10|
 |US33| | | Usuário | definir minhas preferências de percurso | ter opções e variedades de rotas | BS20 |
 
-## Temas
-| ID | Tema |
-|--|--|
-|T01| Mapa|
-|T02| Personalização|
-
 ## Épicos
 | ID | Épico |
 |--|--|
-| EP01 | Rota |
-| EP02 | Configurações da conta |
-| EP03 | Favoritos |
-| EP04 | Comunicação |
+|E01| Mapa|
+|E02| Personalização|
+
+## Features
+| ID | Feature |
+|--|--|
+| F01 | Rota |
+| F02 | Configurações da conta |
+| F03 | Favoritos |
+| F04 | Comunicação |
 
 ## Referências Bibliográficas
 
@@ -71,3 +71,4 @@ O Product Backlog é uma lista com todas as funcionalidades que são desejadas p
 |16/10/19|2.0|Adição da tabela de historias de usuário|João Pedro, Renan Cristyan|
 |16/10/19|2.1|Criação das tabelas de Temas e Épicos|João Pedro, Renan Cristyan|
 |16/10/19|2.2|Adicionados US08 até US33 na tabela de histórias de usuário|Renan Cristyan|
+|17/10/19|2.3|Substituído Tema por Épico e Épico por Feature|Renan Cristyan|
