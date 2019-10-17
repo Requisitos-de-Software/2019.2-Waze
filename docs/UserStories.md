@@ -32,26 +32,26 @@ ID| História do Usuário |Rastro|
 |US10|Eu, como usuário, desejo um modo offline para poder acessar certas funcionalidades sem ter conexão com a Internet|INS03, Q03, BS16|
 |US11| Eu, como usuário, gostaria de comandos de voz para auxiliar durante o trajeto|ENT04|
 |US12| Eu, como usuário, gostaria de integrar minhas redes sociais ao aplicativo |INS05
-|US13| Eu, como usuário, gostaria de ser informado sobre lojas ou estabelecimentos próximos | Q06, BS03, C08 |
+|US13| Eu, como usuário, gostaria de ser informado sobre lojas ou estabelecimentos próximos | Q06, BS03 |
 |US14| Eu, como usuário desejo avaliar feedback de outros usuários para informar feedback depreciados |BS13|
-|US15| Eu, como usuário, gostaria de dicas para ajustar minhas pesquisar de acordo com locais proximos  |INS11|
+|US15| Eu, como usuário, gostaria de dicas para ajustar minhas pesquisas de acordo com locais proximos  |INS11|
 |US16| Eu, como usuário, desejo que meus endereços sejam validados para não me perder durante o trajeto |INS10|
 |US17| Eu, como usuário, desejo salvar o local da minha casa para acesso mais fácil| Nenhum |
 |US18| Eu, como usuário, desejo salvar o local do meu trabalho para acesso mais fácil| Nenhum |
-|US19| Eu, como usuário, desejo que o aplicativo me oriente por comandos de voz | UC06, C11, C13 |
+|US19| Eu, como usuário, desejo que o aplicativo me oriente por comandos de voz | UC06 |
 |US20| Eu, como usuário, desejo saber minha localização em tempo real para me auxiliar em meu trajeto|BS01|
-|US21| Eu, como usuário, gostaria de uma opção de economia de bateria para economizar bateria durante o trajeto | BS08|
+|US21| Eu, como usuário, gostaria de uma opção de economia de bateria para economizar bateria durante o trajeto | BS08, UC05|
 |US22| Eu, como usuário, gostaria de visualizar informações do meu veículo no aplicativo | UC02 |
 |US23| Eu, como usuário, desejo um mapa atualizado para não ter rotas desatualizadas|BS11|
 |US24| Eu, como usuário, desejo que o aplicativo seja simples e intuitivo de se usar| BS15 |
-|US25| Eu, como usuário, gostaria que o aplicativo tivesse a opção de economizar a bateria do meu smatphone | UC05|
+|US25| Eu, como usuário, gostaria de evitar algumas situações durante o percurso | BS18 |
 |US26| Eu, como usuário, desejo receber a menor rota para meu destino para otimizar meu tempo|BS05|
 |US27| Eu, como usuário, desejo receber o tempo aproximado da minha rota para planejar minha chegada ao destino |BS06|
 |US28| Eu, como usuário, gostaria de pesquisar postos de combustíveis com bons preços | |
 |US29| Eu, como usuário, gostaria de um aplicativo leve para ter um bom desempenho em dispositivos com menos requisitos técnicos (processador, memória, etc.)|| BS14 |
-|US30| Eu, como usuário, gostaria de um sistema de chat para comunicar com outros usuários sobre eventos no percurso |BS09|
+|US30| Eu, como usuário, gostaria de um sistema de chat para me comunicar com outros usuários sobre eventos no percurso |BS09|
 |US31| Eu, como usuário, gostaria de editar o mapa para informar outros usuários sobre algum acontecimento | BS18 |
-|US32| Eu, como usuário, gostaria de integração com aplicativos de streaming para escutar musica durante o trajeto |BS10, C12|
+|US32| Eu, como usuário, gostaria de integração com aplicativos de streaming para escutar musica durante o trajeto |BS10|
 |US33| Eu, como usuário, desejo definir minhas preferências de percurso | BS20 |
 
 ## Referênias
