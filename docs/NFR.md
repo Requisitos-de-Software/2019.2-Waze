@@ -4,7 +4,7 @@
 
 <p align="justify">
 O NFR Framework trata-se de um framework conceitual orientado a requisitos não funcionais, ele decompõe os requisitos facilitando assim a compreensão e a priorização destes requisitos.
-
+</p>
 
 ## Metodologia
 
@@ -32,7 +32,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |**Data**| 16/10/2019 |
 |**Hora**| 16h30 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](./EspSuplementar.md)|
+|**Rastro**| [Especificação suplementar](../EspSuplementar)|
 
 
 ## NFR01 - Usabilidade
@@ -44,11 +44,11 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |**Data**| 15/10/2019 |
 |**Hora**| 16h30 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#.4-Usabilidades)|
+|**Rastro**| [Especificação suplementar](./EspSuplementar/#4-usabilidades)|
 
 ### Análise do NFR de Usabilidade
 
-[![Usabilidade](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS)
+[![Usabilidade](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)
 
 
 ## NFR02 - Desempenho
@@ -61,11 +61,11 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |**Data**| 16/10/2019 |
 |**Hora**| 17h10 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#7-desempenho)|
+|**Rastro**| [Especificação suplementar](../EspSuplementar/#7-desempenho)|
 
 ### Análise do NFR de Desempenho
 
-[![Desempenho](img/NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)](NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)
+[![Desempenho](img/NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)](img/NFR-ANALISE-DESEMPENHO-REQUISITOS.jpg)
 
 ## NFR03 - Suportabilidade
 
@@ -77,7 +77,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |**Data**| 16/10/2019 |
 |**Hora**| 17h30 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#6-suportabilidade) |
+|**Rastro**| [Especificação suplementar](../EspSuplementar/#6-suportabilidade) |
 
 ### Análise do NFR de Suportabilidade
 
@@ -93,11 +93,11 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |**Data**| 16/10/2019 |
 |**Hora**| 18h13 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
-|**Rastro**| [Especificação suplementar](./EspSuplementar.md/#5-confiabilidade) |
+|**Rastro**| [Especificação suplementar](../EspSuplementar/#5-confiabilidade) |
 
 ### Análise do NFR de Confiabilidade
 
-[![Confiabilidade](img/NFR-ANALISE-CONFIABILIDADEV1-REQUISITOS.jpg)](img/FR-ANALISE-CONFIABILIDADEV1-REQUISITOS.jpg)
+[![Confiabilidade](img/NFR-ANALISE-CONFIABILIDADEV1-REQUISITOS.jpg)](img/NFR-ANALISE-CONFIABILIDADEV1-REQUISITOS.jpg)
 
 
 
