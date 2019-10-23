@@ -127,7 +127,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Verbo |
 |**Noção**| O Waze mostra o feedback de vários usuários <br> O usuário confirma ou não se o feedback procede|
 |**Impacto**| Se o feedback receber avaliações negativas ele será removido do app|
-|**Rastro**| [BS13](../introspeccao/#31-moscow)|
+|**Rastro**| [BS13](../Brainstorm/#moscow)|
 
 <br>
 
@@ -212,7 +212,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Estado |
 |**Noção**| O Waze acessa os eventos das redes sociais do usuário|
 |**Impacto**| O Waze indica as rotas para esses eventos|
-|**Rastro**| Não Possui |
+|**Rastro**| [BS12](../Brainstorm/#moscow) |
 
 <br>
 
@@ -226,7 +226,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Verbo |
 |**Noção**| Usuário quer adicionar locais para ter acesso mais rápido <br> Usuário acessa facilmente os favoritos, sem precisar reescrever o local sempre que usar o app|
 |**Impacto**| O Waze salva os locais favoritos e exibe de maneira clara para o usuário|
-|**Rastro**| [BS02](../introspeccao/#31-moscow) |
+|**Rastro**| [BS02](../Brainstorm/#moscow) |
 
 <br>
 
@@ -266,6 +266,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Verbo |
 |**Noção**| Usuário quer definir o local da sua casa para acesso rápido <br> Útil para evitar digitar o mesmo local várias vezes|
 |**Impacto**| O local "Casa" recebe destaque no menu de busca do aplicativo <br> O acesso às rotas é muito mais rápido e prático |
+|**Rastro**| [BS02](../Brainstorm/#moscow) |
 
 ### **L19 - Definir trabalho**
 
@@ -277,6 +278,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Verbo |
 |**Noção**| Usuário quer definir o local do seu trabalho para acesso rápido <br> Útil para evitar digitar o mesmo lugar várias vezes|
 |**Impacto**| O local "Trabalho" recebe destaque no menu de busca do aplicativo <br> O acesso às rotas é muito mais fácil e prático |
+|**Rastro**| [BS02](../Brainstorm/#moscow) |
 
 ### **L20 - Configurar/Personalizar**
 
@@ -288,6 +290,8 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Verbo |
 |**Noção**| Usuário deseja alterar alguma configuração do aplicativo <br> Usuário deseja personalizar alguma funcionalidade do aplicativo |
 |**Impacto**| Após acessar a área "Configurações", é possível alterar uma série de configurações do aplicativo, como notificações, idioma, pesquisa por voz, entre outras|
+|**Rastro**| Não possui |
+
 
 ### **L21 - Criar uma conta**
 
@@ -299,6 +303,8 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Verbo |
 |**Noção**| Usuário quer trocar de dispositivo mas não quer ter que transferir todos os locais favoritos manualmente <br> Usuário pode criar uma conta gratuita no Waze|
 |**Impacto**| Apesar de não ser obrigatório, criar uma conta no Waze oferece benefícios interessantes, como ter os locais favoritos salvos caso o usuário troque de dispositivo|
+|**Rastro**| [INS07](../introspeccao/#31-moscow) |
+
 
 ## Referências Bibliográficas
 
@@ -320,3 +326,4 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |30/09/19|1.7|Adicionado L17|Lucas Alexandre|
 |01/10/19|1.8|Adicionado mais rastros| Matheus Estanislau|
 |15/10/19|1.9|Adicionados L18, L19, L20 e L21|Renan Cristyan|
+|23/10/19|2.0|Adicionado rastros L14,L18,L19,L21|Lucas Alexandre, Moacir Mascarenha|
