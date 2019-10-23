@@ -233,7 +233,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L16 - Ouvir músicas no aplicativo**
 
 | L16 | Ouvir músicas no aplicativo |  
-|--|--|
+|--| -- |
 |**Data**| 30/09 |
 |**Hora**| 14:15 |
 |**Autor(es)**| Renan Cristyan |
@@ -247,7 +247,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 ### **L17 - Utilizar o Waze onde não há sinal de internet**
 
 | L17 | Utilizar o Waze onde não há sinal de internet |  
-|--|--|
+|--| -- |
 |**Data**| 30/09 |
 |**Hora**| 20:05 |
 |**Autor(es)**| Lucas Alexandre |
