@@ -53,6 +53,15 @@ ID| História do Usuário |Rastro|
 |US31| Eu, como usuário, gostaria de editar o mapa para informar outros usuários sobre algum acontecimento | BS18 |
 |US32| Eu, como usuário, gostaria de integração com aplicativos de streaming para escutar musica durante o trajeto |BS10, C12|
 |US33| Eu, como usuário, desejo definir minhas preferências de percurso | BS20 |
+|US34|  Eu, como usuário gostaria de escolher a rota de acordo com minhas preferências |  |
+|US35| Eu, como usuário gostaria de ser informado sobre sinalização da via |  |
+|US36|Eu, como usuário gostaria de ser informado sobre o tipo do pavimento da minha rota |  |
+|US37|Eu, como usuário gostaria que as informações sobre a rota fossem simples e diretas |  |
+|US38|Eu, como usuário desejo ter perfil individual para salvar minhas preferências de navegação|  |
+|US39| Eu, como usuário gostaria de definir o avatar para meu perfil |  |
+|US40| Eu, como usuário gostaria de pode adicionar o tipo do meu veículo para melhorar as rotas|  |
+|US41|Eu, como usuário gostaria de poder informar onde tem novos radares na minha rota para que outros usuários fiquem cientes |  |
+
 
 ## Referênias
 
@@ -64,3 +73,4 @@ M., User Stories Applied: For Agile Software Development, Addison-Wesley, 2004.
 |:----:|:----:|:----:|:----:|
 | 13/10/19 | 1.0 | Documento de História de Usuários| Guilherme Leal e Moacir Mascarenha |
 | 16/10/19 | 1.1 | Adicionados mais Histórias de Usuários | João Pedro e Renan Cristyan |
+| 16/10/19 | 2.0 | Ajustado historia de usuário | João Pedro |
