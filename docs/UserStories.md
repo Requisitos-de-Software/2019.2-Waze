@@ -1,6 +1,6 @@
 # História de Usuários
 
-## Introdução
+## 1. Introdução
 <p align="justify">Em um ambiente ágil, a história de usuário é um instrumento de escrita utilizado no
 processo de levantamento de requisitos para descrever a especificação de uma
 funcionalidade do software. [Beck e Fowler, 2001]</p>
@@ -8,7 +8,7 @@ funcionalidade do software. [Beck e Fowler, 2001]</p>
 um grande documento de requisitos. A intenção real da história de usuário é fornecer à
 equipe uma capacidade para responder rapidamente o que o usuário quer e precisa. </p>
 
-## Metodologia
+## 2. Metodologia
 
 A sintaxe de uma História de Usuário sugerida deve conter:
 
@@ -16,7 +16,7 @@ Ator, motivação e justificativa.
 
 Ex.: Eu, como usuário, gostaria de (...) de mode que (...) .
 
-## Épicos e História de Usuário
+## 3. Histórias de Usuário
 
 ID| História do Usuário |Rastro|
 |--|--|--|
@@ -62,13 +62,21 @@ ID| História do Usuário |Rastro|
 |US40| Eu, como usuário gostaria de pode adicionar o tipo do meu veículo para melhorar as rotas|  |
 |US41|Eu, como usuário gostaria de poder informar onde tem novos radares na minha rota para que outros usuários fiquem cientes |  |
 
+## 4. Product Backlog
+|Épico| Feature | História do Usuário |
+|--|--|--|
+||FT01- Escolha e adição de rotas||
+|**E01- Controle das rotas**|FT02- Informações sobre a rota||
+|**E02-Preferências do usuário**|FT03-Definir preferências||
+|**E03- Social**|FT04- Troca de informações sobre minha rota ||
+||FT05- Contato com outros usuários| |
 
-## Referênias
+<!-- ## 5. Referênias -->
 
 >Beck, K., Fowler, M., (2001) Planning Extreme Programming. Addison-Wesley. Cohn,
 M., User Stories Applied: For Agile Software Development, Addison-Wesley, 2004.
 
-## Histórico de Versões
+## 6. Histórico de Versões
 |Data|Versão|Informação|Autor(es)|
 |:----:|:----:|:----:|:----:|
 | 13/10/19 | 1.0 | Documento de História de Usuários| Guilherme Leal e Moacir Mascarenha |
