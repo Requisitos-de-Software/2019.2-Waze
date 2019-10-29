@@ -35,10 +35,9 @@ Para realizar a verificação dos documentos de NFR, foi utilizada a técnica de
  
 |NFR|Observações|
 |---|-----------|
-|NFR00|<ul><li>Os softgoals devem ser decompostos em operacionalizações.</li><li>Os softgoals devem ser decompostos em hierarquias and/or.</li><li>Não há nenhuma indicação de quais objetivos são críticos.\</li></ul>|
+|NFR00|<ul><li>Os softgoals devem ser decompostos em operacionalizações.</li><li>Os softgoals devem ser decompostos em hierarquias and/or.</li><li>Não há nenhuma indicação de quais objetivos são críticos.</li></ul>|
 |NFR01|<ul><li>Não há nenhuma indicação de quais objetivos são críticos.</li></ul>|
-|NFR02|<ul><li>Não há nenhuma indicação de quais objetivos são críticos.</li><li>A representação da interdependência, entre a operalização **Modo hibernar** e o softgoal **Economia de dados**, deve ser indicada por uma seta tracejada.</li>
-</ul>|
+|NFR02|<ul><li>Não há nenhuma indicação de quais objetivos são críticos.</li><li>A representação da interdependência, entre a operalização **Modo hibernar** e o softgoal **Economia de dados**, deve ser indicada por uma seta tracejada.</li></ul>|
 |NFR03|<ul><li>Não há nenhuma indicação de quais objetivos são críticos.</li><li>A representação da interdependência, entre as operalizações **Suporte offline** e **Prover manutenção** e os softgoals **Dispositivos Android ou IOS**, poderiam ser indicadas por setas tracejadas.</li></ul>|
 |NFR04|<ul><li>Não há nenhuma indicação de quais objetivos são críticos.</li><li>A representação da interdependência, entre a operalização **Monitoramento** e o softgoal **Prevenir falhas**, deve ser indicada por uma seta tracejada.</li></ul>|
  
