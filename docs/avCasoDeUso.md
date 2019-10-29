@@ -29,19 +29,19 @@ Para realizar a verificação do documento de Casos de Uso, foi utilizada a téc
 
 
 |Questões |[UC01](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/#uc01-buscar-rota-para-onde)|[UC02](https://requisitos-de-software.github.io/2019.2-Waze)|[UC03](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/#uc03-exibicao-de-mapa)|[UC04](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/#uc04-navegacao)|[UC05](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/#uc05-economia-de-bateria)|[UC06](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/#uc06-voz-e-som)|
-|-------|----|----|----|----|----|----|----|
+|-------|----|----|----|----|----|----|
 |A descrição de caso de uso condiz com o caso de uso representado no diagrama?|✔|❌|❌|✔|✔|✔|
 |A descrição de caso de uso possui nome do caso de uso e nome do ator?|❌|❌|❌|❌|❌|❌|
-O Fluxo principal está explícito?|✔|❌|✔|✔|✔|✔|
-O Caso de uso utiliza fluxos alternativos?|✔|✔|✔|✔|✔|✔|
-As frases estão no tempo presente?|✔|✔|✔|✔|✔|✔|
-As frases representam um diálogo entre ator e sistema? |✔|✔|✔|✔|✔|✔|
-As frases possuem objetividade?|✔|✔|✔|✔|✔|✔|
-As frases são construídas em voz ativa? |❌|❌|❌|❌|❌|❌|
-As frases estão escritas corretamente de acordo com a norma padrão?|❌|❌|❌|❌|❌|❌|
-O caso de uso segue o padrão estabelecido?|❌|❌|❌|❌|❌|❌|
-O caso de uso possui o horário e a data de criação? |✔|✔|✔|✔|✔|✔|
-O caso de uso possui alguma rastreabilidade?|❌|❌|❌|❌|❌|❌|
+|O Fluxo principal está explícito?|✔|❌|✔|✔|✔|✔|
+|O Caso de uso utiliza fluxos alternativos?|✔|✔|✔|✔|✔|✔|
+|As frases estão no tempo presente?|✔|✔|✔|✔|✔|✔|
+|As frases representam um diálogo entre ator e sistema? |✔|✔|✔|✔|✔|✔|
+|As frases possuem objetividade?|✔|✔|✔|✔|✔|✔|
+|As frases são construídas em voz ativa? |❌|❌|❌|❌|❌|❌|
+|As frases estão escritas corretamente de acordo com a norma padrão?|❌|❌|❌|❌|❌|❌|
+|O caso de uso segue o padrão estabelecido?|❌|❌|❌|❌|❌|❌|
+|O caso de uso possui o horário e a data de criação? |✔|✔|✔|✔|✔|✔|
+|O caso de uso possui alguma rastreabilidade?|❌|❌|❌|❌|❌|❌|
 
 
 ### Observações
