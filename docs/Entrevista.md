@@ -112,16 +112,24 @@ Questão | Resposta
 
 ## 5. Requisitos Elicitados
 
-### MoSCow
+### 5.1 MoSCow
 
 ID | Descrição | Prioridade
 ---|-----------|-----------
 ENT01| O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pelo usuário.|Should
 ENT02|O aplicativo deve informar sobre as condições da via.|Could
-ENT03|O Usuario pode dar feedback sobre as condições do seu percurso.|Could
+ENT03|O usuário pode dar feedback sobre as condições do seu percurso.|Could
 ENT04| O aplicativo deve auxiliar a navegação por um guia de audio.|Should
 
-</br>
+
+### 5.2 First Things First
+
+Funcionalidades |Beneficio Relativo|Penalidade Relativa|Valor Total| Valor %| Custo Relativo| Custo %| Risco Relativo|Risco %| Prioridade
+----------------|------------------|-------------------|-----------|---------|---------------|---------|---------------|--------|-----------
+O usuário pode dar feedback sobre as condições do seu percurso	|7	|5	|19	|22.62	|4	|16.00	|5	|20.00	|0.870
+O aplicativo deve informar sobre as condições da via	|7	|7	|21	|25.00	|5	|20.00	|6	|24.00	|0.781
+O aplicativo deve auxiliar a navegacao por um guia de audio	|8	|8	|24	|28.57	|8	|32.00	|8	|32.00	|0.595
+O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pelo usuário	|7	|6	|20	|23.81	|8	|32.00	|6	|24.00	|0.541
 
 ## 6. Referências
 >DEVMEDIA: Técnicas para levantamento de Requisitos. Disponivel em: https://www.devmedia.com.br/tecnicas-para-levantamento-de-requisitos/9151. Acesso em 09/09/19
@@ -135,3 +143,4 @@ ENT04| O aplicativo deve auxiliar a navegação por um guia de audio.|Should
 09/09/19|1.0|Criação do documento|Moacir Mascarenha|
 09/09/19|1.1|Correções no texto e adições de 2 entrevistas|Renan Cristyan
 |23/09/19|1.2|Adicionado horário da entrevista|Moacir Mascarenha|
+| 29/09/19 |  2.0   | Adicionado técnica First Things First | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir, Renan Cristyan|

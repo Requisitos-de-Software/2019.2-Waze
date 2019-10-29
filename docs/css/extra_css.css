@@ -13,6 +13,10 @@ html .md-nav--primary .md-nav__title--site {
 
 .container h4 {
     color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -44,6 +48,24 @@ html .md-nav--primary .md-nav__title--site {
     border-radius: 5px 5px 0 0;
     width: 100%;
     margin-top: 1em;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/* Add some padding inside the card container */
+
+
+/* Add some padding inside the card container */
+
+.integrante {
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
 }
 
 .icon {

@@ -11,30 +11,30 @@ Questionário é uma técnica inflexível de elicitação de requisitos, pos é 
 O questionario faz uma divisão entre dois grupos: usuarios que usam o waze e usuarios que não usam, esta divisão foi feita para que o questionario não se delimitasse a apenas usuarios que usam waze e assim saber o por que esses usuarios não usam. podemos observar que a maior parte dos usuarios que responderam o questionario usam waze.
 </p>
 
-![Grafico 1](img/grafico1.png)
+[![Grafico 1](img/grafico1.png)](img/grafico1.png)
 
 ## 3.Usuarios que não usam waze
 
-![Grafico 2](img/grafico2.png)
-![Grafico 3](img/grafico3.png)
-![Grafico 4](img/grafico4.png)
+[![Grafico 2](img/grafico2.png)](img/grafico2.png)
+[![Grafico 3](img/grafico3.png)](img/grafico3.png)
+[![Grafico 4](img/grafico4.png)](img/grafico4.png)
 
 ## 4.Experiência do usuário
 
 
-![Grafico 5](img/grafico5.png)
-![Grafico 6](img/grafico6.png)
-![Grafico 7](img/grafico7.png)
-![Grafico 8](img/grafico8.png)
-![Grafico 9](img/grafico9.png)
-![Grafico 10](img/grafico10.png)
-![Grafico 11](img/grafico11.png)
-![Grafico 12](img/grafico12.png)
+[![Grafico 5](img/grafico5.png)](img/grafico5.png)
+[![Grafico 6](img/grafico6.png)](img/grafico6.png)
+[![Grafico 7](img/grafico7.png)](img/grafico7.png)
+[![Grafico 8](img/grafico8.png)](img/grafico8.png)
+[![Grafico 9](img/grafico9.png)](img/grafico9.png)
+[![Grafico 10](img/grafico10.png)](img/grafico10.png)
+[![Grafico 11](img/grafico11.png)](img/grafico11.png)
+[![Grafico 12](img/grafico12.png)](img/grafico12.png)
 
 ## 5.Feedback sobre waze
 
-![Grafico 13](img/grafico13.png)
-![Grafico 14](img/grafico14.png)
+[![Grafico 13](img/grafico13.png)](img/grafico13.png)
+[![Grafico 14](img/grafico14.png)](img/grafico14.png)
 
 ## 6.Analise
 
@@ -50,13 +50,13 @@ Além disso, 100% dos questionados, até aqueles que não utilizam o Waze deseja
 
 ID|Descrição| Prioridade
 --|--------|-----------
-Q01|O usuário deve ser informado sobre acontecimentos em sua rota(blitz ou acidentes)| Must
+Q01|O usuário deve ser informado sobre acontecimentos em sua rota (blitz ou acidentes)| Must
 Q02|O aplicativo deve ter conexão com um aplicativo de mídia| Would
 Q03|A navegação deve funcionar offline| Must
-Q04|O usuário deve receber informações sobre a via(radares ou velocidade)| Should
+Q04|O usuário deve receber informações sobre a via (radares ou velocidade)| Should
 Q05| O usuário deve informar eventos na sua rota| Could
 Q06 | O usuário deve ser informado sobre estabelicimentos próximos | Would
-
+Q07 | O usuário deve utilizar um veículo para se locomover | Should
 
 
 ## 8.Referências Bibliográficas
@@ -72,4 +72,5 @@ VITÓRIA DA CONQUISTA – BA. Disponível em: http://www2.uesb.br/computacao/wp-
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
 09/09/19|1.0|Criação do documento|João Pedro, Lucas Alexandre, Moacir Mascarenha|
+30/09/19|1.1|Adicionado Q07| Lucas Alexandre|
 

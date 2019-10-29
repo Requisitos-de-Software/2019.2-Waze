@@ -96,7 +96,10 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
  </ul>
 
 
-## Requisitos Elicitados e MoSCo
+
+## 3. Requisitos Elicitados
+
+### 3.1 MoSCow
 
 | Código | Descrição | Prioridade |
 |--------|-----------|------------|
@@ -115,7 +118,25 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 
 
 
-## Histórico de Versões
+### 3.2 First Things First
+
+Funcionalidades |Beneficio Relativo|Penalidade Relativa|Valor Total| Valor %| Custo Relativo| Custo %| Risco Relativo|Risco %| Prioridade
+----------------|------------------|-------------------|-----------|---------|---------------|---------|---------------|--------|-----------
+A aplicação tem que solicitar ao usuário que ele digite o trajeto do destino	|9	|9	|27	|12.33	|4	|6.56	|8	|12.50	|0.963
+A aplicação tem que solicitar ao usuário um destino	|9	|9	|27	|12.33	|4	|6.56	|8	|12.50	|0.963
+Mudanca de interface	|2	|1	|5	|2.28	|1	|1.64	|1	|1.56	|0.943
+Design mais intuitivo	|7	|5	|19	|8.68	|5	|8.20	|4	|6.25	|0.766
+Cadastro de usuário e login	|4	|4	|12	|5.48	|3	|4.92	|3	|4.69	|0.755
+Validar endereço	|9	|9	|27	|12.33	|7	|11.48	|9	|14.06	|0.666
+precisão rotas	|9	|9	|27	|12.33	|9	|14.75	|8	|12.50	|0.587
+O aplicativo deve consumir menos rede de dados	|7	|8	|22	|10.05	|7	|11.48	|8	|12.50	|0.567
+O usuário tem que receber dicas de lugares para que ele possa ir caso tenha digitado metade do endereço ou o endereço errado.rio	|9	|6	|24	|10.96	|8	|13.11	|8	|12.50	|0.566
+Integração com redes sociais	|4	|2	|10	|4.57	|4	|6.56	|2	|3.12	|0.562
+Veracidade de informacoes de usuários	|5	|4	|14	|6.39	|6	|9.84	|4	|6.25	|0.493
+Aumentar tamanho de rotas	|2	|1	|5	|2.28	|3	|4.92	|1	|1.56	|0.401
+
+
+## 4. Histórico de Versões
 
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
@@ -124,3 +145,4 @@ Problema:</b> uma instrospecção de um especialista de área diferente pode nã
 | 09/09/19 |  1.2   | Revisão | Guilherme Leal, Matheus Estanislau |
 | 09/09/19 |  1.3   | Deploy version | Guilherme Leal |
 | 25/09/19 |  2.0   | Separação de Personas | Guilherme Leal |
+| 29/09/19 |  3.0   | Adicionado técnica First Things First | João Pedro, Lucas Alexandre, Matheus Estanislau, Moacir, Renan Cristyan|

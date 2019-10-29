@@ -1,4 +1,6 @@
 site_name: Waze
+repo_name: 'Repositório de Requisitos Waze'
+repo_url: 'https://github.com/Requisitos2-2019/2019.2-Waze'
 theme:
   name: 'material'
   logo: 'img/docs_dir/waze_48px.ico'
@@ -17,10 +19,16 @@ nav:
     - Introspecção: introspeccao.md
     - Questionário: Questionario.md
     - Storytelling: Storytelling.md
+    - Análise de Protocolo: analiseProtocolo.md
+    - Brainstorm : Brainstorm.md
   - Modelagem:
     - Especificação Suplementar: EspSuplementar.md
     - Cenários: Cenarios.md
-    - Léxico: Lexico.md
-  - Pesonas: Personas.md
-  - Modelagem :
+    - Léxico Ampliado da Linguagem: Lexico.md
     - Caso de Uso : CasoDeUso.md
+  - Ágil:
+    - História de Usuários: UserStories.md
+    - NFR framework: NFR.md
+  - Personas: Personas.md
+  
+    
