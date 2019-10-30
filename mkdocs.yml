@@ -30,5 +30,7 @@ nav:
     - História de Usuários: UserStories.md
     - NFR framework: NFR.md
   - Personas: Personas.md
+  - Análise: 
+    - Verificação Casos de uso: avCasoDeUso.md
   
     
