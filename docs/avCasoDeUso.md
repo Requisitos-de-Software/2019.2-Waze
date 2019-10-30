@@ -48,12 +48,12 @@ Para realizar a verificação do documento de Casos de Uso, foi utilizada a téc
  
 |UC|Observações|
 |---|-----------|
-|UC01|<ul><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases.</li><li>Ocorrência de erros gramaticais na tabela.</li><li>Não há rastreabilidade.</li></ul>|
-|UC02|<ul><li>Caso de uso não está de acordo com a especificação.</li><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases.</li><li>Ocorrência de erros gramaticais na tabela.</li><li>Não há rastreabilidade.</li></ul>|
-|UC03|<ul><li>Caso de uso não está de acordo com a especificação.</li><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases.</li><li>Ocorrência de erros gramaticais na tabela.</li><li>Não há rastreabilidade.</li></ul>|
-|UC04|<ul><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases.</li><li>Ocorrência de erros gramaticais na tabela.</li><li>Não há rastreabilidade.</li></ul>|
-|UC05|<ul><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases.</li><li>Ocorrência de erros gramaticais na tabela.</li><li>Não há rastreabilidade.</li></ul>|
-|UC06|<ul><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases.</li><li>Ocorrência de erros gramaticais na tabela.</li><li>Não há rastreabilidade.</li></ul>|
+|UC01|<ul><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases.</li><li>Ocorrência de erros gramaticais na tabela.</li><li>Não há rastreabilidade na tabela</li></ul>|
+|UC02|<ul><li>Caso de uso não está de acordo com a especificação.</li><li>Não existe padrão para formulação das frases no diagrama, alguns casos de uso não representam uma ação.<li>Não existe padrão para formulação das frases.</li><li>Ocorrência de erros gramaticais na tabela.</li><li>Não há rastreabilidade na tabela.</li></ul>|
+|UC03|<ul><li>Caso de uso não está de acordo com a especificação.</li><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases no diagrama, alguns casos de uso não representam uma ação.</li><li>Ocorrência de erros gramaticais na tabela.</li><li>Não há rastreabilidade na tabela.</li></ul>|
+|UC04|<ul><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases no diagrama, alguns casos de uso não representam uma ação.</li><li>Ocorrência de erros gramaticais na tabela.</li><li>Não há rastreabilidade na tabela.</li></ul>|
+|UC05|<ul><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases no diagrama, alguns casos de uso não representam uma ação.</li><li>Ocorrência de erros gramaticais na tabela.</li><li>Não há rastreabilidade na tabela</li></ul>|
+|UC06|<ul><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases no diagrama, alguns casos de uso não representam uma ação.</li><li>Ocorrência de erros gramaticais na tabela.</li><li>Não há rastreabilidade na tabela.</li></ul>|
 
 ## Refências Bibliográficas
 >Casos de uso, Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. Acesso em: 29 de outubro de 2019
@@ -63,3 +63,4 @@ Para realizar a verificação do documento de Casos de Uso, foi utilizada a téc
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
 |29/10/19|1.0|Criação do documento|Lucas Alexandre e Matheus Estanislau|
+|30/10/19|1.1| Ajustada as observações| Lucas Alexandre
