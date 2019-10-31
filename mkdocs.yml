@@ -31,6 +31,7 @@ nav:
     - NFR framework: NFR.md
   - Personas: Personas.md
   - Análise: 
-    - Verificação Casos de Uso: avCasoDeUso.md
+    - Verificação Casos de Uso: VerificacaoCasoDeUso.md
     - Verificação Rich Picture: Verificacao-RichPicture.md
     - Verificação NFR: Verificacao-NFR.md
+    - Verificação Cenário: VerificacaoCenarios.md
