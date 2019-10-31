@@ -62,21 +62,12 @@ ID| História do Usuário |Rastro|
 |US40| Eu, como usuário gostaria de pode adicionar o tipo do meu veículo para melhorar as rotas|  |
 |US41|Eu, como usuário gostaria de poder informar onde tem novos radares na minha rota para que outros usuários fiquem cientes |  |
 
-## 4. Product Backlog
-|Épico| Feature | História do Usuário |
-|--|--|--|
-||FT01- Escolha e adição de rotas||
-|**E01- Controle das rotas**|FT02- Informações sobre a rota||
-|**E02-Preferências do usuário**|FT03-Definir preferências||
-|**E03- Social**|FT04- Troca de informações sobre minha rota ||
-||FT05- Contato com outros usuários| |
-
-<!-- ## 5. Referênias -->
+## 4. Referênias 
 
 >Beck, K., Fowler, M., (2001) Planning Extreme Programming. Addison-Wesley. Cohn,
 M., User Stories Applied: For Agile Software Development, Addison-Wesley, 2004.
 
-## 6. Histórico de Versões
+## 5. Histórico de Versões
 |Data|Versão|Informação|Autor(es)|
 |:----:|:----:|:----:|:----:|
 | 13/10/19 | 1.0 | Documento de História de Usuários| Guilherme Leal e Moacir Mascarenha |
