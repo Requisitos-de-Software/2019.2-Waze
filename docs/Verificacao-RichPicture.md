@@ -17,17 +17,17 @@ Para realizar a verificação dos documentos de Rich Pictures, foi utilizada a t
 ## Inspeção
 Justificativas baseadas em: [Complexity and rich pictures](http://leadershipforchange.org.uk/wp-content/uploads/Complexity-and-rich-pictures.pdf) e Slides de Aula
 
-|ID|Questão|Justificativa
-|--|-------|-------------|
-|1|O rich picture possui um título expressivo?|O título deve ser significativo para identificação mais eficiente|
-|2|Os atores estão bem definidos?|Os atores são usuários do sistema e é necessário ter seus papéis distinguidos|
-|3|A simbologia esta coerente?|Os símbolos e imagens devem auxiliar a interpretação de situações reais do sistema|
-|4|O fluxo de informações é coerente com o sentido das setas?|As conexões entre os símbolos devem ser signicativas, representando uma lógica, e os símbolos devem sempre estar conectados de alguma forma|
-|5|A quantidade de texto é mínima?|A ideia é utilizar muitos símbolos fáceis de serem compreendidos e menos textos para explicá-los|
-|6|As ideias que necessitaram de texto foram bem explicadas?|Caso seja necessário o uso de texto, este deve ser o mais breve e sucinto possível|
-|7|Os rótulos são descritos corretamente?|Os rótulos devem ter bons nomes para que não seja necessário o uso de textos explicativos. Além disso, o uso de rótulos auxilia em um melhor entendimento do rich picture|
-|8|Os rótulos são posicionados corretamente?|O posicionamento dos rótulos deve ser diretamente abaixo dos símbolos, para facilitar sua assimilação|
-|9|O Rich Picture possui termos simples para que usuários não-técnicos possam compreender seu conteúdo?|O emprego de termos ou jargões técnicos pode dificultar o compreensão de um cliente sobre o diagrama|
+|Questão|Justificativa
+|-------|-------------|
+|O rich picture possui um título expressivo?|O título deve ser significativo para identificação mais eficiente|
+|Os atores estão bem definidos?|Os atores são usuários do sistema e é necessário ter seus papéis distinguidos|
+|A simbologia esta coerente?|Os símbolos e imagens devem auxiliar a interpretação de situações reais do sistema|
+|O fluxo de informações é coerente com o sentido das setas?|As conexões entre os símbolos devem ser signicativas, representando uma lógica, e os símbolos devem sempre estar conectados de alguma forma|
+|A quantidade de texto é mínima?|A ideia é utilizar muitos símbolos fáceis de serem compreendidos e menos textos para explicá-los|
+|As ideias que necessitaram de texto foram bem explicadas?|Caso seja necessário o uso de texto, este deve ser o mais breve e sucinto possível|
+|Os rótulos são descritos corretamente?|Os rótulos devem ter bons nomes para que não seja necessário o uso de textos explicativos. Além disso, o uso de rótulos auxilia em um melhor entendimento do rich picture|
+|Os rótulos são posicionados corretamente?|O posicionamento dos rótulos deve ser diretamente abaixo dos símbolos, para facilitar sua assimilação|
+|O Rich Picture possui termos simples para que usuários não-técnicos possam compreender seu conteúdo?|O emprego de termos ou jargões técnicos pode dificultar o compreensão de um cliente sobre o diagrama|
 
 ## Checklist
 
