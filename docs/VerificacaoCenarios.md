@@ -15,33 +15,33 @@ Para realizar a verificação dos Cenários, foi utilizada a técnica de inspeç
 ## Checklist
 |QUESTÕES|JUSTIFICATIVA|
 |--------|-------------|
-|- Possui título correto (padrão)?|Criar padrão para o projeto facilitando a identificação dos documentos|
-|- Possui título significativo ?|O Cenário deve ter título para que o leitor já saiba do que se trata|
-|- Possui objetivo claro?|Necessário objetivo claro |
-|- Os atores estão bem definidos?|Necessário identificar os envolvidos na realização do objetivo|
-|- O contexto apresenta local?|Descreve o local, noção e estado do cenário|
-|- Descreve exceções?|É preciso deixar claro o que pode interromper a realização do cenário|
-|- Descreve restrições?|É preciso deixar claro ao que se restringe o cenário|
-|- Existem recursos?|Recursos necessáros para o cenário|
-|- Possui rastreabilidade?|Identificar as origens do cenário, qual o artefato que levou a contrução dele e onde o requisito pode ser encontrado.|
-|- Possui versionamento?|Companhar sua evolução e identificar melhoria|
-|- Possui hyperlinks?||
+| Possui título correto (padrão)?|Criar padrão para o projeto facilitando a identificação dos documentos|
+| Possui título significativo ?|O Cenário deve ter título para que o leitor já saiba do que se trata|
+| Possui objetivo claro?|Necessário objetivo claro |
+| Os atores estão bem definidos?|Necessário identificar os envolvidos na realização do objetivo|
+| O contexto apresenta local?|Descreve o local, noção e estado do cenário|
+| Descreve exceções?|É preciso deixar claro o que pode interromper a realização do cenário|
+| Descreve restrições?|É preciso deixar claro ao que se restringe o cenário|
+| Existem recursos?|Recursos necessáros para o cenário|
+| Possui rastreabilidade?|Identificar as origens do cenário, qual o artefato que levou a contrução dele e onde o requisito pode ser encontrado.|
+| Possui versionamento?|Companhar sua evolução e identificar melhoria|
+| Possui hyperlinks?||
 
 ## Inspenção
 
 |Questões|[C01]|[C02]|[C03]|[C04]|[C05]|[C06]|[C07]|[C08]|[C09]|[C10]|[C11]|[C12]|[C13]|[C14]|[C15]|[C16]|[C17]|[C18]|[C19]|
 |--------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-|- Possui título correto (padrão) ?|x|x|x|x|x|x|x|x|x|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
-|- Possui título significativo ?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
-|- Possui objetivo claro?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
-|- Os atores estão bem definidos?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
-|- O contexto apresenta local?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
-|- Descreve exceções?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
-|- Descreve restrições?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
-|- Existem recursos?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
-|- Possui rastreabilidade?|✔|✔|x|✔|✔|✔|✔|✔|✔|✔|✔|✔|x|✔|✔|✔|✔|✔|x|
-|- Possui versionamento?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
-|- Possui hyperlinks?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|x|✔|
+| Possui título correto (padrão) ?|x|x|x|x|x|x|x|x|x|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+| Possui título significativo ?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+| Possui objetivo claro?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+| Os atores estão bem definidos?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+| O contexto apresenta local?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+| Descreve exceções?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+| Descreve restrições?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+| Existem recursos?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+| Possui rastreabilidade?|✔|✔|x|✔|✔|✔|✔|✔|✔|✔|✔|✔|x|✔|✔|✔|✔|✔|x|
+| Possui versionamento?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+| Possui hyperlinks?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|x|✔|
 
 ## Observações
 |UC|Observações|
