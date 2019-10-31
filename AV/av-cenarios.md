@@ -13,19 +13,19 @@ Para realizar a verificação dos Cenários, foi utilizada a técnica de inspeç
 ---rios](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/)
 
 ## Checklist
-
-- Possui título significativo ?
-- Possui objetivo claro?
-- Os atores estão bem definidos?
-- O contexto apresenta local?
-- Responde o 5W2h?
-- Descreve exceções?
-- Descreve restições?
-- Existem recursos?
-- Há descrição do recurso?
-- Possui rastreabilidade?
-- Possui versionamento?
-- Possui hyperlinks?
+|QUESTÕES|JUSTIFICATIVA|
+|--------|-------------|
+|- Possui título correto (padrão)?|Criar padrão para o projeto facilitando a identificação dos documentos|
+|- Possui título significativo ?|O Cenário deve ter título para que o leitor já saiba do que se trata|
+|- Possui objetivo claro?|Necessário objetivo claro |
+|- Os atores estão bem definidos?|Necessário identificar os envolvidos na realização do objetivo|
+|- O contexto apresenta local?|Descreve o local, noção e estado do cenário|
+|- Descreve exceções?|É preciso deixar claro o que pode interromper a realização do cenário|
+|- Descreve restrições?|É preciso deixar claro ao que se restringe o cenário|
+|- Existem recursos?|Recursos necessáros para o cenário|
+|- Possui rastreabilidade?|Identificar as origens do cenário, qual o artefato que levou a contrução dele e onde o requisito pode ser encontrado.|
+|- Possui versionamento?|Companhar sua evolução e identificar melhoria|
+|- Possui hyperlinks?||
 
 ## Inspenção
 
@@ -37,7 +37,7 @@ Para realizar a verificação dos Cenários, foi utilizada a técnica de inspeç
 |- Os atores estão bem definidos?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
 |- O contexto apresenta local?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
 |- Descreve exceções?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
-|- Descreve restições?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+|- Descreve restrições?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
 |- Existem recursos?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
 |- Possui rastreabilidade?|✔|✔|x|✔|✔|✔|✔|✔|✔|✔|✔|✔|x|✔|✔|✔|✔|✔|x|
 |- Possui versionamento?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
@@ -59,9 +59,18 @@ Para realizar a verificação dos Cenários, foi utilizada a técnica de inspeç
 |C018|<ul><li>Hyperlink redireciona incorretamente</ul>|
 |C019|<ul><li>Não possui rastro</ul>|
 
+
+## Conclusão
+
+Pela análise feita a partir dos CheckLists, os modelos gerados pelo grupo ficaram bons. O que mais esteve ausente nos modelos foram alguns hyperlinks. Os erros serão corrigidos conforme o planejamento de refatoração antes da validação.
+
 ## Refências Bibliográficas
 
 >[A Importância da validação e da verificação](https://www.devmedia.com.br/a-importancia-da-validacao-e-da-verificacao/24559)
+
+>SERRANO, M. et al. SimulES Jogo de Cartas e Tabuleiro - Especificação em Cenários.
+
+>DO PRADO LEITE, Julio Cesar Sampaio et al. Enhancing a requirements baseline with scenarios. Requirements Engineering, v. 2, n. 4, p. 184-198, 1997.
 
 ## Histórico de Versões
 
@@ -69,3 +78,4 @@ Para realizar a verificação dos Cenários, foi utilizada a técnica de inspeç
 |----|------|---------|---------|
 |29/10/19|1.0| Verificação de Cenários |Guilherme Leal, João Pedro Soares|
 |29/10/19|1.1| Inspeção dos Cenários |Guilherme Leal, João Pedro Soares|
+|29/10/19|1.2| Inspeção dos Cenários |Guilherme Leal, João Pedro Soares|
