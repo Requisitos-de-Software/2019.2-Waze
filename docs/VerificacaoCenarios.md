@@ -10,7 +10,7 @@ Para realizar a verificação dos Cenários, foi utilizada a técnica de inspeç
 
 ## Rastreabilidade
 
----rios](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/)
+[Cenarios](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/)
 
 ## Checklist
 |QUESTÕES|JUSTIFICATIVA|
