@@ -5,7 +5,6 @@
 Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de um ou mais usuários, narrando seus objetivos, planos e reações. São uma estratégia para compreender as interações entre ambientes e sistemas, assim como elicitar a parte comportamental do software, sua dinâmica e/ou seu fluxo.
 </p>
 
-
 ## 2. Metodologia
 
 | Tag cenário | Informações | 
@@ -130,7 +129,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado|
 |**Episódios**|Usuário abre o aplicativo Waze<br>Usuário pesquisa pelo local desejado<br>Waze calcula melhor rota<br>Usuário confirma a rota<br>Usuário acessa opção de encontrar melhor hora para sair<br>Waze retorna uma estatísticas da melhor hora para esta rota|
 |**Exceção**|Hora sugerida não ser melhor opção<br>Aplicativo sem acesso à rede|
-|**Rastro**|[AP09](../Brainstorm/#moscow)|
+|**Rastro**|[AP09](../analiseProtocolo/#moscow)|
 
 ### **C7 - Buscar postos de combustíveis com melhor preço**
 
@@ -147,7 +146,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado|
 |**Episódios**|Usuário verifica que o combustível do seu carro está acabando<br>Usuário abre o aplicativo Waze<br>Usuário acessa o mapa<br>Usuário acessa a pesquisa<br>Usuário clica na opção postos de combustíveis<br>Waze mostra postos próximos a sua localização<br>Waze mostra o preços atualizados dos combustíveis disponíveis<br>Waze mostra distância até os postos de combustíveis próximos<br>Usuário acessa posto de combustível de sua preferência<br>Waze sugere melhor rota até o posto escolhido|
 |**Exceção**|Aplicativo sem acesso à rede<br>Local não contém postos próximos<br>Preços desatualizados<br>Estabelecimento fechado<br>Rota sugerida não ser melhor opção|
-|**Rastro**|[ST02](../Brainstorm/#moscow)|
+|**Rastro**|[ST02](../Storytelling/#31-moscow)|
 
 ### **C8 - Buscar Estacionamentos próximo ao destino**
 
@@ -164,7 +163,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado|
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário realiza a pesquisa de uma rota<br>O usuário clica na opção de estacionamento mais próximo<br>O aplicativo sugere estacionamento próximo do destino<br>O usuário clica na opção ”estacionar aqui”<br>O aplicativo gera uma rota até o estacionamento|
 |**Exceção**|Aplicativo sem acesso à rede<br>Local há estacionamento próximo ao destino<br>Rota sugerida não ser melhor opção<br>Estacionamento não cadastrado|
-|**Rastro**|[ST02](../Brainstorm/#moscow)|
+|**Rastro**|[ST02](../Storytelling/#31-moscow)|
 
 ### **C9 - Adicionando local aos favoritos**
 
@@ -215,7 +214,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br>GPS do Smartphone ligado|
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário digita uma rota<br>O usuário seleciona a rota<br>O usuário clica no botão "Ir agora"<br>Waze informa rota e alertas durante o percurso através da assistente de voz|
 |**Exceção**|Aplicativo sem acesso à rede<br>Rota sugerida não ser melhor opção<br>Localização inválida|
-|**Rastro**|Nenhum|
+|**Rastro**|[ENT04](../Entrevista/#51-moscow)|
 
 ### **C12 - Ouvir musica durante sua rota**
 
@@ -247,7 +246,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Atores**|Usuário|
 |**Recursos**|Smartphone<br>Acesso à rede|
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br>ter aplicativo de música instalado <br>Ter sido aceito o termo de uso no Waze|
-|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa configurções do waze<br>O usuario acessa opção de "Voz e som<br>Waze mostra opções de mudança de voz para usuário|
+|**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa configurações do waze<br>O usuario acessa opção de "Voz e som<br>Waze mostra opções de mudança de voz para usuário|
 |**Exceção**|Aplicativo sem acesso à rede<br>Aplicatico sem acesso ao audio do celular|
 |**Rastro**|Nenhum|
 
@@ -266,7 +265,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário acessa o ícone restaurante, simbolizado por talheres<br>Waze mostra os restaurantes mais próximos <br> O usuário clica no restaurante desejado <br> O Waze gera uma rota até o estabelecimento|
 |**Exceção**|Aplicativo sem acesso à rede<br>Restaurante não cadastrado <br>Estabelecimento fechado|
-|**Rastro**|[ST02](../Brainstorm/#moscow)|
+|**Rastro**|[ST02](../Storytelling/#31-moscow)|
 
 ### **C15 - Hospitais e emergência próximos**
 
@@ -283,7 +282,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário acessa o ícone categorias, simbolizado por 3 pontos contíguos<br>Waze mostra os hospitais e emergências mais próximos <br> O usuário clica no hospital desejado  <br> O Waze gera uma rota até o hospital|
 |**Exceção**|<br>Aplicativo sem acesso à rede <br>Hospital fechado <br> Hospital sem vagas|
-|**Rastro**|[ST02](../Brainstorm/#moscow)|
+|**Rastro**|[ST02](../Storytelling/#31-moscows)|
 
 ### **C16 - Buscar farmácias nas proximidades**
 
@@ -300,7 +299,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário acessa o ícone categorias, simbolizado por 3 pontos contíguos<br>Waze mostra as farmácias mais próximas <br> O usuário clica na farmácia desejada <br> O Waze gera uma rota até o estabelecimento|
 |**Exceção**|Aplicativo sem acesso à rede<br>Farmácia não cadastrada <br>Estabelecimento fechado|
-|**Rastro**|[ST02](../Brainstorm/#moscow)|
+|**Rastro**|[ST02](../Storytelling/#31-moscow)|
 
 ### **C17 - Buscar Hotéis e hospedagem**
 
@@ -318,7 +317,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa a pesquisa<br>O usuário acessa o ícone categorias, simbolizado por 3 pontos contíguos<br>Waze mostra hotéis e hospedagem mais próximos <br> O usuário clica no estabelecimento desejado <br> O Waze gera uma rota até o estabelecimento|
 |**Exceção**|Aplicativo sem acesso à rede <br>Hotel não cadastrado <br>Hotel sem vagas <br>Estabelecimento fechado|
-|**Rastro**|[ST02](../Brainstorm/#moscow)|
+|**Rastro**|[ST02](../Storytelling/#31-moscow)|
 
 
 ### **C18 - Ativar modo economia de bateria**
@@ -386,3 +385,4 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |12/10/19|3.5| Criado cenário 18| João Pedro|
 |13/10/19|3.6| Criado cenário 19| João Pedro|
 |15/10/19|4.0| Adicionado rastro aos cenários|João Pedro|
+|23/10/19|4.1| Adicionado rastro C6,C7,C8,C11,C14,C15,C16 e C17|Lucas Alexandre, Moacir Mascarenha|

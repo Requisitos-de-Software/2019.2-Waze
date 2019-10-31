@@ -142,6 +142,7 @@ priorizada de necessidades e desejos dos usuários.
 | BS09   |O aplicativo deve ter um sistema de chat | Would |
 | BS10   |O aplicativo deve ter integração com aplicativos de streaming| Would |
 | BS11   | O aplicativo deve ter o mapa atualizado | Must |
+| BS12   |O aplicativo deve usar informações de eventos de redes sociais|Would|
 | BS13   | O usuário deve ser capaz de avaliar feedback de outros usuários | Could |
 | BS14   |O aplicativo deve ser leve o suficiente para ter um bom desempenho na maioria dos dispositivos| Could |
 | BS15   |O aplicativo deve intuitivo e agradável| Could|

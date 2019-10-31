@@ -27,8 +27,12 @@ nav:
     - Léxico Ampliado da Linguagem: Lexico.md
     - Caso de Uso : CasoDeUso.md
   - Ágil:
-    - História de Usuários: UserHist.md
+    - História de Usuários: UserStories.md
     - NFR framework: NFR.md
   - Personas: Personas.md
+  - Análise: 
+    - Verificação Casos de Uso: VerificacaoCasoDeUso.md
+    - Verificação Rich Picture: Verificacao-RichPicture.md
+    - Verificação Cenário: VerificacaoCenarios.md
+
   
-    
