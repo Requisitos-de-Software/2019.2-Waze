@@ -9,6 +9,9 @@ O Product Backlog é uma lista com todas as funcionalidades que são desejadas p
 
 [![backlog](img/BacklogTabela.png)](img/BacklogTabela.png)
 
+## Rastreabilidade
+[Histórias de usuario](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/)
+
 ## Referências Bibliográficas
 
 > Cervone, H. (2011), "Understanding agile project management methods using Scrum", OCLC Systems & Services: International digital library perspectives, Vol. 27 No. 1, pp. 18-22. 
