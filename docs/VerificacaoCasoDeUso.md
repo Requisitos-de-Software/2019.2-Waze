@@ -1,16 +1,21 @@
-# Introdução
+# Verificação Casos de uso
+
+## Introdução
 
 <p align="justify">
 A verificação é uma atividade onde o sistema é utilizado para certificar-se que os requisitos foram atendidos. A Validação, é a certificação de que o sistema atende as necessidades e expectativas.
 </p>
 
-# Metodologia
+## Metodologia
 
 <p align="justify">
 Para realizar a verificação do documento de Casos de Uso, foi utilizada a técnica de inspeção. Foi definida uma checklist onde cada tópico foi avaliado e os defeitos detectados foram descritos para que possam ser corrigidos o mais breve possível.
 </p>
 
-# Inspeção
+## Rastreabilidade
+[Casos de Uso](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/)
+
+## Inspeção
 |Questão|Justificativa|
 |--|--|
 |A descrição de caso de uso condiz com o caso de uso representado no diagrama?|A imagem que representa o caso de uso deve estar de acordo com a descrição|
