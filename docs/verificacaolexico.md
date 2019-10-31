@@ -15,7 +15,6 @@ Para realizar a verificação do documento de Léxico Aplicado da Linguagem, foi
  <ul>
   <li> Possui o nome do léxico? 
   <li> Possui identificação adequada?
-  <li> Descreve um símbolo ou objeto?
   <li> Usa linguagem compreensível?
   <li> Possui noções?
   <li> Noções estão corretas?
@@ -30,25 +29,23 @@ Para realizar a verificação do documento de Léxico Aplicado da Linguagem, foi
  </ul>
 
 
-|Questões |[L1]|[L2]|[L3]|[L4]|[L5]|[L6]|[L7]|[L8]|[L9]|[L10]|[L11]|[L12]|[L13]|[L14]|[L15]|[L16]|[L17]|[L18]|[L19]|[L20]|[L21]|
+|Questões |[L01]|[L02]|[L03]|[L04]|[L05]|[L06]|[L07]|[L08]|[L09]|[L10]|[L11]|[L12]|[L13]|[L14]|[L15]|[L16]|[L17]|[L18]|[L19]|[L20]|[L21]|
 |-------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
-|Possui o nome do léxico?||||||||||||||||||||||
-|Possui identificação adequada?||||||||||||||||||||||
-|Descreve um símbolo ou objeto?||||||||||||||||||||||
-|Usa linguagem compreensível?||||||||||||||||||||||
-|Possui noções?||||||||||||||||||||||
-|Noções estão corretas?|||||||||||||||||||||
-|Possui impactos?||||||||||||||||||||||
-|Impactos estão corretos?||||||||||||||||||||||
-|Usa a estrutura de classificação (verbo, objeto, estado)?||||||||||||||||||||||
-|A classificação está de acordo com o léxico?||||||||||||||||||||||
-|O lexico segue o padrão estabelecido?||||||||||||||||||||||
-| O lexico de uso possui o horário e a data de criação?||||||||||||||||||||||
-|O lexico de uso possui rastreabilidade adequada?||||||||||||||||||||||
-|Possui linkagens?||||||||||||||||||||||
+|Possui o nome do léxico?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+|Possui identificação adequada?|❌|❌|❌|❌|❌|❌|❌|❌|❌|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+|Usa linguagem compreensível?|✔|✔|✔|✔|✔|✔|❌|✔|✔|✔|✔|❌|✔|✔|✔|✔|✔|❌|❌|❌|✔|
+|Possui noções?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+|Noções estão corretas?|❌|✔|✔|✔|✔|❌|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔
+|Possui impactos?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+|Impactos estão corretos?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|❌|❌|✔|✔|
+|Usa a estrutura de classificação (verbo, objeto, estado)?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+|A classificação está de acordo com o léxico?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+|O lexico segue o padrão estabelecido?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+| O lexico de uso possui o horário e a data de criação?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
+|O lexico de uso possui rastreabilidade adequada?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|❌|✔|
+|Possui linkagens?|✔|✔|✔|✔|✔|✔|✔|✔|❌|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|❌|✔|
 
 
-✔ ❌
 ### Observações
  
 |UC|Observações|
