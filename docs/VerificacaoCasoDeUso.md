@@ -66,7 +66,10 @@ O caso de uso pode ser avaliado como regular de acordo com os critérios de qual
 
 ## Refências Bibliográficas
 >Casos de uso, Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. Acesso em: 29 de outubro de 2019
+
 >A Importância da validação e da verificação, Disponível em: https://www.devmedia.com.br/a-importancia-da-validacao-e-da-verificacao/24559
+
+>Serrano, Milene. Serrano, Mauricio. Requisitos-Aula 11.2/2019
 
 ## Histórico de Versões
 |Data|Versão|Descrição|Autor(es)|
