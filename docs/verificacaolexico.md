@@ -28,8 +28,9 @@ Para realizar a verificação do documento de Léxico Aplicado da Linguagem, foi
 |12|O lexico de uso possui rastreabilidade adequada?|Para facilitar na pós rastreabilidade,o caso de uso deve possuir uma rastreabilidade bem definida|
 |13|Possui linkagens?|Para falicilitar a rastreabilidade|
 
+<br></br>
 
-|Questões |[L1]|[L02]|[L03]|[L04]|[L05]|[L06]|[L07]|[L08]|[L09]|[L10]|[L11]|[L12]|[L13]|[L14]|[L15]|[L16]|[L17]|[L18]|[L19]|[L20]|[L21]|
+|Questões |[L1](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l1-definir-o-destino)|[L02](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l2-smartphone)|[L03](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l3-usuario-esta-se-locomovendo)|[L04](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l4-planejar-rota)|[L05](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l5-veiculo)|[L06](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l6-o-usuario-esta-com-pressa)|[L07](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l7-dar-feedback)|[L08](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l8-avaliar-feedback)|[L09](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l9-mapa)|[L10](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l10-engarrafamento)|[L11](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l11-fiscalizacao-eletronica)|[L12](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l12-consultar-postos-de-gasolina)|[L13](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l13-acidentes-na-rota)|[L14](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l14-eventos)|[L15](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l15-adicionar-locais-favoritos)|[L16](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l16-ouvir-musicas-no-aplicativo)|[L17](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l17-utilizar-o-waze-onde-nao-ha-sinal-de-internet)|[L18](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l18-definir-casa)|[L19](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l19-definir-trabalho)|[L20](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l20-configurarpersonalizar)|[L21](https://requisitos-de-software.github.io/2019.2-Waze/Lexico/#l21-criar-uma-conta)|
 |-------|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
 |Possui o nome do léxico?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
 |Possui identificação adequada?|❌|❌|❌|❌|❌|❌|❌|❌|❌|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
@@ -63,6 +64,9 @@ Para realizar a verificação do documento de Léxico Aplicado da Linguagem, foi
 |L19|<ul><li>liguagem fora do padrão<li>deixar mais claro o impacto</ul>|
 |L20|<ul><li>liguagem fora do padrão<li>léxico sem rastrebilidade</ul>|
 
+## Conclusões
+O caso de uso estar de acordo com os critérios de qualidade estabelecidos,Apenas alguns detalhes devem ser refatorados.
+
 
 ## Refências Bibliográficas
 
@@ -74,3 +78,4 @@ Para realizar a verificação do documento de Léxico Aplicado da Linguagem, foi
 |29/10/19|1.0|Criado checklist|Guilherme Leal, João Pedro,  Lucas alexandre|
 |29/10/19|1.1|checklist|Guilherme Leal, João Pedro,  Lucas alexandre|
 |29/10/19|1.2|Observações|Guilherme Leal, João Pedro,  Lucas alexandre|
+|29/10/19|1.3|conclusão e linkagem|Guilherme Leal, João Pedro,  Lucas alexandre|
