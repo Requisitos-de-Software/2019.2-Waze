@@ -27,6 +27,7 @@ nav:
     - Léxico Ampliado da Linguagem: Lexico.md
     - Caso de Uso : CasoDeUso.md
   - Ágil:
+    - Backlog: ProductBacklog.md
     - História de Usuários: UserStories.md
     - NFR framework: NFR.md
   - Personas: Personas.md
