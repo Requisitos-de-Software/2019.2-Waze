@@ -11,20 +11,20 @@ Para realizar a verificação do documento de Casos de Uso, foi utilizada a téc
 </p>
 
 # Inspeção
- |ID|Questão|Justificativa|
-|--|--|--|
-|1|A descrição de caso de uso condiz com o caso de uso representado no diagrama?|A imagem que representa o caso de uso deve estar de acordo com a descrição|
-|2|A descrição de caso de uso possui nome do caso de uso e nome do ator?|A descrição deve possuir o nome do caso de uso e do ator|
-|3|O Fluxo principal está explícito?|O fluxo principal deve estar evidenciado e distinto dos demais|
-|4|O Caso de uso utiliza fluxos alternativos?|O caso de uso deve possuir variados fluxos alternativos, devido o waze apresentar diferentes fluxos|
-|5|As frases estão no tempo presente?|Os casos de uso utulizam por padrão frases que estão no presente|
-|6|As frases representam um diálogo entre ator e sistema?|O entendimento do diagrama de casos de uso deve ser facilitado com esse diálogo|
-|7| As frases possuem objetividade?|Para o caso de uso ser claro, as frases devem ser objetivas|
-|8|As frases são construídas em voz ativa?|As frases, por padrão, devem representar uma ação do ator|
-|9|As frases estão escritas corretamente de acordo com a norma padrão?|As frases devem estar de acordo com a norma da língua portuguesa|
-|10|O caso de uso segue o padrão estabelecido?|Os modelos devem seguir um padrão estabelicido|
-|11| O caso de uso possui o horário e a data de criação?|Para o caso de uso possuir uma boa rastreabilidade, deve possuir a data e hora de criação|
-|12|O caso de uso possui rastreabilidade adequada?|Para facilitar na pós rastreabilidade,o caso de uso deve possuir uma rastreabilidade bem definida|
+|Questão|Justificativa|
+|--|--|
+|A descrição de caso de uso condiz com o caso de uso representado no diagrama?|A imagem que representa o caso de uso deve estar de acordo com a descrição|
+|A descrição de caso de uso possui nome do caso de uso e nome do ator?|A descrição deve possuir o nome do caso de uso e do ator|
+|O Fluxo principal está explícito?|O fluxo principal deve estar evidenciado e distinto dos demais|
+|O Caso de uso utiliza fluxos alternativos?|O caso de uso deve possuir variados fluxos alternativos, devido o waze apresentar diferentes fluxos|
+|As frases estão no tempo presente?|Os casos de uso utulizam por padrão frases que estão no presente|
+|As frases representam um diálogo entre ator e sistema?|O entendimento do diagrama de casos de uso deve ser facilitado com esse diálogo|
+| As frases possuem objetividade?|Para o caso de uso ser claro, as frases devem ser objetivas|
+|As frases são construídas em voz ativa?|As frases, por padrão, devem representar uma ação do ator|
+|As frases estão escritas corretamente de acordo com a norma padrão?|As frases devem estar de acordo com a norma da língua portuguesa|
+|O caso de uso segue o padrão estabelecido?|Os modelos devem seguir um padrão estabelicido|
+| O caso de uso possui o horário e a data de criação?|Para o caso de uso possuir uma boa rastreabilidade, deve possuir a data e hora de criação|
+|O caso de uso possui rastreabilidade adequada?|Para facilitar na pós rastreabilidade,o caso de uso deve possuir uma rastreabilidade bem definida|
 
 
 ## Checklist
