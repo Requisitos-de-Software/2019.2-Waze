@@ -12,21 +12,21 @@ Para realizar a verificação do documento de Léxico Aplicado da Linguagem, foi
 
 # Checklist
  
- <ul>
-  <li> Possui o nome do léxico? 
-  <li> Possui identificação adequada?
-  <li> Usa linguagem compreensível?
-  <li> Possui noções?
-  <li> Noções estão corretas?
-  <li> Possui impactos?
-  <li> Impactos estão corretos?
-  <li> Usa a estrutura de classificação (verbo, objeto, estado)?
-  <li> A classificação está de acordo com  o léxico?
-  <li> O lexico segue o padrão estabelecido?
-  <li>  O lexico de uso possui o horário e a data de criação?
-  <li> O lexico de uso possui rastreabilidade adequada?
-  <li> Possui linkagens?
- </ul>
+ |ID|Questão|Justificativa|
+|--|--|--|
+|1|Possui o nome do léxico?|Identificar o titulo para uma melhor leitura|
+|2|Possui identificação adequada?|Identificar o léxico para facilitar a visualização e rastreabilidade|
+|3|Usa linguagem compreensível?|Deixar a leitura fluida|
+|4|Possui noções?|O lexico deve ter noções para seguir o padrão da refências|
+|5| Noções estão corretas?|É necessario as noções estarem corretas para uma boa qualidade do artefato|
+|6|Possui impactos?| lexico deve ter impactos para seguir o padrão da refências|
+|7|Impactos estão corretos?|É necessario os impactos estarem corretos para uma boa qualidade do artefato|
+|8|Usa a estrutura de classificação (verbo, objeto, estado)?| lexico deve ter uma classificação para seguir o padrão da refências|
+|9|A classificação está de acordo com  o léxico?|É necessario uma boa classificação para uma boa qualidade do artefato|
+|10|O lexico segue o padrão estabelecido?|Deve se seguir um padrão para uma visualização do artefato|
+|11|O lexico de uso possui o horário e a data de criação?|Para o caso de uso possuir uma boa rastreabilidade, deve possuir a data e hora de criação|
+|12|O lexico de uso possui rastreabilidade adequada?|Para facilitar na pós rastreabilidade,o caso de uso deve possuir uma rastreabilidade bem definida|
+|13|Possui linkagens?|Para falicilitar a rastreabilidade|
 
 
 |Questões |[L1]|[L02]|[L03]|[L04]|[L05]|[L06]|[L07]|[L08]|[L09]|[L10]|[L11]|[L12]|[L13]|[L14]|[L15]|[L16]|[L17]|[L18]|[L19]|[L20]|[L21]|
