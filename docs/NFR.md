@@ -11,6 +11,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 | Tag NFR | Atores |  
 |--|--|
+|Versão| Atual: 1.0 <br>Anterior: -| 
 |**Data**| -- |
 |**Hora**| -- |
 |**Autor(es)**| -- |
@@ -24,31 +25,33 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 ## NFR00 - Geral 
 
 
-[![Usabilidade](img/NFR-GERAL-REQUISITOS.jpg)](img/NFR-GERAL-REQUISITOS.jpg)
+[![Usabilidade](img/NFR-GERAL-REQUISITOS-V1.1.jpg)](img/NFR-GERAL-REQUISITOS-V1.1.jpg)
 
 
 | NFR00 | Atores |  
 |--|--|
-|**Data**| 16/10/2019 |
-|**Hora**| 16h30 |
-|**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
+|Versão| Atual: 1.1 <br>Anterior: [1.0](http://127.0.0.1:8000/NFR/#nfr00-geral_1)| 
+|**Data**| 31/10/2019 |
+|**Hora**| 01h30 |
+|**Autor(es)**| Matheus Estanislau |
 |**Rastro**| [Especificação suplementar](../EspSuplementar)|
 
 
 ## NFR01 - Usabilidade
-[![Usabilidade](img/NFR-USABILIDADE-REQUISITOS.jpg)](img/NFR-USABILIDADE-REQUISITOS.jpg)
+[![Usabilidade](img/NFR-USABILIDADE-REQUISITOS-V1.1.jpg)](img/NFR-USABILIDADE-REQUISITOS-V1.1.jpg)
 
 
 | NFR01 | Atores |  
 |--|--|
-|**Data**| 15/10/2019 |
-|**Hora**| 16h30 |
-|**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
+|Versão| Atual: 1.1 <br>Anterior: [1.0](http://127.0.0.1:8000/NFR/#nfr01-usabilidade_1) | 
+|**Data**| 30/10/2019 |
+|**Hora**| 1h30 |
+|**Autor(es)**| Matheus Estanislau |
 |**Rastro**| [Especificação suplementar](./EspSuplementar/#4-usabilidades)|
 
 ### Análise do NFR de Usabilidade
 
-[![Usabilidade](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)
+[![Usabilidade](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS-V1.1.jpg)](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS-V1.1.jpg)
 
 
 ## NFR02 - Desempenho
@@ -58,6 +61,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 
 | NFR02 | Atores |  
 |--|--|
+|Versão| Atual: 1.0 <br>Anterior: -| 
 |**Data**| 16/10/2019 |
 |**Hora**| 17h10 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
@@ -74,6 +78,8 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 
 | NFR03| Atores |  
 |--|--|
+|Versão| Atual: 1.0 <br>Anterior: -| 
+|Anterior: -|
 |**Data**| 16/10/2019 |
 |**Hora**| 17h30 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
@@ -90,6 +96,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 
 | NFR04| Atores |  
 |--|--|
+|Versão| Atual: 1.0 <br>Anterior: -| 
 |**Data**| 16/10/2019 |
 |**Hora**| 18h13 |
 |**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
@@ -99,7 +106,37 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 
 [![Confiabilidade](img/NFR-ANALISE-CONFIABILIDADEV1-REQUISITOS.jpg)](img/NFR-ANALISE-CONFIABILIDADEV1-REQUISITOS.jpg)
 
+## Versões anteriores
 
+## NFR00 - Geral 
+
+
+[![Usabilidade](img/NFR-GERAL-REQUISITOS.jpg)](img/NFR-GERAL-REQUISITOS.jpg)
+
+
+| NFR00 | Atores |  
+|--|--|
+|Versão| Atual: 1.0 <br>Anterior: -|
+|**Data**| 16/10/2019 |
+|**Hora**| 16h30 |
+|**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
+|**Rastro**| [Especificação suplementar](../EspSuplementar)|
+
+## NFR01 - Usabilidade
+[![Usabilidade](img/NFR-USABILIDADE-REQUISITOS.jpg)](img/NFR-USABILIDADE-REQUISITOS.jpg)
+
+
+| NFR01 | Atores |  
+|--|--|
+|Versão| Atual: 1.0 <br>Anterior: -| 
+|**Data**| 15/10/2019 |
+|**Hora**| 16h30 |
+|**Autor(es)**| Lucas Alexandre e Matheus Estanislau |
+|**Rastro**| [Especificação suplementar](./EspSuplementar/#4-usabilidades)|
+
+### Análise do NFR de Usabilidade
+
+[![Usabilidade](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)
 
 ## Referências
 
@@ -115,4 +152,6 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 |16/10/19|1.4| Adicionados NFR de análise de Suportabilidade e Desempenho| Lucas Alexandre, Matheus Estanislau|
 |16/10/19|1.5| Adicionados NFR de análise de Confiabilidade| Lucas Alexandre, Matheus Estanislau|
 |16/10/19|1.6| Adicionados NFR de análise de Usabilidade| Lucas Alexandre, Matheus Estanislau|
+|31/10/19|2.0| NFR Geral e NFR Usabilidade atualizados| Matheus Estanislau|
+
 
