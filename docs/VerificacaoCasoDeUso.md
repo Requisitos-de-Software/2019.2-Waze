@@ -59,6 +59,11 @@ Para realizar a verificação do documento de Casos de Uso, foi utilizada a téc
 |UC08|<ul><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases no diagrama, alguns casos de uso não representam uma ação.</li><li>Não há rastreabilidade na tabela.</li></ul>|
 |UC09|<ul><li>Não possui descrição do ator na tabela.<li>Não há rastreabilidade na tabela.</li></ul>|
 
+## Conclusões
+<p align="justify">
+O caso de uso pode ser avaliado como regular de acordo com os critérios de qualidade estabelecidos, sendo que praticamente todos possuem alguns erros nas no diagrama, sendo necessários refatorá-las. Além disso, é necessário adicionar rastreabilidade em todos os Casos de Uso.
+</p>
+
 ## Refências Bibliográficas
 >Casos de uso, Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. Acesso em: 29 de outubro de 2019
 >A Importância da validação e da verificação, Disponível em: https://www.devmedia.com.br/a-importancia-da-validacao-e-da-verificacao/24559
