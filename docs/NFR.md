@@ -30,7 +30,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 
 | NFR00 | Atores |  
 |--|--|
-|Versão| Atual: 1.1 <br>Anterior: [1.0](http://127.0.0.1:8000/NFR/#nfr00-geral_1)| 
+|Versão| Atual: 1.1 <br>Anterior: [1.0](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr00-geral_1)| 
 |**Data**| 31/10/2019 |
 |**Hora**| 01h30 |
 |**Autor(es)**| Matheus Estanislau |
@@ -43,7 +43,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 
 | NFR01 | Atores |  
 |--|--|
-|Versão| Atual: 1.1 <br>Anterior: [1.0](http://127.0.0.1:8000/NFR/#nfr01-usabilidade_1) | 
+|Versão| Atual: 1.1 <br>Anterior: [1.0](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr01-usabilidade_1) | 
 |**Data**| 30/10/2019 |
 |**Hora**| 1h30 |
 |**Autor(es)**| Matheus Estanislau |
