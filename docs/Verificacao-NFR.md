@@ -25,7 +25,7 @@ Framework](http://www.inf.puc-rio.br/wer02/zip/Enhancing_Data(4).pdf)
  
 ## Checklist
  
-|Questões|NFR00|NFR01|NFR02|NFR03|NFR04|
+|Questões|[NFR00](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr00-geral)|[NFR01](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr01-usabilidade)|[NFR02](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr02-desempenho)|[NFR03](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr03-suportabilidade)|[NFR04](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr04-confiabiliade)|
 |--------|-----|-----|-----|-----|-----|
 |Os softgoals representam metas que não têm definições claras?|✔|✔|✔|-|✔|
 |Softgoals são decompostos em operacionalizações?|❌|✔|✔|✔|✔|
