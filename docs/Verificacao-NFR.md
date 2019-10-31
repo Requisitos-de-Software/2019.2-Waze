@@ -11,17 +11,17 @@ Justificativas baseadas em:<br>
 [Enhancing Data Warehouse Design with the NFR
 Framework](http://www.inf.puc-rio.br/wer02/zip/Enhancing_Data(4).pdf)
 
-|ID|Questão|Justificativa|
-|--|-------|-------------|
-|1|Os softgoals representam metas que não têm definições claras?| Um softgoal representa uma meta que não tem uma definição clara e/ou critérios sobre se é satisfeita ou não.|
-|2|Softgoals são decompostos em operacionalizações?|Todo softgoal deve se decompor em uma ou mais operacionalizações, e os sentidos das setas que os ligam devem ser debaixo para cima|
-|3|Os relacionamentos entre os softgoals expressam as relações de influência e interdependência de uns com os outros?|Os objetivos programáticos são relacionados por meio de relacionamentos que representam a influência ou interdependência de um softgoal em outro|
-|4|Para cada softgoal, existem mais evidências positivas do que evidências negativas?| Diz-se que um softgoal é "satisfeito" quando há evidência positiva e pouca evidência negativa contra ela.|
-|5|Os objetivos foram decompostos em uma hierarquia com AND/OR de softgoals?|Os objetivo do NFR devem ser decompostos em um hierarquia de operacionalizações and/or|
-|6|Os objetivos mais críticos foram devidamente marcados/sinalizados?|Objetivos críticos devem ser sinalizados com '!' e mais críticos com '!!'|
-|7|Os graus de satisfação foram indicados?|A satisfação ocorre em 4 intensidades: '++'(muito satisfeito), '+'(satisfeito), '-'(insatisfeito), '--'(muito insatisfeito)|
-|8|O sentido das setas que ligam os softgoals é coerente?|As operacionalizações devem se ligar aos softgoals, e as setas devem ter este sentido|
-|9|As linhas tracejadas e contínuas foram utilizadas corretamente?| As setas com linhas continuas indicam a relação de interdependência implicita e as pontilhadas as realações explicitas|
+|Questão|Justificativa|
+|-------|-------------|
+|Os softgoals representam metas que não têm definições claras?| Um softgoal representa uma meta que não tem uma definição clara e/ou critérios sobre se é satisfeita ou não.|
+|Softgoals são decompostos em operacionalizações?|Todo softgoal deve se decompor em uma ou mais operacionalizações, e os sentidos das setas que os ligam devem ser debaixo para cima|
+|Os relacionamentos entre os softgoals expressam as relações de influência e interdependência de uns com os outros?|Os objetivos programáticos são relacionados por meio de relacionamentos que representam a influência ou interdependência de um softgoal em outro|
+|Para cada softgoal, existem mais evidências positivas do que evidências negativas?| Diz-se que um softgoal é "satisfeito" quando há evidência positiva e pouca evidência negativa contra ela.|
+|Os objetivos foram decompostos em uma hierarquia com AND/OR de softgoals?|Os objetivo do NFR devem ser decompostos em um hierarquia de operacionalizações and/or|
+|Os objetivos mais críticos foram devidamente marcados/sinalizados?|Objetivos críticos devem ser sinalizados com '!' e mais críticos com '!!'|
+|Os graus de satisfação foram indicados?|A satisfação ocorre em 4 intensidades: '++'(muito satisfeito), '+'(satisfeito), '-'(insatisfeito), '--'(muito insatisfeito)|
+|O sentido das setas que ligam os softgoals é coerente?|As operacionalizações devem se ligar aos softgoals, e as setas devem ter este sentido|
+|As linhas tracejadas e contínuas foram utilizadas corretamente?| As setas com linhas continuas indicam a relação de interdependência implicita e as pontilhadas as realações explicitas|
  
 ## Checklist
  
