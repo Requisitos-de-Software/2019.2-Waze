@@ -33,4 +33,4 @@ nav:
   - Análise: 
     - Verificação Casos de Uso: avCasoDeUso.md
     - Verificação Rich Picture: Verificacao-RichPicture.md
-  
+    - Verificação NFR: Verificacao-NFR.md
