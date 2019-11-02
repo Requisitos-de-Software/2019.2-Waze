@@ -8,11 +8,11 @@ A verificação é um atividade onde o sistema é analizado para certificar que 
 
 Para realizar a verificação dos Cenários, foi utilizada a técnica de inspeção. Foi definido um checklist onde os tópicos foram avaliados e os defeitos detectados e descritos para que possam ser corrigidos.
 
-## Rastreabilidade
+## 3. Rastreabilidade
 
 [Cenarios](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/)
 
-## 3. Checklist
+## 4. Checklist
 |QUESTÕES|JUSTIFICATIVA|
 |--------|-------------|
 | Possui título correto (padrão)?|Criar padrão para o projeto facilitando a identificação dos documentos|
@@ -27,7 +27,7 @@ Para realizar a verificação dos Cenários, foi utilizada a técnica de inspeç
 | Possui versionamento?|Companhar sua evolução e identificar melhoria|
 | Possui hyperlinks?||
 
-## 4. Inspenção
+## 5. Inspenção
 
 |Questões|[C01](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c1-chegar-a-um-destino-desejado)|[C02](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c2-encontrar-alguem-atraves-da-localizacao)|[C03](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c3-planejar-uma-rota)|[C04](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c4-saber-sobre-alertas-dentro-da-rota)|[C05](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c5-adicionar-alerta)|[C06](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c6-melhor-horario-para-o-percurso)|[C07](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c7-buscar-postos-de-combustiveis-com-melhor-preco)|[C08](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c8-buscar-estacionamentos-proximo-ao-destino)|[C09](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c9-adicionando-local-aos-favoritos)|[C10](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c10-planejar-uma-viagem-futura)|[C11](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c11-alerta-de-voz)|[C12](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c12-ouvir-musica-durante-sua-rota)|[C13](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c13-opcoes-de-voz-e-som)|[C14](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c14-buscar-restaurantes-nas-proximidades)|[C15](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c15-hospitais-e-emergencia-proximos)|[C16](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c16-buscar-farmacias-nas-proximidades)|[C17](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c17-buscar-hoteis-e-hospedagem)|[C18](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c18-ativar-modo-economia-de-bateria)|[C19](https://requisitos-de-software.github.io/2019.2-Waze/Cenarios/#c19-alterar-exibicao-de-mapa)|
 |--------|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -43,7 +43,7 @@ Para realizar a verificação dos Cenários, foi utilizada a técnica de inspeç
 | Possui versionamento?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|
 | Possui hyperlinks?|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|✔|x|✔|
 
-## 5. Observações
+## 6. Observações
 |UC|Observações|
 |---|----------|
 |C01|<ul><li>Não segue o padrão de identificação</ul>|
@@ -60,11 +60,11 @@ Para realizar a verificação dos Cenários, foi utilizada a técnica de inspeç
 |C019|<ul><li>Não possui rastro</ul>|
 
 
-## 6. Conclusão
+## 7. Conclusão
 
 Pela análise feita a partir dos CheckLists, os modelos gerados pelo grupo ficaram bons. O que mais esteve ausente nos modelos foram alguns hyperlinks. Os erros serão corrigidos conforme o planejamento de refatoração antes da validação.
 
-## 7. Refências Bibliográficas
+## 8. Refências Bibliográficas
 
 >[A Importância da validação e da verificação](https://www.devmedia.com.br/a-importancia-da-validacao-e-da-verificacao/24559)
 
@@ -72,7 +72,7 @@ Pela análise feita a partir dos CheckLists, os modelos gerados pelo grupo ficar
 
 >DO PRADO LEITE, Julio Cesar Sampaio et al. Enhancing a requirements baseline with scenarios. Requirements Engineering, v. 2, n. 4, p. 184-198, 1997.
 
-## 8. Histórico de Versões
+## 9. Histórico de Versões
 
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
