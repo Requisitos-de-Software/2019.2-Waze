@@ -101,7 +101,7 @@ https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pr
 >Revisão e compartilhamento de gráficos e diagramas, Disponível em: https://www.lucidchart.com
 
 
-## Histórico de Versões
+## 4. Histórico de Versões
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|

@@ -1,11 +1,11 @@
 # Rich Picture - Verificação
 
-## Introdução
+## 1. Introdução
 <p align = "justify">
 A verificação  um atividade onde o sistema é analizado para certificar-se que os requisitos foram atendidos. A Validação, é a certificação de que o sistema atende as necessidades e expectativas.
 </p>
 
-## Metodologia
+## 2. Metodologia
 <p align = "justify">
 Para realizar a verificação dos documentos de Rich Pictures, foi utilizada a técnica de inspeção. Foi definida uma checklist onde cada tópico foi avaliado e os defeitos detectados foram descritos para que possam ser corrigidos o mais breve possível
 </p>
@@ -14,7 +14,7 @@ Para realizar a verificação dos documentos de Rich Pictures, foi utilizada a t
 
 [Rich Picture](https://requisitos-de-software.github.io/2019.2-Waze/richPicture/)
 
-## Inspeção
+## 3. Inspeção
 Justificativas baseadas em: [Complexity and rich pictures](http://leadershipforchange.org.uk/wp-content/uploads/Complexity-and-rich-pictures.pdf) e Slides de Aula
 
 |Questão|Justificativa
@@ -29,7 +29,7 @@ Justificativas baseadas em: [Complexity and rich pictures](http://leadershipforc
 |Os rótulos são posicionados corretamente?|O posicionamento dos rótulos deve ser diretamente abaixo dos símbolos, para facilitar sua assimilação|
 |O Rich Picture possui termos simples para que usuários não-técnicos possam compreender seu conteúdo?|O emprego de termos ou jargões técnicos pode dificultar o compreensão de um cliente sobre o diagrama|
 
-## Checklist
+## 4. Checklist
 
 |Questões|RP00|RP01|RP02|RP03|
 |--------|----|----|----|----|
@@ -43,7 +43,7 @@ Justificativas baseadas em: [Complexity and rich pictures](http://leadershipforc
 |Os rótulos são posicionados corretamente?|❌|❌|✔|❌|
 |O Rich Picture possui termos simples para que usuários não-técnicos possam compreender seu conteúdo?|✔|✔|✔|✔|
 
-## Observações
+## 5. Observações
 
 |Rich Picture|Observações|
 |------------|-----------|
@@ -53,12 +53,12 @@ Justificativas baseadas em: [Complexity and rich pictures](http://leadershipforc
 |RP03|<ul><li>Não possui um título posicionado na imagem.<li> Falta do rótulo especificando os atores. </li><li> O rótulo "acessa" está confuso, não ficou explícito quem acessa (não há seta apontando para este rótulo). </li><li> O uso de rótulos nos símbolos mais à esquerda facilitaria sua compreensão, não é claro o papel de cada símbolo. </li><li> Os rótulos deveriam ser posicionados abaixo dos símbolos.</li>
 </ul>
 
-## Conclusão
+## 6. Conclusão
 <p align = "justify">
 A partir da verificação feita com a técnica de inspeção, foram observadas inconsistências, grande parte cosméticas, por exemplo: falta de títulos nos diagramas, rótulos mal posicionados e fluxo confuso em algumas situações.
 </p>
 
-## Refências Bibliográficas
+## 7. Refências Bibliográficas
 > Rich Picture. Disponível em: http://systems.open.ac.uk/materials/T552/pages/rich/richAppendix.html. Acesso em: 27/10/19
 
 >A Importância da validação e da verificação. Disponível em: https://www.devmedia.com.br/a-importancia-da-validacao-e-da-verificacao/24559. Acesso em: 27/10/19
@@ -69,7 +69,7 @@ A partir da verificação feita com a técnica de inspeção, foram observadas i
 
 >Guiabolso RichPicture. Disponível em: https://fga-disciplinas.github.io/2019.1-Guia-Bolso/analise/analise_rich_picture. Acesso em: 30/10/19
 
-## Histórico de Versões
+## 8. Histórico de Versões
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
 |27/10/19|1.0|Criação do documento|Moacir Mascarenha, Renan Cristyan|

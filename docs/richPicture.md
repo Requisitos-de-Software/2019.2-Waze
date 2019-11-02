@@ -1,12 +1,12 @@
 # RichPicture
 
-## Introdução
+## 1. Introdução
 <p align="justify">
 
 Um Rich Picture é um desenho que ilustra os principais elementos e relacionamentos que precisam ser considerados na tentativa de auxiliar a representação de sistemas. Consiste em figuras, texto, símbolos e ícones, todos usados ​​para ilustrar a situação. É chamado de Rich Picture, pois ilustra a riqueza e a complexidade de uma situação.
 </p>
 
-## Metologia
+## 2. Metologia
 <p align="justify">
     Para a criação dos richpictures foi utilizado a ferramenta <a href="https://www.draw.io">Draw.io</a>. Além disso utilizaremos a seguinte tabela para versionamento
 </p>
@@ -32,7 +32,7 @@ Um Rich Picture é um desenho que ilustra os principais elementos e relacionamen
 [![RP 2](img/RP_Usabilidade.png)](img/RP_Usabilidade.png)
 
 
-## Versionamento
+## 3. Histórico de Versões
 
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|

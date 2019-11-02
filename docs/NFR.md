@@ -1,12 +1,12 @@
 # NFR Framework
 
-## Introdução 
+## 1. Introdução 
 
 <p align="justify">
 O NFR Framework trata-se de um framework conceitual orientado a requisitos não funcionais, ele decompõe os requisitos facilitando assim a compreensão e a priorização destes requisitos.
 </p>
 
-## Metodologia
+## 2. Metodologia
 
 
 | Tag NFR | Atores |  
@@ -21,6 +21,7 @@ O NFR Framework trata-se de um framework conceitual orientado a requisitos não 
 
 Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 
+# 3. NFR
 
 ## NFR00 - Geral 
 
@@ -106,7 +107,7 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 
 [![Confiabilidade](img/NFR-ANALISE-CONFIABILIDADEV1-REQUISITOS.jpg)](img/NFR-ANALISE-CONFIABILIDADEV1-REQUISITOS.jpg)
 
-## Versões anteriores
+## 4. Versões anteriores
 
 ## NFR00 - Geral 
 
@@ -138,10 +139,10 @@ Ferramenta utilizada foi o Star UML disponível no link: StarUML.io
 
 [![Usabilidade](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)](img/NFR-ANALISE-USABILIDADEV1-REQUISITOS.jpg)
 
-## Referências
+## 5. Referências
 
 
-## Histórico de versões
+## 6. Histórico de versões
 
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|

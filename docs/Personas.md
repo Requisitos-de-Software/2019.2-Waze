@@ -1,6 +1,6 @@
 # Personas
 
-## Introdução
+## 1. Introdução
 <p align="justify">
 Para Cooper (2007), no Design de Interação, as Personas são modelos e, o
 conceito de modelo é usado nas ciências naturais e sociais para representar fenômenos
@@ -86,13 +86,13 @@ durante o processo de pesquisa.
          <li> Evitar caminhos indesejados</li>
    </ul>
 
-## Referências Bibliográficas
+## 3. Referências Bibliográficas
 
 > COOPER, A. About Face 3: The Essentials of Interaction Design. Indianapolis: Wiley Publishing, 2007.
 
 > REIS, A. V. dos; DICK, M. E.; SOUSA, R. P. L. de; GONÇALVES, B. S.; Análise Comportamental na Análise de Personas. Educação Gráfica, ISSN 2179-7374, Ano 2014, V. 18, No. 03.
 
-## Histórico de versões
+## 4. Histórico de versões
 
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|

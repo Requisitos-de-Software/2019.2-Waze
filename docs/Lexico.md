@@ -306,13 +306,13 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Rastro**| [INS07](../introspeccao/#31-moscow) |
 
 
-## Referências Bibliográficas
+## 4. Referências Bibliográficas
 
 > Léxico Aplicado da Linguagem (Resumo). Disponível em: http://www-di.inf.puc-rio.br/~julio/lal.pdf Acesso em: 27/09/19
 
 > Waze - Política de Privacidade. Disponível em : https://www.waze.com/pt-BR/legal/privacy Acesso em: 29/09/19
 
-## Histórico de versões
+## 5. Histórico de versões
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|

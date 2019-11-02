@@ -1,5 +1,6 @@
 # Brainstorm
-## Introdução
+
+## 1. Introdução
 <p align = "justify">
 O Brainstorming é uma técnica utilizada para estimular o surgimento de soluções criativas, resultando numa lista
 priorizada de necessidades e desejos dos usuários. 
@@ -14,7 +15,7 @@ priorizada de necessidades e desejos dos usuários.
 |**Autor(es)**| Guilherme Leal, Lucas Alexandre, João Pedro, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan |
 |**Moderador**|Moacir Mascarenha|
 
-### Que informações o aplicativo ideal deve fornecer?
+### 2.0 Que informações o aplicativo ideal deve fornecer?
 - **João Pedro**: Informação sobre o local do usuário e da rota que pretende seguir.Além disso, o aplicativo deve guiar o motorista por assistente de voz.
 
 - **Lucas Alexandre**: Deve informar a distância do destino, tempo até o local e radares.
@@ -36,7 +37,7 @@ priorizada de necessidades e desejos dos usuários.
 |**Autor(es)**| Guilherme Leal, Lucas Alexandre, João Pedro, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan |
 |**Moderador**|Moacir Mascarenha|
 
-### Que tarefas você precisaria no aplicativo?
+### 2.1 Que tarefas você precisaria no aplicativo?
 
 - **João Pedro**: Pesquisar local que desejo ir e ter a opção de mudar a rota sugerida a qualquer momento.
 
@@ -58,7 +59,7 @@ priorizada de necessidades e desejos dos usuários.
 |**Autor(es)**| Guilherme Leal, Lucas Alexandre, João Pedro, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan |
 |**Moderador**|Moacir Mascarenha|
 
-### Que características o sistema ideal deve apresentar?
+### 2.2 Que características o sistema ideal deve apresentar?
 
 - **João Pedro**: O aplicativo deve ter mapas sempre atualizados.
 
@@ -80,7 +81,7 @@ priorizada de necessidades e desejos dos usuários.
 |**Autor(es)**| Lucas Alexandre, João Pedro, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan |
 |**Moderador**|Moacir Mascarenha|
 
-### Como seria o feedback do usuário em relação aos alertas do aplicativo?
+### 2.3 Como seria o feedback do usuário em relação aos alertas do aplicativo?
 
 - **João Pedro**: O aplicativo deve ter um sistema de feedbacks como um likes para validar alertas e deslikes para retirar evento.
 
@@ -98,7 +99,7 @@ priorizada de necessidades e desejos dos usuários.
 |**Autor(es)**| Lucas Alexandre, João Pedro, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan |
 |**Moderador**|Moacir Mascarenha|
 
-### Como o usuário pode fazer para informar sobre novos estabelecimentos?
+### 2.4 Como o usuário pode fazer para informar sobre novos estabelecimentos?
 
 - **Matheus Estanislau**: O sistema deve ser prático e objetivo.
 
@@ -116,7 +117,7 @@ priorizada de necessidades e desejos dos usuários.
 |**Autor(es)**| Lucas Alexandre, João Pedro, Matheus Estanislau, Moacir Mascarenha, Renan Cristyan |
 |**Moderador**|Moacir Mascarenha|
 
-### O que o usuário gostaria que o aplicativo tivesse para auxiliar nas rotas escolhidas?
+### 2.5 O que o usuário gostaria que o aplicativo tivesse para auxiliar nas rotas escolhidas?
 
 - **Lucas Alexandre**: O aplicativo deve ter a opção de evitar determinados tipos de vias (terra, vias expressas, balsas, etc.).
 
@@ -125,9 +126,9 @@ priorizada de necessidades e desejos dos usuários.
 - **Moacir Mascarenha**: O aplicativo deve informar constantemente sobre dados(informações) do trajeto por um guia de voz. 
 
 
-## Requisitos levantados
+## 3. Requisitos levantados
 
-### MoSCoW
+### 3.1 MoSCoW
 
 | Código | Descrição | Prioridade |
 |--------|-----------|------------|
@@ -155,6 +156,8 @@ priorizada de necessidades e desejos dos usuários.
 
 <br>
 
+### 4.2 First Things First
+
 Funcionalidades |Beneficio Relativo|Penalidade Relativa|Valor Total| Valor %| Custo Relativo| Custo %| Risco Relativo|Risco %| Prioridade
 ----------------|------------------|-------------------|-----------|---------|---------------|---------|---------------|--------|-----------
 O usuário deve ser capaz de avaliar feedback de outros usuários	|5	|3	|13	|3.94	|2	|1.96	|2	|1.89	|1.356
@@ -177,24 +180,12 @@ O aplicativo deve ser leve	|6	|5	|17	|5.15	|7	|6.86	|8	|7.55	|0.484
 O aplicativo deve disponibilizar uma funcionalidade para economia de energia	|5	|4	|14	|4.24	|7	|6.86	|6	|5.66	|0.438
 O aplicativo deve ter um sistema de chat	|4	|2	|10	|3.03	|6	|5.88	|3	|2.83	|0.415
 
-
-
-
-
-
-
-
-
-
-
-
-
-## Referências
+## 4. Referências
 > O que é brainstorming e as 7 melhores técnicas para a tomada de decisões inteligentes, Disponível em: https://rockcontent.com/blog/brainstorming/
 
 >BARBOSA, S., SILVA B.: Interação Humano-Computador. Elsevier, 2010. 
 
-## Histórico de versões
+## 5. Histórico de versões
 
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
