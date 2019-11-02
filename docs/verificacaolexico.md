@@ -72,7 +72,7 @@ Para realizar a verificação do documento de Léxico Aplicado da Linguagem, foi
 |L19|<ul><li>liguagem fora do padrão<li>deixar mais claro o impacto</ul>|
 |L20|<ul><li>liguagem fora do padrão<li>léxico sem rastrebilidade</ul>|
 
-## 7. Conclusões
+## 7. Conclusão
 O caso de uso estar de acordo com os critérios de qualidade estabelecidos,Apenas alguns detalhes devem ser refatorados.
 
 

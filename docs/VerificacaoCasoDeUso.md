@@ -64,7 +64,7 @@ Para realizar a verificação do documento de Casos de Uso, foi utilizada a téc
 |UC08|<ul><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases no diagrama, alguns casos de uso não representam uma ação.</li><li>Não há rastreabilidade na tabela.</li></ul>|
 |UC09|<ul><li>Não possui descrição do ator na tabela.<li>Não há rastreabilidade na tabela.</li></ul>|
 
-## 7. Conclusões
+## 7. Conclusão
 <p align="justify">
 O caso de uso pode ser avaliado como regular de acordo com os critérios de qualidade estabelecidos, sendo que praticamente todos possuem alguns erros no diagrama, sendo necessários refatorá-las. Além disso, é necessário adicionar rastreabilidade em todos os Casos de Uso.
 </p>

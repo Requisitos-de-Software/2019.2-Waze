@@ -26,29 +26,29 @@ ID| História do Usuário |Rastro|
 |US05| Eu, como usuário, desejo poder cancelar uma rota para poder alterar para uma nova rota ||
 |US06| Eu, como usuário, desejo ter perfil individual para salvar minhas preferências de navegação||
 |US07| Eu, como usuário, gostaria de identificar acontecimentos recentes para manter o mapa atualizado ||
-|US08| Eu, como usuário, gostaria receber informações sobre a pista para um melhorar meu trajeto ||
-|US09| Eu, como usuário, gostaria receber informações sobre a pista para um melhorar meu trajeto ||
-|US10| Eu, como usuário, desejo um modo offline para poder acessar certas funcionalidades sem ter conexão com a Internet ||
-|US11| Eu, como usuário, gostaria de comandos de voz para auxiliar durante o trajeto||
-|US12| Eu, como usuário, gostaria de integrar minhas redes sociais ao aplicativo para ser informado sobre locais de eventos||
-|US13| Eu, como usuário, gostaria de ser informado sobre lojas ou estabelecimentos próximos para casos queira visitar||
-|US14| Eu, como usuário desejo avaliar feedback de outros usuários para informar feedback depreciados ||
-|US15| Eu, como usuário, gostaria de dicas para ajustar minhas pesquisar de acordo com locais proximos||
-|US16| Eu, como usuário, desejo que meus endereços sejam validados para não me perder durante o trajeto||
+|US08| Eu, como usuário, gostaria receber informações sobre a pista para um melhorar meu trajeto |ENT03, Q01, Q04, BS04|
+|US09| Eu, como usuário, gostaria receber informações sobre a pista para um melhorar meu trajeto |ENT03, Q01, Q04, BS04|
+|US10| Eu, como usuário, desejo um modo offline para poder acessar certas funcionalidades sem ter conexão com a Internet |INS03, Q03, BS16|
+|US11| Eu, como usuário, gostaria de comandos de voz para auxiliar durante o trajeto|ENT04, UC06, C11, C13|
+|US12| Eu, como usuário, gostaria de integrar minhas redes sociais ao aplicativo para ser informado sobre locais de eventos|INS05|
+|US13| Eu, como usuário, gostaria de ser informado sobre lojas ou estabelecimentos próximos para casos queira visitar|Q06, BS03, C08|
+|US14| Eu, como usuário desejo avaliar feedback de outros usuários para informar feedback depreciados |BS13|
+|US15| Eu, como usuário, gostaria de dicas para ajustar minhas pesquisar de acordo com locais proximos|INS11|
+|US16| Eu, como usuário, desejo que meus endereços sejam validados para não me perder durante o trajeto|INS10|
 |US17| Eu, como usuário, desejo salvar o local da minha casa para acesso mais fácil||
 |US18| Eu, como usuário, desejo salvar o local do meu trabalho para acesso mais fácil||
-|US19| Eu, como usuário, desejo saber minha localização em tempo real para me auxiliar em meu trajeto ||
-|US20| Eu, como usuário, gostaria de uma opção de economia de bateria para economizar bateria durante o trajeto||
-|US21| Eu, como usuário, gostaria de visualizar informações do meu veículo no aplicativo||
-|US22| Eu, como usuário, desejo um mapa atualizado para não ter rotas desatualizadas||
-|US23| Eu, como usuário, desejo que o aplicativo seja simples e intuitivo de se usar||
-|US24| Eu, como usuário, desejo receber a menor rota para meu destino para otimizar meu tempo ||
-|US25| Eu, como usuário, desejo receber o tempo aproximado da minha rota para planejar minha chegada ao destino ||
+|US19| Eu, como usuário, desejo saber minha localização em tempo real para me auxiliar em meu trajeto |BS01|
+|US20| Eu, como usuário, gostaria de uma opção de economia de bateria para economizar bateria durante o trajeto|BS08|
+|US21| Eu, como usuário, gostaria de visualizar informações do meu veículo no aplicativo|UC02|
+|US22| Eu, como usuário, desejo um mapa atualizado para não ter rotas desatualizadas|INS00|
+|US23| Eu, como usuário, desejo que o aplicativo seja simples e intuitivo de se usar|BS15|
+|US24| Eu, como usuário, desejo receber a menor rota para meu destino para otimizar meu tempo |BS05|
+|US25| Eu, como usuário, desejo receber o tempo aproximado da minha rota para planejar minha chegada ao destino |BS06|
 |US26| Eu, como usuário, gostaria de pesquisar postos de combustíveis com bons preços para economizar dinheiro ao abastecer ||
-|US27| Eu, como usuário, gostaria de um sistema de chat para comunicar com outros usuários sobre eventos no percurso ||
-|US28| Eu, como usuário, gostaria de editar o mapa para informar outros usuários sobre algum acontecimento||
-|US29| Eu, como usuário, gostaria de integração com aplicativos de streaming para escutar musica durante o trajeto ||
-|US30| Eu, como usuário, desejo definir minhas preferências de percurso||
+|US27| Eu, como usuário, gostaria de um sistema de chat para comunicar com outros usuários sobre eventos no percurso |BS09|
+|US28| Eu, como usuário, gostaria de editar o mapa para informar outros usuários sobre algum acontecimento|BS18|
+|US29| Eu, como usuário, gostaria de integração com aplicativos de streaming para escutar musica durante o trajeto |BS10, C12|
+|US30| Eu, como usuário, desejo definir minhas preferências de percurso|BS20|
 |US31| Eu, como usuário gostaria de escolher a rota de acordo com minhas preferências||
 |US32| Eu, como usuário gostaria de ser informado sobre sinalização da via para poder definir outra rota rapidamente caso necessário||
 |US33| Eu, como usuário gostaria de ser informado sobre o tipo do pavimento da minha rota para evitar certos tipos de pavimento||
