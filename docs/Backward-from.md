@@ -14,6 +14,34 @@ A  rastreabilidade  backward-from (para trás) liga os requisitos elicitados às
 
 |ID|Requisito|Brainstorming(BS)|Entrevista(ENT)|Introspecção(INS)|Questionário(Q)|Storytelling(ST)|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|RQ01|O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pelo usuário|BS20|ENT01|-|-|ST04|
+|RQ02|O aplicativo deve informar sobre as condições da via|BS04|ENT02|-|Q01,Q04,Q05|-|
+|RQ03|O usuário pode dar feedback sobre as condições do seu percurso|-|ENT03|-|-|ST05|
+|RQ04|O aplicativo deve auxiliar a navegação por um guia de áudio|-|ENT04|-|-|-|
+|RQ05|O aplicativo deve informar a localização atual do usuário|BS01|-|-|-|-|
+|RQ06|O usuário deve definir locais favoritos|BS02|-|-|-|-|
+|RQ07|O aplicativo deve mostrar estabelecimentos importantes para o motorista|BS03|-|-|Q06|ST02|
+|RQ08|O aplicativo deve fornecer informações sobre as condições da pista|BS04|ENT02|-|Q01,Q04,Q05|-|
+|RQ09|O aplicativo deve sugerir a menor rota|BS05|-|-|-|ST04|
+|RQ10|O aplicativo deve sugerir o tempo aproximado de rota|BS06||||ST03|
+|RQ11|O aplicativo deve ter a opção para mudar a rota a qualquer momento|BS07|-|-|-|-|
+|RQ12| aplicativo deve disponibilizar uma funcionalidade para economia de bateria|BS08|-|-|-|-|
+|RQ13|O aplicativo deve ter um sistema de chat|BS09|-|-|-|-|
+|RQ14|O aplicativo deve ter integração com aplicativos de streaming|BS10|-|-|Q02|-|
+|RQ15|O aplicativo deve ter o mapa atualizado|BS11|-|-|Q05|-|
+<!-- continuar a partir do bs12 e adicionar uma coluna para analise de protocolo
+|RQ|||||||
+|RQ|||||||
+|RQ|||||||
+|RQ|||||||
+|RQ|||||||
+|RQ|||||||
+|RQ|||||||
+|RQ|||||||
+|RQ|||||||
+|RQ|||||||
+|RQ|||||||
+|RQ||||||| -->
 
 ## Referência Bibliográfica
 > DAVIS, A. M.; Software   Requirements:   Objects,   Functions   and   States. Englewood Cliffs, New Jersey: Prentice Hall. 1993. 
@@ -27,3 +55,4 @@ A  rastreabilidade  backward-from (para trás) liga os requisitos elicitados às
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
 |10/11/19|1.0|Criação do documento|Moacir Mascarenha, Renan Cristyan|
+|10/11/19|2.0|Preenchida parcialmente a tabela|João Pedro, Moacir Mascarenha|
