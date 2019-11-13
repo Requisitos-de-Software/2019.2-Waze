@@ -16,7 +16,7 @@ A  rastreabilidade  backward-from (para trás) liga os requisitos elicitados às
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |RQ01|O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pelo usuário|BS20|ENT01|-|-|ST04|
 |RQ02|O aplicativo deve informar sobre as condições da via|BS04|ENT02|-|Q01,Q04,Q05|-|
-|RQ03|O usuário pode dar feedback sobre as condições do seu percurso|-|ENT03|-|-|ST05|
+|RQ03|O usuário pode dar feedback sobre as condições do seu percurso|BS13|ENT03|INS02|-|ST05|
 |RQ04|O aplicativo deve auxiliar a navegação por um guia de áudio|-|ENT04|-|-|-|
 |RQ05|O aplicativo deve informar a localização atual do usuário|BS01|-|-|-|-|
 |RQ06|O usuário deve definir locais favoritos|BS02|-|-|-|-|
@@ -37,11 +37,21 @@ A  rastreabilidade  backward-from (para trás) liga os requisitos elicitados às
 |RQ21|O usuário deve ser capaz de editar informações no mapa|BS18||INS00|Q05||
 |RQ22|O aplicativo deve ter opção de evitar algumas situações durante o percurso|BS19|-|-|-|-|
 |RQ23|O aplicativo deve poder definir suas preferências de percurso|BS20|ENT01|-|-|-|
-<!-- |RQ24|||||||
-|RQ25|||||||
-|RQ26|||||||
-|RQ27||||||| -->
+|RQ24|Precisão de rotas|BS18|-|INS00|Q05|-|
+|RQ25|Mudança de Interface|-|-|INS01|-|-|
+|RQ26|Veracidade de Informações de usuários|BS13|ENT03|INS02|-|ST05|
+|RQ27|O aplicativo deve consumir menos rede de dados / opção offline|BS16|-|INS03|Q03|-|
+|RQ28|Design mais intuitivo|BS15|-|INS04|-|-|
+|RQ29|Integração com redes sociais|BS10|-|INS05|Q02|-|
+|RQ30|Aumentar tamanho (km) de rotas|-|-|INS06|-|-|
+|RQ31|Cadastro de usuário e login|INS07|-|-|-|-|
+|RQ32|A aplicação tem que solicitar ao usuário que ele digite o trajeto do destino|-|-|INS08|-|-|
+|RQ33|A aplicação tem que solicitar ao usuário um destino||-|-|INS08,INS09|-|
+|RQ34|Validar endereço|-|-|INS10|-|-|
+|RQ35|O usuário tem que receber dicas de lugares para que ele possa ir caso tenha digitado metade do endereço ou o endereço errado|-|-|INS11|-|-|
+<!-- |RQ||||||| -->
 
+s
 ## Referência Bibliográfica
 > DAVIS, A. M.; Software   Requirements:   Objects,   Functions   and   States. Englewood Cliffs, New Jersey: Prentice Hall. 1993. 
 
