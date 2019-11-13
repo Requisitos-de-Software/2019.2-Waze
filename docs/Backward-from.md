@@ -29,19 +29,18 @@ A  rastreabilidade  backward-from (para trás) liga os requisitos elicitados às
 |RQ13|O aplicativo deve ter um sistema de chat|BS09|-|-|-|-|
 |RQ14|O aplicativo deve ter integração com aplicativos de streaming|BS10|-|-|Q02|-|
 |RQ15|O aplicativo deve ter o mapa atualizado|BS11|-|-|Q05|-|
-<!-- continuar a partir do bs12 e adicionar uma coluna para analise de protocolo
-|RQ|||||||
-|RQ|||||||
-|RQ|||||||
-|RQ|||||||
-|RQ|||||||
-|RQ|||||||
-|RQ|||||||
-|RQ|||||||
-|RQ|||||||
-|RQ|||||||
-|RQ|||||||
-|RQ||||||| -->
+|RQ16|O usuário deve ser capaz de avaliar feedback de outros usuários|BS13|-|-|-|-|
+|RQ17|O aplicativo deve ser leve o suficiente para ter um bom desempenho na maioria dos dispositivos|BS14|-|-|-|-|
+|RQ18|O aplicativo deve intuitivo e agradável|BS15|-|INS04|-|-|
+|RQ19|O aplicativo deve ter suporte offline|BS16|-|INS03|Q03|-|
+|RQ20|O aplicativo deve ter suporte para anúncios|BS17|-|-|-|-|
+|RQ21|O usuário deve ser capaz de editar informações no mapa|BS18||INS00|Q05||
+|RQ22|O aplicativo deve ter opção de evitar algumas situações durante o percurso|BS19|-|-|-|-|
+|RQ23|O aplicativo deve poder definir suas preferências de percurso|BS20|ENT01|-|-|-|
+<!-- |RQ24|||||||
+|RQ25|||||||
+|RQ26|||||||
+|RQ27||||||| -->
 
 ## Referência Bibliográfica
 > DAVIS, A. M.; Software   Requirements:   Objects,   Functions   and   States. Englewood Cliffs, New Jersey: Prentice Hall. 1993. 
@@ -56,3 +55,4 @@ A  rastreabilidade  backward-from (para trás) liga os requisitos elicitados às
 |----|------|---------|---------|
 |10/11/19|1.0|Criação do documento|Moacir Mascarenha, Renan Cristyan|
 |10/11/19|2.0|Preenchida parcialmente a tabela|João Pedro, Moacir Mascarenha|
+|10/11/19|3.0|Preenchida Matriz de Rastreabilidade|João Pedro, Moacir Mascarenha, Renan Cristyan|
