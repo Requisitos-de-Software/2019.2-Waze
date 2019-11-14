@@ -68,6 +68,7 @@ Para realizar a verificação do documento de Léxico Aplicado da Linguagem, foi
 |L07|<ul><li>Não segue o padrão de identificação<li>liguagem fora do padrão</ul>|
 |L08|<ul><li>Não segue o padrão de identificação</ul>|
 |L09|<ul><li>Não segue o padrão de identificação<li>linkagem incorreta</ul>|
+|L12|<ul><li>liguagem fora do padrão</ul>|
 |L18|<ul><li>liguagem fora do padrão<li>deixar mais claro o impacto</ul>|
 |L19|<ul><li>liguagem fora do padrão<li>deixar mais claro o impacto</ul>|
 |L20|<ul><li>liguagem fora do padrão<li>léxico sem rastrebilidade</ul>|

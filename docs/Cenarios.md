@@ -386,4 +386,4 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |13/10/19|3.6| Criado cenário 19| João Pedro|
 |15/10/19|4.0| Adicionado rastro aos cenários|João Pedro|
 |23/10/19|4.1| Adicionado rastro C6,C7,C8,C11,C14,C15,C16 e C17|Lucas Alexandre, Moacir Mascarenha|
-|14/11/19|5.0| Adicionado mudanças de acordo com avaliação|Guilherme Leal, João Pedro|
+|14/11/19|5.0| Adicionado mudanças de acordo com verificação|Guilherme Leal, João Pedro|

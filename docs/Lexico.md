@@ -19,23 +19,23 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 ## 3. Léxicos
 
-### **L1 - Definir o destino**
+### **L01 - Definir o destino**
 
-| L1 | Definir o destino |  
+| L01 | Definir o destino |  
 |--|--|
 |**Data**| 27/09 |
 |**Hora**| 8:56 |
 |**Autor(es)**| Renan Cristyan |
 |**Classificação**| Verbo |
-|**Noção**| Ação realizada pelo usuário <br> O usuário digita na área de pesquisa uma palavra-chave|
+|**Noção**|O usuário digita na área de pesquisa uma palavra-chave|
 |**Impacto**|O Waze irá calcular a melhor rota possível <br>|
 |**Rastro**| [ST04](../Storytelling/#31-moscow) |
 
 <br>
 
-### **L2 - Smartphone**
+### **L02 - Smartphone**
 
-| L2 | Smartphone |  
+| L02 | Smartphone |  
 |--|--|
 |**Data**| 29/09 |
 |**Hora**| 16:40 |
@@ -47,9 +47,9 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
-### **L3 - Usuário está se locomovendo**
+### **L03 - Usuário está se locomovendo**
 
-| L3 | Usuário está se locomovendo |  
+| L03 | Usuário está se locomovendo |  
 |--|--|
 |**Data**| 29/09 |
 |**Hora**| 16:48 |
@@ -61,9 +61,9 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
-### **L4 - Planejar rota**
+### **L04 - Planejar rota**
 
-| L4 | Planejar rota |  
+| L04 | Planejar rota |  
 |--|--|
 |**Data**| 29/09 |
 |**Hora**| 17:05 |
@@ -75,9 +75,9 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
-### **L5 - Veículo**
+### **L05 - Veículo**
 
-| L5 | Veículo |  
+| L05 | Veículo |  
 |--|--|
 |**Data**| 29/09 |
 |**Hora**| 17:15 |
@@ -89,9 +89,9 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
-### **L6 - O usuário está com pressa**
+### **L06 - O usuário está com pressa**
 
-| L6 | O usuário está com pressa |  
+| L06 | O usuário está com pressa |  
 |--|--|
 |**Data**| 29/09 |
 |**Hora**| 17:29 |
@@ -103,23 +103,23 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
-### **L7 - Dar feedback**
+### **L07 - Feedback**
 
-| L7 | Dar feedback |  
+| L07 | Feedback |  
 |--|--|
 |**Data**| 29/09 |
 |**Hora**| 17:46 |
 |**Autor(es)**| Matheus Estanislau |
 |**Classificação**| Verbo |
-|**Noção**| Usuário quer informar os eventos da sua rota <br> O Waze disponibiliza uma ferramenta para o usuário dar feedback|
+|**Noção**| Usuário quer informar os eventos da sua rota <br> O Waze disponibiliza uma ferramenta para o usuário fornecer feedback|
 |Impacto| O Waze exibe o feedback para outros usuários em tempo real <br> |
 |**Rastro**| [INS02](../introspeccao/#31-moscow) |
 
 <br>
 
-### **L8 - Avaliar feedback**
+### **L08 - Avaliar feedback**
 
-| L8 | Avaliar feedback |  
+| L08 | Avaliar feedback |  
 |--|--|
 |**Data**| 29/09 |
 |**Hora**| 17:57 |
@@ -131,9 +131,9 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
-### **L9 - Mapa**
+### **L09 - Mapa**
 
-| L9 | Mapa |  
+| L09 | Mapa |  
 |--|--|
 |**Data**|29/09|
 |**Hora**| 20:00 |
@@ -141,7 +141,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Objeto |
 |**Noção**| Waze utiliza para realizar cálculos e definir a melhor rota|
 |**Impacto**| Usuário utiliza para se orientar e chegar ao destino <br> Usuário utiliza para procurar novos lugares interessantes|
-|**Rastro**| [BS11](../introspeccao/#31-moscow)|
+|**Rastro**| [BS11](../Brainstorm/#31-moscow)|
 
 <br>
 
@@ -173,16 +173,16 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 
 <br>
 
-### **L12 - Consultar postos de gasolina**
+### **L12 - Consultar postos de combustível**
 
-| L12 | Consultar postos de gasolina |  
+| L12 | Consultar postos de combustível |  
 |--|--|
 |**Data**| 29/09 |
 |**Hora**| 20:30 |
 |**Autor(es)**| Renan Cristyan |
 |**Classificação**| Verbo |
-|**Noção**| O usuário quer saber os postos de gasolina mais próximos <br> O usuário quer saber o preço dos postos de gasolina próximos|
-|**Impacto**| O Waze informa o posto de gasolina mais próximo <br> O Waze informa o preço de gasolina dos postos |
+|**Noção**| O usuário quer saber os postos de combustível mais próximos <br> O usuário quer saber o preço dos postos de combustível próximos|
+|**Impacto**| O Waze informa o posto de combustível mais próximo <br> O Waze informa o preço dos combustíveis dos postos |
 |**Rastro**| [ST02](../Storytelling/#moscow)|
 
 <br>
@@ -265,7 +265,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Autor(es)**| Renan Cristyan |
 |**Classificação**| Verbo |
 |**Noção**| Usuário quer definir o local da sua casa para acesso rápido <br> Útil para evitar digitar o mesmo local várias vezes|
-|**Impacto**| O local "Casa" recebe destaque no menu de busca do aplicativo <br> O acesso às rotas é muito mais rápido e prático |
+|**Impacto**| A localização informada como "Casa" se torna um atalho no menu de busca do aplicativo <br> O acesso às rotas é muito mais rápido e prático |
 |**Rastro**| [BS02](../Brainstorm/#moscow) |
 
 ### **L19 - Definir trabalho**
@@ -277,10 +277,10 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Autor(es)**| Renan Cristyan |
 |**Classificação**| Verbo |
 |**Noção**| Usuário quer definir o local do seu trabalho para acesso rápido <br> Útil para evitar digitar o mesmo lugar várias vezes|
-|**Impacto**| O local "Trabalho" recebe destaque no menu de busca do aplicativo <br> O acesso às rotas é muito mais fácil e prático |
+|**Impacto**| A localização informada como "Trabalho" se torna um atalho no menu de busca do aplicativo <br> O acesso às rotas é muito mais fácil e prático |
 |**Rastro**| [BS02](../Brainstorm/#moscow) |
 
-### **L20 - Configurar/Personalizar**
+### **L20 - Configurar ou Personalizar**
 
 | L20 | Configurar/Personalizar |  
 |--|--|
@@ -290,7 +290,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Verbo |
 |**Noção**| Usuário deseja alterar alguma configuração do aplicativo <br> Usuário deseja personalizar alguma funcionalidade do aplicativo |
 |**Impacto**| Após acessar a área "Configurações", é possível alterar uma série de configurações do aplicativo, como notificações, idioma, pesquisa por voz, entre outras|
-|**Rastro**| Não possui |
+|**Rastro**| [INS07](../introspeccao/#31-moscow), [AP02](../analiseProtocolo/#41-moscow) |
 
 
 ### **L21 - Criar uma conta**
@@ -327,3 +327,4 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |01/10/19|1.8|Adicionado mais rastros| Matheus Estanislau|
 |15/10/19|1.9|Adicionados L18, L19, L20 e L21|Renan Cristyan|
 |23/10/19|2.0|Adicionado rastros L14,L18,L19,L21|Lucas Alexandre, Moacir Mascarenha|
+|14/11/19|3.0|Correções feitas a partir da verificação|João Pedro, Renan Cristyan|
