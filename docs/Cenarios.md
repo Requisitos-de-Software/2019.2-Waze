@@ -26,9 +26,9 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 ## 3. Cenários
 
 
-### **C1 - Chegar a um destino desejado**
+### **C01 - Chegar a um destino desejado**
 
-| C1 | Informações | 
+| C01 | Informações | 
 |:--:|:--:|
 |**Data**|24/09/19|
 |**Hora**|19:02|
@@ -45,9 +45,9 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 
 <br>
 
-### **C2 - Encontrar alguém através da localização**
+### **C02 - Encontrar alguém através da localização**
 
-| C2 | Informações | 
+| C02 | Informações | 
 |:--:|:--:|
 |**Data**|27/09/19|
 |**Hora**|16:48|
@@ -62,9 +62,9 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Exceção**|Localização enviada inválida<br>Rota calculada pelo Waze não ser a melhor opção<br>Aplicativo sem acesso à rede<br>Distração ao usar o smartphone enquanto dirige que pode causar acidentes<br>|
 |**Rastro**|[ST04](../Storytelling/#moscow)|
 
-### **C3 - Planejar uma rota**
+### **C03 - Planejar uma rota**
 
-| C3 | Informações | 
+| C03 | Informações | 
 |:--:|:--:|
 |**Data**|27/09/19|
 |**Hora**|19:30|
@@ -77,11 +77,11 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br>Recurso de localização do Smartphone ligado<br>|
 |**Episódios**|Usuário deseja ir a algum lugar mas não imediatamente<br>Usuário utiliza a ferramenta de planejamento de rota do Waze<br>Usuário digita o local que deseja ir<br>Usuário escolhe que horas deseja chegar no local<br>Waze calcula a rota e o melhor momento para partir<br>Waze notifica o usuário quando for hora de sair|
 |**Exceção**|Aplicativo sem acesso à internet<br>Bateria do smatphone acabar|
-|**Rastro**|Nenhum|
+|**Rastro**|[BS06](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#31-moscow)|
 
-### **C4 - Saber sobre alertas dentro da rota**
+### **C04 - Saber sobre alertas dentro da rota**
 
-| C4 | Informações | 
+| C04 | Informações | 
 |:--:|:--:|
 |**Data**|28/09/19|
 |**Hora**|16:06|
@@ -96,9 +96,9 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Exceção**|Alertas desatualizados<br>Alertas errados<br>Aplicativo sem acesso à rede<br>|
 |**Rastro**|[BS04](../Brainstorm/#moscow)|
 
-### **C5 - Adicionar alerta**
+### **C05 - Adicionar alerta**
 
-| C5 | Informações | 
+| C05 | Informações | 
 |:--:|:--:|
 |**Data**|28/09/19|
 |**Hora**|18:49|
@@ -114,9 +114,9 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Rastro**|[AP09](../analiseProtocolo/#moscow)|
 
 
-### **C6 -  Melhor Horário para o percurso**
+### **C06 -  Melhor Horário para o percurso**
 
-| C6 | Informações | 
+| C06 | Informações | 
 |:--:|:--:|
 |**Data**|28/09/19|
 |**Hora**|21:15|
@@ -131,9 +131,9 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Exceção**|Hora sugerida não ser melhor opção<br>Aplicativo sem acesso à rede|
 |**Rastro**|[AP09](../analiseProtocolo/#moscow)|
 
-### **C7 - Buscar postos de combustíveis com melhor preço**
+### **C07 - Buscar postos de combustíveis com melhor preço**
 
-| C7 | Informações | 
+| C07 | Informações | 
 |:--:|:--:|
 |**Data**|29/09/19|
 |**Hora**|22:37|
@@ -148,9 +148,9 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Exceção**|Aplicativo sem acesso à rede<br>Local não contém postos próximos<br>Preços desatualizados<br>Estabelecimento fechado<br>Rota sugerida não ser melhor opção|
 |**Rastro**|[ST02](../Storytelling/#31-moscow)|
 
-### **C8 - Buscar Estacionamentos próximo ao destino**
+### **C08 - Buscar Estacionamentos próximo ao destino**
 
-| C8 | Informações | 
+| C08 | Informações | 
 |:--:|:--:|
 |**Data**|29/09/19|
 |**Hora**|23:05|
@@ -165,9 +165,9 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Exceção**|Aplicativo sem acesso à rede<br>Local há estacionamento próximo ao destino<br>Rota sugerida não ser melhor opção<br>Estacionamento não cadastrado|
 |**Rastro**|[ST02](../Storytelling/#31-moscow)|
 
-### **C9 - Adicionando local aos favoritos**
+### **C09 - Adicionando local aos favoritos**
 
-| C9 | Informações | 
+| C09 | Informações | 
 |:--:|:--:|
 |**Data**|29/09/19|
 |**Hora**|23:20|
@@ -248,7 +248,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter acesso à internet<br>Ter o Waze previamente instalado<br>ter aplicativo de música instalado <br>Ter sido aceito o termo de uso no Waze|
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa configurações do waze<br>O usuario acessa opção de "Voz e som<br>Waze mostra opções de mudança de voz para usuário|
 |**Exceção**|Aplicativo sem acesso à rede<br>Aplicatico sem acesso ao audio do celular|
-|**Rastro**|Nenhum|
+|**Rastro**|[ENT04](../Entrevista/#51-moscow)|
 
 ### **C14 - Buscar restaurantes nas proximidades**
 
@@ -335,7 +335,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa configuraçoes<br>O usuário acessa o ícone Economia de bateria<br>Waze mostra opções de economia de bateria <br> O usuário ativa a opção desejada|
 |**Exceção**|Falta de acesso ao aplicativo|
-|**Rastro**|[AP12](../AnaliseProtocolo/#moscow)|
+|**Rastro**|[AP12](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)|
 
 ### **C19 - Alterar exibição de mapa**
 
@@ -352,7 +352,7 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |**Restrição**|Ter o Waze previamente instalado <br>Ter sido aceito o termo de uso no Waze|
 |**Episódios**|O usuário abre o aplicativo Waze<br>O usuário acessa configuraçoes<br>O usuário acessa o Exibição de mapa<br>Waze mostra opções para exibição de mapa <br> O usuário ativa a opção desejada|
 |**Exceção**|Nenhuma|
-|**Rastro**|Nenhum|
+|**Rastro**|[BS11](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#31-moscow)|
 
 ## 4. Referências Bibliográficas
 
@@ -386,3 +386,4 @@ Os cenários são narrativas textuais que descrevem sistemas da  perspectiva de 
 |13/10/19|3.6| Criado cenário 19| João Pedro|
 |15/10/19|4.0| Adicionado rastro aos cenários|João Pedro|
 |23/10/19|4.1| Adicionado rastro C6,C7,C8,C11,C14,C15,C16 e C17|Lucas Alexandre, Moacir Mascarenha|
+|14/11/19|5.0| Adicionado mudanças de acordo com avaliação|Guilherme Leal, João Pedro|
