@@ -197,8 +197,7 @@ O LAL (Léxico Aplicado da Linguagem) é uma técnica que procura descrever os s
 |**Classificação**| Estado |
 |**Noção**| O usuário quer ser informado de acidentes na pista <br> Os usuários podem informar sobre acidentes na rota|
 |**Impacto**| O Waze informa se ocorreu algum acidente na rota do usuário <br>|
-|**Rastro**| <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/">Introspecção<a>|
-|**Rastro**| [Q05](../Questionario/#moscow)|
+|**Rastro**| [Q05](../Questionario/#moscow), [AP09](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)|
 
 <br>
 
