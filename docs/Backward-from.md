@@ -25,7 +25,7 @@ A  rastreabilidade  backward-from (para trás) liga os requisitos elicitados às
 |RQ09|O aplicativo deve sugerir a menor rota|BS05|-|-|-|ST04|
 |RQ10|O aplicativo deve sugerir o tempo aproximado de rota|BS06||||ST03|
 |RQ11|O aplicativo deve ter a opção para mudar a rota a qualquer momento|BS07|-|-|-|-|
-|RQ12| aplicativo deve disponibilizar uma funcionalidade para economia de bateria|BS08|-|-|-|-|
+|RQ12|O aplicativo deve disponibilizar uma funcionalidade para economia de bateria|BS08|-|-|-|-|
 |RQ13|O aplicativo deve ter um sistema de chat|BS09|-|-|-|-|
 |RQ14|O aplicativo deve ter integração com aplicativos de streaming|BS10|-|-|Q02|-|
 |RQ15|O aplicativo deve ter o mapa atualizado|BS11|-|-|Q05|-|
@@ -49,9 +49,238 @@ A  rastreabilidade  backward-from (para trás) liga os requisitos elicitados às
 |RQ33|A aplicação tem que solicitar ao usuário um destino||-|-|INS08,INS09|-|
 |RQ34|Validar endereço|-|-|INS10|-|-|
 |RQ35|O usuário tem que receber dicas de lugares para que ele possa ir caso tenha digitado metade do endereço ou o endereço errado|-|-|INS11|-|-|
+
 <!-- |RQ||||||| -->
 
-s
+<!-- 
+## RQ
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming
+- Entrevista
+- Introspecção
+- Questionário
+- Storytelling
+
+### Elo: 
+
+-------------------------
+ -->
+
+<!--
+Links
+
+Brainstorming (https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+Entrevista    (https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
+Introspecção  (https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#3-requisitos-elicitados)
+Questionário  (https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+Storytelling  (https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+-->
+
+## RQ01
+### Categoria:
+- Desenvovimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS20](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Entrevista [ENT01](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
+- Storytelling [ST04](https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+
+### Elo:
+- Satisfação: BS20 satisfaz ENT01
+- Agregação: ST04 agrega ENT01
+--------------------------
+
+## RQ02
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS04](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Entrevista [ENT02](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
+- Questionário [Q01, Q04, Q05](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+
+### Elo:
+- Agregação: BS04 e Q05 agregam ENT02
+- Satisfaz: Q01 e Q04 satisfazem ENT02
+--------------------------
+
+## RQ03
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS13](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Entrevista [ENT03](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
+- Introspecção [INS02](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#3-requisitos-elicitados)
+- Storytelling [ST05](https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+
+### Elo:
+- Agregação: BS13, INS02 e ST05 agrega ENT03
+- Satisfação: ST05 satisfaz ENT03
+--------------------------
+
+## RQ04
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Entrevista [ENT04](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
+
+### Elo:
+- Não há artefatos para constituir o elo.
+---------------------------
+
+## RQ05
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS01](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+
+### Elo:
+- Não há artefatos para constituir o elo.
+-----------------------
+
+## RQ06
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS02](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+
+### Elo:
+- Não há artefatos para constituir o elo.
+------------------------
+
+## RQ07
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS03](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Questionário [QS06](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+- Storytelling [ST02](https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+
+### Elo:
+- Satisfação: BS03 e ST02 satisfaz o Q06
+-------------------
+
+## RQ08
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS04](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Entrevista [ENT02](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
+- Questionário [Q01, Q04, Q05](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+
+### Elo:
+- Agregação: BS04 e Q05 agregam ENT02
+- Satisfaz: Q01 e Q04 satisfazem ENT02
+---------------------
+## RQ09
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS05](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Storytelling [ST04](https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+
+### Elo:
+- Representação: BS05 reprensenta o storytelling ST04 
+-------------------------
+
+
+## RQ10
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS06](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Storytelling [ST03](https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+
+### Elo:
+- Satisfação: BS06 satisfaz ST03
+-------------------------
+
+
+
+## RQ11
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS07](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+
+### Elo: 
+- Não há artefatos para constituir o elo.
+-------------------------
+
+
+## RQ12
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS08](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+
+### Elo: 
+- Não há artefatos para constituir o elo.
+-------------------------
+
+## RQ13
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS09](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+
+### Elo:
+- Não há artefatos para constituir o elo.
+
+-------------------------
+
+## RQ14
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS10](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Questionário [Q02](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+
+### Elo: 
+- Agregação: Q02 agrega BS10
+-------------------------
+
+
+## RQ15
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS11](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Questionário [Q05](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+
+### Elo: 
+- Agregação: Q05 agrega BS11
+-------------------------
+
+<!-- • Os principais elos de rastreabilidade são:
+• Satisfação: classe origem tem dependência de satisfação com a classe
+destino.
+• Recurso: classe origem tem dependência de recurso com a classe
+destino.
+• Responsabilidade: registra a participação, responsabilidade e ação de
+pessoas sobre artefatos.
+• Representação: captura a representação ou modelagem dos requisitos
+em outras linguagens.
+• Alocado: classe origem está relacionada à classe destino, que
+representa um subsistema.
+• Agregação: indica “composição” de elementos. -->
+
 ## Referência Bibliográfica
 > DAVIS, A. M.; Software   Requirements:   Objects,   Functions   and   States. Englewood Cliffs, New Jersey: Prentice Hall. 1993. 
 
@@ -66,3 +295,4 @@ s
 |10/11/19|1.0|Criação do documento|Moacir Mascarenha, Renan Cristyan|
 |10/11/19|2.0|Preenchida parcialmente a tabela|João Pedro, Moacir Mascarenha|
 |10/11/19|3.0|Preenchida Matriz de Rastreabilidade|João Pedro, Moacir Mascarenha, Renan Cristyan|
+|16/11/19|4.0|Adicionados primeiros 15 elos|João Pedro, Moacir Mascarenha, Renan Cristyan|
