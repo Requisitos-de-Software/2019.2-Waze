@@ -46,9 +46,20 @@ A  rastreabilidade  backward-from (para trás) liga os requisitos elicitados às
 |RQ30|Aumentar tamanho (km) de rotas|-|-|INS06|-|-|
 |RQ31|Cadastro de usuário e login|INS07|-|-|-|-|
 |RQ32|A aplicação tem que solicitar ao usuário que ele digite o trajeto do destino|-|-|INS08|-|-|
-|RQ33|A aplicação tem que solicitar ao usuário um destino||-|-|INS08,INS09|-|
+|RQ33|A aplicação tem que solicitar ao usuário um destino|-|-|-|INS08,INS09|-|
 |RQ34|Validar endereço|-|-|INS10|-|-|
 |RQ35|O usuário tem que receber dicas de lugares para que ele possa ir caso tenha digitado metade do endereço ou o endereço errado|-|-|INS11|-|-|
+|RQ36|O aplicativo deve informar ao usuário sobre o engarrafamento|BS19|ENT03|-|Q01,Q04,Q05| ST01|
+|RQ37|O aplicativo deve informar sobre estabelecimentos de interesse para motoristas|BS03|-|-|Q06|ST02|
+|RQ38|O aplicativo de informar o tempo do percurso|BS06||||ST03|
+|RQ39|O aplicativo deve calcular a melhor rota para o destino desejado pelo usuário|BS05|-|-|-|ST04|
+|RQ40|O aplicativo deve conter uma area comum para feedback do usuário|BS13|ENT03|INS02|-|ST05|
+|RQ41|O usuário deve ser informado sobre acontecimentos em sua rota|BS04|ENT02|-|Q01,Q04,Q05|-|
+|RQ42|O aplicativo deve ter conexão com um aplicativo de mídia|BS10|-|-|Q02|-|
+|RQ43|A navegação deve funcionar offline|BS16|-|INS03|Q03|-|
+|RQ44|O usuário deve receber informações sobre a via|BS04,BS19|ENT02|-|Q01,Q04,Q05|-|
+|RQ45|O usuário deve informar eventos na sua rota|BS04,BS19|ENT02|-|Q01,Q04,Q05|-|
+|RQ46|	O usuário deve ser informado sobre estabelicimentos próximos|BS03|-|-|Q06|ST02|
 
 <!-- |RQ||||||| -->
 
