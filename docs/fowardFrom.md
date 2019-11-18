@@ -136,6 +136,127 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 |**US** | [US04](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) |
 | **Funcionalidade** |  ![ff06](./../img/ff06.gif)|
 
+## RQ07
+| **RQ07** |**O aplicativo deve mostrar estabelecimentos importantes para o motorista**|
+|--|--|
+|**Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
+|**Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) 
+|**US** | [US13](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) |
+| **Funcionalidade** | |
+
+## RQ08
+| **RQ08** |**O aplicativo deve fornecer informações sobre as condições da pista**|
+|--|--|
+|**Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
+|**Feature** | [FT02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) 
+|**US** | [US08](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) |
+| **Funcionalidade** | |
+
+## RQ09
+| **RQ09** |**O aplicativo deve sugerir a menor rota**|
+|--|--|
+|**Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
+|**Feature** | [FT01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) 
+|**US** | [US24](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) |
+| **Funcionalidade** | |
+
+## RQ10
+| **RQ10** |**O aplicativo deve sugerir o tempo aproximado de rota**|
+|--|--|
+|**Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
+|**Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) 
+|**US** | [US25](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) |
+| **Funcionalidade** | |
+
+## RQ11
+| **RQ11** |**O aplicativo deve ter a opção para mudar a rota a qualquer momento**|
+|--|--|
+|**Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
+|**Feature** | [FT01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) 
+|**US** | [US02](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) [US05](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)  |
+| **Funcionalidade** | |
+
+## RQ12
+| **RQ12** |**O aplicativo deve disponibilizar uma funcionalidade para economia de bateria**|
+|--|--|
+|**Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
+|**Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
+|**US** | [US20](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)  |
+| **Funcionalidade** | |
+
+## RQ13
+| **RQ13** |**O aplicativo deve ter um sistema de chat**|
+|--|--|
+|**Épico** |[E03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
+|**Feature** | [FT05](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+|**US** | [US27](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)   |
+| **Funcionalidade** | |
+
+## RQ14
+| **RQ14** |****|
+|--|--|
+|**Épico** | |
+|**Feature** | |
+|**US** |   |
+| **Funcionalidade** | |
+
+## RQ15
+| **RQ15** |****|
+|--|--|
+|**Épico** | |
+|**Feature** | |
+|**US** |   |
+| **Funcionalidade** | |
+
+## RQ16
+| **RQ16** |****|
+|--|--|
+|**Épico** | |
+|**Feature** | |
+|**US** |   |
+| **Funcionalidade** | |
+
+## RQ17
+| **RQ17** |****|
+|--|--|
+|**Épico** | |
+|**Feature** | |
+|**US** |   |
+| **Funcionalidade** | |
+
+## RQ18
+| **RQ18** |****|
+|--|--|
+|**Épico** | |
+|**Feature** | |
+|**US** |   |
+| **Funcionalidade** | |
+
+## RQ19
+| **RQ19** |****|
+|--|--|
+|**Épico** | |
+|**Feature** | |
+|**US** |   |
+| **Funcionalidade** | |
+
+## RQ20
+| **RQ20** |****|
+|--|--|
+|**Épico** | |
+|**Feature** | |
+|**US** |   |
+| **Funcionalidade** | |
+
+## RQ21
+| **RQ21** |****|
+|--|--|
+|**Épico** | |
+|**Feature** | |
+|**US** |   |
+| **Funcionalidade** | |
+
+
 
 ## Referência Bibliográfica
 > DAVIS, A. M.; Software   Requirements:   Objects,   Functions   and   States. Englewood Cliffs, New Jersey: Prentice Hall. 1993. 
