@@ -37,6 +37,8 @@ nav:
     - Verificação NFR: Verificacao-NFR.md
     - Verificação Cenário: VerificacaoCenarios.md
     - Verificação Léxico: verificacaolexico.md
+  - Pós-Rastreabilidade:
+    - Foward From: fowardFrom.md
 
   
 
