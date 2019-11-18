@@ -12,54 +12,67 @@ A  rastreabilidade  backward-from (para trás) liga os requisitos elicitados às
 
 ## Matriz de Rastreabilidade
 
-|ID|Requisito|Brainstorming(BS)|Entrevista(ENT)|Introspecção(INS)|Questionário(Q)|Storytelling(ST)|
-|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
-|RQ01|O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pelo usuário|BS20|ENT01|-|-|ST04|
-|RQ02|O aplicativo deve informar sobre as condições da via|BS04|ENT02|-|Q01,Q04,Q05|-|
-|RQ03|O usuário pode dar feedback sobre as condições do seu percurso|BS13|ENT03|INS02|-|ST05|
-|RQ04|O aplicativo deve auxiliar a navegação por um guia de áudio|-|ENT04|-|-|-|
-|RQ05|O aplicativo deve informar a localização atual do usuário|BS01|-|-|-|-|
-|RQ06|O usuário deve definir locais favoritos|BS02|-|-|-|-|
-|RQ07|O aplicativo deve mostrar estabelecimentos importantes para o motorista|BS03|-|-|Q06|ST02|
-|RQ08|O aplicativo deve fornecer informações sobre as condições da pista|BS04|ENT02|-|Q01,Q04,Q05|-|
-|RQ09|O aplicativo deve sugerir a menor rota|BS05|-|-|-|ST04|
-|RQ10|O aplicativo deve sugerir o tempo aproximado de rota|BS06||||ST03|
-|RQ11|O aplicativo deve ter a opção para mudar a rota a qualquer momento|BS07|-|-|-|-|
-|RQ12|O aplicativo deve disponibilizar uma funcionalidade para economia de bateria|BS08|-|-|-|-|
-|RQ13|O aplicativo deve ter um sistema de chat|BS09|-|-|-|-|
-|RQ14|O aplicativo deve ter integração com aplicativos de streaming|BS10|-|-|Q02|-|
-|RQ15|O aplicativo deve ter o mapa atualizado|BS11|-|-|Q05|-|
-|RQ16|O usuário deve ser capaz de avaliar feedback de outros usuários|BS13|-|-|-|-|
-|RQ17|O aplicativo deve ser leve o suficiente para ter um bom desempenho na maioria dos dispositivos|BS14|-|-|-|-|
-|RQ18|O aplicativo deve intuitivo e agradável|BS15|-|INS04|-|-|
-|RQ19|O aplicativo deve ter suporte offline|BS16|-|INS03|Q03|-|
-|RQ20|O aplicativo deve ter suporte para anúncios|BS17|-|-|-|-|
-|RQ21|O usuário deve ser capaz de editar informações no mapa|BS18||INS00|Q05||
-|RQ22|O aplicativo deve ter opção de evitar algumas situações durante o percurso|BS19|-|-|-|-|
-|RQ23|O aplicativo deve poder definir suas preferências de percurso|BS20|ENT01|-|-|-|
-|RQ24|Precisão de rotas|BS18|-|INS00|Q05|-|
-|RQ25|Mudança de Interface|-|-|INS01|-|-|
-|RQ26|Veracidade de Informações de usuários|BS13|ENT03|INS02|-|ST05|
-|RQ27|O aplicativo deve consumir menos rede de dados / opção offline|BS16|-|INS03|Q03|-|
-|RQ28|Design mais intuitivo|BS15|-|INS04|-|-|
-|RQ29|Integração com redes sociais|BS10|-|INS05|Q02|-|
-|RQ30|Aumentar tamanho (km) de rotas|-|-|INS06|-|-|
-|RQ31|Cadastro de usuário e login|INS07|-|-|-|-|
-|RQ32|A aplicação tem que solicitar ao usuário que ele digite o trajeto do destino|-|-|INS08|-|-|
-|RQ33|A aplicação tem que solicitar ao usuário um destino|-|-|-|INS08,INS09|-|
-|RQ34|Validar endereço|-|-|INS10|-|-|
-|RQ35|O usuário tem que receber dicas de lugares para que ele possa ir caso tenha digitado metade do endereço ou o endereço errado|-|-|INS11|-|-|
-|RQ36|O aplicativo deve informar ao usuário sobre o engarrafamento|BS19|ENT03|-|Q01,Q04,Q05| ST01|
-|RQ37|O aplicativo deve informar sobre estabelecimentos de interesse para motoristas|BS03|-|-|Q06|ST02|
-|RQ38|O aplicativo de informar o tempo do percurso|BS06||||ST03|
-|RQ39|O aplicativo deve calcular a melhor rota para o destino desejado pelo usuário|BS05|-|-|-|ST04|
-|RQ40|O aplicativo deve conter uma area comum para feedback do usuário|BS13|ENT03|INS02|-|ST05|
-|RQ41|O usuário deve ser informado sobre acontecimentos em sua rota|BS04|ENT02|-|Q01,Q04,Q05|-|
-|RQ42|O aplicativo deve ter conexão com um aplicativo de mídia|BS10|-|-|Q02|-|
-|RQ43|A navegação deve funcionar offline|BS16|-|INS03|Q03|-|
-|RQ44|O usuário deve receber informações sobre a via|BS04,BS19|ENT02|-|Q01,Q04,Q05|-|
-|RQ45|O usuário deve informar eventos na sua rota|BS04,BS19|ENT02|-|Q01,Q04,Q05|-|
-|RQ46|	O usuário deve ser informado sobre estabelicimentos próximos|BS03|-|-|Q06|ST02|
+|ID|Requisito|Brainstorming(BS)|Entrevista(ENT)|Introspecção(INS)|Questionário(Q)|Storytelling(ST)|Análise de Protocolo(AP)|
+|:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
+|RQ01|O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pelo usuário|BS20|ENT01|-|-|ST04|AP05|
+|RQ02|O aplicativo deve informar sobre as condições da via|BS04|ENT02|-|Q01,Q04,Q05|-|-|
+|RQ03|O usuário pode dar feedback sobre as condições do seu percurso|BS13|ENT03|INS02|-|ST05|-|
+|RQ04|O aplicativo deve auxiliar a navegação por um guia de áudio|-|ENT04|-|-|-|-|
+|RQ05|O aplicativo deve informar a localização atual do usuário|BS01|-|-|-|-|-|
+|RQ06|O usuário deve definir locais favoritos|BS02|-|-|-|-|-|
+|RQ07|O aplicativo deve mostrar estabelecimentos importantes para o motorista|BS03|-|-|Q06|ST02|-|
+|RQ08|O aplicativo deve fornecer informações sobre as condições da pista|BS04|ENT02|-|Q01,Q04,Q05|-|AP09|
+|RQ09|O aplicativo deve sugerir a menor rota|BS05|-|-|-|ST04|-|
+|RQ10|O aplicativo deve sugerir o tempo aproximado de rota|BS06|-|-|-|ST03|AP06,AP07|
+|RQ11|O aplicativo deve ter a opção para mudar a rota a qualquer momento|BS07|-|-|-|-|AP10|
+|RQ12|O aplicativo deve disponibilizar uma funcionalidade para economia de bateria|BS08|-|-|-|-|AP12|
+|RQ13|O aplicativo deve ter um sistema de chat|BS09|-|-|-|-|-|
+|RQ14|O aplicativo deve ter integração com aplicativos de streaming|BS10|-|-|Q02|-|-|
+|RQ15|O aplicativo deve ter o mapa atualizado|BS11|-|-|Q05|-|AP09|
+|RQ16|O usuário deve ser capaz de avaliar feedback de outros usuários|BS13|-|-|-|-|-|
+|RQ17|O aplicativo deve ser leve o suficiente para ter um bom desempenho na maioria dos dispositivos|BS14|-|-|-|-|-|
+|RQ18|O aplicativo deve intuitivo e agradável|BS15|-|INS04|-|-|-|
+|RQ19|O aplicativo deve ter suporte offline|BS16|-|INS03|Q03|-|-|
+|RQ20|O aplicativo deve ter suporte para anúncios|BS17|-|-|-|-|-|
+|RQ21|O usuário deve ser capaz de editar informações no mapa|BS18|-|INS00|Q05|-|-|
+|RQ22|O aplicativo deve ter opção de evitar algumas situações durante o percurso|BS19|-|-|-|-|-|
+|RQ23|O aplicativo deve poder definir suas preferências de percurso|BS20|ENT01|-|-|-|-|
+|RQ24|Precisão de rotas|BS18|-|INS00|Q05|-|-|
+|RQ25|Mudança de Interface|-|-|INS01|-|-|-|
+|RQ26|Veracidade de Informações de usuários|BS13|ENT03|INS02|-|ST05|-|
+|RQ27|O aplicativo deve consumir menos rede de dados / opção offline|BS16|-|INS03|Q03|-|-|
+|RQ28|Design mais intuitivo|BS15|-|INS04|-|-|-|
+|RQ29|Integração com redes sociais|BS10|-|INS05|Q02|-|-|
+|RQ30|Aumentar tamanho (km) de rotas|-|-|INS06|-|-|-|
+|RQ31|Cadastro de usuário e login|-|-|INS07|-|-|AP02|
+|RQ32|A aplicação tem que solicitar ao usuário que ele digite o trajeto do destino|-|-|INS08|-|-|-|
+|RQ33|A aplicação tem que solicitar ao usuário um destino|-|-|-|INS08,INS09|-|-|
+|RQ34|Validar endereço|-|-|INS10|-|-|-|
+|RQ35|O usuário tem que receber dicas de lugares para que ele possa ir caso tenha digitado metade do endereço ou o endereço errado|-|-|INS11|-|-|-|
+|RQ36|O aplicativo deve informar ao usuário sobre o engarrafamento|BS19|ENT03|-|Q01,Q04,Q05| ST01|-|
+|RQ37|O aplicativo deve informar sobre estabelecimentos de interesse para motoristas|BS03|-|-|Q06|ST02|-|
+|RQ38|O aplicativo de informar o tempo do percurso|BS06|-|-|-|ST03|AP07,AP06|
+|RQ39|O aplicativo deve calcular a melhor rota para o destino desejado pelo usuário|BS05|-|-|-|ST04|-|
+|RQ40|O aplicativo deve conter uma area comum para feedback do usuário|BS13|ENT03|INS02|-|ST05|-|
+|RQ41|O usuário deve ser informado sobre acontecimentos em sua rota|BS04|ENT02|-|Q01,Q04,Q05|-|-|
+|RQ42|O aplicativo deve ter conexão com um aplicativo de mídia|BS10|-|-|Q02|-|-|
+|RQ43|A navegação deve funcionar offline|BS16|-|INS03|Q03|-|-|
+|RQ44|O usuário deve receber informações sobre a via|BS04,BS19|ENT02|-|Q01,Q04,Q05|-|-|
+|RQ45|O usuário deve informar eventos na sua rota|BS04,BS19|ENT02|-|Q01,Q04,Q05|-|-|
+|RQ46|O usuário deve ser informado sobre estabelicimentos próximos|BS03|-|-|Q06|ST02|-|
+|RQ47|O Waze deve mostrar um pequeno resumo sobre o que é o app|-|-|-|-|-|AP01|
+|RQ48|O usuário deve ser capaz de utilizar o app sem fazer um cadastro/login|-|-|INS07|-|-|AP02|
+|RQ49|Deve ser mostrado os termos de serviços|-|-|-|-|-|AP03|
+|RQ50|O usuário deve ser capaz de informar que tipo de carro utiliza|-|-|-|-|-|AP04|
+|RQ51|O usuário deve ser capaz de informar o destino|BS20|ENT01|-|-|ST04|AP05|
+|RQ52|O Aplicativo deve informar o tempo do percurso|BS06|-|-|ST03|-|AP07,AP06|
+|RQ53|O Aplicativo deve informar a hora de chegada no destino|BS06|-|-|ST03|-|AP07,AP06|
+|RQ54|O Aplicativo deve informar a velocidade do veiculo|-|-|-|-|-|AP08|
+|RQ55|O usuario deve ser capaz de informar eventos na rota, como transito, acidentes e radares|BS04|ENT02|-|Q01,Q04,Q05|-|AP09|
+|RQ56|O usuário deve ser capaz de alterar a rota|BS07|-|-|-|-|AP10|
+|RQ57|O usuário deve ser capaz de compartilhar sua rota|-|-|-|-|-|AP11|
+|RQ58|O waze deve ter uma opção de economia de bateria|BS08|-|-|-|-|AP12|
+
 
 <!-- |RQ||||||| -->
 
