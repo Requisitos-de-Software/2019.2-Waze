@@ -15,7 +15,7 @@ A  rastreabilidade  backward-from (para trás) liga os requisitos elicitados às
 |ID|Requisito|Brainstorming(BS)|Entrevista(ENT)|Introspecção(INS)|Questionário(Q)|Storytelling(ST)|Análise de Protocolo(AP)|
 |:--:|:--:|:--:|:--:|:--:|:--:|:--:|:--:|
 |RQ01|O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pelo usuário|BS20|ENT01|-|-|ST04|AP05|
-|RQ02|O aplicativo deve informar sobre as condições da via|BS04|ENT02|-|Q01,Q04,Q05|-|-|
+|RQ02|O aplicativo deve informar sobre as condições da via|BS04|ENT02|-|Q01,Q04,Q05|-|AP09|
 |RQ03|O usuário pode dar feedback sobre as condições do seu percurso|BS13|ENT03|INS02|-|ST05|-|
 |RQ04|O aplicativo deve auxiliar a navegação por um guia de áudio|-|ENT04|-|-|-|-|
 |RQ05|O aplicativo deve informar a localização atual do usuário|BS01|-|-|-|-|-|
@@ -127,9 +127,10 @@ Storytelling  (https://requisitos-de-software.github.io/2019.2-Waze/Storytelling
 - Brainstorming [BS04](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
 - Entrevista [ENT02](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
 - Questionário [Q01, Q04, Q05](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+- Analise de Protocolo [AP09](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
 
 ### Elo:
-- Agregação: BS04 e Q05 agregam ENT02
+- Agregação: BS04,AP09 e Q05 agregam ENT02
 - Satisfaz: Q01 e Q04 satisfazem ENT02
 --------------------------
 
@@ -462,6 +463,293 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Não há artefatos para constituir o elo.
 -------------------------
 
+## RQ31
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Introspecção [INS07](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
+- Analise de Protocolo [AP02](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
+ 
+### Elo: 
+- Agregação:AP02 agrega INS07
+-------------------------
+
+## RQ32
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Introspecção [INS08](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)[INS09](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
+ 
+ 
+### Elo: 
+- Agregação: INS08 agrega INS09
+-------------------------
+
+## RQ33
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Introspecção [INS08](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)[INS09](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
+ 
+### Elo: 
+- Agregação: INS08 agrega INS09
+-------------------------
+
+
+## RQ34
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Introspecção [INS10](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
+ 
+### Elo: 
+- Não há artefatos para constituir o elo.
+-------------------------
+
+
+## RQ35
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Introspecção [INS11](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
+ 
+### Elo: 
+- Não há artefatos para constituir o elo.
+-------------------------
+
+|RQ36|O aplicativo deve informar ao usuário sobre o engarrafamento|BS19|ENT03|-|Q01,Q04,Q05| ST01|-|
+
+## RQ36
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS19](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Entrevista [ENT03](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#51-moscow)
+- Questionário [Q01 Q04 Q05](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+- Storytelling [ST01](https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+
+ 
+### Elo: 
+- Satisfação: BS29 satisfaz ST01
+- Satisfação: Q01 satisfaz Q05
+- Agregação: Q05 agrega Q04
+- Agregação: ENT03 agrega Q01,Q05
+-------------------------
+
+## RQ37
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS03](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Questionário [QS06](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+- Storytelling [ST02](https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+
+### Elo:
+- Satisfação: BS03 e ST02 satisfaz o Q06
+-------------------------
+
+## RQ38
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS06](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Storytelling [ST03](https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+- Analise de Protocolo [AP06](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow) e [AP07](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
+
+### Elo:
+- Satisfação: BS06 E AP06 satisfaz ST03
+- Agregação: AP07 agrega ST03
+
+-------------------------
+
+## RQ39
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS05](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Storytelling [ST04](https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+
+### Elo:
+- Representação: BS05 reprensenta o storytelling ST04 
+-------------------------
+
+## RQ40
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS13](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Entrevista [ENT03](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#51-moscow)
+- Introspecção [INS02](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
+- Storytelling [ST05](https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+
+### Elo:
+- Agregação: BS13, INS02 e ST05 agrega ENT03
+- Satisfação: ST05 satisfaz ENT03
+-------------------------
+
+## RQ41
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS04](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Entrevista [ENT02](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
+- Questionário [Q01, Q04, Q05](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+- Analise de Protocolo [AP09](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
+
+### Elo:
+- Agregação: BS04,AP09 e Q05 agregam ENT02
+- Satisfaz: Q01 e Q04 satisfazem ENT02
+
+-------------------------
+
+## RQ42
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS10](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Questionário [Q02](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+
+### Elo: 
+- Agregação: Q02 agrega BS10
+
+-------------------------
+
+## RQ43
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS16](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Introspecção [INS03](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
+- Questionário [Q03](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+### Elo: 
+- Satisfação: INS03 e Q03 satisfaz BS16
+
+-------------------------
+
+## RQ44
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS04 BS19](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Entrevista [ENT02](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
+- Questionário [Q01, Q04, Q05](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+- Analise de Protocolo [AP09](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
+
+### Elo:
+- Agregação: BS04,AP09 e Q05 agregam ENT02
+- Satisfaz: Q01 e Q04 satisfazem ENT02
+- Agregação: BS19 agrega BS04
+- Agregação: ENT02 agrega BS19 
+
+-------------------------
+
+## RQ45
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS04 BS19](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Entrevista [ENT02](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
+- Questionário [Q01, Q04, Q05](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+- Analise de Protocolo [AP09](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
+
+### Elo:
+- Agregação: BS04,AP09 e Q05 agregam ENT02
+- Satisfaz: Q01 e Q04 satisfazem ENT02
+- Agregação: BS19 agrega BS04
+- Agregação: ENT02 agrega BS19 
+ 
+-------------------------
+
+## RQ46
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS03](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Questionário [QS06](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+- Storytelling [ST02](https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+
+### Elo:
+- Satisfação: BS03 e ST02 satisfaz o Q06
+-------------------------
+
+## RQ47
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Analise de Protocolo [AP01](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
+
+### Elo:
+- Não há artefatos para constituir o elo.
+-------------------------
+
+## RQ48
+### Categoria:
+- Desenvolvimento
+
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Introspecção [INS07](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
+- Analise de Protocolo [AP02](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
+ 
+### Elo: 
+- Agregação:AP02 agrega INS07
+-------------------------
+
+## RQ49
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Analise de Protocolo [AP03](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
+
+### Elo:
+- Não há artefatos para constituir o elo.
+-------------------------
+
+## RQ50
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Analise de Protocolo [AP04](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
+
+### Elo:
+- Não há artefatos para constituir o elo.
+-------------------------
+
+## RQ51
+### Categoria:
+- Desenvovimento
+
+### Elementos Rastreáveis:
+- Brainstorming [BS20](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+- Entrevista [ENT01](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
+- Storytelling [ST04](https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+- Analise de Protocolo [AP05](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
+
+### Elo:
+- Satisfação: BS20 e AP05 satisfaz ENT01
+- Agregação: ST04 agrega ENT01
+--------------------------
 
 <!-- • Os principais elos de rastreabilidade são:
 • Satisfação: classe origem tem dependência de satisfação com a classe
@@ -491,4 +779,5 @@ representa um subsistema.
 |10/11/19|2.0|Preenchida parcialmente a tabela|João Pedro, Moacir Mascarenha|
 |10/11/19|3.0|Preenchida Matriz de Rastreabilidade|João Pedro, Moacir Mascarenha, Renan Cristyan|
 |16/11/19|4.0|Adicionados primeiros 15 elos|João Pedro, Moacir Mascarenha, Renan Cristyan|
-|17/11/19|4.1|Adicionados elos de 15 á 30|João Pedro, Moacir Mascarenha|
+|17/11/19|4.1|Adicionados elos de 15 a 30|João Pedro, Moacir Mascarenha|
+|17/11/19|4.2|Adicionados elos de 31 a 51|João Pedro, Moacir Mascarenha|
