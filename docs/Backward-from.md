@@ -116,6 +116,7 @@ Análise Prot  (https://requisitos-de-software.github.io/2019.2-Waze/analiseProt
 ### Elo:
 - Satisfação: BS20 e AP05 satisfaz ENT01
 - Agregação: ST04 agrega ENT01
+
 --------------------------
 
 ## RQ02
@@ -131,6 +132,7 @@ Análise Prot  (https://requisitos-de-software.github.io/2019.2-Waze/analiseProt
 ### Elo:
 - Agregação: BS04,AP09 e Q05 agregam ENT02
 - Satisfaz: Q01 e Q04 satisfazem ENT02
+
 --------------------------
 
 ## RQ03
@@ -156,7 +158,8 @@ Análise Prot  (https://requisitos-de-software.github.io/2019.2-Waze/analiseProt
 - Entrevista [ENT04](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
 
 ### Elo:
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo 
+
 ---------------------------
 
 ## RQ05
@@ -166,8 +169,9 @@ Análise Prot  (https://requisitos-de-software.github.io/2019.2-Waze/analiseProt
 ### Elementos Rastreáveis:
 - Brainstorming [BS01](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
 
-### Elo:
-- Não há artefatos para constituir o elo.
+### Elo
+- Não há artefatos para constituir o elo
+
 -----------------------
 
 ## RQ06
@@ -178,7 +182,8 @@ Análise Prot  (https://requisitos-de-software.github.io/2019.2-Waze/analiseProt
 - Brainstorming [BS02](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
 
 ### Elo:
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo 
+
 ------------------------
 
 ## RQ07
@@ -192,8 +197,9 @@ Análise Prot  (https://requisitos-de-software.github.io/2019.2-Waze/analiseProt
 
 ### Elo:
 - Satisfação: BS03 e ST02 satisfaz o Q06
+
 -------------------
-O aplicativo deve fornecer informações sobre as condições da pista
+
 ## RQ08
 ### Categoria:
 - Desenvolvimento
@@ -218,6 +224,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 
 ### Elo:
 - Representação: BS05 reprensenta o storytelling ST04 
+
 -------------------------
 
 ## RQ10
@@ -244,6 +251,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 
 ### Elo: 
 - Satisfação: AP10 satisfaz BS07
+
 -------------------------
 
 ## RQ12
@@ -255,6 +263,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Analise de Protocolo [AP12](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
 ### Elo: 
 - Satisfação: AP12 satisfaz BS08
+
 -------------------------
 
 ## RQ13
@@ -279,6 +288,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 
 ### Elo: 
 - Agregação: Q02 agrega BS10
+
 -------------------------
 
 ## RQ15
@@ -291,6 +301,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Analise de Protocolo [AP09](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
 ### Elo: 
 - Agregação: Q05 e AP09 agrega BS11
+
 -------------------------
 
 ## RQ16
@@ -300,7 +311,8 @@ O aplicativo deve fornecer informações sobre as condições da pista
 ### Elementos Rastreáveis:
 - Brainstorming [BS13](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
 ### Elo: 
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo
+
 -------------------------
 
 ## RQ17
@@ -310,7 +322,8 @@ O aplicativo deve fornecer informações sobre as condições da pista
 ### Elementos Rastreáveis:
 - Brainstorming [BS14](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
 ### Elo: 
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo
+
 -------------------------
 
 ## RQ18
@@ -322,6 +335,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Introspecção [INS04](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
 ### Elo: 
 - Agregação: INS04 agrega BS15
+
 -------------------------
 
 ## RQ19
@@ -335,6 +349,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 
 ### Elo: 
 - Satisfação: INS03 e Q03 satisfaz BS16
+
 -------------------------
 
 ## RQ20
@@ -345,7 +360,8 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Brainstorming [BS17](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
 
 ### Elo: 
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo
+
 -------------------------
 
 ## RQ21
@@ -358,6 +374,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Questionário [Q05](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
 ### Elo: 
 - Agregação: BS18 e Q05 agrega INS00
+
 -------------------------
 
 ## RQ22
@@ -367,7 +384,8 @@ O aplicativo deve fornecer informações sobre as condições da pista
 ### Elementos Rastreáveis:
 - Brainstorming [BS19](https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
 ### Elo: 
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo
+
 -------------------------
 
 ##RQ23
@@ -379,6 +397,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Entrevista [ENT01](https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#51-moscow)
 ### Elo: 
 - Satisfação: ENT01 satisfaz BS20
+
 -------------------------
 
 ## RQ24
@@ -391,6 +410,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Questionário [Q05](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
 ### Elo: 
 - Agregação: BS18 e Q05 agrega INS00
+
 ------------------------
 
 ## RQ25
@@ -400,7 +420,8 @@ O aplicativo deve fornecer informações sobre as condições da pista
 ### Elementos Rastreáveis:
 - Introspecção [INS1](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
 ### Elo: 
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo
+
 -------------------------
 
 ## RQ26
@@ -416,6 +437,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 ### Elo:
 - Agregação: BS13, INS02 e ST05 agrega ENT03
 - Satisfação: ST05 satisfaz ENT03
+
 -------------------------
 
 ## RQ27
@@ -428,6 +450,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Questionário [Q03](https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
 ### Elo: 
 - Satisfação: INS03 e Q03 satisfaz BS16
+
 -------------------------
 
 ## RQ28
@@ -439,6 +462,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Introspecção [INS04](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
 ### Elo: 
 - Agregação: INS04 agrega BS15
+
 ---------------------
 
 ## RQ29
@@ -449,7 +473,8 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Introspecção [INS05](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
 
 ### Elo: 
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo
+
 -------------------------
 
 ## RQ30
@@ -459,7 +484,8 @@ O aplicativo deve fornecer informações sobre as condições da pista
 ### Elementos Rastreáveis:
 - Introspecção [INS06](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
 ### Elo: 
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo
+
 -------------------------
 
 ## RQ31
@@ -472,6 +498,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
  
 ### Elo: 
 - Agregação:AP02 agrega INS07
+
 -------------------------
 
 ## RQ32
@@ -484,6 +511,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
  
 ### Elo: 
 - Agregação: INS08 agrega INS09
+
 -------------------------
 
 ## RQ33
@@ -495,6 +523,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
  
 ### Elo: 
 - Agregação: INS08 agrega INS09
+
 -------------------------
 
 
@@ -506,7 +535,8 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Introspecção [INS10](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
  
 ### Elo: 
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo
+
 -------------------------
 
 
@@ -518,10 +548,11 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Introspecção [INS11](https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow)
  
 ### Elo: 
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo
+
 -------------------------
 
-|RQ36|O aplicativo deve informar ao usuário sobre o engarrafamento|BS19|ENT03|-|Q01,Q04,Q05| ST01|-|
+
 
 ## RQ36
 ### Categoria:
@@ -552,6 +583,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 
 ### Elo:
 - Satisfação: BS03 e ST02 satisfaz o Q06
+
 -------------------------
 
 ## RQ38
@@ -579,6 +611,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 
 ### Elo:
 - Representação: BS05 reprensenta o storytelling ST04 
+
 -------------------------
 
 ## RQ40
@@ -685,6 +718,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 
 ### Elo:
 - Satisfação: BS03 e ST02 satisfaz o Q06
+
 -------------------------
 
 ## RQ47
@@ -695,7 +729,8 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Analise de Protocolo [AP01](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
 
 ### Elo:
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo
+
 -------------------------
 
 ## RQ48
@@ -711,6 +746,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
  
 ### Elo: 
 - Agregação: AP02 agrega INS07
+
 -------------------------
 
 ## RQ49
@@ -721,7 +757,8 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Analise de Protocolo [AP03](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
 
 ### Elo:
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo
+
 -------------------------
 
 ## RQ50
@@ -732,7 +769,8 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Analise de Protocolo [AP04](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
 
 ### Elo:
-- Não há artefatos para constituir o elo.
+- Não há artefatos para constituir o elo
+
 -------------------------
 
 ## RQ51
@@ -787,6 +825,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 
 ### Elo: 
 - Não há artefatos para construir o elo
+
 -------------------------
 
 ## RQ55
