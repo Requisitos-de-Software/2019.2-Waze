@@ -1,0 +1,6847 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.2">
+    
+    
+      
+        <title>Backward-from - Waze</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../css/extra_css.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#backward-from" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Waze" class="md-header-nav__button md-logo">
+          
+            <img src="../img/docs_dir/waze_48px.ico" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Waze
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Backward-from
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/Requisitos2-2019/2019.2-Waze/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Repositório de Requisitos Waze
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="Waze" class="md-nav__button md-logo">
+      
+        <img src="../img/docs_dir/waze_48px.ico" width="48" height="48">
+      
+    </a>
+    Waze
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/Requisitos2-2019/2019.2-Waze/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Repositório de Requisitos Waze
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../planejamento/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Pré-Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Pré-Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../richPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../5W2H/" title="5W2H" class="md-nav__link">
+      5W2H
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Elicitação de requisitos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Elicitação de requisitos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Questionario/" title="Questionário" class="md-nav__link">
+      Questionário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Storytelling/" title="Storytelling" class="md-nav__link">
+      Storytelling
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../analiseProtocolo/" title="Análise de Protocolo" class="md-nav__link">
+      Análise de Protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Brainstorm/" title="Brainstorm" class="md-nav__link">
+      Brainstorm
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../EspSuplementar/" title="Especificação Suplementar" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Lexico/" title="Léxico Ampliado da Linguagem" class="md-nav__link">
+      Léxico Ampliado da Linguagem
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../CasoDeUso/" title="Caso de Uso" class="md-nav__link">
+      Caso de Uso
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Ágil
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Ágil
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ProductBacklog/" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../UserStories/" title="História de Usuários" class="md-nav__link">
+      História de Usuários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../NFR/" title="NFR framework" class="md-nav__link">
+      NFR framework
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Personas/" title="Personas" class="md-nav__link">
+      Personas
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../VerificacaoCasoDeUso/" title="Verificação Casos de Uso" class="md-nav__link">
+      Verificação Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Verificacao-RichPicture/" title="Verificação Rich Picture" class="md-nav__link">
+      Verificação Rich Picture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Verificacao-NFR/" title="Verificação NFR" class="md-nav__link">
+      Verificação NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../VerificacaoCenarios/" title="Verificação Cenário" class="md-nav__link">
+      Verificação Cenário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../verificacaolexico/" title="Verificação Léxico" class="md-nav__link">
+      Verificação Léxico
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" checked>
+    
+    <label class="md-nav__link" for="nav-9">
+      Pós-Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        Pós-Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Backward-from
+      </label>
+    
+    <a href="./" title="Backward-from" class="md-nav__link md-nav__link--active">
+      Backward-from
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matriz-de-rastreabilidade" class="md-nav__link">
+    Matriz de Rastreabilidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq01" class="md-nav__link">
+    RQ01
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq02" class="md-nav__link">
+    RQ02
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_1" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_1" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_1" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq03" class="md-nav__link">
+    RQ03
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_2" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_2" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_2" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq04" class="md-nav__link">
+    RQ04
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_3" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_3" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_3" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq05" class="md-nav__link">
+    RQ05
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_4" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_4" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_4" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_1" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq06" class="md-nav__link">
+    RQ06
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_5" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_5" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_5" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_2" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq07" class="md-nav__link">
+    RQ07
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_6" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_6" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_6" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-bs03-e-st02-satisfaz-o-q06" class="md-nav__link">
+    - Satisfação: BS03 e ST02 satisfaz o Q06
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq08" class="md-nav__link">
+    RQ08
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_7" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_7" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_7" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq09" class="md-nav__link">
+    RQ09
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_8" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_8" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_8" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-representacao-bs05-reprensenta-o-storytelling-st04" class="md-nav__link">
+    - Representação: BS05 reprensenta o storytelling ST04
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq10" class="md-nav__link">
+    RQ10
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_9" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_9" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_9" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq11" class="md-nav__link">
+    RQ11
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_10" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_10" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_10" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-ap10-satisfaz-bs07" class="md-nav__link">
+    - Satisfação: AP10 satisfaz BS07
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq12" class="md-nav__link">
+    RQ12
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_11" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_11" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_11" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-ap12-satisfaz-bs08" class="md-nav__link">
+    - Satisfação: AP12 satisfaz BS08
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq13" class="md-nav__link">
+    RQ13
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_12" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_12" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_12" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq14" class="md-nav__link">
+    RQ14
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_13" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_13" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_13" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-q02-agrega-bs10" class="md-nav__link">
+    - Agregação: Q02 agrega BS10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq15" class="md-nav__link">
+    RQ15
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_14" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_14" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_14" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-q05-e-ap09-agrega-bs11" class="md-nav__link">
+    - Agregação: Q05 e AP09 agrega BS11
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq16" class="md-nav__link">
+    RQ16
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_15" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_15" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_15" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_3" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq17" class="md-nav__link">
+    RQ17
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_16" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_16" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_16" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_4" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq18" class="md-nav__link">
+    RQ18
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_17" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_17" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_17" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-ins04-agrega-bs15" class="md-nav__link">
+    - Agregação: INS04 agrega BS15
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq19" class="md-nav__link">
+    RQ19
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_18" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_18" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_18" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-ins03-e-q03-satisfaz-bs16" class="md-nav__link">
+    - Satisfação: INS03 e Q03 satisfaz BS16
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq20" class="md-nav__link">
+    RQ20
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_19" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_19" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_19" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_5" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq21" class="md-nav__link">
+    RQ21
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_20" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_20" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_20" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-bs18-e-q05-agrega-ins00" class="md-nav__link">
+    - Agregação: BS18 e Q05 agrega INS00
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq22" class="md-nav__link">
+    RQ22
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_21" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_21" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_21" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_6" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq23" class="md-nav__link">
+    RQ23
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_22" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_22" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_22" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-ent01-satisfaz-bs20" class="md-nav__link">
+    - Satisfação: ENT01 satisfaz BS20
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq24" class="md-nav__link">
+    RQ24
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_23" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_23" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_23" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-bs18-e-q05-agrega-ins00_1" class="md-nav__link">
+    - Agregação: BS18 e Q05 agrega INS00
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq25" class="md-nav__link">
+    RQ25
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_24" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_24" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_24" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_7" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq26" class="md-nav__link">
+    RQ26
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_25" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_25" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_25" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq27" class="md-nav__link">
+    RQ27
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_26" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_26" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_26" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-ins03-e-q03-satisfaz-bs16_1" class="md-nav__link">
+    - Satisfação: INS03 e Q03 satisfaz BS16
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq28" class="md-nav__link">
+    RQ28
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_27" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_27" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_27" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-ins04-agrega-bs15_1" class="md-nav__link">
+    - Agregação: INS04 agrega BS15
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq29" class="md-nav__link">
+    RQ29
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_28" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_28" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_28" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_8" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq30" class="md-nav__link">
+    RQ30
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_29" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_29" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_29" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_9" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq31" class="md-nav__link">
+    RQ31
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_30" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_30" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_30" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacaoap02-agrega-ins07" class="md-nav__link">
+    - Agregação:AP02 agrega INS07
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq32" class="md-nav__link">
+    RQ32
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_31" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_31" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_31" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-ins08-agrega-ins09" class="md-nav__link">
+    - Agregação: INS08 agrega INS09
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq33" class="md-nav__link">
+    RQ33
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_32" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_32" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_32" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-ins08-agrega-ins09_1" class="md-nav__link">
+    - Agregação: INS08 agrega INS09
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq34" class="md-nav__link">
+    RQ34
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_33" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_33" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_33" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_10" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq35" class="md-nav__link">
+    RQ35
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_34" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_34" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_34" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_11" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq36" class="md-nav__link">
+    RQ36
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_35" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_35" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_35" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq37" class="md-nav__link">
+    RQ37
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_36" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_36" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_36" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-bs03-e-st02-satisfaz-o-q06_1" class="md-nav__link">
+    - Satisfação: BS03 e ST02 satisfaz o Q06
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq38" class="md-nav__link">
+    RQ38
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_37" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_37" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_37" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq39" class="md-nav__link">
+    RQ39
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_38" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_38" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_38" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-representacao-bs05-reprensenta-o-storytelling-st04_1" class="md-nav__link">
+    - Representação: BS05 reprensenta o storytelling ST04
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq40" class="md-nav__link">
+    RQ40
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_39" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_39" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_39" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq41" class="md-nav__link">
+    RQ41
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_40" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_40" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_40" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq42" class="md-nav__link">
+    RQ42
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_41" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_41" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_41" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq43" class="md-nav__link">
+    RQ43
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_42" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_42" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_42" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq44" class="md-nav__link">
+    RQ44
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_43" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_43" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_43" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq45" class="md-nav__link">
+    RQ45
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_44" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_44" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_44" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq46" class="md-nav__link">
+    RQ46
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_45" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_45" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_45" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-bs03-e-st02-satisfaz-o-q06_2" class="md-nav__link">
+    - Satisfação: BS03 e ST02 satisfaz o Q06
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq47" class="md-nav__link">
+    RQ47
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_46" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_46" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_46" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_12" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq48" class="md-nav__link">
+    RQ48
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_47" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categoria_48" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_47" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_47" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-ap02-agrega-ins07" class="md-nav__link">
+    - Agregação: AP02 agrega INS07
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq49" class="md-nav__link">
+    RQ49
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_49" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_48" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_48" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_13" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq50" class="md-nav__link">
+    RQ50
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_50" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_49" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_49" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_14" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq51" class="md-nav__link">
+    RQ51
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_51" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_50" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_50" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq52" class="md-nav__link">
+    RQ52
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_52" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_51" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_51" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq53" class="md-nav__link">
+    RQ53
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_53" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_52" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_52" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq54" class="md-nav__link">
+    RQ54
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_54" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_53" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_53" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-construir-o-elo" class="md-nav__link">
+    - Não há artefatos para construir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq55" class="md-nav__link">
+    RQ55
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_55" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_54" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_54" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq56" class="md-nav__link">
+    RQ56
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_56" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_55" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_55" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-bs07-agrega-ap10" class="md-nav__link">
+    - Agregação: BS07 agrega AP10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq57" class="md-nav__link">
+    RQ57
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_57" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_56" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_56" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-construir-o-elo_1" class="md-nav__link">
+    - Não há artefatos para construir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq58" class="md-nav__link">
+    RQ58
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_58" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_57" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_57" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-bs08-agrega-ap12" class="md-nav__link">
+    - Agregação: BS08 agrega AP12
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    Referência Bibliográfica
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matriz-de-rastreabilidade" class="md-nav__link">
+    Matriz de Rastreabilidade
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq01" class="md-nav__link">
+    RQ01
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq02" class="md-nav__link">
+    RQ02
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_1" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_1" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_1" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq03" class="md-nav__link">
+    RQ03
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_2" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_2" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_2" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq04" class="md-nav__link">
+    RQ04
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_3" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_3" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_3" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq05" class="md-nav__link">
+    RQ05
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_4" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_4" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_4" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_1" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq06" class="md-nav__link">
+    RQ06
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_5" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_5" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_5" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_2" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq07" class="md-nav__link">
+    RQ07
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_6" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_6" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_6" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-bs03-e-st02-satisfaz-o-q06" class="md-nav__link">
+    - Satisfação: BS03 e ST02 satisfaz o Q06
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq08" class="md-nav__link">
+    RQ08
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_7" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_7" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_7" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq09" class="md-nav__link">
+    RQ09
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_8" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_8" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_8" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-representacao-bs05-reprensenta-o-storytelling-st04" class="md-nav__link">
+    - Representação: BS05 reprensenta o storytelling ST04
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq10" class="md-nav__link">
+    RQ10
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_9" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_9" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_9" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq11" class="md-nav__link">
+    RQ11
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_10" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_10" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_10" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-ap10-satisfaz-bs07" class="md-nav__link">
+    - Satisfação: AP10 satisfaz BS07
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq12" class="md-nav__link">
+    RQ12
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_11" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_11" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_11" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-ap12-satisfaz-bs08" class="md-nav__link">
+    - Satisfação: AP12 satisfaz BS08
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq13" class="md-nav__link">
+    RQ13
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_12" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_12" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_12" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq14" class="md-nav__link">
+    RQ14
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_13" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_13" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_13" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-q02-agrega-bs10" class="md-nav__link">
+    - Agregação: Q02 agrega BS10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq15" class="md-nav__link">
+    RQ15
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_14" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_14" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_14" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-q05-e-ap09-agrega-bs11" class="md-nav__link">
+    - Agregação: Q05 e AP09 agrega BS11
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq16" class="md-nav__link">
+    RQ16
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_15" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_15" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_15" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_3" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq17" class="md-nav__link">
+    RQ17
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_16" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_16" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_16" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_4" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq18" class="md-nav__link">
+    RQ18
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_17" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_17" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_17" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-ins04-agrega-bs15" class="md-nav__link">
+    - Agregação: INS04 agrega BS15
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq19" class="md-nav__link">
+    RQ19
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_18" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_18" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_18" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-ins03-e-q03-satisfaz-bs16" class="md-nav__link">
+    - Satisfação: INS03 e Q03 satisfaz BS16
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq20" class="md-nav__link">
+    RQ20
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_19" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_19" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_19" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_5" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq21" class="md-nav__link">
+    RQ21
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_20" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_20" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_20" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-bs18-e-q05-agrega-ins00" class="md-nav__link">
+    - Agregação: BS18 e Q05 agrega INS00
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq22" class="md-nav__link">
+    RQ22
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_21" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_21" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_21" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_6" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq23" class="md-nav__link">
+    RQ23
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_22" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_22" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_22" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-ent01-satisfaz-bs20" class="md-nav__link">
+    - Satisfação: ENT01 satisfaz BS20
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq24" class="md-nav__link">
+    RQ24
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_23" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_23" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_23" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-bs18-e-q05-agrega-ins00_1" class="md-nav__link">
+    - Agregação: BS18 e Q05 agrega INS00
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq25" class="md-nav__link">
+    RQ25
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_24" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_24" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_24" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_7" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq26" class="md-nav__link">
+    RQ26
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_25" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_25" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_25" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq27" class="md-nav__link">
+    RQ27
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_26" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_26" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_26" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-ins03-e-q03-satisfaz-bs16_1" class="md-nav__link">
+    - Satisfação: INS03 e Q03 satisfaz BS16
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq28" class="md-nav__link">
+    RQ28
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_27" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_27" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_27" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-ins04-agrega-bs15_1" class="md-nav__link">
+    - Agregação: INS04 agrega BS15
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq29" class="md-nav__link">
+    RQ29
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_28" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_28" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_28" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_8" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq30" class="md-nav__link">
+    RQ30
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_29" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_29" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_29" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_9" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq31" class="md-nav__link">
+    RQ31
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_30" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_30" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_30" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacaoap02-agrega-ins07" class="md-nav__link">
+    - Agregação:AP02 agrega INS07
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq32" class="md-nav__link">
+    RQ32
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_31" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_31" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_31" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-ins08-agrega-ins09" class="md-nav__link">
+    - Agregação: INS08 agrega INS09
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq33" class="md-nav__link">
+    RQ33
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_32" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_32" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_32" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-ins08-agrega-ins09_1" class="md-nav__link">
+    - Agregação: INS08 agrega INS09
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq34" class="md-nav__link">
+    RQ34
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_33" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_33" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_33" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_10" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq35" class="md-nav__link">
+    RQ35
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_34" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_34" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_34" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_11" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq36" class="md-nav__link">
+    RQ36
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_35" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_35" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_35" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq37" class="md-nav__link">
+    RQ37
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_36" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_36" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_36" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-bs03-e-st02-satisfaz-o-q06_1" class="md-nav__link">
+    - Satisfação: BS03 e ST02 satisfaz o Q06
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq38" class="md-nav__link">
+    RQ38
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_37" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_37" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_37" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq39" class="md-nav__link">
+    RQ39
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_38" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_38" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_38" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-representacao-bs05-reprensenta-o-storytelling-st04_1" class="md-nav__link">
+    - Representação: BS05 reprensenta o storytelling ST04
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq40" class="md-nav__link">
+    RQ40
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_39" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_39" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_39" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq41" class="md-nav__link">
+    RQ41
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_40" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_40" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_40" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq42" class="md-nav__link">
+    RQ42
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_41" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_41" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_41" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq43" class="md-nav__link">
+    RQ43
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_42" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_42" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_42" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq44" class="md-nav__link">
+    RQ44
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_43" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_43" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_43" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq45" class="md-nav__link">
+    RQ45
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_44" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_44" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_44" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq46" class="md-nav__link">
+    RQ46
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_45" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_45" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_45" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-satisfacao-bs03-e-st02-satisfaz-o-q06_2" class="md-nav__link">
+    - Satisfação: BS03 e ST02 satisfaz o Q06
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq47" class="md-nav__link">
+    RQ47
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_46" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_46" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_46" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_12" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq48" class="md-nav__link">
+    RQ48
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_47" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categoria_48" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_47" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_47" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-ap02-agrega-ins07" class="md-nav__link">
+    - Agregação: AP02 agrega INS07
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq49" class="md-nav__link">
+    RQ49
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_49" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_48" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_48" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_13" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq50" class="md-nav__link">
+    RQ50
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_50" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_49" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_49" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-constituir-o-elo_14" class="md-nav__link">
+    - Não há artefatos para constituir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq51" class="md-nav__link">
+    RQ51
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_51" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_50" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_50" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq52" class="md-nav__link">
+    RQ52
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_52" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_51" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_51" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq53" class="md-nav__link">
+    RQ53
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_53" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_52" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_52" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq54" class="md-nav__link">
+    RQ54
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_54" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_53" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_53" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-construir-o-elo" class="md-nav__link">
+    - Não há artefatos para construir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq55" class="md-nav__link">
+    RQ55
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_55" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_54" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_54" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq56" class="md-nav__link">
+    RQ56
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_56" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_55" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_55" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-bs07-agrega-ap10" class="md-nav__link">
+    - Agregação: BS07 agrega AP10
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq57" class="md-nav__link">
+    RQ57
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_57" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_56" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_56" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-nao-ha-artefatos-para-construir-o-elo_1" class="md-nav__link">
+    - Não há artefatos para construir o elo.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rq58" class="md-nav__link">
+    RQ58
+  </a>
+  
+    <nav class="md-nav">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#categoria_58" class="md-nav__link">
+    Categoria:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elementos-rastreaveis_57" class="md-nav__link">
+    Elementos Rastreáveis:
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#elo_57" class="md-nav__link">
+    Elo:
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#-agregacao-bs08-agrega-ap12" class="md-nav__link">
+    - Agregação: BS08 agrega AP12
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencia-bibliografica" class="md-nav__link">
+    Referência Bibliográfica
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versoes" class="md-nav__link">
+    Histórico de Versões
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Requisitos2-2019/2019.2-Waze/edit/master/docs/Backward-from.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="backward-from">Backward-From</h1>
+<h2 id="introducao">Introdução</h2>
+<p align = "justify">
+A  rastreabilidade  de  requisitos  pode  ser  vista  como  a  habilidade  de  acompanhar  e  descrever a vida de um requisito, em ambas as direções; pré-rastreabilidade documenta  a  o  contexto  a  partir  do  qual  emergem  os  requisitos;  pós-rastreabilidade  vincula  os  requisitos  ao  desenho  do  sistema  e  sua  implementação  (DAVIS, 1993).
+
+Um requisito é rastreável se é possível descobrir quem sugeriu o requisito (a fonte), por que o requisito existe (rationale), que outros requisitos estão relacionados a ele (dependência entre requisitos), e como o requisito se relaciona com outras informações, tais como desenho do sistema, implementação e documentação (SOMMERVILLE, 1998).
+
+A  rastreabilidade  backward-from (para trás) liga os requisitos elicitados às suas fontes.
+</p>
+
+<h2 id="matriz-de-rastreabilidade">Matriz de Rastreabilidade</h2>
+<table>
+<thead>
+<tr>
+<th align="center">ID</th>
+<th align="center">Requisito</th>
+<th align="center">Brainstorming(BS)</th>
+<th align="center">Entrevista(ENT)</th>
+<th align="center">Introspecção(INS)</th>
+<th align="center">Questionário(Q)</th>
+<th align="center">Storytelling(ST)</th>
+<th align="center">Análise de Protocolo(AP)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">RQ01</td>
+<td align="center">O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pelo usuário</td>
+<td align="center">BS20</td>
+<td align="center">ENT01</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">ST04</td>
+<td align="center">AP05</td>
+</tr>
+<tr>
+<td align="center">RQ02</td>
+<td align="center">O aplicativo deve informar sobre as condições da via</td>
+<td align="center">BS04</td>
+<td align="center">ENT02</td>
+<td align="center">-</td>
+<td align="center">Q01,Q04,Q05</td>
+<td align="center">-</td>
+<td align="center">AP09</td>
+</tr>
+<tr>
+<td align="center">RQ03</td>
+<td align="center">O usuário pode dar feedback sobre as condições do seu percurso</td>
+<td align="center">BS13</td>
+<td align="center">ENT03</td>
+<td align="center">INS02</td>
+<td align="center">-</td>
+<td align="center">ST05</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ04</td>
+<td align="center">O aplicativo deve auxiliar a navegação por um guia de áudio</td>
+<td align="center">-</td>
+<td align="center">ENT04</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ05</td>
+<td align="center">O aplicativo deve informar a localização atual do usuário</td>
+<td align="center">BS01</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ06</td>
+<td align="center">O usuário deve definir locais favoritos</td>
+<td align="center">BS02</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ07</td>
+<td align="center">O aplicativo deve mostrar estabelecimentos importantes para o motorista</td>
+<td align="center">BS03</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Q06</td>
+<td align="center">ST02</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ08</td>
+<td align="center">O aplicativo deve fornecer informações sobre as condições da pista</td>
+<td align="center">BS04</td>
+<td align="center">ENT02</td>
+<td align="center">-</td>
+<td align="center">Q01,Q04,Q05</td>
+<td align="center">-</td>
+<td align="center">AP09</td>
+</tr>
+<tr>
+<td align="center">RQ09</td>
+<td align="center">O aplicativo deve sugerir a menor rota</td>
+<td align="center">BS05</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">ST04</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ10</td>
+<td align="center">O aplicativo deve sugerir o tempo aproximado de rota</td>
+<td align="center">BS06</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">ST03</td>
+<td align="center">AP06,AP07</td>
+</tr>
+<tr>
+<td align="center">RQ11</td>
+<td align="center">O aplicativo deve ter a opção para mudar a rota a qualquer momento</td>
+<td align="center">BS07</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">AP10</td>
+</tr>
+<tr>
+<td align="center">RQ12</td>
+<td align="center">O aplicativo deve disponibilizar uma funcionalidade para economia de bateria</td>
+<td align="center">BS08</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">AP12</td>
+</tr>
+<tr>
+<td align="center">RQ13</td>
+<td align="center">O aplicativo deve ter um sistema de chat</td>
+<td align="center">BS09</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ14</td>
+<td align="center">O aplicativo deve ter integração com aplicativos de streaming</td>
+<td align="center">BS10</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Q02</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ15</td>
+<td align="center">O aplicativo deve ter o mapa atualizado</td>
+<td align="center">BS11</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Q05</td>
+<td align="center">-</td>
+<td align="center">AP09</td>
+</tr>
+<tr>
+<td align="center">RQ16</td>
+<td align="center">O usuário deve ser capaz de avaliar feedback de outros usuários</td>
+<td align="center">BS13</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ17</td>
+<td align="center">O aplicativo deve ser leve o suficiente para ter um bom desempenho na maioria dos dispositivos</td>
+<td align="center">BS14</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ18</td>
+<td align="center">O aplicativo deve intuitivo e agradável</td>
+<td align="center">BS15</td>
+<td align="center">-</td>
+<td align="center">INS04</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ19</td>
+<td align="center">O aplicativo deve ter suporte offline</td>
+<td align="center">BS16</td>
+<td align="center">-</td>
+<td align="center">INS03</td>
+<td align="center">Q03</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ20</td>
+<td align="center">O aplicativo deve ter suporte para anúncios</td>
+<td align="center">BS17</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ21</td>
+<td align="center">O usuário deve ser capaz de editar informações no mapa</td>
+<td align="center">BS18</td>
+<td align="center">-</td>
+<td align="center">INS00</td>
+<td align="center">Q05</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ22</td>
+<td align="center">O aplicativo deve ter opção de evitar algumas situações durante o percurso</td>
+<td align="center">BS19</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ23</td>
+<td align="center">O aplicativo deve poder definir suas preferências de percurso</td>
+<td align="center">BS20</td>
+<td align="center">ENT01</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ24</td>
+<td align="center">Precisão de rotas</td>
+<td align="center">BS18</td>
+<td align="center">-</td>
+<td align="center">INS00</td>
+<td align="center">Q05</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ25</td>
+<td align="center">Mudança de Interface</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">INS01</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ26</td>
+<td align="center">Veracidade de Informações de usuários</td>
+<td align="center">BS13</td>
+<td align="center">ENT03</td>
+<td align="center">INS02</td>
+<td align="center">-</td>
+<td align="center">ST05</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ27</td>
+<td align="center">O aplicativo deve consumir menos rede de dados / opção offline</td>
+<td align="center">BS16</td>
+<td align="center">-</td>
+<td align="center">INS03</td>
+<td align="center">Q03</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ28</td>
+<td align="center">Design mais intuitivo</td>
+<td align="center">BS15</td>
+<td align="center">-</td>
+<td align="center">INS04</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ29</td>
+<td align="center">Integração com redes sociais</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">INS05</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ30</td>
+<td align="center">Aumentar tamanho (km) de rotas</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">INS06</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ31</td>
+<td align="center">Cadastro de usuário e login</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">INS07</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">AP02</td>
+</tr>
+<tr>
+<td align="center">RQ32</td>
+<td align="center">A aplicação tem que solicitar ao usuário que ele digite o trajeto do destino</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">INS08</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ33</td>
+<td align="center">A aplicação tem que solicitar ao usuário um destino</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">INS08,INS09</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ34</td>
+<td align="center">Validar endereço</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">INS10</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ35</td>
+<td align="center">O usuário tem que receber dicas de lugares para que ele possa ir caso tenha digitado metade do endereço ou o endereço errado</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">INS11</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ36</td>
+<td align="center">O aplicativo deve informar ao usuário sobre o engarrafamento</td>
+<td align="center">BS19</td>
+<td align="center">ENT03</td>
+<td align="center">-</td>
+<td align="center">Q01,Q04,Q05</td>
+<td align="center">ST01</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ37</td>
+<td align="center">O aplicativo deve informar sobre estabelecimentos de interesse para motoristas</td>
+<td align="center">BS03</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Q06</td>
+<td align="center">ST02</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ38</td>
+<td align="center">O aplicativo de informar o tempo do percurso</td>
+<td align="center">BS06</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">ST03</td>
+<td align="center">AP07,AP06</td>
+</tr>
+<tr>
+<td align="center">RQ39</td>
+<td align="center">O aplicativo deve calcular a melhor rota para o destino desejado pelo usuário</td>
+<td align="center">BS05</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">ST04</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ40</td>
+<td align="center">O aplicativo deve conter uma area comum para feedback do usuário</td>
+<td align="center">BS13</td>
+<td align="center">ENT03</td>
+<td align="center">INS02</td>
+<td align="center">-</td>
+<td align="center">ST05</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ41</td>
+<td align="center">O usuário deve ser informado sobre acontecimentos em sua rota</td>
+<td align="center">BS04</td>
+<td align="center">ENT02</td>
+<td align="center">-</td>
+<td align="center">Q01,Q04,Q05</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ42</td>
+<td align="center">O aplicativo deve ter conexão com um aplicativo de mídia</td>
+<td align="center">BS10</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Q02</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ43</td>
+<td align="center">A navegação deve funcionar offline</td>
+<td align="center">BS16</td>
+<td align="center">-</td>
+<td align="center">INS03</td>
+<td align="center">Q03</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ44</td>
+<td align="center">O usuário deve receber informações sobre a via</td>
+<td align="center">BS04,BS19</td>
+<td align="center">ENT02</td>
+<td align="center">-</td>
+<td align="center">Q01,Q04,Q05</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ45</td>
+<td align="center">O usuário deve informar eventos na sua rota</td>
+<td align="center">BS04,BS19</td>
+<td align="center">ENT02</td>
+<td align="center">-</td>
+<td align="center">Q01,Q04,Q05</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ46</td>
+<td align="center">O usuário deve ser informado sobre estabelicimentos próximos</td>
+<td align="center">BS03</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">Q06</td>
+<td align="center">ST02</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="center">RQ47</td>
+<td align="center">O Waze deve mostrar um pequeno resumo sobre o que é o app</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">AP01</td>
+</tr>
+<tr>
+<td align="center">RQ48</td>
+<td align="center">O usuário deve ser capaz de utilizar o app sem fazer um cadastro/login</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">INS07</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">AP02</td>
+</tr>
+<tr>
+<td align="center">RQ49</td>
+<td align="center">Deve ser mostrado os termos de serviços</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">AP03</td>
+</tr>
+<tr>
+<td align="center">RQ50</td>
+<td align="center">O usuário deve ser capaz de informar que tipo de carro utiliza</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">AP04</td>
+</tr>
+<tr>
+<td align="center">RQ51</td>
+<td align="center">O usuário deve ser capaz de informar o destino</td>
+<td align="center">BS20</td>
+<td align="center">ENT01</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">ST04</td>
+<td align="center">AP05</td>
+</tr>
+<tr>
+<td align="center">RQ52</td>
+<td align="center">O Aplicativo deve informar o tempo do percurso</td>
+<td align="center">BS06</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">ST03</td>
+<td align="center">-</td>
+<td align="center">AP07,AP06</td>
+</tr>
+<tr>
+<td align="center">RQ53</td>
+<td align="center">O Aplicativo deve informar a hora de chegada no destino</td>
+<td align="center">BS06</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">ST03</td>
+<td align="center">-</td>
+<td align="center">AP07,AP06</td>
+</tr>
+<tr>
+<td align="center">RQ54</td>
+<td align="center">O Aplicativo deve informar a velocidade do veiculo</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">AP08</td>
+</tr>
+<tr>
+<td align="center">RQ55</td>
+<td align="center">O usuario deve ser capaz de informar eventos na rota, como transito, acidentes e radares</td>
+<td align="center">BS04</td>
+<td align="center">ENT02</td>
+<td align="center">-</td>
+<td align="center">Q01,Q04,Q05</td>
+<td align="center">-</td>
+<td align="center">AP09</td>
+</tr>
+<tr>
+<td align="center">RQ56</td>
+<td align="center">O usuário deve ser capaz de alterar a rota</td>
+<td align="center">BS07</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">AP10</td>
+</tr>
+<tr>
+<td align="center">RQ57</td>
+<td align="center">O usuário deve ser capaz de compartilhar sua rota</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">AP11</td>
+</tr>
+<tr>
+<td align="center">RQ58</td>
+<td align="center">O waze deve ter uma opção de economia de bateria</td>
+<td align="center">BS08</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">-</td>
+<td align="center">AP12</td>
+</tr>
+</tbody>
+</table>
+<!-- |RQ||||||| -->
+
+<!-- 
+## RQ
+### Categoria:
+- Desenvolvimento
+
+### Elementos Rastreáveis:
+- Brainstorming
+- Entrevista
+- Introspecção
+- Questionário
+- Storytelling
+
+### Elo: 
+
+-------------------------
+ -->
+
+<!--
+Links
+
+Brainstorming (https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados)
+Entrevista    (https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados)
+Introspecção  (https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#3-requisitos-elicitados)
+Questionário  (https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados)
+Storytelling  (https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1)
+Análise Prot  (https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
+-->
+
+<h2 id="rq01">RQ01</h2>
+<h3 id="categoria">Categoria:</h3>
+<ul>
+<li>Desenvovimento</li>
+</ul>
+<h3 id="elementos-rastreaveis">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS20</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados">ENT01</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST04</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP05</a></li>
+</ul>
+<h3 id="elo">Elo:</h3>
+<ul>
+<li>Satisfação: BS20 e AP05 satisfaz ENT01</li>
+<li>Agregação: ST04 agrega ENT01</li>
+</ul>
+<hr />
+<h2 id="rq02">RQ02</h2>
+<h3 id="categoria_1">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_1">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS04</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados">ENT02</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q01, Q04, Q05</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP09</a></li>
+</ul>
+<h3 id="elo_1">Elo:</h3>
+<ul>
+<li>Agregação: BS04,AP09 e Q05 agregam ENT02</li>
+<li>Satisfaz: Q01 e Q04 satisfazem ENT02</li>
+</ul>
+<hr />
+<h2 id="rq03">RQ03</h2>
+<h3 id="categoria_2">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_2">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS13</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados">ENT03</a></li>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#3-requisitos-elicitados">INS02</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST05</a></li>
+</ul>
+<h3 id="elo_2">Elo:</h3>
+<ul>
+<li>Agregação: BS13, INS02 e ST05 agrega ENT03</li>
+<li>Satisfação: ST05 satisfaz ENT03</li>
+</ul>
+<hr />
+<h2 id="rq04">RQ04</h2>
+<h3 id="categoria_3">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_3">Elementos Rastreáveis:</h3>
+<ul>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados">ENT04</a></li>
+</ul>
+<h3 id="elo_3">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq05">RQ05</h2>
+<h3 id="categoria_4">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_4">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS01</a></li>
+</ul>
+<h3 id="elo_4">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_1">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq06">RQ06</h2>
+<h3 id="categoria_5">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_5">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS02</a></li>
+</ul>
+<h3 id="elo_5">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_2">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq07">RQ07</h2>
+<h3 id="categoria_6">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_6">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS03</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">QS06</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST02</a></li>
+</ul>
+<h3 id="elo_6">Elo:</h3>
+<h2 id="-satisfacao-bs03-e-st02-satisfaz-o-q06">- Satisfação: BS03 e ST02 satisfaz o Q06</h2>
+<p>O aplicativo deve fornecer informações sobre as condições da pista</p>
+<h2 id="rq08">RQ08</h2>
+<h3 id="categoria_7">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_7">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS04</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados">ENT02</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q01, Q04, Q05</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP09</a></li>
+</ul>
+<h3 id="elo_7">Elo:</h3>
+<ul>
+<li>Agregação: BS04,AP09 e Q05 agregam ENT02</li>
+<li>Satisfaz: Q01 e Q04 satisfazem ENT02</li>
+</ul>
+<hr />
+<h2 id="rq09">RQ09</h2>
+<h3 id="categoria_8">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_8">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS05</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST04</a></li>
+</ul>
+<h3 id="elo_8">Elo:</h3>
+<h2 id="-representacao-bs05-reprensenta-o-storytelling-st04">- Representação: BS05 reprensenta o storytelling ST04</h2>
+<h2 id="rq10">RQ10</h2>
+<h3 id="categoria_9">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_9">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS06</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST03</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP06</a> e <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP07</a></li>
+</ul>
+<h3 id="elo_9">Elo:</h3>
+<ul>
+<li>Satisfação: BS06 E AP06 satisfaz ST03</li>
+<li>Agregação: AP07 agrega ST03</li>
+</ul>
+<hr />
+<h2 id="rq11">RQ11</h2>
+<h3 id="categoria_10">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_10">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS07</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP10</a></li>
+</ul>
+<h3 id="elo_10">Elo:</h3>
+<h2 id="-satisfacao-ap10-satisfaz-bs07">- Satisfação: AP10 satisfaz BS07</h2>
+<h2 id="rq12">RQ12</h2>
+<h3 id="categoria_11">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_11">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS08</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP12</a></li>
+</ul>
+<h3 id="elo_11">Elo:</h3>
+<h2 id="-satisfacao-ap12-satisfaz-bs08">- Satisfação: AP12 satisfaz BS08</h2>
+<h2 id="rq13">RQ13</h2>
+<h3 id="categoria_12">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_12">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS09</a></li>
+</ul>
+<h3 id="elo_12">Elo:</h3>
+<ul>
+<li>Não há artefatos para constituir o elo.</li>
+</ul>
+<hr />
+<h2 id="rq14">RQ14</h2>
+<h3 id="categoria_13">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_13">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS10</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q02</a></li>
+</ul>
+<h3 id="elo_13">Elo:</h3>
+<h2 id="-agregacao-q02-agrega-bs10">- Agregação: Q02 agrega BS10</h2>
+<h2 id="rq15">RQ15</h2>
+<h3 id="categoria_14">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_14">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS11</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q05</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP09</a></li>
+</ul>
+<h3 id="elo_14">Elo:</h3>
+<h2 id="-agregacao-q05-e-ap09-agrega-bs11">- Agregação: Q05 e AP09 agrega BS11</h2>
+<h2 id="rq16">RQ16</h2>
+<h3 id="categoria_15">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_15">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS13</a></li>
+</ul>
+<h3 id="elo_15">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_3">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq17">RQ17</h2>
+<h3 id="categoria_16">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_16">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS14</a></li>
+</ul>
+<h3 id="elo_16">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_4">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq18">RQ18</h2>
+<h3 id="categoria_17">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_17">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS15</a></li>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS04</a></li>
+</ul>
+<h3 id="elo_17">Elo:</h3>
+<h2 id="-agregacao-ins04-agrega-bs15">- Agregação: INS04 agrega BS15</h2>
+<h2 id="rq19">RQ19</h2>
+<h3 id="categoria_18">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_18">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS16</a></li>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS03</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q03</a></li>
+</ul>
+<h3 id="elo_18">Elo:</h3>
+<h2 id="-satisfacao-ins03-e-q03-satisfaz-bs16">- Satisfação: INS03 e Q03 satisfaz BS16</h2>
+<h2 id="rq20">RQ20</h2>
+<h3 id="categoria_19">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_19">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS17</a></li>
+</ul>
+<h3 id="elo_19">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_5">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq21">RQ21</h2>
+<h3 id="categoria_20">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_20">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS18</a></li>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS00</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q05</a></li>
+</ul>
+<h3 id="elo_20">Elo:</h3>
+<h2 id="-agregacao-bs18-e-q05-agrega-ins00">- Agregação: BS18 e Q05 agrega INS00</h2>
+<h2 id="rq22">RQ22</h2>
+<h3 id="categoria_21">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_21">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS19</a></li>
+</ul>
+<h3 id="elo_21">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_6">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq23">RQ23</h2>
+<h3 id="categoria_22">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_22">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS20</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#51-moscow">ENT01</a></li>
+</ul>
+<h3 id="elo_22">Elo:</h3>
+<h2 id="-satisfacao-ent01-satisfaz-bs20">- Satisfação: ENT01 satisfaz BS20</h2>
+<h2 id="rq24">RQ24</h2>
+<h3 id="categoria_23">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_23">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS18</a></li>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS00</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q05</a></li>
+</ul>
+<h3 id="elo_23">Elo:</h3>
+<h2 id="-agregacao-bs18-e-q05-agrega-ins00_1">- Agregação: BS18 e Q05 agrega INS00</h2>
+<h2 id="rq25">RQ25</h2>
+<h3 id="categoria_24">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_24">Elementos Rastreáveis:</h3>
+<ul>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS1</a></li>
+</ul>
+<h3 id="elo_24">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_7">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq26">RQ26</h2>
+<h3 id="categoria_25">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_25">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS13</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#51-moscow">ENT03</a></li>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS02</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST05</a></li>
+</ul>
+<h3 id="elo_25">Elo:</h3>
+<ul>
+<li>Agregação: BS13, INS02 e ST05 agrega ENT03</li>
+<li>Satisfação: ST05 satisfaz ENT03</li>
+</ul>
+<hr />
+<h2 id="rq27">RQ27</h2>
+<h3 id="categoria_26">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_26">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS16</a></li>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS03</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q03</a></li>
+</ul>
+<h3 id="elo_26">Elo:</h3>
+<h2 id="-satisfacao-ins03-e-q03-satisfaz-bs16_1">- Satisfação: INS03 e Q03 satisfaz BS16</h2>
+<h2 id="rq28">RQ28</h2>
+<h3 id="categoria_27">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_27">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS15</a></li>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS04</a></li>
+</ul>
+<h3 id="elo_27">Elo:</h3>
+<h2 id="-agregacao-ins04-agrega-bs15_1">- Agregação: INS04 agrega BS15</h2>
+<h2 id="rq29">RQ29</h2>
+<h3 id="categoria_28">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_28">Elementos Rastreáveis:</h3>
+<ul>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS05</a></li>
+</ul>
+<h3 id="elo_28">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_8">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq30">RQ30</h2>
+<h3 id="categoria_29">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_29">Elementos Rastreáveis:</h3>
+<ul>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS06</a></li>
+</ul>
+<h3 id="elo_29">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_9">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq31">RQ31</h2>
+<h3 id="categoria_30">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_30">Elementos Rastreáveis:</h3>
+<ul>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS07</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP02</a></li>
+</ul>
+<h3 id="elo_30">Elo:</h3>
+<h2 id="-agregacaoap02-agrega-ins07">- Agregação:AP02 agrega INS07</h2>
+<h2 id="rq32">RQ32</h2>
+<h3 id="categoria_31">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_31">Elementos Rastreáveis:</h3>
+<ul>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS08</a><a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS09</a></li>
+</ul>
+<h3 id="elo_31">Elo:</h3>
+<h2 id="-agregacao-ins08-agrega-ins09">- Agregação: INS08 agrega INS09</h2>
+<h2 id="rq33">RQ33</h2>
+<h3 id="categoria_32">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_32">Elementos Rastreáveis:</h3>
+<ul>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS08</a><a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS09</a></li>
+</ul>
+<h3 id="elo_32">Elo:</h3>
+<h2 id="-agregacao-ins08-agrega-ins09_1">- Agregação: INS08 agrega INS09</h2>
+<h2 id="rq34">RQ34</h2>
+<h3 id="categoria_33">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_33">Elementos Rastreáveis:</h3>
+<ul>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS10</a></li>
+</ul>
+<h3 id="elo_33">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_10">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq35">RQ35</h2>
+<h3 id="categoria_34">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_34">Elementos Rastreáveis:</h3>
+<ul>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS11</a></li>
+</ul>
+<h3 id="elo_34">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_11">- Não há artefatos para constituir o elo.</h2>
+<p>|RQ36|O aplicativo deve informar ao usuário sobre o engarrafamento|BS19|ENT03|-|Q01,Q04,Q05| ST01|-|</p>
+<h2 id="rq36">RQ36</h2>
+<h3 id="categoria_35">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_35">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS19</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#51-moscow">ENT03</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q01 Q04 Q05</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST01</a></li>
+</ul>
+<h3 id="elo_35">Elo:</h3>
+<ul>
+<li>Satisfação: BS29 satisfaz ST01</li>
+<li>Satisfação: Q01 satisfaz Q05</li>
+<li>Agregação: Q05 agrega Q04</li>
+<li>Agregação: ENT03 agrega Q01,Q05</li>
+</ul>
+<hr />
+<h2 id="rq37">RQ37</h2>
+<h3 id="categoria_36">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_36">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS03</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">QS06</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST02</a></li>
+</ul>
+<h3 id="elo_36">Elo:</h3>
+<h2 id="-satisfacao-bs03-e-st02-satisfaz-o-q06_1">- Satisfação: BS03 e ST02 satisfaz o Q06</h2>
+<h2 id="rq38">RQ38</h2>
+<h3 id="categoria_37">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_37">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS06</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST03</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP06</a> e <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP07</a></li>
+</ul>
+<h3 id="elo_37">Elo:</h3>
+<ul>
+<li>Satisfação: BS06 E AP06 satisfaz ST03</li>
+<li>Agregação: AP07 agrega ST03</li>
+</ul>
+<hr />
+<h2 id="rq39">RQ39</h2>
+<h3 id="categoria_38">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_38">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS05</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST04</a></li>
+</ul>
+<h3 id="elo_38">Elo:</h3>
+<h2 id="-representacao-bs05-reprensenta-o-storytelling-st04_1">- Representação: BS05 reprensenta o storytelling ST04</h2>
+<h2 id="rq40">RQ40</h2>
+<h3 id="categoria_39">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_39">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS13</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#51-moscow">ENT03</a></li>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS02</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST05</a></li>
+</ul>
+<h3 id="elo_39">Elo:</h3>
+<ul>
+<li>Agregação: BS13, INS02 e ST05 agrega ENT03</li>
+<li>Satisfação: ST05 satisfaz ENT03</li>
+</ul>
+<hr />
+<h2 id="rq41">RQ41</h2>
+<h3 id="categoria_40">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_40">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS04</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados">ENT02</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q01, Q04, Q05</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP09</a></li>
+</ul>
+<h3 id="elo_40">Elo:</h3>
+<ul>
+<li>Agregação: BS04,AP09 e Q05 agregam ENT02</li>
+<li>Satisfaz: Q01 e Q04 satisfazem ENT02</li>
+</ul>
+<hr />
+<h2 id="rq42">RQ42</h2>
+<h3 id="categoria_41">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_41">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS10</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q02</a></li>
+</ul>
+<h3 id="elo_41">Elo:</h3>
+<ul>
+<li>Agregação: Q02 agrega BS10</li>
+</ul>
+<hr />
+<h2 id="rq43">RQ43</h2>
+<h3 id="categoria_42">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_42">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS16</a></li>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS03</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q03</a></li>
+</ul>
+<h3 id="elo_42">Elo:</h3>
+<ul>
+<li>Satisfação: INS03 e Q03 satisfaz BS16</li>
+</ul>
+<hr />
+<h2 id="rq44">RQ44</h2>
+<h3 id="categoria_43">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_43">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS04 BS19</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados">ENT02</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q01, Q04, Q05</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP09</a></li>
+</ul>
+<h3 id="elo_43">Elo:</h3>
+<ul>
+<li>Agregação: BS04,AP09 e Q05 agregam ENT02</li>
+<li>Satisfaz: Q01 e Q04 satisfazem ENT02</li>
+<li>Agregação: BS19 agrega BS04</li>
+<li>Agregação: ENT02 agrega BS19 </li>
+</ul>
+<hr />
+<h2 id="rq45">RQ45</h2>
+<h3 id="categoria_44">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_44">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS04 BS19</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados">ENT02</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q01, Q04, Q05</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP09</a></li>
+</ul>
+<h3 id="elo_44">Elo:</h3>
+<ul>
+<li>Agregação: BS04,AP09 e Q05 agregam ENT02</li>
+<li>Satisfaz: Q01 e Q04 satisfazem ENT02</li>
+<li>Agregação: BS19 agrega BS04</li>
+<li>Agregação: ENT02 agrega BS19 </li>
+</ul>
+<hr />
+<h2 id="rq46">RQ46</h2>
+<h3 id="categoria_45">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_45">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS03</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">QS06</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST02</a></li>
+</ul>
+<h3 id="elo_45">Elo:</h3>
+<h2 id="-satisfacao-bs03-e-st02-satisfaz-o-q06_2">- Satisfação: BS03 e ST02 satisfaz o Q06</h2>
+<h2 id="rq47">RQ47</h2>
+<h3 id="categoria_46">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_46">Elementos Rastreáveis:</h3>
+<ul>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP01</a></li>
+</ul>
+<h3 id="elo_46">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_12">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq48">RQ48</h2>
+<h3 id="categoria_47">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="categoria_48">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_47">Elementos Rastreáveis:</h3>
+<ul>
+<li>Introspecção <a href="https://requisitos-de-software.github.io/2019.2-Waze/introspeccao/#31-moscow">INS07</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP02</a></li>
+</ul>
+<h3 id="elo_47">Elo:</h3>
+<h2 id="-agregacao-ap02-agrega-ins07">- Agregação: AP02 agrega INS07</h2>
+<h2 id="rq49">RQ49</h2>
+<h3 id="categoria_49">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_48">Elementos Rastreáveis:</h3>
+<ul>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP03</a></li>
+</ul>
+<h3 id="elo_48">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_13">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq50">RQ50</h2>
+<h3 id="categoria_50">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_49">Elementos Rastreáveis:</h3>
+<ul>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP04</a></li>
+</ul>
+<h3 id="elo_49">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-constituir-o-elo_14">- Não há artefatos para constituir o elo.</h2>
+<h2 id="rq51">RQ51</h2>
+<h3 id="categoria_51">Categoria:</h3>
+<ul>
+<li>Desenvovimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_50">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS20</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados">ENT01</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST04</a></li>
+<li>Analise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP05</a></li>
+</ul>
+<h3 id="elo_50">Elo:</h3>
+<ul>
+<li>Satisfação: BS20 e AP05 satisfaz ENT01</li>
+<li>Agregação: ST04 agrega ENT01</li>
+</ul>
+<hr />
+<h2 id="rq52">RQ52</h2>
+<h3 id="categoria_52">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_51">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS06</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST03</a></li>
+<li>Análise de protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP07,AP06</a></li>
+</ul>
+<h3 id="elo_51">Elo:</h3>
+<ul>
+<li>Satisfação: ST03 satisfaz BS06</li>
+<li>Agregação: BS06 agrega AP07 e AP06</li>
+</ul>
+<hr />
+<h2 id="rq53">RQ53</h2>
+<h3 id="categoria_53">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_52">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS06</a></li>
+<li>Storytelling <a href="https://requisitos-de-software.github.io/2019.2-Waze/Storytelling/#3-requisitos-elicitados_1">ST03</a></li>
+<li>Análise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP07,AP06</a></li>
+</ul>
+<h3 id="elo_52">Elo:</h3>
+<ul>
+<li>Satisfação: ST03 satisfaz BS06</li>
+<li>Agregação: BS06 agrega AP07 e AP06</li>
+</ul>
+<hr />
+<h2 id="rq54">RQ54</h2>
+<h3 id="categoria_54">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_53">Elementos Rastreáveis:</h3>
+<ul>
+<li>Análise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP08</a></li>
+</ul>
+<h3 id="elo_53">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-construir-o-elo">- Não há artefatos para construir o elo.</h2>
+<h2 id="rq55">RQ55</h2>
+<h3 id="categoria_55">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_54">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS04</a></li>
+<li>Entrevista <a href="https://requisitos-de-software.github.io/2019.2-Waze/Entrevista/#5-requisitos-elicitados">ENT02</a></li>
+<li>Questionário <a href="https://requisitos-de-software.github.io/2019.2-Waze/Questionario/#7requisitos-elicitados">Q01,Q04,Q05</a></li>
+<li>Análise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP09</a></li>
+</ul>
+<h3 id="elo_54">Elo:</h3>
+<ul>
+<li>Satisfação: BS04 satisfaz Q01, Q04 e Q05</li>
+<li>Agregação: AP09 agrega ENT02</li>
+</ul>
+<hr />
+<h2 id="rq56">RQ56</h2>
+<h3 id="categoria_56">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_55">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS07</a></li>
+<li>Análise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP10</a></li>
+</ul>
+<h3 id="elo_55">Elo:</h3>
+<h2 id="-agregacao-bs07-agrega-ap10">- Agregação: BS07 agrega AP10</h2>
+<h2 id="rq57">RQ57</h2>
+<h3 id="categoria_57">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_56">Elementos Rastreáveis:</h3>
+<ul>
+<li>Análise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP11</a></li>
+</ul>
+<h3 id="elo_56">Elo:</h3>
+<h2 id="-nao-ha-artefatos-para-construir-o-elo_1">- Não há artefatos para construir o elo.</h2>
+<h2 id="rq58">RQ58</h2>
+<h3 id="categoria_58">Categoria:</h3>
+<ul>
+<li>Desenvolvimento</li>
+</ul>
+<h3 id="elementos-rastreaveis_57">Elementos Rastreáveis:</h3>
+<ul>
+<li>Brainstorming <a href="https://requisitos-de-software.github.io/2019.2-Waze/Brainstorm/#3-requisitos-levantados">BS08</a></li>
+<li>Análise de Protocolo <a href="https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow">AP12</a></li>
+</ul>
+<h3 id="elo_57">Elo:</h3>
+<h2 id="-agregacao-bs08-agrega-ap12">- Agregação: BS08 agrega AP12</h2>
+<!-- • Os principais elos de rastreabilidade são:
+• Satisfação: classe origem tem dependência de satisfação com a classe
+destino.
+• Recurso: classe origem tem dependência de recurso com a classe
+destino.
+• Responsabilidade: registra a participação, responsabilidade e ação de
+pessoas sobre artefatos.
+• Representação: captura a representação ou modelagem dos requisitos
+em outras linguagens.
+• Alocado: classe origem está relacionada à classe destino, que
+representa um subsistema.
+• Agregação: indica “composição” de elementos. -->
+
+<h2 id="referencia-bibliografica">Referência Bibliográfica</h2>
+<blockquote>
+<p>DAVIS, A. M.; Software   Requirements:   Objects,   Functions   and   States. Englewood Cliffs, New Jersey: Prentice Hall. 1993. </p>
+<p>SOMMERVILLE, I.; Software Engineering. Addison-Wesley, Reading, MA, 1998.</p>
+<p>SAYÃO, M., LEITE, J. C. S. P.; Rastreabilidade de Requisitos. Monografia em Ciências da Computação, No. 20/05. Departamento de Informática, PUC-RJ, Rio de Janeiro, 2005. Disponível em: http://www.dbd.puc-rio.br/depto_informatica/05_20_sayao.pdf </p>
+</blockquote>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10/11/19</td>
+<td>1.0</td>
+<td>Criação do documento</td>
+<td>Moacir Mascarenha, Renan Cristyan</td>
+</tr>
+<tr>
+<td>10/11/19</td>
+<td>2.0</td>
+<td>Preenchida parcialmente a tabela</td>
+<td>João Pedro, Moacir Mascarenha</td>
+</tr>
+<tr>
+<td>10/11/19</td>
+<td>3.0</td>
+<td>Preenchida Matriz de Rastreabilidade</td>
+<td>João Pedro, Moacir Mascarenha, Renan Cristyan</td>
+</tr>
+<tr>
+<td>16/11/19</td>
+<td>4.0</td>
+<td>Adicionados primeiros 15 elos</td>
+<td>João Pedro, Moacir Mascarenha, Renan Cristyan</td>
+</tr>
+<tr>
+<td>17/11/19</td>
+<td>4.1</td>
+<td>Adicionados elos de 15 a 30</td>
+<td>João Pedro, Moacir Mascarenha</td>
+</tr>
+<tr>
+<td>17/11/19</td>
+<td>4.2</td>
+<td>Adicionados elos de 31 a 51</td>
+<td>João Pedro, Moacir Mascarenha</td>
+</tr>
+<tr>
+<td>18/11/19</td>
+<td>4.3</td>
+<td>Adicionados elos de 52 a 58</td>
+<td>Renan Cristyan</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../verificacaolexico/" title="Verificação Léxico" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Verificação Léxico
+              </span>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.c648116f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
