@@ -56,18 +56,18 @@ durante o processo de pesquisa.
 |Escolaridade | Ensino Médio Completo|
 |Nível de conhecimento do Waze | Conhece e utiliza algumas das funcionalidades do Waze. Conhecimento Médio.|
 |Intenção ao usar Waze |Utilizar o Waze como acessório de trabalho, pois o waze fornece mais informações e alertas de radares eletrônicos, blitz, controle de velocidade, rotas alternativas e acidentes. Fornece informções sobre estimativa de tempo e kilometragem da rota e auxilia para encontrar os destinos durante a jornada de trabalho.|
-|História e contexto |Leonardo tomou posso como motorista de órgão público, com isso precisava e foi oferecido pela instituição um aparelho eletrônico com de app de navegação compatível com a disponibiblidade da Instituição.|
+|História e contexto |Leonardo tomou posse como motorista de órgão público, com isso precisava e foi oferecido pela instituição um aparelho eletrônico com de app de navegação compatível com a disponibiblidade da Instituição.|
 |O que poderia mudar? | Não há opiniões de mudanças, pois utiliza apenas como auxílio de navegação, e o app atende as necessidades.|
 
 ### 1.5 Persona 5 (Product Owner)
 
-| Nome |  |
+| Nome | Pablo |
 |--|--|
 |Profissão | Empresário|
 |Escolaridade | Ensino Superior Completo|
 |Nível de conhecimento do Waze | Nível de conhecimento alto, decide os itens que compõe o Product Backlog e prioriza as funcionalidades do produto.|
 |Intenção ao usar Waze |Transformar as necessidades em produtos operacionalizaveis, levantamento e definição de processos de utilização, acompanhar o desenvolvimento do produto junto com os desenvolvedores, levantar requisitos junto com Stakeholders, acompanhar cronogramas de desenvolvimento e liberação das novas funcionalidades no sistema para o usuário final, elaborar documentos de detalhamento de requisitos junto com a equipe.|
-|História e contexto ||
+|História e contexto |Concluiu ensino superior em ciencia da computação, trabalhou como desenvolvedor pleno, especializou-se a função de Product owner, Trabalha em uma empresa de Tecnologia da informação como Product owner de uma aplicação mobile.|
 |O que poderia mudar? | Sugerir mudanças conforme as sprints, definindo quais são os requisitos e funcionalidades que devem ser desenvolvidas.|
 
 ## 2. Necessidades do Contexto
