@@ -786,7 +786,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Análise de Protocolo [AP08](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
 
 ### Elo: 
-- Não há artefatos para construir o elo.
+- Não há artefatos para construir o elo
 -------------------------
 
 ## RQ55
@@ -814,6 +814,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 
 ### Elo: 
 - Agregação: BS07 agrega AP10
+
 -------------------------
 
 ## RQ57
@@ -824,7 +825,8 @@ O aplicativo deve fornecer informações sobre as condições da pista
 - Análise de Protocolo [AP11](https://requisitos-de-software.github.io/2019.2-Waze/analiseProtocolo/#41-moscow)
 
 ### Elo: 
-- Não há artefatos para construir o elo.
+- Não há artefatos para construir o elo
+
 -------------------------
 
 ## RQ58
@@ -837,6 +839,7 @@ O aplicativo deve fornecer informações sobre as condições da pista
 
 ### Elo: 
 - Agregação: BS08 agrega AP12
+
 -------------------------
 
 
