@@ -142,7 +142,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) 
 | **US** | [US13](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) |
-| **Funcionalidade** | |
+| **Funcionalidade** | ![ff07](./img/ff07.gif)|
 
 ## RQ08
 | **RQ08** | **O aplicativo deve fornecer informações sobre as condições da pista** |
@@ -150,7 +150,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) 
 | **US** | [US08](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) |
-| **Funcionalidade** | |
+| **Funcionalidade** | ![ff08](./img/ff06.gif) |
 
 ## RQ09
 | **RQ09** | **O aplicativo deve sugerir a menor rota** |
@@ -158,7 +158,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) 
 | **US** | [US24](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) |
-| **Funcionalidade** | |
+| **Funcionalidade** | ![ff08](./img/ff8.gif) |
 
 ## RQ10
 | **RQ10** | **O aplicativo deve sugerir o tempo aproximado de rota** |
@@ -166,7 +166,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) 
 | **US** | [US25](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) |
-| **Funcionalidade** | |
+| **Funcionalidade** | ![ff10](./img/ff10.gif)|
 
 ## RQ11
 | **RQ11** | **O aplicativo deve ter a opção para mudar a rota a qualquer momento** |
@@ -174,7 +174,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) 
 | **US** | [US02](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) [US05](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)  |
-| **Funcionalidade** | |
+| **Funcionalidade** | ![ff11](./img/ff11.jpg)| 
 
 ## RQ12
 | **RQ12** | **O aplicativo deve disponibilizar uma funcionalidade para economia de bateria** |
@@ -182,7 +182,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **US** | [US20](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)  |
-| **Funcionalidade** | |
+| **Funcionalidade** |![ff12](./img/ff12.jpg) |
 
 ## RQ13
 | **RQ13** | **O aplicativo deve ter um sistema de chat** |
@@ -190,7 +190,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** |[E03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT05](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [US27](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)   |
-| **Funcionalidade** | |
+| **Funcionalidade** | ![ff13](./img/ff13.jpg)|
 
 ## RQ14
 | **RQ14** | **O aplicativo deve ter integração com aplicativos de streaming** |
@@ -198,7 +198,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** |[E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** |[FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **US** |  [US29](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)  |
-| **Funcionalidade** | |
+| **Funcionalidade** |![ff14](./img/ff14.jpg) |
 
 ## RQ15
 | **RQ15** | **O aplicativo deve ter o mapa atualizado** |
@@ -206,7 +206,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** |[E03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT04](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **US** |  [US07](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)  [US22](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** | |
+| **Funcionalidade** | -- |
 
 ## RQ16
 | **RQ16** | **O usuário deve ser capaz de avaliar feedback de outros usuários** |
@@ -214,7 +214,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | [E03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT04](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) [FT05](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** |  [US14](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) [US39](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** | |
+| **Funcionalidade** | ![ff16](./img/ff16.jpg)|
 
 ## RQ17
 | **RQ17** | **O aplicativo deve ser leve o suficiente para ter um bom desempenho na maioria dos dispositivos** |
@@ -222,7 +222,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | -- |
 | **Feature** | -- |
 | **US** | -- |
-| **Funcionalidade** | |
+| **Funcionalidade** | --|
 
 ## RQ18
 | **RQ18** | **O aplicativo deve intuitivo e agradável** |
@@ -230,7 +230,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** |[E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** |  [US23](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) |
-| **Funcionalidade** | |
+| **Funcionalidade** | ![ff18](./img/ff18.png)|
 
 ## RQ19
 | **RQ19** | **O aplicativo deve ter suporte offline** |
@@ -238,7 +238,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** |[FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **US** | [US10](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)   |
-| **Funcionalidade** | |
+| **Funcionalidade** | ![ff19](./img/ff19.png) |
 
 ## RQ20
 | **RQ20** | **O aplicativo deve ter suporte para anúncios** |
@@ -254,7 +254,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** |  [US28](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) |
-| **Funcionalidade** | |
+| **Funcionalidade** | ![ff21](./img/ff21.png)|
 
 ## RQ22
 | **RQ22** | **O aplicativo deve ter opção de evitar algumas situações durante o percurso** |
@@ -262,7 +262,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** |  [US08](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) [US33](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** | |
+| **Funcionalidade** | ![ff22](./img/ff22.png)|
 
 ## RQ23
 | **RQ23** | **O aplicativo deve poder definir suas preferências de percurso** |
@@ -270,7 +270,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** |[US08](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) [US33](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** | |
+| **Funcionalidade** |![ff19](./img/ff19.png) |
 
 ## RQ24
 | **RQ24** | **Precisão de rotas** |
@@ -278,7 +278,7 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 | **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog) |
 | **Feature** | [FT01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** |  [US01](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) [US19](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario) [US22](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** | |
+| **Funcionalidade** |-- |
 
 ## RQ25
 | **RQ25** | **Mudança de Interface** |
@@ -592,3 +592,4 @@ A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos 
 |18/11/19|1.0|Criação do documento|Matheus Estanislau, Lucas Alexandre|
 |18/11/19|1.1|Adicionado detalhes de 7 a 13|Lucas Alexandre|
 |18/11/19|1.2|Adicionado detalhes de 13 a 24|Lucas Alexandre|
+|18/11/19|1.3|Detalhe dos RQ's 8 a 24 atualizados|Matheus Estanislau|
