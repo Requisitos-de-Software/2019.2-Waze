@@ -136,7 +136,7 @@ O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pel
 
 >TI Especialistas: Técnicas de extração de Requisitos. Disponível em: https://www.tiespecialistas.com.br/tecnicas-de-extracao-de-requisitos/. Acesso em 09/09/19
 
-### Histórico de Versões
+### 7. Histórico de Versões
 
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|

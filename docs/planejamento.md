@@ -62,7 +62,7 @@ Tendo em vista os prazos estipulados pela disciplina, a equipe organizou um plan
 >Integrando XP as principais metodologias ágeis, disponível em: https://www.devmedia.com.br/integrando-xp-as-principais-metodologias-ageis/30989
 
 
-# Histórico de Versões
+# 6. Histórico de Versões
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|

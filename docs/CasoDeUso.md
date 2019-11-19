@@ -11,7 +11,7 @@ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do 
 
 [![Buscar rota](img/diagrama_de_caso_de_uso.png)](img/diagrama_de_caso_de_uso.png)
 
-| UC1 | informações | 
+| UC01 | informações | 
 |:----:|:------:|
 |**Caso de uso**|Buscar Rota|
 |**Data**|25/09/19|
@@ -227,7 +227,7 @@ https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pr
 >Revisão e compartilhamento de gráficos e diagramas, Disponível em: https://www.lucidchart.com
 
 
-## Histórico de Versões
+## 4. Histórico de Versões
 
 | Data | Versão | Descrição | Autor(es) |
 |:--:|:--:|:--:|:--:|
@@ -239,3 +239,4 @@ https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pr
 |07/10/19|2.4|Atualizado UC02, UC03,UC04 |Moacir Mascarenha|
 |07/10/19|2.5|Adicionado UC05 e UC06 | Moacir Mascarenha|
 |16/10/19|2.6|Adicionado UC07,UC08 e UC09 | Moacir Mascarenha|
+|17/11/19|3.0|Adicionado Versão 2 | Matheus Estanislau, Moacir Mascarenha|

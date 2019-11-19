@@ -45,6 +45,15 @@ O sistema deve dar feedbacks ao usuário, de forma que o usuário seja sempre in
 
 Os servidores devem estar sempre disponíveis(24 horas por dia, 7 dias da semana).
 
+## Integridade dos Dados
+Os dados mostrados na aplicação devem estar condizentes com o que está no banco de dados da aplicação.
+
+## Privacidade dos Dados
+Os dados pessoais do usuários devem ser mantidos seguros, para manter a privacidade do mesmo.
+
+## Transparência
+O aplicativo deve deixar transparente todas informaçoes coletadas do usuário sobre como serão usadas.
+
 ## 6.  Suportabilidade
 
 ### Internet
@@ -89,7 +98,7 @@ A interface do aplicativo é desenvolvida voltada para aplicativos Mobile: iOS e
 <p align="justify">Software Waze v2.x é distribuído sobre Licença Pública Geral GNU v2. A versão 3 do programa Waze houve mudança para uma licença proprietária. A última fonte aberta da versão do cliente para iPhone é 3.9.2, para Android é 3.9.4.0.
 Os usuários estão sujeitos às leis de direitos autorais. Disponíveis no <a href= "https://www.waze.com/pt-BR/legal/tos">termos de uso</a>.</p>
 
-### Referências 
+### 11. Referências 
 
 >Waze - GPS, Mapas, Alertas, Trânsito em Tempo Real, Disponível em:https://play.google.com/store/apps/details?id=com.waze&hl=pt_BR
 
@@ -98,9 +107,10 @@ Os usuários estão sujeitos às leis de direitos autorais. Disponíveis no <a h
 <a href="https://wiki.waze.com/wiki/Brasil"> SITE: Wikiwaze</a>, acesso disponível em 25/09/2019.
 
 
-## Histórico de Versões
+## 12. Histórico de Versões
 |Data|Versão|Informação|Autor(es)|
 |:----:|:----:|:----:|:----:|
 | 25/09/19 |  1.0   | Documento de Especificaçõ Suplementar | Guilherme Leal e Moacir Mascarenha |
 |27/09/19|2.0|Atualizado documento|Guilherme Leal e Moacir Mascarenha|
 |27/09/19|2.1| Revisão e atualização|Guilherme Leal e Moacir Mascarenha|
+|16/10/19|3.0| Atualizado a Confiabilidade|Lucas Alexandre |

@@ -1,6 +1,6 @@
 # Personas
 
-## Introdução
+## 1. Introdução
 <p align="justify">
 Para Cooper (2007), no Design de Interação, as Personas são modelos e, o
 conceito de modelo é usado nas ciências naturais e sociais para representar fenômenos
@@ -48,6 +48,27 @@ durante o processo de pesquisa.
 |História e contexto |José iniciou um trabalho de motorista de apps para gerar uma renda em seu horário livre, com isso precisava de um app de navegação do qual podesse confiar e que atendesse suas necessidades.|
 |O que poderia mudar? | Verificação de informações dadas pelos usuário. Muitos usuários reportam acidentes em lugares errados, ou que ja foram resolvidos. Outro problema que José vê é a utilização excessiva dos motoristas com o celular, resalta que deve selecionar a rota antes de começar a dirigir e fazer ajustes pontuais caso necessário na rota durante o trajeto.|
 
+### 1.4 Persona 4
+
+| Nome | Leonardo |
+|--|--|
+|Profissão | Funcionário Público - Cargo: Motorista|
+|Escolaridade | Ensino Médio Completo|
+|Nível de conhecimento do Waze | Conhece e utiliza algumas das funcionalidades do Waze. Conhecimento Médio.|
+|Intenção ao usar Waze |Utilizar o Waze como acessório de trabalho, pois o waze fornece mais informações e alertas de radares eletrônicos, blitz, controle de velocidade, rotas alternativas e acidentes. Fornece informções sobre estimativa de tempo e kilometragem da rota e auxilia para encontrar os destinos durante a jornada de trabalho.|
+|História e contexto |Leonardo tomou posse como motorista de órgão público, com isso precisava e foi oferecido pela instituição um aparelho eletrônico com de app de navegação compatível com a disponibiblidade da Instituição.|
+|O que poderia mudar? | Não há opiniões de mudanças, pois utiliza apenas como auxílio de navegação, e o app atende as necessidades.|
+
+### 1.5 Persona 5 (Product Owner)
+
+| Nome | Pablo |
+|--|--|
+|Profissão | Empresário|
+|Escolaridade | Ensino Superior Completo|
+|Nível de conhecimento do Waze | Nível de conhecimento alto, decide os itens que compõe o Product Backlog e prioriza as funcionalidades do produto.|
+|Intenção ao usar Waze |Transformar as necessidades em produtos operacionalizaveis, levantamento e definição de processos de utilização, acompanhar o desenvolvimento do produto junto com os desenvolvedores, levantar requisitos junto com Stakeholders, acompanhar cronogramas de desenvolvimento e liberação das novas funcionalidades no sistema para o usuário final, elaborar documentos de detalhamento de requisitos junto com a equipe.|
+|História e contexto |Concluiu ensino superior em ciencia da computação, trabalhou como desenvolvedor pleno, especializou-se a função de Product owner, Trabalha em uma empresa de Tecnologia da informação como Product owner de uma aplicação mobile.|
+|O que poderia mudar? | Sugerir mudanças conforme as sprints, definindo quais são os requisitos e funcionalidades que devem ser desenvolvidas.|
 
 ## 2. Necessidades do Contexto
 
@@ -75,15 +96,17 @@ durante o processo de pesquisa.
          <li> Evitar caminhos indesejados</li>
    </ul>
 
-## Referências Bibliográficas
+## 3. Referências Bibliográficas
 
 > COOPER, A. About Face 3: The Essentials of Interaction Design. Indianapolis: Wiley Publishing, 2007.
 
 > REIS, A. V. dos; DICK, M. E.; SOUSA, R. P. L. de; GONÇALVES, B. S.; Análise Comportamental na Análise de Personas. Educação Gráfica, ISSN 2179-7374, Ano 2014, V. 18, No. 03.
 
-## Histórico de versões
+## 4. Histórico de versões
 
 |   Data   | Versão |           Descrição           |             Autor(es)              |
 |:--------:|:------:|:-----------------------------:|:----------------------------------:|
-| 25/09/19 |  1.0   |   Refatoração de Personas     |           Guilherme Leal |
-
+| 25/09/19 |  1.0   |   Criação de Personas     |           Guilherme Leal |
+| 14/10/19 | 1.1 | Adicionados Introdução e Referências Bibliográficas| Renan Cristyan |
+| 16/10/19 |  2.0   |   Refatoração de Personas     |           Guilherme Leal |
+| 16/11/19 |  2.1   |   Criação Persona PO     |  Guilherme Leal, João Pedro |

@@ -26,6 +26,19 @@ nav:
     - Cenários: Cenarios.md
     - Léxico Ampliado da Linguagem: Lexico.md
     - Caso de Uso : CasoDeUso.md
+  - Ágil:
+    - Backlog: ProductBacklog.md
+    - História de Usuários: UserStories.md
+    - NFR framework: NFR.md
   - Personas: Personas.md
+  - Análise: 
+    - Verificação Casos de Uso: VerificacaoCasoDeUso.md
+    - Verificação Rich Picture: Verificacao-RichPicture.md
+    - Verificação NFR: Verificacao-NFR.md
+    - Verificação Cenário: VerificacaoCenarios.md
+    - Verificação Léxico: verificacaolexico.md
+  - Pós-Rastreabilidade:
+    - Foward From: fowardFrom.md
+    -  Backward-from: Backward-from.md
   
-    
+
