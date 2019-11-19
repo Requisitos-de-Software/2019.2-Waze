@@ -1,12 +1,16 @@
 # NFR - Verificação
  
-## Introdução
+## 1. Introdução
 A verificação é uma atividade onde o sistema é utilizado para certificar-se que os requisitos foram atendidos. A Validação, é a certificação de que o sistema atende as necessidades e expectativas.
  
-## Metodologia
+## 2. Metodologia
 Para realizar a verificação dos documentos de NFR, foi utilizada a técnica de inspeção. Foi definida uma checklist onde cada tópico foi avaliado e os defeitos detectados foram descritos para que possam ser corrigidos o mais breve possível.
  
-## Inspeção
+## 3. Rastreabilidade
+
+[NFR Framework](https://requisitos-de-software.github.io/2019.2-Waze/NFR/)
+
+## 4. Inspeção
 Justificativas baseadas em:<br>
 [Enhancing Data Warehouse Design with the NFR
 Framework](http://www.inf.puc-rio.br/wer02/zip/Enhancing_Data(4).pdf)
@@ -23,7 +27,7 @@ Framework](http://www.inf.puc-rio.br/wer02/zip/Enhancing_Data(4).pdf)
 |O sentido das setas que ligam os softgoals é coerente?|As operacionalizações devem se ligar aos softgoals, e as setas devem ter este sentido|
 |As linhas tracejadas e contínuas foram utilizadas corretamente?| As setas com linhas continuas indicam a relação de interdependência implicita e as pontilhadas as realações explicitas|
  
-## Checklist
+## 5. Checklist
  
 |Questões|[NFR00](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr00-geral)|[NFR01](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr01-usabilidade)|[NFR02](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr02-desempenho)|[NFR03](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr03-suportabilidade)|[NFR04](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr04-confiabiliade)|
 |--------|-----|-----|-----|-----|-----|
@@ -37,7 +41,7 @@ Framework](http://www.inf.puc-rio.br/wer02/zip/Enhancing_Data(4).pdf)
 |O sentido das setas que ligam os softgoals é coerente?|-|✔|✔|✔|✔|
 |As linhas tracejadas e contínuas foram utilizadas corretamente?|-|✔|❌|❌|❌|
  
-## Observações
+## 6. Observações
  
 |NFR|Observações|
 |---|-----------|
@@ -47,13 +51,13 @@ Framework](http://www.inf.puc-rio.br/wer02/zip/Enhancing_Data(4).pdf)
 |NFR03|<ul><li>Não há nenhuma indicação de quais objetivos são críticos.</li><li>A representação da interdependência, entre as operalizações **Suporte offline** e **Prover manutenção** e os softgoals **Dispositivos Android ou IOS**, poderiam ser indicadas por setas tracejadas.</li></ul>|
 |NFR04|<ul><li>Não há nenhuma indicação de quais objetivos são críticos.</li><li>A representação da interdependência, entre a operalização **Monitoramento** e o softgoal **Prevenir falhas**, deve ser indicada por uma seta tracejada.</li></ul>|
 
-## Conclusão
+## 7. Conclusão
 A partir da inspeção dos NFRs foi possivel identificar e catalogar deficiências nos diagramas como: o uso incorreto das setas de linhas preenchidas e a falta de indicações de softgoals criticos.
  
-## Referências Bibliográficas
+## 8. Referências Bibliográficas
 > Enhancing Data Warehouse Design with the NFR Framework. Disponível em: http://www.inf.puc-rio.br/wer02/zip/Enhancing_Data(4).pdf. Acesso em: 29/10/19
  
-## Histórico de Versões
+## 9. Histórico de Versões
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
 |28/10/19|1.0|Criação do documento|Moacir Mascarenha, Renan Cristyan|

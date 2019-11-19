@@ -1,21 +1,21 @@
 # Verificação Casos de uso
 
-## Introdução
+## 1. Introdução
 
 <p align="justify">
 A verificação é uma atividade onde o sistema é utilizado para certificar-se que os requisitos foram atendidos. A Validação, é a certificação de que o sistema atende as necessidades e expectativas.
 </p>
 
-## Metodologia
+## 2. Metodologia
 
 <p align="justify">
 Para realizar a verificação do documento de Casos de Uso, foi utilizada a técnica de inspeção. Foi definida uma checklist onde cada tópico foi avaliado e os defeitos detectados foram descritos para que possam ser corrigidos o mais breve possível.
 </p>
 
-## Rastreabilidade
+## 3. Rastreabilidade
 [Casos de Uso](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/)
 
-## Inspeção
+## 4. Inspeção
 |Questão|Justificativa|
 |--|--|
 |A descrição de caso de uso condiz com o caso de uso representado no diagrama?|A imagem que representa o caso de uso deve estar de acordo com a descrição|
@@ -32,7 +32,7 @@ Para realizar a verificação do documento de Casos de Uso, foi utilizada a téc
 |O caso de uso possui rastreabilidade adequada?|Para facilitar na pós rastreabilidade,o caso de uso deve possuir uma rastreabilidade bem definida|
 
 
-## Checklist
+## 5. Checklist
 
 |Questões |[UC01](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/#uc01-buscar-rota-para-onde)|[UC02](https://requisitos-de-software.github.io/2019.2-Waze)|[UC03](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/#uc03-exibicao-de-mapa)|[UC04](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/#uc04-navegacao)|[UC05](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/#uc05-economia-de-bateria)|[UC06](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/#uc06-voz-e-som)|[UC07](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso)|[UC068](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso)|[UC09](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso)|
 |-------|----|----|----|----|----|----|----|----|----|
@@ -50,7 +50,7 @@ Para realizar a verificação do documento de Casos de Uso, foi utilizada a téc
 |O caso de uso possui alguma rastreabilidade?|❌|❌|❌|❌|❌|❌|❌|❌|❌|
 
 
-### Observações
+## 6. Observações
  
 |UC|Observações|
 |---|-----------|
@@ -64,19 +64,19 @@ Para realizar a verificação do documento de Casos de Uso, foi utilizada a téc
 |UC08|<ul><li>Não possui descrição do ator na tabela.<li>Não existe padrão para formulação das frases no diagrama, alguns casos de uso não representam uma ação.</li><li>Não há rastreabilidade na tabela.</li></ul>|
 |UC09|<ul><li>Não possui descrição do ator na tabela.<li>Não há rastreabilidade na tabela.</li></ul>|
 
-## Conclusões
+## 7. Conclusão
 <p align="justify">
 O caso de uso pode ser avaliado como regular de acordo com os critérios de qualidade estabelecidos, sendo que praticamente todos possuem alguns erros no diagrama, sendo necessários refatorá-las. Além disso, é necessário adicionar rastreabilidade em todos os Casos de Uso.
 </p>
 
-## Refências Bibliográficas
+## 8. Refências Bibliográficas
 >Casos de uso, Disponível em: https://www.devmedia.com.br/o-que-e-uml-e-diagramas-de-caso-de-uso-introducao-pratica-a-uml/23408. Acesso em: 29 de outubro de 2019
 
 >A Importância da validação e da verificação, Disponível em: https://www.devmedia.com.br/a-importancia-da-validacao-e-da-verificacao/24559
 
 >Serrano, Milene. Serrano, Mauricio. Requisitos-Aula 11.2/2019
 
-## Histórico de Versões
+## 9. Histórico de Versões
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
 |29/10/19|1.0|Criação do documento|Lucas Alexandre e Matheus Estanislau|
