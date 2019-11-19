@@ -1,4 +1,4 @@
-# Foward-From
+# Forward-Form
 
 ## Introdução
 
@@ -11,7 +11,7 @@ Um requisito é rastreável se é possível descobrir quem sugeriu o requisito (
 </p>
 
 <p align = "justify">
-A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos seus artefatos.
+A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artefatos.
 </p>
 
 ## Matriz de Rastreabilidade
