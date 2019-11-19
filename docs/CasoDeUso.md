@@ -3,9 +3,96 @@
 ## 1. Introdução
 O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do usuário, descrevendo as principais funcionalidades do sistema e sua interação com os usuários. Nesse diagrama não nos aprofundamos em detalhes técnicos que dizem como o sistema faz.
 
-## Versão 1
+
 
 ## 2. Casos de uso :
+
+## Versão 2
+
+### **UC01 - Buscar Rota ( Para onde? )**
+
+[![Buscar rota](img/caso1.png)](img/caso1.png)
+
+| UC1 | informações | 
+|:----:|:------:|
+|**Caso de uso**|Buscar Rota|
+|**Data**|16/11/19|
+|**Hora**|16:00|
+|**Autor(es)**|Matheus de Cristo, Moacir Mascarenha|
+|**Ator**| Usuário|
+|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário pressiona o icone de pesquisa<br> - Usuário insere o local desejado<br> - Usuário escolhe uma das rotas sugeridas<br> |
+|**Fluxo alternativo**|**FA1**:<br> - Usuário abre localização(no Waze) recebida em outro App.<br> - O usuário recebe a rota até a localização<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário pressiona o icone de pesquisa<br> - Usuário insere o local desejado<br> - Usuário escolhe uma das rotas sugeridas<br> - Usuário adiciona a rota aos favoritos<br>**FA3:**<br> - Usuário acessa o Waze<br> - Usuário pressiona o icone de pesquisa<br> - Usuário insere o local desejado<br> - Usuário escolhe uma das rotas sugeridas<br> - Usuário escolhe a opção de navegação|
+|**Software Utilizado**|Draw.io| 
+
+
+### **UC03 - Exibição de mapa**
+[![Exibição de mapa](img/Exibicao_de_mapa2.png)](img/Exibicao_de_mapa2.png)
+
+| UC03 | informações | 
+|:----:|:------:|
+|**Caso de uso**|Exibição de mapa|
+|**Data**|26/09/19|
+|**Hora**|16:25|
+|**Autor(es)**|Matheus de Cristo, Moacir Mascarenha|
+|**Ator**|Usuário|
+|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona exibição de mapa |
+|**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona exibição de mapa<br>- Usuário escolhe umas das opções de exibir no mapa<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona exibição de mapa <br> - Usuário pressiona a label Velocimetro<br>**FA3:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona exibição de mapa <br>- Outras Opções<br>|
+|**Software Utilizado**|Draw.io|
+
+
+### **UC04 - Navegação**
+
+[![Navegação](img/navegacao_caso_de_uso2.png)](img/navegacao_caso_de_uso2.png)
+
+| UC04 | informações | 
+|:----:|:------:|
+|**Caso de uso**|Navegação|
+|**Data**|16/11/19|
+|**Hora**|19:26|
+|**Autor(es)**|Matheus de Cristo, Moacir Mascarenha|
+|**Ator**|Usuário|
+|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona Navegação<br> - Usuário acessa menu de preferencias|
+|**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona Navegação<br> - Usuário acessa o menu de Preferências<br> - Usuário escolhe alguma das opções(Evitar pedágio, passes de pedágio, Evitar balsas, Evitar vias expressas, Vias de terra e Evitar conversões difíceis)<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona exibição de mapa <br> - Usuário pressiona detalhes do veículo<br> -Usuário especifica detalhes sobre veículo <br>|
+|**Software Utilizado**|Draw.io|
+
+### **UC05 - Economia de bateria**
+[![economia_de_bateria](img/economia_bateria2.png)](img/economia_bateria2.png)
+
+| UC05 | informações | 
+|:----:|:------:|
+|**Caso de uso**|Economia de bateria|
+|**Data**|16/11/19|
+|**Hora**|15:30|
+|**Autor(es)**| Matheus de Cristo, Moacir Mascarenha|
+|**Ator**|Usuário|
+|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona Economia de bateria
+|**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Economia de bateria<br> - Usuário acessa a opção Deixar ligado ao recarregar<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Economia de bateria<br> - Usuário acessa a opção Economia de bateria<br>**FA3:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Economia de bateria<br> - Usuário acessa a opção Ligar durante o percurso atual <br>|
+|**Software Utilizado**|Draw.io|
+
+### UC06 - Voz e som
+
+[![voz e som](img/som_e_voz_casos_de_uso2.png)](som_e_voz_casos_de_uso2.png)
+
+| UC06 | informações | 
+|:----:|:------:|
+|**Caso de uso**|Voz e som|
+|**Data**|16/10/19|
+|**Hora**|16:13|
+|**Autor(es)**| Matheus de Cristo, Moacir Mascarenha|
+|**Ator**|Usuário|
+|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona Voz e som
+|**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Voz e som<br> - Usuário acessa a opção Sons<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Voz e som<br> - Usuário acessa a opção Voz Waze<br>**FA3:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Voz e som<br> - Usuário acessa a opção Idioma de entrada.<br>**FA4:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Voz e som<br> - Usuário acessa a opção Som<br>**FA5:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Voz e som<br> - Usuário acessa a opção Mostrar tocador de áudio<br>|
+|**Software Utilizado**|Draw.io|
+
+
+
+
+
+
+## Versão 1
+
+
+
 
 ### **UC01 - Buscar Rota ( Para onde? )**
 
@@ -140,82 +227,6 @@ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do 
 
 
 
-## Versão 2
-
-### **UC01 - Buscar Rota ( Para onde? )**
-
-[![Buscar rota](img/caso1.png)](img/caso1.png)
-
-| UC1 | informações | 
-|:----:|:------:|
-|**Caso de uso**|Buscar Rota|
-|**Data**|16/11/19|
-|**Hora**|16:00|
-|**Autor(es)**|Matheus de Cristo, Moacir Mascarenha|
-|**Ator**| Usuário|
-|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário pressiona o icone de pesquisa<br> - Usuário insere o local desejado<br> - Usuário escolhe uma das rotas sugeridas<br> |
-|**Fluxo alternativo**|**FA1**:<br> - Usuário abre localização(no Waze) recebida em outro App.<br> - O usuário recebe a rota até a localização<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário pressiona o icone de pesquisa<br> - Usuário insere o local desejado<br> - Usuário escolhe uma das rotas sugeridas<br> - Usuário adiciona a rota aos favoritos<br>**FA3:**<br> - Usuário acessa o Waze<br> - Usuário pressiona o icone de pesquisa<br> - Usuário insere o local desejado<br> - Usuário escolhe uma das rotas sugeridas<br> - Usuário escolhe a opção de navegação|
-|**Software Utilizado**|Draw.io| 
-
-
-### **UC03 - Exibição de mapa**
-[![Exibição de mapa](img/Exibicao_de_mapa2.png)](img/Exibicao_de_mapa2.png)
-
-| UC03 | informações | 
-|:----:|:------:|
-|**Caso de uso**|Exibição de mapa|
-|**Data**|26/09/19|
-|**Hora**|16:25|
-|**Autor(es)**|Matheus de Cristo, Moacir Mascarenha|
-|**Ator**|Usuário|
-|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona exibição de mapa |
-|**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona exibição de mapa<br>- Usuário escolhe umas das opções de exibir no mapa<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona exibição de mapa <br> - Usuário pressiona a label Velocimetro<br>**FA3:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona exibição de mapa <br>- Outras Opções<br>|
-|**Software Utilizado**|Draw.io|
-
-
-### **UC04 - Navegação**
-
-[![Navegação](img/navegacao_caso_de_uso2.png)](img/navegacao_caso_de_uso2.png)
-
-| UC04 | informações | 
-|:----:|:------:|
-|**Caso de uso**|Navegação|
-|**Data**|16/11/19|
-|**Hora**|19:26|
-|**Autor(es)**|Matheus de Cristo, Moacir Mascarenha|
-|**Ator**|Usuário|
-|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona Navegação<br> - Usuário acessa menu de preferencias|
-|**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona Navegação<br> - Usuário acessa o menu de Preferências<br> - Usuário escolhe alguma das opções(Evitar pedágio, passes de pedágio, Evitar balsas, Evitar vias expressas, Vias de terra e Evitar conversões difíceis)<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona exibição de mapa <br> - Usuário pressiona detalhes do veículo<br> -Usuário especifica detalhes sobre veículo <br>|
-|**Software Utilizado**|Draw.io|
-
-### **UC05 - Economia de bateria**
-[![economia_de_bateria](img/economia_bateria2.png)](img/economia_bateria2.png)
-
-| UC05 | informações | 
-|:----:|:------:|
-|**Caso de uso**|Economia de bateria|
-|**Data**|16/11/19|
-|**Hora**|15:30|
-|**Autor(es)**| Matheus de Cristo, Moacir Mascarenha|
-|**Ator**|Usuário|
-|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona Economia de bateria
-|**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Economia de bateria<br> - Usuário acessa a opção Deixar ligado ao recarregar<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Economia de bateria<br> - Usuário acessa a opção Economia de bateria<br>**FA3:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Economia de bateria<br> - Usuário acessa a opção Ligar durante o percurso atual <br>|
-|**Software Utilizado**|Draw.io|
-
-### UC06 - Voz e som
-
-[![voz e som](img/som_e_voz_casos_de_uso2.png)](img/som_e_voz_casos_de_uso2.png)
-
-| UC06 | informações | 
-|:----:|:------:|
-|**Caso de uso**|Voz e som|
-|**Data**|16/10/19|
-|**Hora**|16:13|
-|**Autor(es)**| Matheus de Cristo, Moacir Mascarenha|
-|**Ator**|Usuário|
-|**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona Voz e som
-|**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Voz e som<br> - Usuário acessa a opção Sons<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Voz e som<br> - Usuário acessa a opção Voz Waze<br>**FA3:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Voz e som<br> - Usuário acessa a opção Idioma de entrada.<br>**FA4:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Voz e som<br> - Usuário acessa a opção Som<br>**FA5:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> -  Usuário pressiona Voz e som<br> - Usuário acessa a opção Mostrar tocador de áudio<br>|
-|**Software Utilizado**|Draw.io|
 
 
 ## 3. Referências Bibliográficas
