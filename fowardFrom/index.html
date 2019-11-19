@@ -1,0 +1,2683 @@
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.4.3">
+    
+    
+      
+        <title>Foward From - Waze</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/application.30686662.css">
+      
+      
+    
+    
+      <script src="../assets/javascripts/modernizr.74668098.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700|Roboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../assets/fonts/material-icons.css">
+    
+    
+      <link rel="stylesheet" href="../css/extra_css.css">
+    
+    
+      
+    
+    
+  </head>
+  
+    <body dir="ltr">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#foward-from" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href=".." title="Waze" class="md-header-nav__button md-logo">
+          
+            <img src="../img/docs_dir/waze_48px.ico" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              Waze
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Foward From
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/Requisitos2-2019/2019.2-Waze/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Repositório de Requisitos Waze
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href=".." title="Waze" class="md-nav__button md-logo">
+      
+        <img src="../img/docs_dir/waze_48px.ico" width="48" height="48">
+      
+    </a>
+    Waze
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/Requisitos2-2019/2019.2-Waze/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    Repositório de Requisitos Waze
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href=".." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../planejamento/" title="Planejamento" class="md-nav__link">
+      Planejamento
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Pré-Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Pré-Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../richPicture/" title="RichPicture" class="md-nav__link">
+      RichPicture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../5W2H/" title="5W2H" class="md-nav__link">
+      5W2H
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Elicitação de requisitos
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Elicitação de requisitos
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Entrevista/" title="Entrevista" class="md-nav__link">
+      Entrevista
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../introspeccao/" title="Introspecção" class="md-nav__link">
+      Introspecção
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Questionario/" title="Questionário" class="md-nav__link">
+      Questionário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Storytelling/" title="Storytelling" class="md-nav__link">
+      Storytelling
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../analiseProtocolo/" title="Análise de Protocolo" class="md-nav__link">
+      Análise de Protocolo
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Brainstorm/" title="Brainstorm" class="md-nav__link">
+      Brainstorm
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
+    
+    <label class="md-nav__link" for="nav-5">
+      Modelagem
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-5">
+        Modelagem
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../EspSuplementar/" title="Especificação Suplementar" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Cenarios/" title="Cenários" class="md-nav__link">
+      Cenários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Lexico/" title="Léxico Ampliado da Linguagem" class="md-nav__link">
+      Léxico Ampliado da Linguagem
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../CasoDeUso/" title="Caso de Uso" class="md-nav__link">
+      Caso de Uso
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-6" type="checkbox" id="nav-6">
+    
+    <label class="md-nav__link" for="nav-6">
+      Ágil
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-6">
+        Ágil
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../ProductBacklog/" title="Backlog" class="md-nav__link">
+      Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../UserStories/" title="História de Usuários" class="md-nav__link">
+      História de Usuários
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../NFR/" title="NFR framework" class="md-nav__link">
+      NFR framework
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../Personas/" title="Personas" class="md-nav__link">
+      Personas
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-8" type="checkbox" id="nav-8">
+    
+    <label class="md-nav__link" for="nav-8">
+      Análise
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-8">
+        Análise
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../VerificacaoCasoDeUso/" title="Verificação Casos de Uso" class="md-nav__link">
+      Verificação Casos de Uso
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Verificacao-RichPicture/" title="Verificação Rich Picture" class="md-nav__link">
+      Verificação Rich Picture
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Verificacao-NFR/" title="Verificação NFR" class="md-nav__link">
+      Verificação NFR
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../VerificacaoCenarios/" title="Verificação Cenário" class="md-nav__link">
+      Verificação Cenário
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../verificacaolexico/" title="Verificação Léxico" class="md-nav__link">
+      Verificação Léxico
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-9" type="checkbox" id="nav-9" checked>
+    
+    <label class="md-nav__link" for="nav-9">
+      Pós-Rastreabilidade
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-9">
+        Pós-Rastreabilidade
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Foward From
+      </label>
+    
+    <a href="./" title="Foward From" class="md-nav__link md-nav__link--active">
+      Foward From
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matriz-de-rastreabilidade" class="md-nav__link">
+    Matriz de Rastreabilidade
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Backward-from/" title="Backward-from" class="md-nav__link">
+      Backward-from
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#matriz-de-rastreabilidade" class="md-nav__link">
+    Matriz de Rastreabilidade
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/Requisitos2-2019/2019.2-Waze/edit/master/docs/fowardFrom.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="foward-from">Foward-From</h1>
+<h2 id="introducao">Introdução</h2>
+<p align = "justify">
+A  rastreabilidade  de  requisitos  pode  ser  vista  como  a  habilidade  de  acompanhar  e  descrever a vida de um requisito, em ambas as direções; pré-rastreabilidade documenta  a  o  contexto  a  partir  do  qual  emergem  os  requisitos;  pós-rastreabilidade  vincula  os  requisitos  ao  desenho  do  sistema  e  sua  implementação  (DAVIS, 1993).
+</p>
+
+<p align = "justify">
+Um requisito é rastreável se é possível descobrir quem sugeriu o requisito (a fonte), por que o requisito existe (rationale), que outros requisitos estão relacionados a ele (dependência entre requisitos), e como o requisito se relaciona com outras informações, tais como desenho do sistema, implementação e documentação (SOMMERVILLE, 1998).
+</p>
+
+<p align = "justify">
+A  rastreabilidade  foward-from (para frente) liga os requisitos elicitados aos seus artefatos.
+</p>
+
+<h2 id="matriz-de-rastreabilidade">Matriz de Rastreabilidade</h2>
+<table>
+<thead>
+<tr>
+<th align="center">ID</th>
+<th align="center">Requisito</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">RQ01</td>
+<td align="center">O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pelo usuário</td>
+</tr>
+<tr>
+<td align="center">RQ02</td>
+<td align="center">O aplicativo deve informar sobre as condições da via</td>
+</tr>
+<tr>
+<td align="center">RQ03</td>
+<td align="center">O usuário pode dar feedback sobre as condições do seu percurso</td>
+</tr>
+<tr>
+<td align="center">RQ04</td>
+<td align="center">O aplicativo deve auxiliar a navegação por um guia de áudio</td>
+</tr>
+<tr>
+<td align="center">RQ05</td>
+<td align="center">O aplicativo deve informar a localização atual do usuário</td>
+</tr>
+<tr>
+<td align="center">RQ06</td>
+<td align="center">O usuário deve definir locais favoritos</td>
+</tr>
+<tr>
+<td align="center">RQ07</td>
+<td align="center">O aplicativo deve mostrar estabelecimentos importantes para o motorista</td>
+</tr>
+<tr>
+<td align="center">RQ08</td>
+<td align="center">O aplicativo deve fornecer informações sobre as condições da pista</td>
+</tr>
+<tr>
+<td align="center">RQ09</td>
+<td align="center">O aplicativo deve sugerir a menor rota</td>
+</tr>
+<tr>
+<td align="center">RQ10</td>
+<td align="center">O aplicativo deve sugerir o tempo aproximado de rota</td>
+</tr>
+<tr>
+<td align="center">RQ11</td>
+<td align="center">O aplicativo deve ter a opção para mudar a rota a qualquer momento</td>
+</tr>
+<tr>
+<td align="center">RQ12</td>
+<td align="center">O aplicativo deve disponibilizar uma funcionalidade para economia de bateria</td>
+</tr>
+<tr>
+<td align="center">RQ13</td>
+<td align="center">O aplicativo deve ter um sistema de chat</td>
+</tr>
+<tr>
+<td align="center">RQ14</td>
+<td align="center">O aplicativo deve ter integração com aplicativos de streaming</td>
+</tr>
+<tr>
+<td align="center">RQ15</td>
+<td align="center">O aplicativo deve ter o mapa atualizado</td>
+</tr>
+<tr>
+<td align="center">RQ16</td>
+<td align="center">O usuário deve ser capaz de avaliar feedback de outros usuários</td>
+</tr>
+<tr>
+<td align="center">RQ17</td>
+<td align="center">O aplicativo deve ser leve o suficiente para ter um bom desempenho na maioria dos dispositivos</td>
+</tr>
+<tr>
+<td align="center">RQ18</td>
+<td align="center">O aplicativo deve intuitivo e agradável</td>
+</tr>
+<tr>
+<td align="center">RQ19</td>
+<td align="center">O aplicativo deve ter suporte offline</td>
+</tr>
+<tr>
+<td align="center">RQ20</td>
+<td align="center">O aplicativo deve ter suporte para anúncios</td>
+</tr>
+<tr>
+<td align="center">RQ21</td>
+<td align="center">O usuário deve ser capaz de editar informações no mapa</td>
+</tr>
+<tr>
+<td align="center">RQ22</td>
+<td align="center">O aplicativo deve ter opção de evitar algumas situações durante o percurso</td>
+</tr>
+<tr>
+<td align="center">RQ23</td>
+<td align="center">O aplicativo deve poder definir suas preferências de percurso</td>
+</tr>
+<tr>
+<td align="center">RQ24</td>
+<td align="center">Precisão de rotas</td>
+</tr>
+<tr>
+<td align="center">RQ25</td>
+<td align="center">Mudança de Interface</td>
+</tr>
+<tr>
+<td align="center">RQ26</td>
+<td align="center">Veracidade de Informações de usuários</td>
+</tr>
+<tr>
+<td align="center">RQ27</td>
+<td align="center">O aplicativo deve consumir menos rede de dados / opção offline</td>
+</tr>
+<tr>
+<td align="center">RQ28</td>
+<td align="center">Design mais intuitivo</td>
+</tr>
+<tr>
+<td align="center">RQ29</td>
+<td align="center">Integração com redes sociais</td>
+</tr>
+<tr>
+<td align="center">RQ30</td>
+<td align="center">Aumentar tamanho (km) de rotas</td>
+</tr>
+<tr>
+<td align="center">RQ31</td>
+<td align="center">Cadastro de usuário e login</td>
+</tr>
+<tr>
+<td align="center">RQ32</td>
+<td align="center">A aplicação tem que solicitar ao usuário que ele digite o trajeto do destino</td>
+</tr>
+<tr>
+<td align="center">RQ33</td>
+<td align="center">A aplicação tem que solicitar ao usuário um destino</td>
+</tr>
+<tr>
+<td align="center">RQ34</td>
+<td align="center">Validar endereço</td>
+</tr>
+<tr>
+<td align="center">RQ35</td>
+<td align="center">O usuário tem que receber dicas de lugares para que ele possa ir caso tenha digitado metade do endereço ou o endereço errado</td>
+</tr>
+<tr>
+<td align="center">RQ36</td>
+<td align="center">O aplicativo deve informar ao usuário sobre o engarrafamento</td>
+</tr>
+<tr>
+<td align="center">RQ37</td>
+<td align="center">O aplicativo deve informar sobre estabelecimentos de interesse para motoristas</td>
+</tr>
+<tr>
+<td align="center">RQ38</td>
+<td align="center">O aplicativo de informar o tempo do percurso</td>
+</tr>
+<tr>
+<td align="center">RQ39</td>
+<td align="center">O aplicativo deve calcular a melhor rota para o destino desejado pelo usuário</td>
+</tr>
+<tr>
+<td align="center">RQ40</td>
+<td align="center">O aplicativo deve conter uma area comum para feedback do usuário</td>
+</tr>
+<tr>
+<td align="center">RQ41</td>
+<td align="center">O usuário deve ser informado sobre acontecimentos em sua rota</td>
+</tr>
+<tr>
+<td align="center">RQ42</td>
+<td align="center">O aplicativo deve ter conexão com um aplicativo de mídia</td>
+</tr>
+<tr>
+<td align="center">RQ43</td>
+<td align="center">A navegação deve funcionar offline</td>
+</tr>
+<tr>
+<td align="center">RQ44</td>
+<td align="center">O usuário deve receber informações sobre a via</td>
+</tr>
+<tr>
+<td align="center">RQ45</td>
+<td align="center">O usuário deve informar eventos na sua rota</td>
+</tr>
+<tr>
+<td align="center">RQ46</td>
+<td align="center">O usuário deve ser informado sobre estabelicimentos próximos</td>
+</tr>
+<tr>
+<td align="center">RQ47</td>
+<td align="center">O Waze deve mostrar um pequeno resumo sobre o que é o app</td>
+</tr>
+<tr>
+<td align="center">RQ48</td>
+<td align="center">O usuário deve ser capaz de utilizar o app sem fazer um cadastro/login</td>
+</tr>
+<tr>
+<td align="center">RQ49</td>
+<td align="center">Deve ser mostrado os termos de serviços</td>
+</tr>
+<tr>
+<td align="center">RQ50</td>
+<td align="center">O usuário deve ser capaz de informar que tipo de carro utiliza</td>
+</tr>
+<tr>
+<td align="center">RQ51</td>
+<td align="center">O usuário deve ser capaz de informar o destino</td>
+</tr>
+<tr>
+<td align="center">RQ52</td>
+<td align="center">O Aplicativo deve informar o tempo do percurso</td>
+</tr>
+<tr>
+<td align="center">RQ53</td>
+<td align="center">O Aplicativo deve informar a hora de chegada no destino</td>
+</tr>
+<tr>
+<td align="center">RQ54</td>
+<td align="center">O Aplicativo deve informar a velocidade do veiculo</td>
+</tr>
+<tr>
+<td align="center">RQ55</td>
+<td align="center">O usuario deve ser capaz de informar eventos na rota, como transito, acidentes e radares</td>
+</tr>
+<tr>
+<td align="center">RQ56</td>
+<td align="center">O usuário deve ser capaz de alterar a rota</td>
+</tr>
+<tr>
+<td align="center">RQ57</td>
+<td align="center">O usuário deve ser capaz de compartilhar sua rota</td>
+</tr>
+<tr>
+<td align="center">RQ58</td>
+<td align="center">O waze deve ter uma opção de economia de bateria</td>
+</tr>
+</tbody>
+</table>
+<h1 id="detalhes">Detalhes</h1>
+<h2 id="rq01">RQ01</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ01</strong></th>
+<th><strong>O aplicativo deve indicar rotas de acordo com preferencias pré selecionadas pelo usuário</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E01</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT01</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US08</a></td>
+</tr>
+<tr>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US33</a></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff01" src="../img/ff01.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq02">RQ02</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ02</strong></th>
+<th><strong>O aplicativo deve informar sobre as condições da via</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E01</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT02</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US08</a>,<a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US33</a>,<a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US34</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff02" src="../img/ff02.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq03">RQ03</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ03</strong></th>
+<th><strong>O usuário pode dar feedback sobre as condições do seu percurso</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E03</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT04</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US07</a> <a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US37</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff03" src="../img/ff03.gif" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq04">RQ04</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ04</strong></th>
+<th><strong>O aplicativo deve auxiliar a navegação por um guia de áudio</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E01</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT02</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US11</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff04" src="../img/ff04.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq05">RQ05</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ05</strong></th>
+<th><strong>O aplicativo deve informar a localização atual do usuário</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E01</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT01</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US19</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff05" src="../img/ff05.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq06">RQ06</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ06</strong></th>
+<th><strong>O usuário deve definir locais favoritos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E02</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT03</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US04</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff06" src="../img/ff06.gif" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq07">RQ07</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ07</strong></th>
+<th><strong>O aplicativo deve mostrar estabelecimentos importantes para o motorista</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E02</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT03</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US13</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff07" src="../img/ff07.gif" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq08">RQ08</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ08</strong></th>
+<th><strong>O aplicativo deve fornecer informações sobre as condições da pista</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E01</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT02</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US08</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff08" src="../img/ff06.gif" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq09">RQ09</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ09</strong></th>
+<th><strong>O aplicativo deve sugerir a menor rota</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E01</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT01</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US24</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff08" src="../img/ff8.gif" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq10">RQ10</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ10</strong></th>
+<th><strong>O aplicativo deve sugerir o tempo aproximado de rota</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E02</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT03</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US25</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff10" src="../img/ff10.gif" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq11">RQ11</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ11</strong></th>
+<th><strong>O aplicativo deve ter a opção para mudar a rota a qualquer momento</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E01</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT01</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US02</a> <a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US05</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff11" src="../img/ff11.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq12">RQ12</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ12</strong></th>
+<th><strong>O aplicativo deve disponibilizar uma funcionalidade para economia de bateria</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E02</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT03</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US20</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff12" src="../img/ff12.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq13">RQ13</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ13</strong></th>
+<th><strong>O aplicativo deve ter um sistema de chat</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E03</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT05</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US27</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff13" src="../img/ff13.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq14">RQ14</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ14</strong></th>
+<th><strong>O aplicativo deve ter integração com aplicativos de streaming</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E02</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT03</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US29</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff14" src="../img/ff14.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq15">RQ15</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ15</strong></th>
+<th><strong>O aplicativo deve ter o mapa atualizado</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E03</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT04</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US07</a>  <a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US22</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td>--</td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq16">RQ16</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ16</strong></th>
+<th><strong>O usuário deve ser capaz de avaliar feedback de outros usuários</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E03</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT04</a> <a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT05</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US14</a> <a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US39</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff16" src="../img/ff16.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq17">RQ17</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ17</strong></th>
+<th><strong>O aplicativo deve ser leve o suficiente para ter um bom desempenho na maioria dos dispositivos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td>--</td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td>--</td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td>--</td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td>--</td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq18">RQ18</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ18</strong></th>
+<th><strong>O aplicativo deve intuitivo e agradável</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E02</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT03</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US23</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff18" src="../img/ff18.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq19">RQ19</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ19</strong></th>
+<th><strong>O aplicativo deve ter suporte offline</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E02</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT03</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US10</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff19" src="../img/ff19.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq20">RQ20</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ20</strong></th>
+<th><strong>O aplicativo deve ter suporte para anúncios</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td>--</td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td>--</td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td>--</td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq21">RQ21</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ21</strong></th>
+<th><strong>O usuário deve ser capaz de editar informações no mapa</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E02</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT03</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US28</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff21" src="../img/ff21.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq22">RQ22</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ22</strong></th>
+<th><strong>O aplicativo deve ter opção de evitar algumas situações durante o percurso</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E01</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT01</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US08</a> <a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US33</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff22" src="../img/ff22.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq23">RQ23</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ23</strong></th>
+<th><strong>O aplicativo deve poder definir suas preferências de percurso</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E01</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT01</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US08</a> <a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US33</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><img alt="ff19" src="../img/ff19.png" /></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq24">RQ24</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ24</strong></th>
+<th><strong>Precisão de rotas</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">E01</a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog">FT01</a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US01</a> <a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US19</a> <a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US22</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td>--</td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq25">RQ25</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ25</strong></th>
+<th><strong>Mudança de Interface</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq26">RQ26</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ26</strong></th>
+<th><strong>Veracidade de Informações de usuários</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq27">RQ27</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ27</strong></th>
+<th><strong>O aplicativo deve consumir menos rede de dados / opção offline</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US10</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq28">RQ28</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ28</strong></th>
+<th><strong>Design mais intuitiv</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq29">RQ29</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ29</strong></th>
+<th><strong>Integração com redes sociais</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US12</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq30">RQ30</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ30</strong></th>
+<th><strong>Aumentar tamanho (km) de rotas</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq31">RQ31</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ31</strong></th>
+<th><strong>Cadastro de usuário e login</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US06</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq32">RQ32</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ32</strong></th>
+<th><strong>A aplicação tem que solicitar ao usuário que ele digite o trajeto do destino</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq33">RQ33</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ33</strong></th>
+<th><strong>A aplicação tem que solicitar ao usuário um destino</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq34">RQ34</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ34</strong></th>
+<th><strong>Validar endereço</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US16</a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq35">RQ35</h2>
+<p>| <strong>RQ35</strong> | <strong>O usuário tem que receber dicas de lugares para que ele possa ir caso tenha digitado metade do endereço ou o endereço errado</strong> ||--|--|
+| <strong>Épico</strong> | <a href=""></a> |
+| <strong>Feature</strong> | <a href=""></a>|
+| <strong>US</strong> |  <a href="https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario">US15</a>|
+| <strong>Funcionalidade</strong> | |</p>
+<h2 id="rq36">RQ36</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ36</strong></th>
+<th><strong>O aplicativo deve informar ao usuário sobre o engarrafamento</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq37">RQ37</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ37</strong></th>
+<th><strong>O aplicativo deve informar sobre estabelecimentos de interesse para motoristas</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq38">RQ38</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ38</strong></th>
+<th><strong>O aplicativo de informar o tempo do percurso</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq39">RQ39</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ39</strong></th>
+<th><strong>O aplicativo deve calcular a melhor rota para o destino desejado pelo usuário</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq40">RQ40</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ40</strong></th>
+<th><strong>O aplicativo deve conter uma area comum para feedback do usuário</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq41">RQ41</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ41</strong></th>
+<th><strong>O usuário deve ser informado sobre acontecimentos em sua rota</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq42">RQ42</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ42</strong></th>
+<th><strong>O aplicativo deve ter conexão com um aplicativo de mídia</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq43">RQ43</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ43</strong></th>
+<th><strong>A navegação deve funcionar offline</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq44">RQ44</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ44</strong></th>
+<th><strong>O usuário deve receber informações sobre a via</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq45">RQ45</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ45</strong></th>
+<th><strong>O usuário deve informar eventos na sua rota</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq46">RQ46</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ46</strong></th>
+<th><strong>O usuário deve ser informado sobre estabelicimentos próximos</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq47">RQ47</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ47</strong></th>
+<th><strong>O Waze deve mostrar um pequeno resumo sobre o que é o app</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq48">RQ48</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ48</strong></th>
+<th><strong>O usuário deve ser capaz de utilizar o app sem fazer um cadastro/login</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq49">RQ49</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ49</strong></th>
+<th><strong>Deve ser mostrado os termos de serviços</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq50">RQ50</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ50</strong></th>
+<th><strong>O usuário deve ser capaz de informar que tipo de carro utiliza</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq51">RQ51</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ51</strong></th>
+<th><strong>O usuário deve ser capaz de informar o destino</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq52">RQ52</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ52</strong></th>
+<th><strong>O Aplicativo deve informar o tempo do percurso</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq53">RQ53</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ53</strong></th>
+<th><strong>O Aplicativo deve informar a hora de chegada no destino</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq54">RQ54</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ54</strong></th>
+<th><strong>O Aplicativo deve informar a velocidade do veiculo</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq55">RQ55</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ55</strong></th>
+<th><strong>O usuario deve ser capaz de informar eventos na rota, como transito, acidentes e radares</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq56">RQ56</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ56</strong></th>
+<th><strong>O usuário deve ser capaz de alterar a rota</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq57">RQ57</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ57</strong></th>
+<th><strong>O usuário deve ser capaz de compartilhar sua rota</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="rq58">RQ58</h2>
+<table>
+<thead>
+<tr>
+<th><strong>RQ58</strong></th>
+<th><strong>O waze deve ter uma opção de economia de bateria</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Épico</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Feature</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>US</strong></td>
+<td><a href=""></a></td>
+</tr>
+<tr>
+<td><strong>Funcionalidade</strong></td>
+<td><a href=""></a></td>
+</tr>
+</tbody>
+</table>
+<h2 id="referencia-bibliografica">Referência Bibliográfica</h2>
+<blockquote>
+<p>GuiaBolso-Requisitos. Disponível em: https://fga-disciplinas.github.io/2019.1-Guia-Bolso/pos-rastreabilidade/forward/ . Acesso em 12/11/2019.</p>
+<p>DAVIS, A. M.; Software   Requirements:   Objects,   Functions   and   States. Englewood Cliffs, New Jersey: Prentice Hall. 1993. </p>
+<p>SOMMERVILLE, I.; Software Engineering. Addison-Wesley, Reading, MA, 1998.</p>
+<p>SAYÃO, M., LEITE, J. C. S. P.; Rastreabilidade de Requisitos. Monografia em Ciências da Computação, No. 20/05. Departamento de Informática, PUC-RJ, Rio de Janeiro, 2005. Disponível em: http://www.dbd.puc-rio.br/depto_informatica/05_20_sayao.pdf </p>
+</blockquote>
+<h2 id="historico-de-versoes">Histórico de Versões</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>18/11/19</td>
+<td>1.0</td>
+<td>Criação do documento</td>
+<td>Matheus Estanislau, Lucas Alexandre</td>
+</tr>
+<tr>
+<td>18/11/19</td>
+<td>1.1</td>
+<td>Adicionado detalhes de 7 a 13</td>
+<td>Lucas Alexandre</td>
+</tr>
+<tr>
+<td>18/11/19</td>
+<td>1.2</td>
+<td>Adicionado detalhes de 13 a 24</td>
+<td>Lucas Alexandre</td>
+</tr>
+<tr>
+<td>18/11/19</td>
+<td>1.3</td>
+<td>Detalhe dos RQ's 8 a 24 atualizados</td>
+<td>Matheus Estanislau</td>
+</tr>
+</tbody>
+</table>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../verificacaolexico/" title="Verificação Léxico" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Verificação Léxico
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../Backward-from/" title="Backward-from" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Backward-from
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/application.ac79c3b0.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:".."}})</script>
+      
+    
+  </body>
+</html>
