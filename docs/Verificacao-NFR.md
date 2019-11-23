@@ -11,21 +11,21 @@ Para realizar a verificação dos documentos de NFR, foi utilizada a técnica de
 [NFR Framework](https://requisitos-de-software.github.io/2019.2-Waze/NFR/)
 
 ## 4. Inspeção
-Justificativas baseadas em:<br>
+Questões e Justificativas baseadas em:<br>
 [Enhancing Data Warehouse Design with the NFR
 Framework](http://www.inf.puc-rio.br/wer02/zip/Enhancing_Data(4).pdf)
 
 |Questão|Justificativa|
 |-------|-------------|
-|Os softgoals representam metas que não têm definições claras?| Um softgoal representa uma meta que não tem uma definição clara e/ou critérios sobre se é satisfeita ou não.|
-|Softgoals são decompostos em operacionalizações?|Todo softgoal deve se decompor em uma ou mais operacionalizações, e os sentidos das setas que os ligam devem ser debaixo para cima|
-|Os relacionamentos entre os softgoals expressam as relações de influência e interdependência de uns com os outros?|Os objetivos programáticos são relacionados por meio de relacionamentos que representam a influência ou interdependência de um softgoal em outro|
-|Para cada softgoal, existem mais evidências positivas do que evidências negativas?| Diz-se que um softgoal é "satisfeito" quando há evidência positiva e pouca evidência negativa contra ela.|
-|Os objetivos foram decompostos em uma hierarquia com AND/OR de softgoals?|Os objetivo do NFR devem ser decompostos em um hierarquia de operacionalizações and/or|
-|Os objetivos mais críticos foram devidamente marcados/sinalizados?|Objetivos críticos devem ser sinalizados com '!' e mais críticos com '!!'|
-|Os graus de satisfação foram indicados?|A satisfação ocorre em 4 intensidades: '++'(muito satisfeito), '+'(satisfeito), '-'(insatisfeito), '--'(muito insatisfeito)|
+|Os softgoals representam metas que não têm definições claras?| Um softgoal representa uma meta que não tem uma definição clara e/ou critérios sobre se é satisfeita ou não.  [3. Overview of the NFR Framework -2° Paragrafo ]|
+|Softgoals são decompostos em operacionalizações?|Todo softgoal deve se decompor em uma ou mais operacionalizações, e os sentidos das setas que os ligam devem ser debaixo para cima. [3. Overview of the NFR Framework -Passo 1]|
+|Os relacionamentos entre os softgoals expressam as relações de influência e interdependência de uns com os outros?|Os objetivos programáticos são relacionados por meio de relacionamentos que representam a influência ou interdependência de um softgoal em outro. [3. Overview of the NFR Framework -Passo 3]|
+|Para cada softgoal, existem mais evidências positivas do que evidências negativas?| Diz-se que um softgoal é "satisfeito" quando há evidência positiva e pouca evidência negativa contra ela. [3. Overview of the NFR Framework -2° Paragrafo ]|
+|Os objetivos foram decompostos em uma hierarquia com AND/OR de softgoals?|Os objetivo do NFR devem ser decompostos em um hierarquia de operacionalizações and/or. [3. Overview of the NFR Framework -Passo 1]|
+|Os objetivos mais críticos foram devidamente marcados/sinalizados?|Objetivos críticos devem ser sinalizados com '!' e mais críticos com '!!'. [3. Overview of the NFR Framework -4° Paragrafo]|
+|Os graus de satisfação foram indicados?|A satisfação ocorre em 4 intensidades: '++'(muito satisfeito), '+'(satisfeito), '-'(insatisfeito), '--'(muito insatisfeito). [3. Overview of the NFR Framework -4° Paragrafo ]|
 |O sentido das setas que ligam os softgoals é coerente?|As operacionalizações devem se ligar aos softgoals, e as setas devem ter este sentido|
-|As linhas tracejadas e contínuas foram utilizadas corretamente?| As setas com linhas continuas indicam a relação de interdependência implicita e as pontilhadas as realações explicitas|
+|As linhas tracejadas e contínuas foram utilizadas corretamente?| As setas com linhas continuas indicam a relação de interdependência implicita e as pontilhadas as realações explicitas. [3. Overview of the NFR Framework -2° Paragrafo -Fig.2]|
  
 ## 5. Checklist
  
@@ -62,4 +62,5 @@ A partir da inspeção dos NFRs foi possivel identificar e catalogar deficiênci
 |----|------|---------|---------|
 |28/10/19|1.0|Criação do documento|Moacir Mascarenha, Renan Cristyan|
 |30/10/19|1.1|Adição de justificativas|Moacir Mascarenha, Renan Cristyan|
+|23/11/19|1.2|Adição das partes citadas da referências|Moacir Mascarenha|
 
