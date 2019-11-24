@@ -27,12 +27,12 @@ Ferramenta utilizada foi o Star UML e Draw.io disponível no link: StarUML.io, D
 ## NFR00 - Geral 
 
 
-[![Usabilidade](img/NFR-GERAL-REQUISITOS-V1.1.jpg)](img/NFR-GERAL-REQUISITOS-V1.1.jpg)
+[![UsabiliAtual: 1.1 <br>Anterior: [1.0](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr00-geral_1)dade](img/NFR-GERAL-REQUISITOS-V1.1.jpg)](img/NFR-GERAL-REQUISITOS-V1.1.jpg)
 
 
 | NFR00 | Atores |  
 |--|--|
-|Versão| Atual: 1.1 <br>Anterior: [1.0](https://requisitos-de-software.github.io/2019.2-Waze/NFR/#nfr00-geral_1)| 
+|Versão| | 
 |**Data**| 31/10/2019 |
 |**Hora**| 01h30 |
 |**Autor(es)**| Matheus Estanislau |
