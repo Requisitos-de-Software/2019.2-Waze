@@ -15,17 +15,17 @@ nav:
     - RichPicture: richPicture.md
     - 5W2H: 5W2H.md
   - Elicitação de requisitos :
+    - Análise de Protocolo: analiseProtocolo.md
+    - Brainstorm : Brainstorm.md
     - Entrevista: Entrevista.md
     - Introspecção: introspeccao.md
     - Questionário: Questionario.md
     - Storytelling: Storytelling.md
-    - Análise de Protocolo: analiseProtocolo.md
-    - Brainstorm : Brainstorm.md
   - Modelagem:
-    - Especificação Suplementar: EspSuplementar.md
-    - Cenários: Cenarios.md
-    - Léxico Ampliado da Linguagem: Lexico.md
     - Caso de Uso : CasoDeUso.md
+    - Cenários: Cenarios.md
+    - Especificação Suplementar: EspSuplementar.md
+    - Léxico Ampliado da Linguagem: Lexico.md
   - Ágil:
     - Backlog: ProductBacklog.md
     - História de Usuários: UserStories.md
@@ -33,12 +33,12 @@ nav:
   - Personas: Personas.md
   - Análise: 
     - Verificação Casos de Uso: VerificacaoCasoDeUso.md
-    - Verificação Rich Picture: Verificacao-RichPicture.md
-    - Verificação NFR: Verificacao-NFR.md
     - Verificação Cenário: VerificacaoCenarios.md
     - Verificação Léxico: verificacaolexico.md
+    - Verificação NFR: Verificacao-NFR.md
+    - Verificação Rich Picture: Verificacao-RichPicture.md
   - Pós-Rastreabilidade:
+  - Backward-from: Backward-from.md
     - Foward From: fowardFrom.md
-    -  Backward-from: Backward-from.md
   
 
