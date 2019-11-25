@@ -37,6 +37,10 @@ nav:
     - Verificação NFR: Verificacao-NFR.md
     - Verificação Cenário: VerificacaoCenarios.md
     - Verificação Léxico: verificacaolexico.md
+  - Validação: 
+    - Entrevista: Entrevista-Prototipo.md
+    - Prototipagem: Validacao-Prototipo.md
+
   - Pós-Rastreabilidade:
     - Foward From: fowardFrom.md
     -  Backward-from: Backward-from.md

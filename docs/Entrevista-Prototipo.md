@@ -88,16 +88,16 @@ Questão | Resposta
 2| Sim. Porque pode interferir na minha decisão de quando ir ao destino e se ainda vou querer ir ao destino.|
 3| Não. Porque acho que a melhor informação seria em quais trechos do caminho pode chover sendo essa parte do trecho uma cidade ou não.|
 
-## 5. Conclusão
+## Conclusão
 <p align = "justify">
 A maioria dos entrevistados acharam uma funcionalidade interessante ou importante, para melhor planejamento do seu deslocamento.
 
-## 6. Referências
+## Referências
 >DEVMEDIA: Técnicas para levantamento de Requisitos. Disponivel em: https://www.devmedia.com.br/tecnicas-para-levantamento-de-requisitos/9151. Acesso em 23/11/19
 
 >TI Especialistas: Técnicas de extração de Requisitos. Disponível em: https://www.tiespecialistas.com.br/tecnicas-de-extracao-de-requisitos/. Acesso em 09/09/19
 
-### 7. Histórico de Versões
+### Histórico de Versões
 
 |Data|Versão|Descrição|Autor(es)|
 |----|------|---------|---------|
