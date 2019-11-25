@@ -37,6 +37,9 @@ nav:
     - Verificação Léxico: verificacaolexico.md
     - Verificação NFR: Verificacao-NFR.md
     - Verificação Rich Picture: Verificacao-RichPicture.md
+  - Validação: 
+    - Entrevista: Entrevista-Prototipo.md
+    - Prototipagem: Validacao-Prototipo.md
   - Pós-Rastreabilidade:
     - Backward Form: Backward-form.md
     - Forward Form: forwardForm.md
