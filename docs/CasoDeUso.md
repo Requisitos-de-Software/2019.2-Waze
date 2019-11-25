@@ -142,7 +142,7 @@ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do 
 |**Autor(es)**| Moacir Mascarenha|
 |**Fluxo principal** | **FP1:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona a opção de Postos de Combustível
 |**Fluxo alternativo**|**FA1**:<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona a opção de Postos de Combustível<br>- Usuário acessa a opção Tipo de combustível<br>**FA2:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona a opção de Postos de Combustível<br>- Usuário acessa a opção Ordenar por<br>**FA3:**<br> - Usuário acessa o Waze<br> - Usuário pressiona botão de configurações<br> - Usuário pressiona a opção de Postos de Combustível por<br>- Usuário acessa a opção Ordenar postos<br>|
-|**Versão**|Atual: 2.0 <br> Anterior: [1.0](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/#uc09-postos-de-combustivel|
+|**Versão**|Atual: 2.0 <br> Anterior: [1.0](https://requisitos-de-software.github.io/2019.2-Waze/CasoDeUso/#uc09-postos-de-combustivel)|
 |**Software Utilizado**|Draw.io|
 
 ## Versão 1
