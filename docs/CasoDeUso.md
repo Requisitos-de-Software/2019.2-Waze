@@ -117,7 +117,7 @@ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do 
 
 
 ### UC08- Geral
-[![geral]()]()
+[![geral](img/geral_caso_de_uso.png)](img/geral_caso_de_uso.png)
 
 | UC08 | informações | 
 |:----:|:------:|
@@ -132,9 +132,11 @@ O *diagrama de casos de uso* documenta o que o sistema faz do ponto de vista do 
 
 ### UC09- Postos de Combustível
 
-[![postos]()]()
 
-| UC08 | informações | 
+[![postos](img/postos_de_combustivel_caso_de_uso.png)](img/postos_de_combustivel_caso_de_uso.png)
+
+
+| UC09 | informações | 
 |:----:|:------:|
 |**Caso de uso**|Postos de Combustível|
 |**Data**|13/10/19|
