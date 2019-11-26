@@ -482,100 +482,103 @@ A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artef
 
 |**RQ48**|**O usuário deve ser capaz de utilizar o app sem fazer um cadastro/login**|
 |--|--|
-| **Épico** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **Feature** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  []()|
+| **Funcionalidade** |  ![rq48](./img/forward/forward.jpeg)|
+
 
 ## RQ49
 
 |**RQ49**|**Deve ser mostrado os termos de serviços**|
 |--|--|
-| **Épico** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **Feature** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  []()|
+| **Funcionalidade** |  ![rq49](./img/forward/forward (4).jpeg)|
+|---|  ![rq49](./img/forward/forward (3).jpeg)|
 
 ## RQ50
 
 |**RQ50**|**O usuário deve ser capaz de informar que tipo de carro utiliza**|
 |--|--|
-| **Épico** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **Feature** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  []()|
+| **Funcionalidade** |  ![rq50](./img/forward/forward (2).jpeg)|
 
 ## RQ51
 
 |**RQ51**|**O usuário deve ser capaz de informar o destino**|
 |--|--|
-| **Épico** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **Feature** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  []()|
+| **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Feature** | [FT01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **US** | [US01](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
+| **Funcionalidade** |  ![rq51](./img/forward/forward (1).jpeg)|
 
 ## RQ52
 
 |**RQ52**|**O Aplicativo deve informar o tempo do percurso**|
 |--|--|
-| **Épico** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **Feature** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Feature** | [FT02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  []()|
+| **Funcionalidade** |  ![rq52](./img/forward/forward (8).jpeg)|
 
 ## RQ53
 
 |**RQ53**|**O Aplicativo deve informar a hora de chegada no destino**|
 |--|--|
-| **Épico** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **Feature** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Feature** | [FT02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  []()|
+| **Funcionalidade** |  ![rq53](./img/forward/forward (8).jpeg)|
 
 ## RQ54
 
 |**RQ54**|**O Aplicativo deve informar a velocidade do veiculo**|
 |--|--|
-| **Épico** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **Feature** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Feature** | [FT0](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  []()|
+| **Funcionalidade** |  ![rq54](./img/forward/)|
 
 ## RQ55
 
 |**RQ55**|**O usuario deve ser capaz de informar eventos na rota, como transito, acidentes e radares**|
 |--|--|
-| **Épico** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **Feature** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  []()|
+| **Épico** | [E03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Feature** | [FT04](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **US** | [US37, US34](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
+| **Funcionalidade** |  ![rq55](./img/forward/)|
 
 ## RQ56
 
 |**RQ56**|**O usuário deve ser capaz de alterar a rota**|
 |--|--|
-| **Épico** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **Feature** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Feature** | [FT01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  []()|
+| **Funcionalidade** |  ![rq56](./img/forward/)|
 
 ## RQ57
 
 |**RQ57**|**O usuário deve ser capaz de compartilhar sua rota**|
 |--|--|
-| **Épico** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **Feature** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Épico** | [E03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Feature** | [FT05(https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  []()|
+| **Funcionalidade** |  ![rq57](./img/forward/forward (6).jpeg)|
+| --- |  ![rq57](./img/forward/forward (7).jpeg)|
 
 ## RQ58
 
 |**RQ58**|**O waze deve ter uma opção de economia de bateria**|
 |--|--|
-| **Épico** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **Feature** | [](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  []()|
+| **Funcionalidade** |  ![rq58](./img/forward/forward (5).jpeg)|
 
 
 ## Referência Bibliográfica
