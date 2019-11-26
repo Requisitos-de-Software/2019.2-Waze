@@ -597,3 +597,4 @@ A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artef
 |18/11/19|1.2|Adicionado detalhes de 13 a 24|Lucas Alexandre|
 |18/11/19|1.3|Detalhe dos RQ's 8 a 24 atualizados|Matheus Estanislau|
 |24/11/19|1.4|Adicionados detalhes RQ's 25 ao 47 |Jõao Pedro, Renan Cristyan, Matheus Estanislau|
+|25/11/19|1.4|Adicionados detalhes RQ's 48 ao 58 |Guilherme Leal|
