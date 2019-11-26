@@ -485,7 +485,7 @@ A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artef
 | **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  ![rq48](./img/forward/forward.jpeg)|
+| **Funcionalidade** |  ![]()|
 
 
 ## RQ49
@@ -495,8 +495,8 @@ A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artef
 | **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  ![rq49](./img/forward/forward (4).jpeg)|
-|---|  ![rq49](./img/forward/forward (3).jpeg)|
+| **Funcionalidade** |  ![rq49](./img/forward/f4.jpeg)|
+|---|  ![rq49](./img/forward/f3.jpeg)|
 
 ## RQ50
 
@@ -505,7 +505,7 @@ A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artef
 | **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  ![rq50](./img/forward/forward (2).jpeg)|
+| **Funcionalidade** |  ![rq50](./img/forward/f2.jpeg)|
 
 ## RQ51
 
@@ -514,7 +514,7 @@ A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artef
 | **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **Feature** | [FT01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [US01](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  ![rq51](./img/forward/forward (1).jpeg)|
+| **Funcionalidade** |  ![rq51](./img/forward/f1.jpeg)|
 
 ## RQ52
 
@@ -523,7 +523,7 @@ A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artef
 | **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **Feature** | [FT02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  ![rq52](./img/forward/forward (8).jpeg)|
+| **Funcionalidade** |  ![rq52](./img/forward/f8.jpeg)|
 
 ## RQ53
 
@@ -532,7 +532,7 @@ A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artef
 | **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **Feature** | [FT02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  ![rq53](./img/forward/forward (8).jpeg)|
+| **Funcionalidade** |  ![rq53](./img/forward/f8.jpeg)|
 
 ## RQ54
 
@@ -541,7 +541,7 @@ A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artef
 | **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **Feature** | [FT0](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  ![rq54](./img/forward/)|
+| **Funcionalidade** |  ![]()|
 
 ## RQ55
 
@@ -550,7 +550,7 @@ A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artef
 | **Épico** | [E03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **Feature** | [FT04](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [US37, US34](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  ![rq55](./img/forward/)|
+| **Funcionalidade** |  ![]()|
 
 ## RQ56
 
@@ -559,17 +559,17 @@ A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artef
 | **Épico** | [E01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **Feature** | [FT01](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  ![rq56](./img/forward/)|
+| **Funcionalidade** |  ![]()|
 
 ## RQ57
 
 |**RQ57**|**O usuário deve ser capaz de compartilhar sua rota**|
 |--|--|
 | **Épico** | [E03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
-| **Feature** | [FT05(https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
+| **Feature** | [FT05](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  ![rq57](./img/forward/forward (6).jpeg)|
-| --- |  ![rq57](./img/forward/forward (7).jpeg)|
+| **Funcionalidade** |  ![rq57](./img/forward/f6.jpeg)|
+| --- |  ![rq57](./img/forward/f7.jpeg)|
 
 ## RQ58
 
@@ -578,7 +578,7 @@ A  rastreabilidade  forward-form conecta os requisitos elicitados aos seus artef
 | **Épico** | [E02](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **Feature** | [FT03](https://requisitos-de-software.github.io/2019.2-Waze/ProductBacklog/#2-backlog)|
 | **US** | [](https://requisitos-de-software.github.io/2019.2-Waze/UserStories/#3-historias-de-usuario)|
-| **Funcionalidade** |  ![rq58](./img/forward/forward (5).jpeg)|
+| **Funcionalidade** |  ![rq58](./img/forward/f5.jpeg)|
 
 
 ## Referência Bibliográfica
