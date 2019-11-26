@@ -29,7 +29,7 @@ nav:
   - Ágil:
     - Backlog: ProductBacklog.md
     - História de Usuários: UserStories.md
-    - NFR framework: NFR.md
+  - NFR framework: NFR.md
   - Personas: Personas.md
   - Análise: 
     - Verificação Casos de Uso: VerificacaoCasoDeUso.md
